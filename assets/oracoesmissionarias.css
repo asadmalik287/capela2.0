@@ -52,9 +52,33 @@ div>a>button {
     line-height: 22px;
     outline: none !important;
 }
+.search-button {
+    border: 0;
+    background: #3884c1;
+    padding: 0px 9px 5px;
+}
+.blog-heading {
+    color: #3884c1 !important;
+    font-size: 18px;
+}
+.CV-Video-Link-Post{
+    height: auto;
+    border-bottom: 2px solid #dce4e7;
+    padding-top: 6px;
+}
 
-
-
+.img_1{
+     width: 25%;
+}
+.add-mt-15-CV-Video{
+    font-size: 0.8rem;
+    color: #666666 !important;
+    
+}
+.date-text{
+    font-size: 0.6rem;
+    color: #666666 !important;
+}
 
 
 
@@ -62,14 +86,37 @@ div>a>button {
 
 
 /* MEDIA QUEIRIES */
+@media (max-width:540px) {
+  
+  
+    .img_1{
+        width: 15%;
+   }
+   .search-block{
+       display: none;
+   }
+}
 
 @media (max-width:567px) and (min-width:300px) {
     .Quem-Somos {
       font-size: 1.8rem !important;
       text-align: center;
       padding-top: 37px !important;
+      
     }
     .subHeading1>h3{
         font-size: 1.4rem !important;
     }
+    .CV-Video-Link-Post{
+      
+        padding-bottom: 4px;
+    }
+    .search-block{
+        display: none;
+    }
+}
+@media (max-width:1024px) {
+         .img_1 {
+             padding-top: 4px;
+         }
 }
