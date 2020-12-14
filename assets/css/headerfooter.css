@@ -3,6 +3,56 @@
             padding: 0;
             box-sizing: border-box;
         }
+        @font-face {
+            font-family: "Gotham Medium";
+            src: url(/fonts/Gotham\ Medium\ Regular.ttf);
+          }
+          @font-face {
+            font-family: "Gotham Book Regular";
+            src: url(/fonts/Gotham\ Book\ Regular.otf);
+          }
+          @font-face {
+            font-family: "Gotham Medium Italic";
+            src: url(/fonts/Gotham\ Medium\ Italic.ttf);
+          }
+
+          .GMI{
+            font-family: "Gotham Medium Italic";
+          }
+          .GB {
+            font-family: "Gotham Book Regular";
+            color: #666666;
+          }
+
+         .GM {
+            font-family: "Gotham Medium";
+        }
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
         .main-header {
             background: url(http://18.217.165.212/angular-tbwb-img/header-background.png);
@@ -12,8 +62,8 @@
             object-fit: cover;
             height: 133.09px;
         }
-        .sky-backgorund {
-            background-image: url(../img/sky-blue-background.jpg);
+        .sky-background {
+            background-image: url(../../img/sky-blue-background.jpg);
             background-repeat: no-repeat;
             /* background-position: center; */
             background-size: cover;
@@ -87,6 +137,65 @@
         .icons>a>Span>img {
             width: 6% !important;
         }
+        /* headings */
+        .main-heading{
+            color: #666666;
+        }
+        .subHeading{
+            font-style: italic;
+            font-weight: 600;
+            font-size: 16px;
+            color: #3c8cca;
+            
+           
+        }
+        .calender-div{
+            color: #666666;
+            font-size: 16px;
+        }
+        .bg-white{
+            background-color: white;
+            /* max-width: 1110px; */
+        }
+
+        /*headings end */
+   /* SIDE BAR CSS */
+   .search-button {
+    border: 0;
+    background: #3884c1;
+    padding: 0px 9px 5px;
+}
+.blog-heading {
+    color: #3884c1 !important;
+    font-size: 18px;
+    font-weight: 600;
+}
+.CV-Video-Link-Post{
+    height: auto;
+    border-bottom: 2px solid #dce4e7;
+    padding-top: 6px;
+}
+
+.img_1{
+     width: 25%;
+}
+.add-mt-15-CV-Video{
+    font-size: 0.8rem;
+    color: #666666 !important;
+    font-weight: 600;
+    
+}
+.date-text{
+    font-size: 0.6rem;
+    color: #666666 !important;
+}
+.border-1
+{
+border-bottom: 3px solid #dce4e7;
+}
+     /* SIDE BAR CSS END */
+
+
         /* Media Query for Ipad pro screen start*/
         
         @media (max-width:1100px) and (min-width:901px) {
@@ -316,5 +425,38 @@
                 border-right: none !important;
                 border-bottom: 1px solid white !important;
             }
+        }
+        @media (max-width:567px) and (min-width:300px) {
+            .Quem-Somos {
+              font-size: 1.8rem !important;
+              text-align: center;
+              padding-top: 37px !important;
+              
+            }
+            .subHeading1>h3{
+                font-size: 1.4rem !important;
+            }
+            .CV-Video-Link-Post{
+              
+                padding-bottom: 4px;
+            }
+            .search-block{
+                display: none;
+            }
+        }
+        @media (max-width:1024px) {
+                 .img_1 {
+                     padding-top: 4px;
+                 }
+        }
+        @media (max-width:540px) {
+  
+  
+            .img_1{
+                width: 15%;
+           }
+           .search-block{
+               display: none;
+           }
         }
         /* Media Query for mobile  screen start*/
