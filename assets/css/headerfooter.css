@@ -211,7 +211,12 @@ border-bottom: 3px solid #dce4e7;
 
          .mainImage
          {
-             margin-top: -12%!important;
+             margin-top: -13%!important;
+         }
+
+         .mainImage-2
+         {
+             margin-top: -80px;
          }
      }
 
