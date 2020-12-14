@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.hideOnweb {
+    display: none;
+}
+
 .sky-background {
     background-color: #acd7fa;
 }
@@ -14,10 +18,6 @@
 
 .img-border {
     border: 7px solid white;
-}
-
-.border-1 {
-    border: 1px solid #dce4e7;
 }
 
 
@@ -61,7 +61,6 @@
 .nav-link {
     padding-right: 0 !important;
     padding-left: 0 !important;
-    margin-right: 52px;
     color: white !important;
 }
 
@@ -77,7 +76,7 @@
 }
 
 .main-bannar {
-    background-image: url('img/BANNER_253_320px_EUROPA.jpg');
+    background-image: url('../../img/BANNER_253_320px_AFRICA.jpg');
     background-size: cover;
     background-position: bottom;
     height: 27.4rem;
@@ -117,6 +116,85 @@
 
 #carousel-div {
     display: none;
+}
+
+.main-heading {
+    color: #666666;
+}
+
+.border-1 {
+    border-bottom: 3px solid #dce4e7;
+}
+
+.subHeading1 {
+    color: #666666;
+}
+
+.bg-white {
+    background-color: white;
+    /* max-width: 1110px; */
+}
+
+.subHeading {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16px;
+    color: #3c8cca;
+}
+
+.calender-div {
+    color: #666666;
+    font-size: 16px;
+}
+
+.orac-content>p {
+    color: #666666;
+}
+
+div>a>button {
+    background-image: linear-gradient(#5ca9e3, #04518b);
+    width: 140px;
+    height: 34px;
+    color: #fff;
+    background-color: #4282b0;
+    padding: 5px 0px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 0px;
+    line-height: 22px;
+    outline: none !important;
+}
+
+.search-button {
+    border: 0;
+    background: #3884c1;
+    padding: 0px 9px 5px;
+}
+
+.blog-heading {
+    color: #3884c1 !important;
+    font-size: 18px;
+}
+
+.CV-Video-Link-Post {
+    height: auto;
+    border-bottom: 2px solid #dce4e7;
+    padding-top: 6px;
+}
+
+.img_1 {
+    width: 25%;
+}
+
+.add-mt-15-CV-Video {
+    font-size: 0.8rem;
+    color: #666666 !important;
+}
+
+.date-text {
+    font-size: 0.6rem;
+    color: #666666 !important;
 }
 
 
@@ -240,6 +318,9 @@
     #carousel-div {
         display: none;
     }
+    .hideOnweb {
+        display: none;
+    }
 }
 
 
@@ -337,6 +418,9 @@
     #carousel-div {
         display: none;
     }
+    .hideOnweb {
+        display: block;
+    }
 }
 
 
@@ -398,6 +482,9 @@
     }
     #carousel-div {
         display: none;
+    }
+    .hideOnweb {
+        display: block;
     }
 }
 
@@ -471,6 +558,9 @@
     }
     .main-bannar {
         height: 26rem;
+    }
+    .hideOnweb {
+        display: block;
     }
     .img-content>div>.h2 {
         font-size: 2rem !important;
@@ -684,6 +774,9 @@
     }
     .main-bannar {
         height: 25rem;
+    }
+    .hideOnweb {
+        display: block;
     }
     .img-content>div>.h2 {
         font-size: 1.9rem !important;
