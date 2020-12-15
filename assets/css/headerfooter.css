@@ -68,6 +68,56 @@
             /* background-position: center; */
             background-size: cover;
         }
+        .fa-angle-right {
+            font-size: 32px;
+            
+            color: #ffffff;
+         
+    
+        }
+        .btn-leia-mais {
+            background-image: linear-gradient(#5ca9e3, #04518b);
+            width: 140px;
+            height: 34px;
+            color: #fff;
+            background-color: #4282b0;
+            /* padding: 5px 0px; */
+            
+            border-radius: 5px;
+            font-size: 14px;
+            border: 0px;
+          
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+            outline: none !important;
+           
+        }
+       .title{
+           font-size: 1.2rem;
+           color: #666666;
+       }
+     
+    .description {
+    font-size: 0.8rem;
+        color: #666666;
+        font-weight: 600;
+    }
+     .video-button{
+         border: none;
+         background-color: transparent;
+     }
+     .search-block {
+         margin-top: -5px;
+     }
+
+
+
+
+
+
+
          
         .mini-header {
             display: flex;
@@ -151,18 +201,12 @@
         }
         .calender-div{
             color: #666666;
-            font-size: 16px;
+            font-size: 13px;
         }
         .bg-white{
             background-color: white;
             /* max-width: 1110px; */
         }
-
-        /* .mainHeading
-        {
-            width: 40%!important;
-            border: 2px solid black;
-        } */
 
         /*headings end */
    /* SIDE BAR CSS */
@@ -202,25 +246,9 @@ border-bottom: 3px solid #dce4e7;
      /* SIDE BAR CSS END */
 
 
-     @media (min-width:1100px){
-         .mainHeading
-         {
-             width: 40%!important;
-             
-         }
-
-         .mainImage
-         {
-             margin-top: -12%!important;
-         }
-     }
-
-
         /* Media Query for Ipad pro screen start*/
         
         @media (max-width:1100px) and (min-width:901px) {
-
-          
             .mini-header {
                 padding-top: 35px !important;
             }
@@ -366,6 +394,14 @@ border-bottom: 3px solid #dce4e7;
         /* Media Query for  mobile screen start*/
         
         @media (max-width:579px) and (min-width:300px) {
+            .main-heading {
+                font-size: 1.8rem !important;
+                text-align: center;
+              
+                
+              }
+
+
             .main-header {
                 height: 70px;
             }
