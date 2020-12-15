@@ -61,6 +61,14 @@
 }
 
 
+.world-div
+{
+    border: 1px solid lightgray;
+    background-color: #f9f9f9;
+    
+}
+
+
 
 /* side bar start */
 
@@ -107,7 +115,6 @@ border-bottom: 3px solid #dce4e7;
 
 
 
-
 @media (max-width:800px) and (min-width:300px) {
     .Quem-Somos {
         text-align: center;
@@ -144,6 +151,17 @@ border-bottom: 3px solid #dce4e7;
         padding-bottom: 30px;
     }
 
+    .flex-sm-nowrap
+    {
+        flex-wrap: nowrap;
+        font-size: 14px;
+    }
     
 
 }
+
+
+
+
+
+
