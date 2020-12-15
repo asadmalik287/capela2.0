@@ -363,7 +363,7 @@
                 background-color: #01244e !important;
             }
             .navbar-nav {
-                position: absolute;
+                position: relative;
                 z-index: 11111;
                 background-color: #01244e !important;
             }
@@ -424,7 +424,7 @@
                 background-color: #01244e !important;
             }
             .navbar-nav {
-                position: absolute;
+                position: relative;
                 z-index: 11111;
                 background-color: #01244e !important;
             }
@@ -498,7 +498,7 @@
                 background-color: #01244e !important;
             }
             .navbar-nav {
-                position: absolute;
+                position: relative;
                 z-index: 11111;
                 background-color: #01244e !important;
             }
@@ -580,7 +580,7 @@
         
         @media (max-width:540px) {
             .navbar-nav {
-                position: absolute;
+                position: relative;
                 z-index: 11111;
                 background-color: #01244e !important;
             }
