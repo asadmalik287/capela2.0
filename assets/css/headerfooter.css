@@ -15,7 +15,35 @@
             font-family: "Gotham Medium Italic";
             src: url(/fonts/Gotham\ Medium\ Italic.ttf);
           }
-
+          @font-face {
+            font-family: "Gotham Light";
+            src: url("/fonts/Gotham\ Light\ Regular.otf");
+          }
+          @font-face {
+            font-family: "nuevastd-boldcond";
+            src: url("/fonts/Nueva\ Std\ Bold\ Condensed.ttf");
+          }
+          @font-face {
+            font-family: "nuevaStd-Cond";
+            src: url("/fonts/Nueva\ Std\ Condensed.ttf");
+          }
+          /* @font-face {
+            font-family: "Montserrat-Regular";
+            src: url("");
+          } */
+          @font-face {
+            font-family: "Myriad Pro Regular";
+            src: url("/fonts/MYRIADPRO-REGULAR.OTF");
+          }
+          .MRPR {
+            font-family: "Myriad Pro Regular";
+          }
+          .nuevaStd-Cond{
+            font-family: "nuevaStd-Cond";
+          }
+             .GLR{
+                font-family: "Gotham Light";
+             }
           .GMI{
             font-family: "Gotham Medium Italic";
           }
