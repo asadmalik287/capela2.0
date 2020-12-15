@@ -5,27 +5,27 @@
         }
         @font-face {
             font-family: "Gotham Medium";
-            src: url("/fonts/Gotham\ Medium\ Regular.ttf");
+            src: url("../fonts/Gotham\ Medium\ Regular.ttf");
           }
           @font-face {
             font-family: "Gotham Book Regular";
-            src: url("/fonts/Gotham\ Book\ Regular.otf");
+            src: url("../fonts/Gotham\ Book\ Regular.otf");
           }
           @font-face {
             font-family: "Gotham Medium Italic";
-            src: url("/fonts/Gotham\ Medium\ Italic.ttf");
+            src: url("../fonts/Gotham\ Medium\ Italic.ttf");
           }
           @font-face {
             font-family: "Gotham Light";
-            src: url("/fonts/Gotham\ Light\ Regular.otf");
+            src: url("../fonts/Gotham\ Light\ Regular.otf");
           }
           @font-face {
             font-family: "nuevastd-boldcond";
-            src: url("/fonts/Nueva\ Std\ Bold\ Condensed.ttf");
+            src: url("../fonts/Nueva\ Std\ Bold\ Condensed.ttf");
           }
           @font-face {
             font-family: "nuevaStd-Cond";
-            src: url("/fonts/Nueva\ Std\ Condensed.ttf");
+            src: url("../fonts/Nueva\ Std\ Condensed.ttf");
           }
           /* @font-face {
             font-family: "Montserrat-Regular";
@@ -33,14 +33,19 @@
           } */
           @font-face {
             font-family: "Myriad Pro Regular";
-            src: url("/fonts/MYRIADPRO-REGULAR.OTF");
+            src: url("/assets/fonts/MYRIADPRO-REGULAR.OTF");
           }
-          .MRPR {
+          .MPR {
             font-family: "Myriad Pro Regular";
           }
-          .nuevaStd-Cond{
+          .NC{
             font-family: "nuevaStd-Cond";
           }
+
+          .NB{
+            font-family: "nuevastd-boldcond";
+          }
+
              .GLR{
                 font-family: "Gotham Light";
              }
@@ -53,9 +58,23 @@
           }
 
          .GM {
-            font-family: "Gotham Medium" !important;
+            font-family: "Gotham Medium";
         }
-       
+
+        .CL
+        {
+           color: #666666; 
+        }
+
+        .blue
+        {
+            color: #408ac7;
+        }
+
+        .font-weight
+        {
+            font-weight: 600;
+        }
 
 
 
@@ -167,6 +186,8 @@
             display: flex;
             width: 100%;
             justify-content: space-between;
+            font-size: 18px;
+            
         }
         
         .mini-header1 {
@@ -277,7 +298,8 @@ border-bottom: 3px solid #dce4e7;
      {
         .mainHeading
         {
-            width: 40%;
+            width: 51%;
+            
 
         }
 
