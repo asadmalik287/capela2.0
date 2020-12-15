@@ -15,7 +15,35 @@
             font-family: "Gotham Medium Italic";
             src: url(/fonts/Gotham\ Medium\ Italic.ttf);
           }
-
+          @font-face {
+            font-family: "Gotham Light";
+            src: url("/fonts/Gotham\ Light\ Regular.otf");
+          }
+          @font-face {
+            font-family: "nuevastd-boldcond";
+            src: url("/fonts/Nueva\ Std\ Bold\ Condensed.ttf");
+          }
+          @font-face {
+            font-family: "nuevaStd-Cond";
+            src: url("/fonts/Nueva\ Std\ Condensed.ttf");
+          }
+          /* @font-face {
+            font-family: "Montserrat-Regular";
+            src: url("");
+          } */
+          @font-face {
+            font-family: "Myriad Pro Regular";
+            src: url("/fonts/MYRIADPRO-REGULAR.OTF");
+          }
+          .MRPR {
+            font-family: "Myriad Pro Regular";
+          }
+          .nuevaStd-Cond{
+            font-family: "nuevaStd-Cond";
+          }
+             .GLR{
+                font-family: "Gotham Light";
+             }
           .GMI{
             font-family: "Gotham Medium Italic";
           }
@@ -246,28 +274,6 @@ border-bottom: 3px solid #dce4e7;
      /* SIDE BAR CSS END */
 
 
-<<<<<<< HEAD
-=======
-     @media (min-width:1100px){
-         .mainHeading
-         {
-             width: 40%!important;
-             
-         }
-
-         .mainImage
-         {
-             margin-top: -13%!important;
-         }
-
-         .mainImage-2
-         {
-             margin-top: -80px;
-         }
-     }
-
-
->>>>>>> 2fef9454601dc6847cf407ba9e2cb1e5e13d719f
         /* Media Query for Ipad pro screen start*/
         
         @media (max-width:1100px) and (min-width:901px) {
