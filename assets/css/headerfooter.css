@@ -3,84 +3,71 @@
             padding: 0;
             box-sizing: border-box;
         }
+        
         @font-face {
             font-family: "Gotham Medium";
             src: url(/fonts/Gotham\ Medium\ Regular.ttf);
-          }
-          @font-face {
+        }
+        
+        @font-face {
             font-family: "Gotham Book Regular";
             src: url(/fonts/Gotham\ Book\ Regular.otf);
-          }
-          @font-face {
+        }
+        
+        @font-face {
             font-family: "Gotham Medium Italic";
             src: url(/fonts/Gotham\ Medium\ Italic.ttf);
-          }
-          @font-face {
+        }
+        
+        @font-face {
             font-family: "Gotham Light";
             src: url("/fonts/Gotham\ Light\ Regular.otf");
-          }
-          @font-face {
+        }
+        
+        @font-face {
             font-family: "nuevastd-boldcond";
             src: url("/fonts/Nueva\ Std\ Bold\ Condensed.ttf");
-          }
-          @font-face {
+        }
+        
+        @font-face {
             font-family: "nuevaStd-Cond";
             src: url("/fonts/Nueva\ Std\ Condensed.ttf");
-          }
-          /* @font-face {
+        }
+        /* @font-face {
             font-family: "Montserrat-Regular";
             src: url("");
           } */
-          @font-face {
+        
+        @font-face {
             font-family: "Myriad Pro Regular";
             src: url("/fonts/MYRIADPRO-REGULAR.OTF");
-          }
-          .MRPR {
+        }
+        
+        .MRPR {
             font-family: "Myriad Pro Regular";
-          }
-          .nuevaStd-Cond{
+            font-size: 18px;
+        }
+        
+        .nuevaStd-Cond {
             font-family: "nuevaStd-Cond";
-          }
-             .GLR{
-                font-family: "Gotham Light";
-             }
-          .GMI{
+        }
+        
+        .GLR {
+            font-family: "Gotham Light";
+        }
+        
+        .GMI {
             font-family: "Gotham Medium Italic";
-          }
-          .GB {
+        }
+        
+        .GB {
             font-family: "Gotham Book Regular";
             /* color: #666666; */
-          }
-
-         .GM {
+        }
+        
+        .GM {
             font-family: "Gotham Medium";
         }
-       
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         
         .main-header {
             background: url(http://18.217.165.212/angular-tbwb-img/header-background.png);
@@ -90,19 +77,19 @@
             object-fit: cover;
             height: 133.09px;
         }
+        
         .sky-background {
             background-image: url(../../img/sky-blue-background.jpg);
             background-repeat: no-repeat;
             /* background-position: center; */
             background-size: cover;
         }
+        
         .fa-angle-right {
             font-size: 32px;
-            
             color: #ffffff;
-         
-    
         }
+        
         .btn-leia-mais {
             background-image: linear-gradient(#5ca9e3, #04518b);
             width: 140px;
@@ -110,49 +97,41 @@
             color: #fff;
             background-color: #4282b0;
             /* padding: 5px 0px; */
-            
             border-radius: 5px;
             font-size: 14px;
             border: 0px;
-          
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+            display: flex;
+            align-items: center;
+            justify-content: center;
             outline: none !important;
-           
         }
-       .title{
-           font-size: 1.2rem;
-           color: #666666;
-       }
-     
-    .description {
-    font-size: 0.8rem;
-        color: #666666;
-        font-weight: 600;
-    }
-     .video-button{
-         border: none;
-         background-color: transparent;
-     }
-     .search-block {
-         margin-top: -5px;
-     }
-
-
-
-
-
-
-
-         
+        
+        .title {
+            font-size: 1.2rem;
+            color: #666666;
+        }
+        
+        .description {
+            font-size: 0.8rem;
+            color: #666666;
+            font-weight: 600;
+        }
+        
+        .video-button {
+            border: none;
+            background-color: transparent;
+        }
+        
+        .search-block {
+            margin-top: -5px;
+        }
+        
         .mini-header {
             display: flex;
             justify-content: center;
             align-items: center;
         }
-      
+        
         .leftIcon>img,
         .rightIcon>img {
             height: 5.5rem;
@@ -216,64 +195,67 @@
             width: 6% !important;
         }
         /* headings */
-        .main-heading{
+        
+        .main-heading {
             color: #666666;
         }
-        .subHeading{
+        
+        .subHeading {
             font-style: italic;
             font-weight: 600;
             font-size: 16px;
             color: #3c8cca;
-            
-           
         }
-        .calender-div{
+        
+        .calender-div {
             color: #666666;
             font-size: 13px;
         }
-        .bg-white{
+        
+        .bg-white {
             background-color: white;
             /* max-width: 1110px; */
         }
-
         /*headings end */
-   /* SIDE BAR CSS */
-   .search-button {
-    border: 0;
-    background: #3884c1;
-    padding: 0px 9px 5px;
-}
-.blog-heading {
-    color: #3884c1 !important;
-    font-size: 18px;
-    font-weight: 600;
-}
-.CV-Video-Link-Post{
-    height: auto;
-    border-bottom: 2px solid #dce4e7;
-    padding-top: 6px;
-}
-
-.img_1{
-     width: 25%;
-}
-.add-mt-15-CV-Video{
-    font-size: 0.8rem;
-    color: #666666 !important;
-    font-weight: 600;
-    
-}
-.date-text{
-    font-size: 0.6rem;
-    color: #666666 !important;
-}
-.border-1
-{
-border-bottom: 3px solid #dce4e7;
-}
-     /* SIDE BAR CSS END */
-
-
+        /* SIDE BAR CSS */
+        
+        .search-button {
+            border: 0;
+            background: #3884c1;
+            padding: 0px 9px 5px;
+        }
+        
+        .blog-heading {
+            color: #3884c1 !important;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        
+        .CV-Video-Link-Post {
+            height: auto;
+            border-bottom: 2px solid #dce4e7;
+            padding-top: 6px;
+        }
+        
+        .img_1 {
+            width: 25%;
+        }
+        
+        .add-mt-15-CV-Video {
+            font-size: 0.8rem;
+            color: #666666 !important;
+            font-weight: 600;
+        }
+        
+        .date-text {
+            font-size: 0.6rem;
+            color: #666666 !important;
+        }
+        
+        .border-1 {
+            border-bottom: 3px solid #dce4e7;
+        }
+        /* SIDE BAR CSS END */
         /* Media Query for Ipad pro screen start*/
         
         @media (max-width:1100px) and (min-width:901px) {
@@ -425,11 +407,7 @@ border-bottom: 3px solid #dce4e7;
             .main-heading {
                 font-size: 1.8rem !important;
                 text-align: center;
-              
-                
-              }
-
-
+            }
             .main-header {
                 height: 70px;
             }
@@ -512,37 +490,36 @@ border-bottom: 3px solid #dce4e7;
                 border-bottom: 1px solid white !important;
             }
         }
+        
         @media (max-width:567px) and (min-width:300px) {
             .Quem-Somos {
-              font-size: 1.8rem !important;
-              text-align: center;
-              padding-top: 37px !important;
-              
+                font-size: 1.8rem !important;
+                text-align: center;
+                padding-top: 37px !important;
             }
-            .subHeading1>h3{
+            .subHeading1>h3 {
                 font-size: 1.4rem !important;
             }
-            .CV-Video-Link-Post{
-              
+            .CV-Video-Link-Post {
                 padding-bottom: 4px;
             }
-            .search-block{
+            .search-block {
                 display: none;
             }
         }
+        
         @media (max-width:1024px) {
-                 .img_1 {
-                     padding-top: 4px;
-                 }
+            .img_1 {
+                padding-top: 4px;
+            }
         }
+        
         @media (max-width:540px) {
-  
-  
-            .img_1{
+            .img_1 {
                 width: 15%;
-           }
-           .search-block{
-               display: none;
-           }
+            }
+            .search-block {
+                display: none;
+            }
         }
         /* Media Query for mobile  screen start*/
