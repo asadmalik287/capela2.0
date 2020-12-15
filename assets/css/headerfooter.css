@@ -103,6 +103,7 @@
          
     
         }
+
         .btn-leia-mais {
             background-image: linear-gradient(#5ca9e3, #04518b);
             width: 140px;
@@ -537,7 +538,17 @@ border-bottom: 3px solid #dce4e7;
         }
         @media (max-width:540px) {
   
-  
+            .navbar-nav{
+                position: fixed;
+                z-index: 11111;
+                background-color: red;
+                transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    margin-top: 90px;
+
+            }
             .img_1{
                 width: 15%;
            }
