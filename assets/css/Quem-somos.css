@@ -17,11 +17,11 @@
     border-bottom: 3px solid #dce4e7;
 }
 
-.GB
+/* .GB
 {
     text-align: justify;
     
-}
+} */
 
 .img-1
 {
@@ -142,6 +142,15 @@ border-bottom: 3px solid #dce4e7;
     .bottom
     {
         padding-bottom: 30px;
+    }
+
+    .bottom-div
+    {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     
