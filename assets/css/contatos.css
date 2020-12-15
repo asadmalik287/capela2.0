@@ -69,4 +69,22 @@ border-bottom: 3px solid #dce4e7;
     .marginBottom_1 {
         margin-bottom: 1.2rem;
     }
+    .bottomImage{
+        width: 50%;
+    }
+    .bottomDiv1{
+    display: flex;
+   
+    align-items: center;
+    margin-bottom: 1rem;
+    }
+    .btom-div-text{
+        padding-left: 15px;
+    }
+    .p1{
+        text-align: start;
+    }
+    .btom-div-text-bold{
+        font-size: 11px;
+    }
 }
