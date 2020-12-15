@@ -5,15 +5,15 @@
         }
         @font-face {
             font-family: "Gotham Medium";
-            src: url(/fonts/Gotham\ Medium\ Regular.ttf);
+            src: url("/fonts/Gotham\ Medium\ Regular.ttf");
           }
           @font-face {
             font-family: "Gotham Book Regular";
-            src: url(/fonts/Gotham\ Book\ Regular.otf);
+            src: url("/fonts/Gotham\ Book\ Regular.otf");
           }
           @font-face {
             font-family: "Gotham Medium Italic";
-            src: url(/fonts/Gotham\ Medium\ Italic.ttf);
+            src: url("/fonts/Gotham\ Medium\ Italic.ttf");
           }
           @font-face {
             font-family: "Gotham Light";
@@ -48,12 +48,12 @@
             font-family: "Gotham Medium Italic";
           }
           .GB {
-            font-family: "Gotham Book Regular";
+            font-family: "Gotham Book Regular" ;
             /* color: #666666; */
           }
 
          .GM {
-            font-family: "Gotham Medium";
+            font-family: "Gotham Medium" !important;
         }
        
 
