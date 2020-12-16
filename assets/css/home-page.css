@@ -13,7 +13,7 @@
 }
 
 .zero-pading {
-    padding: 0px !important;
+    padding: 0px;
 }
 
 .img-border {
@@ -268,35 +268,6 @@ div>a>button {
 /* Media Query for Ipad pro screen start*/
 
 @media (max-width:1100px) and (min-width:901px) {
-    .mini-header {
-        padding-top: 35px !important;
-    }
-    .navbar-toggler {
-        position: absolute;
-        top: -95px;
-        left: 10px;
-    }
-    .navbar-light .navbar-toggler-icon {
-        background-image: url('https://icon-library.net/images/hamburger-menu-icon-png-white/hamburger-menu-icon-png-white-10.jpg');
-        height: 40px;
-        width: 40px;
-    }
-    .navbar-nav {
-        padding-left: 30px;
-        display: flex;
-        align-items: center;
-    }
-    .navbar {
-        padding: 0px !important;
-        margin: 0px -19px;
-    }
-    .nav-link {
-        padding-right: 0 !important;
-        padding-left: 0 !important;
-        margin-right: 30px;
-        text-align: center;
-        color: white !important;
-    }
     .nav-link>img {
         margin-right: 30px;
     }
@@ -337,47 +308,6 @@ div>a>button {
 /* Media Query for  tablets and Ipad screen start*/
 
 @media (max-width:900px) and (min-width:700px) {
-    .mini-header {
-        padding-top: 35px !important;
-    }
-    .leftIcon>img,
-    .rightIcon>img {
-        height: 3.9rem;
-    }
-    .centerIcon>img {
-        height: 3.3rem;
-    }
-    .navbar-toggler {
-        position: absolute;
-        top: -95px;
-        left: 10px;
-    }
-    .navbar-light .navbar-toggler-icon {
-        background-image: url('https://icon-library.net/images/hamburger-menu-icon-png-white/hamburger-menu-icon-png-white-10.jpg');
-        height: 40px;
-        width: 40px;
-    }
-    .navbar {
-        padding: 0px !important;
-        margin: 0px -39px;
-        background-image: none !important;
-        background-color: #01244e !important;
-    }
-    .nav-link {
-        padding-right: 0 !important;
-        padding-left: 0 !important;
-        margin-right: 0px;
-        border-bottom: 1px solid white;
-        text-align: center;
-        color: white !important;
-    }
-    .main-footer {
-        height: 120px;
-    }
-    .footer-div-left {
-        text-align: center;
-        padding-bottom: 7px;
-    }
     .icons>a>Span {
         padding-right: 20px;
         text-align: center;
@@ -428,6 +358,9 @@ div>a>button {
     .hideOnweb {
         display: block;
     }
+    .zero-pading {
+        padding: 0px 15px !important;
+    }
 }
 
 
@@ -437,49 +370,6 @@ div>a>button {
 /* Media Query for  tablets  screen start*/
 
 @media (max-width:759px) and (min-width:580px) {
-    .mini-header {
-        padding-top: 35px !important;
-    }
-    .leftIcon>img,
-    .rightIcon>img {
-        height: 3.3rem;
-    }
-    .centerIcon>img {
-        height: 3rem;
-    }
-    .navbar-toggler {
-        position: absolute;
-        top: -95px;
-        left: 5px;
-    }
-    .navbar-light .navbar-toggler-icon {
-        background-image: url('https://icon-library.net/images/hamburger-menu-icon-png-white/hamburger-menu-icon-png-white-10.jpg');
-        height: 40px;
-        width: 40px;
-    }
-    .navbar {
-        padding: 0px !important;
-        margin: 0px -60px;
-        background-image: none !important;
-        background-color: #01244e !important;
-    }
-    .nav-link {
-        padding-right: 0 !important;
-        padding-left: 0 !important;
-        margin-right: 0px;
-        border-bottom: 1px solid white;
-        text-align: center;
-        color: white !important;
-    }
-    .main-footer {
-        height: 280px !important;
-    }
-    .footer-div-left {
-        text-align: center;
-        padding-bottom: 7px;
-        border-bottom: 1px solid white;
-        border-right: none;
-    }
     .icons>a>Span {
         padding-right: 20px;
         text-align: center;
@@ -493,6 +383,9 @@ div>a>button {
     .hideOnweb {
         display: block;
     }
+    .zero-pading {
+        padding: 0px 15px !important;
+    }
 }
 
 
@@ -502,59 +395,8 @@ div>a>button {
 /* Media Query for  mobile screen start*/
 
 @media (max-width:579px) and (min-width:400px) {
-    .main-header {
-        height: 70px;
-    }
-    .mini-header {
-        padding-top: 20px !important;
-    }
-    .leftIcon>img,
-    .rightIcon>img {
-        height: 2.3rem;
-    }
-    .leftIcon>img {
-        margin-right: 10px !important;
-    }
-    .centerIcon>img {
-        height: 1.8rem;
-        margin-right: 10px !important;
-    }
-    .navbar-toggler {
-        position: absolute;
-        top: -52px;
-        left: 5px;
-    }
-    .navbar-light .navbar-toggler-icon {
-        background-image: url('https://icon-library.net/images/hamburger-menu-icon-png-white/hamburger-menu-icon-png-white-10.jpg');
-        height: 20px;
-        width: 20px;
-    }
-    .navbar {
-        padding: 0px !important;
-        margin: 0px -30px;
-        background-image: none !important;
-        background-color: #01244e !important;
-    }
-    .nav-link {
-        padding-right: 0 !important;
-        padding-left: 0 !important;
-        margin-right: 0px;
-        border-bottom: 1px solid white;
-        text-align: center;
-        color: white !important;
-    }
     .zero-pading {
-        padding: 0px !important;
-        margin-top: 10px !important;
-    }
-    .main-footer {
-        height: 235px;
-    }
-    .footer-div-left {
-        text-align: center;
-        border-bottom: 1px solid white !important;
-        border-right: none !important;
-        padding-bottom: 7px;
+        padding: 0px 15px !important;
     }
     .icons>a>Span {
         padding-right: 10px;
@@ -722,58 +564,8 @@ div>a>button {
 /* Media Query for  mobile screen start*/
 
 @media (max-width:420px) and (min-width:300px) {
-    .main-header {
-        height: 70px;
-    }
-    .mini-header {
-        padding-top: 18px !important;
-        margin-left: 50px !important;
-    }
-    .leftIcon>img,
-    .rightIcon>img {
-        height: 2.3rem;
-    }
-    .leftIcon>img {
-        margin-right: 10px !important;
-    }
-    .centerIcon>img {
-        height: 1.8rem;
-        margin-right: 10px !important;
-    }
-    .navbar-toggler {
-        position: absolute;
-        top: -52px;
-        left: 5px;
-    }
-    .navbar-light .navbar-toggler-icon {
-        background-image: url('https://icon-library.net/images/hamburger-menu-icon-png-white/hamburger-menu-icon-png-white-10.jpg');
-        height: 20px;
-        width: 20px;
-    }
-    .navbar {
-        padding: 0px !important;
-        margin: 0px -30px;
-        background-image: none !important;
-        background-color: #01244e !important;
-    }
-    .nav-link {
-        padding-right: 0 !important;
-        padding-left: 0 !important;
-        margin-right: 0px;
-        border-bottom: 1px solid white;
-        text-align: center;
-        color: white !important;
-    }
     .zero-pading {
-        padding: 0px !important;
-        margin-top: 0px !important;
-    }
-    .main-footer {
-        height: 235px;
-    }
-    .footer-div-left {
-        border-right: none !important;
-        border-bottom: 1px solid white !important;
+        padding: 0px 15px !important;
     }
     .icons>a>Span {
         padding-right: 10px;
