@@ -17,7 +17,7 @@
 }
 
 .img-border {
-    border: 7px solid white;
+    border: 5px solid white;
 }
 
 
@@ -79,7 +79,7 @@
     background-image: url('../../img/BANNER_253_320px_AFRICA.jpg');
     background-size: cover;
     background-position: bottom;
-    height: 27.4rem;
+    height: 27.8rem;
 }
 
 .img-content {
@@ -87,9 +87,11 @@
     flex-direction: column;
     text-align: center;
 }
+
 .img-content>div>.h2 {
     font-size: 2.4rem !important;
 }
+
 .img-content>div>.h4 {
     font-size: 30px !important;
 }
@@ -104,7 +106,7 @@
 
 .europa {
     position: absolute;
-    bottom: -12px;
+    bottom: -10px;
     left: 12rem;
     font-weight: 700;
     font-size: 1.6rem;
@@ -119,6 +121,10 @@
     bottom: 1rem;
     font-size: 12px;
     font-weight: 700;
+}
+
+.banner_Leonardo_1 {
+    border: 5px solid white;
 }
 
 #carousel-div {
@@ -171,12 +177,6 @@ div>a>button {
     border: 0px;
     line-height: 22px;
     outline: none !important;
-}
-
-.search-button {
-    border: 0;
-    background: #3884c1;
-    padding: 0px 9px 5px;
 }
 
 .blog-heading {
@@ -585,7 +585,7 @@ div>a>button {
         font-size: 1.5rem;
     }
     .img-border {
-        border: 5px solid white;
+        border: 3px solid white;
     }
     .img-border>img {
         width: auto;

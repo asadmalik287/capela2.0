@@ -7,28 +7,33 @@
         @font-face {
             font-family: "Gotham Medium";
             src: url("../fonts/Gotham\ Medium\ Regular.ttf");
-          }
-          @font-face {
+        }
+        
+        @font-face {
             font-family: "Gotham Book Regular";
             src: url("../fonts/Gotham\ Book\ Regular.otf");
-          }
-          @font-face {
+        }
+        
+        @font-face {
             font-family: "Gotham Medium Italic";
             src: url("../fonts/Gotham\ Medium\ Italic.ttf");
-          }
-          @font-face {
+        }
+        
+        @font-face {
             font-family: "Gotham Light";
             src: url("../fonts/Gotham\ Light\ Regular.otf");
-          }
-          @font-face {
+        }
+        
+        @font-face {
             font-family: "nuevastd-boldcond";
             src: url("../fonts/Nueva\ Std\ Bold\ Condensed.ttf");
-          }
-          @font-face {
+        }
+        
+        @font-face {
             font-family: "nuevaStd-Cond";
             src: url("../fonts/Nueva\ Std\ Condensed.ttf");
-          }
-          /* @font-face {
+        }
+        /* @font-face {
             font-family: "Montserrat-Regular";
             src: url("");
           } */
@@ -36,73 +41,48 @@
         @font-face {
             font-family: "Myriad Pro Regular";
             src: url("/assets/fonts/MYRIADPRO-REGULAR.OTF");
-          }
-          .MPR {
+        }
+        
+        .MPR {
             font-family: "Myriad Pro Regular";
-          }
-          .NC{
+        }
+        
+        .NC {
             font-family: "nuevaStd-Cond";
-          }
-
-          .NB{
+        }
+        
+        .NB {
             font-family: "nuevastd-boldcond";
-          }
-
-             .GLR{
-                font-family: "Gotham Light";
-             }
-          .GMI{
+        }
+        
+        .GLR {
+            font-family: "Gotham Light";
+        }
+        
+        .GMI {
             font-family: "Gotham Medium Italic";
         }
         
         .GB {
             font-family: "Gotham Book Regular";
             /* color: #666666; */
-          }
-
-         .GM {
+        }
+        
+        .GM {
             font-family: "Gotham Medium";
         }
-
-        .CL
-        {
-           color: #666666; 
+        
+        .CL {
+            color: #666666;
         }
-
-        .blue
-        {
+        
+        .blue {
             color: #408ac7;
         }
-
-        .font-weight
-        {
+        
+        .font-weight {
             font-weight: 600;
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         
         .main-header {
             background: url(http://18.217.165.212/angular-tbwb-img/header-background.png);
@@ -124,6 +104,7 @@
             font-size: 32px;
             color: #ffffff;
         }
+        
         .btn-leia-mais {
             background-image: linear-gradient(#5ca9e3, #04518b);
             width: 140px;
@@ -168,11 +149,17 @@
         
         .leftIcon>img,
         .rightIcon>img {
-            height: 5.5rem;
+            height: 5.45rem;
+        }
+        
+        .centerIcon {
+            margin-top: 10px;
+            margin-left: 30px;
+            margin-right: 30px;
         }
         
         .centerIcon>img {
-            height: 5rem;
+            height: 4.25rem;
         }
         
         .navbar-nav {
@@ -181,7 +168,18 @@
             width: 100%;
             justify-content: space-between;
             font-size: 18px;
-            
+        }
+        
+        .navbar {
+            padding: 6px !important;
+        }
+        
+        .home-img {
+            padding: 4px !important;
+        }
+        
+        .mini-header {
+            padding-top: 1.3rem;
         }
         
         .mini-header1 {
@@ -248,88 +246,79 @@
             font-size: 13px;
         }
         
+        .LUPA_IMG {
+            width: 50%;
+            color: white;
+        }
+        
         .bg-white {
             background-color: white;
             /* max-width: 1110px; */
         }
         /*headings end */
-   /* SIDE BAR CSS */
-   .search-button {
-    border: 0;
-    background: #3884c1;
-    padding: 0px 9px 5px;
-}
-.blog-heading {
-    color: #3884c1 !important;
-    font-size: 18px;
-    font-weight: 600;
-}
-.CV-Video-Link-Post{
-    height: auto;
-    border-bottom: 2px solid #dce4e7;
-    padding-top: 6px;
-}
-
-.img_1{
-     width: 25%;
-}
-.add-mt-15-CV-Video{
-    font-size: 0.8rem;
-    color: #666666 !important;
-    font-weight: 600;
-    
-}
-.date-text{
-    font-size: 0.6rem;
-    color: #666666 !important;
-}
-.border-1
-{
-border-bottom: 3px solid #dce4e7;
-}
-     /* SIDE BAR CSS END */
-
-     @media (max-width:1366px)
-     {
-        .mainHeading
-        {
-            width: 51%;
-            
-
+        /* SIDE BAR CSS */
+        
+        .search-button {
+            border: 0;
+            background: #3884c1;
+            padding: 0px 0px 5px;
         }
-
-        .mainImage
-        {
-            margin-top: -13%;
+        
+        .blog-heading {
+            color: #3884c1 !important;
+            font-size: 18px;
+            font-weight: 600;
         }
-
-        .mainImage-2
-        {
-            margin-top: -9%;
+        
+        .CV-Video-Link-Post {
+            height: auto;
+            border-bottom: 2px solid #dce4e7;
+            padding-top: 6px;
         }
-     }
-
-     @media (max-width:600px)
-     {
-        .mainHeading
-        {
-            width: 100%;
-
+        
+        .img_1 {
+            width: 25%;
         }
-
-        .mainImage
-        {
-            margin-top: 0%;
+        
+        .add-mt-15-CV-Video {
+            font-size: 0.8rem;
+            color: #666666 !important;
+            font-family: "Gotham Medium";
         }
-
-        .mainImage-2
-        {
-            margin-top: 0%;
+        
+        .date-text {
+            font-size: 0.6rem;
+            color: #666666 !important;
         }
-     }
-
-
-
+        
+        .border-1 {
+            border-bottom: 3px solid #dce4e7;
+        }
+        /* SIDE BAR CSS END */
+        
+        @media (max-width:1366px) {
+            .mainHeading {
+                width: 51%;
+            }
+            .mainImage {
+                margin-top: -13%;
+            }
+            .mainImage-2 {
+                margin-top: -9%;
+            }
+        }
+        
+        @media (max-width:600px) {
+            .mainHeading {
+                width: 100%;
+            }
+            .mainImage {
+                margin-top: 0%;
+            }
+            .mainImage-2 {
+                margin-top: 0%;
+            }
+        }
         /* Media Query for Ipad pro screen start*/
         
         @media (max-width:1100px) and (min-width:901px) {
@@ -380,6 +369,11 @@ border-bottom: 3px solid #dce4e7;
             .centerIcon>img {
                 height: 3.3rem;
             }
+            .centerIcon {
+                margin-top: 10px;
+                margin-left: 15px;
+                margin-right: 15px;
+            }
             .navbar-toggler {
                 position: absolute;
                 top: -95px;
@@ -396,6 +390,14 @@ border-bottom: 3px solid #dce4e7;
                 background-image: none !important;
                 background-color: #01244e !important;
             }
+            .navbar-nav {
+                position: relative;
+                z-index: 11111;
+                background-color: #01244e !important;
+            }
+            #navbarText {
+                transition: height 0.7s ease !important;
+            }
             .nav-link {
                 padding-right: 0 !important;
                 padding-left: 0 !important;
@@ -403,6 +405,9 @@ border-bottom: 3px solid #dce4e7;
                 border-bottom: 1px solid white;
                 text-align: center;
                 color: white !important;
+            }
+            .home-img {
+                padding: 10px 0px !important;
             }
             .main-footer {
                 height: 120px;
@@ -433,6 +438,11 @@ border-bottom: 3px solid #dce4e7;
             .centerIcon>img {
                 height: 3rem;
             }
+            .centerIcon {
+                margin-top: 10px;
+                margin-left: 15px;
+                margin-right: 15px;
+            }
             .navbar-toggler {
                 position: absolute;
                 top: -95px;
@@ -449,6 +459,14 @@ border-bottom: 3px solid #dce4e7;
                 background-image: none !important;
                 background-color: #01244e !important;
             }
+            .navbar-nav {
+                position: relative;
+                z-index: 11111;
+                background-color: #01244e !important;
+            }
+            #navbarText {
+                transition: height 0.7s ease !important;
+            }
             .nav-link {
                 padding-right: 0 !important;
                 padding-left: 0 !important;
@@ -456,6 +474,9 @@ border-bottom: 3px solid #dce4e7;
                 border-bottom: 1px solid white;
                 text-align: center;
                 color: white !important;
+            }
+            .home-img {
+                padding: 10px 0px !important;
             }
             .main-footer {
                 height: 280px !important;
@@ -492,12 +513,13 @@ border-bottom: 3px solid #dce4e7;
             .rightIcon>img {
                 height: 2.3rem;
             }
-            .leftIcon>img {
-                margin-right: 10px !important;
-            }
             .centerIcon>img {
                 height: 1.8rem;
-                margin-right: 10px !important;
+            }
+            .centerIcon {
+                margin-top: 10px;
+                margin-left: 10px;
+                margin-right: 10px;
             }
             .navbar-toggler {
                 position: absolute;
@@ -515,6 +537,14 @@ border-bottom: 3px solid #dce4e7;
                 background-image: none !important;
                 background-color: #01244e !important;
             }
+            .navbar-nav {
+                position: relative;
+                z-index: 11111;
+                background-color: #01244e !important;
+            }
+            #navbarText {
+                transition: height 0.7s ease !important;
+            }
             .nav-link {
                 padding-right: 0 !important;
                 padding-left: 0 !important;
@@ -522,6 +552,9 @@ border-bottom: 3px solid #dce4e7;
                 border-bottom: 1px solid white;
                 text-align: center;
                 color: white !important;
+            }
+            .home-img {
+                padding: 10px 0px !important;
             }
             .main-footer {
                 height: 235px;
@@ -552,16 +585,20 @@ border-bottom: 3px solid #dce4e7;
             .rightIcon>img {
                 height: 2.3rem;
             }
-            .leftIcon>img {
-                margin-right: 10px !important;
-            }
             .centerIcon>img {
                 height: 1.8rem;
-                margin-right: 10px !important;
+            }
+            .centerIcon {
+                margin-top: 10px;
+                margin-left: 10px;
+                margin-right: 10px;
             }
             .footer-div-left {
                 border-right: none !important;
                 border-bottom: 1px solid white !important;
+            }
+            .home-img {
+                padding: 10px 0px !important;
             }
         }
         
@@ -580,6 +617,9 @@ border-bottom: 3px solid #dce4e7;
             .search-block {
                 display: none;
             }
+            .home-img {
+                padding: 10px 0px !important;
+            }
         }
         
         @media (max-width:1024px) {
@@ -589,23 +629,22 @@ border-bottom: 3px solid #dce4e7;
         }
         
         @media (max-width:540px) {
-  
-            .navbar-nav{
-                position: fixed;
+            .navbar-nav {
+                position: relative;
                 z-index: 11111;
-                background-color: red;
-                transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    margin-top: 90px;
-
+                background-color: #01244e !important;
             }
-            .img_1{
+            #navbarText {
+                transition: height 0.7s ease !important;
+            }
+            .img_1 {
                 width: 15%;
             }
             .search-block {
                 display: none;
+            }
+            .home-img {
+                padding: 10px 0px !important;
             }
         }
         /* Media Query for mobile  screen start*/
