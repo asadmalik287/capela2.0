@@ -246,6 +246,11 @@
             font-size: 13px;
         }
         
+        .LUPA_IMG {
+            width: 50%;
+            color: white;
+        }
+        
         .bg-white {
             background-color: white;
             /* max-width: 1110px; */
@@ -256,7 +261,7 @@
         .search-button {
             border: 0;
             background: #3884c1;
-            padding: 0px 9px 5px;
+            padding: 0px 0px 5px;
         }
         
         .blog-heading {
