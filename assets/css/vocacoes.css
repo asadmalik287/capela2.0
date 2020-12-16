@@ -5,8 +5,8 @@
 .left11 div {
     border-bottom: 2px solid #ff2487 !important;
     padding-bottom: 19px; 
-     margin-top: 5px;
     
+     padding-top: 20px;
     color: #7b1842 !important;
 }
 .bg-left-div-column {
@@ -22,11 +22,12 @@
     color: #7b1842 !important;
   
     text-align: justify;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 400;
 }
 .left11 p {
-     margin-top: 10px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
     color: #7b1842;
     font-weight: 500;
     font-size: 15px;
@@ -36,17 +37,20 @@
     color: #7b1842;
 }
 .left11>ul {
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
     color: #7b1842;
   
+}
+.left11>ul>li {
+    padding-top: 4px;
 }
 .bg-left-div-column1{
     background-color: #fbeaf5;
 }
 .righty h6 {
     border-bottom: 2px solid #b5a2aa;
-    padding-bottom: 10px;
-    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-top: 30px;
     color: #7c1040;
     font-size: 1rem;
 }
