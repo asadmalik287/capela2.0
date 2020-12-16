@@ -17,7 +17,7 @@
 }
 
 .img-border {
-    border: 7px solid white;
+    border: 5px solid white;
 }
 
 
@@ -79,7 +79,7 @@
     background-image: url('../../img/BANNER_253_320px_AFRICA.jpg');
     background-size: cover;
     background-position: bottom;
-    height: 27.4rem;
+    height: 27.8rem;
 }
 
 .img-content {
@@ -106,7 +106,7 @@
 
 .europa {
     position: absolute;
-    bottom: 2px;
+    bottom: -10px;
     left: 12rem;
     font-weight: 700;
     font-size: 1.6rem;
@@ -585,7 +585,7 @@ div>a>button {
         font-size: 1.5rem;
     }
     .img-border {
-        border: 5px solid white;
+        border: 3px solid white;
     }
     .img-border>img {
         width: auto;
