@@ -99,6 +99,9 @@
             /* background-position: center; */
             background-size: cover;
         }
+        .forHover:hover {
+            text-decoration: underline;
+        }
         
         .fa-angle-right {
             font-size: 32px;
