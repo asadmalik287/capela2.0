@@ -149,11 +149,17 @@
         
         .leftIcon>img,
         .rightIcon>img {
-            height: 5.5rem;
+            height: 5.45rem;
+        }
+        
+        .centerIcon {
+            margin-top: 10px;
+            margin-left: 30px;
+            margin-right: 30px;
         }
         
         .centerIcon>img {
-            height: 5rem;
+            height: 4.25rem;
         }
         
         .navbar-nav {
@@ -162,6 +168,18 @@
             width: 100%;
             justify-content: space-between;
             font-size: 18px;
+        }
+        
+        .navbar {
+            padding: 6px !important;
+        }
+        
+        .home-img {
+            padding: 4px !important;
+        }
+        
+        .mini-header {
+            padding-top: 1.3rem;
         }
         
         .mini-header1 {
@@ -260,7 +278,7 @@
         .add-mt-15-CV-Video {
             font-size: 0.8rem;
             color: #666666 !important;
-            font-weight: 600;
+            font-family: "Gotham Medium";
         }
         
         .date-text {
@@ -346,6 +364,11 @@
             .centerIcon>img {
                 height: 3.3rem;
             }
+            .centerIcon {
+                margin-top: 10px;
+                margin-left: 15px;
+                margin-right: 15px;
+            }
             .navbar-toggler {
                 position: absolute;
                 top: -95px;
@@ -378,6 +401,9 @@
                 text-align: center;
                 color: white !important;
             }
+            .home-img {
+                padding: 10px 0px !important;
+            }
             .main-footer {
                 height: 120px;
             }
@@ -406,6 +432,11 @@
             }
             .centerIcon>img {
                 height: 3rem;
+            }
+            .centerIcon {
+                margin-top: 10px;
+                margin-left: 15px;
+                margin-right: 15px;
             }
             .navbar-toggler {
                 position: absolute;
@@ -438,6 +469,9 @@
                 border-bottom: 1px solid white;
                 text-align: center;
                 color: white !important;
+            }
+            .home-img {
+                padding: 10px 0px !important;
             }
             .main-footer {
                 height: 280px !important;
@@ -474,12 +508,13 @@
             .rightIcon>img {
                 height: 2.3rem;
             }
-            .leftIcon>img {
-                margin-right: 10px !important;
-            }
             .centerIcon>img {
                 height: 1.8rem;
-                margin-right: 10px !important;
+            }
+            .centerIcon {
+                margin-top: 10px;
+                margin-left: 10px;
+                margin-right: 10px;
             }
             .navbar-toggler {
                 position: absolute;
@@ -513,6 +548,9 @@
                 text-align: center;
                 color: white !important;
             }
+            .home-img {
+                padding: 10px 0px !important;
+            }
             .main-footer {
                 height: 235px;
             }
@@ -542,16 +580,20 @@
             .rightIcon>img {
                 height: 2.3rem;
             }
-            .leftIcon>img {
-                margin-right: 10px !important;
-            }
             .centerIcon>img {
                 height: 1.8rem;
-                margin-right: 10px !important;
+            }
+            .centerIcon {
+                margin-top: 10px;
+                margin-left: 10px;
+                margin-right: 10px;
             }
             .footer-div-left {
                 border-right: none !important;
                 border-bottom: 1px solid white !important;
+            }
+            .home-img {
+                padding: 10px 0px !important;
             }
         }
         
@@ -569,6 +611,9 @@
             }
             .search-block {
                 display: none;
+            }
+            .home-img {
+                padding: 10px 0px !important;
             }
         }
         
@@ -592,6 +637,9 @@
             }
             .search-block {
                 display: none;
+            }
+            .home-img {
+                padding: 10px 0px !important;
             }
         }
         /* Media Query for mobile  screen start*/
