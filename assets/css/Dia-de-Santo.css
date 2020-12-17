@@ -66,10 +66,7 @@
 
 
 
-.blog-heading {
-    color: #3884c1 !important;
-    font-size: 18px;
-}
+
 .CV-Video-Link-Post{
     height: auto;
     border-bottom: 2px solid #dce4e7;
@@ -84,10 +81,10 @@
     color: #666666 !important;
     
 }
-.date-text{
+/* .date-text{
     font-size: 0.6rem;
     color: #666666 !important;
-}
+} */
 .border-1
 {
 border-bottom: 3px solid #dce4e7;
