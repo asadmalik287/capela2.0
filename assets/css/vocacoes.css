@@ -64,7 +64,7 @@
     background: #ff1583;
     color: white;
     border: none;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     border-radius: 5px;
     width: 131px;
     height: 29px;
@@ -83,5 +83,8 @@
 
 .flex-direction{
     flex-direction: column-reverse;
+}
+.video-logo-button{
+    width: 33%;
 }
 }

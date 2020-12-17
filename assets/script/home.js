@@ -30,3 +30,26 @@ function showSlides(n) {
     dots[slideIndex - 1].className += " active";
     captionText.innerHTML = dots[slideIndex - 1].alt;
 }
+
+
+
+
+// Audio Script start
+
+function audioControl() {
+    let mUte = document.getElementById('mute');
+    let unmUte = document.getElementById('unmute');
+    let ab = document.getElementById('audioForVideo');
+    if (ab.muted == false) {
+        mUte.style.display = 'none';
+        unmUte.style.display = 'block';
+        ab.muted = true;
+    } else {
+        mUte.style.display = 'block';
+        unmUte.style.display = 'none';
+        ab.muted = false;
+
+    }
+}
+
+// Audio Script end
