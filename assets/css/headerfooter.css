@@ -15,6 +15,11 @@
         }
         
         @font-face {
+            font-family: "Gotham Book Italic";
+            src: url("../fonts/Gotham\ Book\ Italic.ttf");
+        }
+        
+        @font-face {
             font-family: "Gotham Medium Italic";
             src: url("../fonts/Gotham\ Medium\ Italic.ttf");
         }
@@ -41,6 +46,9 @@
         @font-face {
             font-family: "Myriad Pro Regular";
             src: url("/assets/fonts/MYRIADPRO-REGULAR.OTF");
+        }
+        .w-94{
+            width: 94% !important;
         }
         
         .MPR {
@@ -98,6 +106,7 @@
             background-repeat: no-repeat;
             /* background-position: center; */
             background-size: cover;
+            margin-bottom: 0px !important;
         }
         .forHover:hover {
             text-decoration: underline;
@@ -110,7 +119,7 @@
         
         .btn-leia-mais {
             background-image: linear-gradient(#5ca9e3, #04518b);
-            width: 140px;
+            width: 130px;
             height: 34px;
             color: #fff;
             background-color: #4282b0;
@@ -118,6 +127,8 @@
             border-radius: 5px;
             font-size: 14px;
             border: 0px;
+            /* font-weight: 600; */
+            font-family: 'Gotham Medium';
             display: flex;
             align-items: center;
             justify-content: center;
@@ -125,7 +136,7 @@
         }
         
         .title {
-            font-size: 1.2rem;
+            /* font-size: 1.2rem; */
             color: #666666;
         }
         
@@ -203,7 +214,7 @@
             width: 100%;
             background-size: cover;
             object-fit: cover;
-            height: 110px;
+            height: 120px;
             font-family: "Myriad Pro Regular";
         }
         
@@ -221,8 +232,10 @@
         .footer-p {
             text-align: center;
             color: #fff;
-            font-size: 12px;
+            font-size: 13px;
+            font-weight: bold;
             padding: 10px 10px 0px 10px;
+            font-family: "Myriad Pro Regular";
         }
         
         .icons>a>Span {
@@ -231,7 +244,7 @@
         }
         
         .icons>a>Span>img {
-            width: 6% !important;
+            width: 5% !important;
         }
         /* headings */
         
@@ -249,6 +262,7 @@
         .calender-div {
             color: #666666;
             font-size: 13px;
+            font-family: "Gotham Book Italic";
         }
         
         .LUPA_IMG {
@@ -271,8 +285,8 @@
         
         .blog-heading {
             color: #3884c1 !important;
-            font-size: 18px;
-            font-weight: 600;
+            font-size: 23px;
+            font-weight: bold;
         }
         
         .CV-Video-Link-Post {
@@ -293,8 +307,9 @@
         }
         
         .date-text {
-            font-size: 0.6rem;
+            font-size: 0.7rem;
             color: #666666 !important;
+            font-family: "Gotham Book Italic";
         }
         
         .border-1 {
