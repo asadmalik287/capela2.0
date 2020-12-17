@@ -77,6 +77,31 @@
     border-top: none;
 }
 
+#audioForVideo {
+    display: none;
+}
+
+.iconMute {
+    position: relative;
+    font-size: 45px;
+    color: white;
+    bottom: 70px;
+    left: 93%;
+    cursor: pointer;
+    width: 4%;
+}
+
+.iconUnmute {
+    position: relative;
+    font-size: 45px;
+    color: white;
+    bottom: 70px;
+    left: 93%;
+    cursor: pointer;
+    display: none;
+    width: 4%;
+}
+
 .main-bannar {
     background-image: url("../../img/BANNER_253_320px_AFRICA.jpg");
     background-size: cover;
@@ -88,6 +113,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    color: white;
 }
 
 .img-content>div>.h2 {
@@ -99,16 +125,13 @@
 }
 
 .queTodas {
-    font-weight: 500;
+    font-size: 25px;
     line-height: 1.2;
-    /* max-width: 28vw; */
-    margin: auto;
-    width: 100%;
-    padding-top: 0px;
-    font-size: 23px;
-    font-size: 30px;
-    padding: 23px;
-    /* border: 1px solid red; */
+    text-align: center;
+    height: auto;
+    font-weight: 500;
+    padding: 10px;
+    margin-top: 10px;
 }
 
 .europa {
@@ -125,7 +148,7 @@
     display: inline-block;
     padding: 7px 25px;
     position: absolute;
-    bottom: 1rem;
+    bottom: 1.1rem;
     font-size: 12px;
     font-weight: 700;
 }
@@ -349,6 +372,14 @@ div>a>button {
 /* Media Query for  tablets and Ipad screen start*/
 
 @media (max-width: 900px) and (min-width: 700px) {
+    .iconMute {
+        font-size: 30px;
+        bottom: 45px;
+    }
+    .iconUnmute {
+        font-size: 30px;
+        bottom: 45px;
+    }
     .icons>a>Span {
         padding-right: 20px;
         text-align: center;
@@ -411,6 +442,16 @@ div>a>button {
 /* Media Query for  tablets  screen start*/
 
 @media (max-width: 759px) and (min-width: 580px) {
+    .iconMute {
+        font-size: 30px;
+        bottom: 45px;
+        left: 91%;
+    }
+    .iconUnmute {
+        font-size: 30px;
+        bottom: 45px;
+        left: 91%;
+    }
     .icons>a>Span {
         padding-right: 20px;
         text-align: center;
@@ -436,6 +477,16 @@ div>a>button {
 /* Media Query for  mobile screen start*/
 
 @media (max-width: 579px) and (min-width: 400px) {
+    .iconMute {
+        font-size: 28px;
+        bottom: 45px;
+        left: 91%;
+    }
+    .iconUnmute {
+        font-size: 28px;
+        bottom: 45px;
+        left: 91%;
+    }
     .zero-pading {
         padding: 0px 15px !important;
     }
@@ -605,6 +656,16 @@ div>a>button {
 /* Media Query for  mobile screen start*/
 
 @media (max-width: 420px) and (min-width: 300px) {
+    .iconMute {
+        font-size: 18px;
+        bottom: 30px;
+        left: 90%;
+    }
+    .iconUnmute {
+        font-size: 18px;
+        bottom: 30px;
+        left: 90%;
+    }
     .zero-pading {
         padding: 0px 15px !important;
     }
