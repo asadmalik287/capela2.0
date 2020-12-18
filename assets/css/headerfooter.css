@@ -101,6 +101,11 @@
         .CL {
             color: #666666;
         }
+
+        .CL-light
+        {
+            color: #999999;
+        }
         
         .blue {
             color: #408ac7;
