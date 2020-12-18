@@ -112,7 +112,7 @@
         }
         
         .main-header {
-            background: url(http://18.217.165.212/angular-tbwb-img/header-background.png);
+            background: url('/assets/img/header-background.png');
             background-repeat: no-repeat;
             width: 100%;
             background-size: cover;
@@ -121,7 +121,7 @@
         }
         
         .sky-background {
-            background-image: url(../../img/sky-blue-background.jpg);
+            background-image: url('/assets/img/sky-blue-background.jpg');
             background-repeat: no-repeat;
             /* background-position: center; */
             background-size: cover;
@@ -159,11 +159,47 @@
             font-size: 20px;
             color: #666666;
         }
-        
+        .tags{
+            font-size: 18px;
+        }
+        .btnclass {
+            margin-top: 5px;
+            margin-left: 0px;
+        }
         .title-17px {
             font-size: 17px;
             color: #666666;
             font-weight: 600
+        }
+        .tagDiv {
+            color: #3884c1 !important;
+            padding-top: 7%;
+           
+            font-size: 23px;
+            border-bottom: 2px solid lightgrey;
+            /* width: 220px; */
+            outline: none !important;
+           
+        }
+        .tagDiv1 {
+            color: #3884c1 !important;
+            padding-top: 7%;
+           
+            font-size: 23px;
+            
+            /* width: 220px; */
+            outline: none !important;
+           
+        }
+        .adjbtn {
+            border: none;
+            padding: 1px 1px 1px 1px;
+            /* height: 26px !important; */
+            /* width: 78px !important; */
+           color: #666666;
+            font-size: 0.9rem !important;
+            outline: none !important;
+            border-radius: 1px solid #000000;
         }
         
         .description {
@@ -902,7 +938,12 @@
                     text-align: center;
                 }
                 .btn-leia-mais {
-                    width: 145px;
+                    width: 98px;
+                    height: 29px;
+                }
+                .fa-angle-right {
+                    font-size: 25px;
+                    color: #ffffff;
                 }
                 .main-header {
                     height: 70px;
