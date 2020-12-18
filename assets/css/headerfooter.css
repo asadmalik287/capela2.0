@@ -1,44 +1,44 @@
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        @font-face {
-            font-family: "Gotham Medium";
-            src: url("../fonts/Gotham\ Medium\ Regular.ttf");
-        }
-        
-        @font-face {
-            font-family: "Gotham Book Regular";
-            src: url("../fonts/Gotham\ Book\ Regular.otf");
-        }
-        
-        @font-face {
-            font-family: "Gotham Book Italic";
-            src: url("../fonts/Gotham\ Book\ Italic.ttf");
-        }
-        
-        @font-face {
-            font-family: "Gotham Medium Italic";
-            src: url("../fonts/Gotham\ Medium\ Italic.ttf");
-        }
-        
-        @font-face {
-            font-family: "Gotham Light";
-            src: url("../fonts/Gotham\ Light\ Regular.otf");
-        }
-        
-        @font-face {
-            font-family: "nuevastd-boldcond";
-            src: url("../fonts/Nueva\ Std\ Bold\ Condensed.ttf");
-        }
-        
-        @font-face {
-            font-family: "nuevaStd-Cond";
-            src: url("../fonts/Nueva\ Std\ Condensed.ttf");
-        }
-        /* @font-face {
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            @font-face {
+                font-family: "Gotham Medium";
+                src: url("../fonts/Gotham\ Medium\ Regular.ttf");
+            }
+            
+            @font-face {
+                font-family: "Gotham Book Regular";
+                src: url("../fonts/Gotham\ Book\ Regular.otf");
+            }
+            
+            @font-face {
+                font-family: "Gotham Book Italic";
+                src: url("../fonts/Gotham\ Book\ Italic.ttf");
+            }
+            
+            @font-face {
+                font-family: "Gotham Medium Italic";
+                src: url("../fonts/Gotham\ Medium\ Italic.ttf");
+            }
+            
+            @font-face {
+                font-family: "Gotham Light";
+                src: url("../fonts/Gotham\ Light\ Regular.otf");
+            }
+            
+            @font-face {
+                font-family: "nuevastd-boldcond";
+                src: url("../fonts/Nueva\ Std\ Bold\ Condensed.ttf");
+            }
+            
+            @font-face {
+                font-family: "nuevaStd-Cond";
+                src: url("../fonts/Nueva\ Std\ Condensed.ttf");
+            }
+            /* @font-face {
             font-family: "Montserrat-Regular";
             src: url("");
           } */
@@ -403,158 +403,104 @@
                 padding-left: 30px;
                 display: flex;
                 align-items: center;
+                justify-content: center;
+                outline: none !important;
             }
-            .navbar {
-                padding: 0px !important;
-                margin: 0px -19px;
+            
+            .title {
+                font-size: 20px;
+                color: #666666;
             }
-            .nav-link {
-                padding-right: 0 !important;
-                padding-left: 0 !important;
-                margin-right: 30px;
+            
+            .title-17px {
                 font-size: 17px;
-                text-align: center;
-                color: white !important;
+                color: #666666;
+                font-weight: 600
             }
-            .nav-link>img {
+            
+            .description {
+                font-size: 0.8rem;
+                color: #666666;
+                text-align: justify;
+            }
+            
+            .video-button {
+                border: none;
+                background-color: transparent;
+            }
+            
+            .search-block {
+                margin-top: -5px;
+            }
+            
+            .mini-header {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .leftIcon>img,
+            .rightIcon>img {
+                height: 5.45rem;
+            }
+            
+            .centerIcon {
+                margin-top: 10px;
+                margin-left: 30px;
                 margin-right: 30px;
             }
-        }
-        /* Media Query for Ipad pro screen start*/
-        /* Media Query for  tablets and Ipad screen start*/
-        
-        @media (max-width:900px) and (min-width:700px) {
-            .mini-header {
-                padding-top: 35px !important;
-            }
-            .leftIcon>img,
-            .rightIcon>img {
-                height: 3.9rem;
-            }
+            
             .centerIcon>img {
-                height: 3.3rem;
+                height: 4.25rem;
             }
-            .centerIcon {
-                margin-top: 10px;
-                margin-left: 15px;
-                margin-right: 15px;
-            }
-            .navbar-toggler {
-                position: absolute;
-                top: -95px;
-                left: 10px;
-            }
-            .navbar-light .navbar-toggler-icon {
-                background-image: url('https://icon-library.net/images/hamburger-menu-icon-png-white/hamburger-menu-icon-png-white-10.jpg');
-                height: 40px;
-                width: 40px;
-            }
-            .navbar {
-                padding: 0px !important;
-                margin: 0px -39px;
-                background-image: none !important;
-                background-color: #01244e !important;
-            }
+            
             .navbar-nav {
-                position: relative;
-                z-index: 11111;
-                background-color: #01244e !important;
+                margin: 0px !important;
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                font-size: 18px;
             }
-            #navbarText {
-                transition: height 0.7s ease !important;
+            
+            .navbar {
+                padding: 6px !important;
             }
+            
+            .home-img {
+                padding: 4px !important;
+            }
+            
+            .mini-header {
+                padding-top: 1.3rem;
+            }
+            
+            .mini-header1 {
+                background-image: linear-gradient(#83b6dc, #307ebe);
+            }
+            
             .nav-link {
-                padding-right: 0 !important;
-                padding-left: 0 !important;
-                margin-right: 0px;
-                border-bottom: 1px solid white;
-                text-align: center;
                 color: white !important;
             }
-            .home-img {
-                padding: 10px 0px !important;
-            }
+            
             .main-footer {
+                background: url(http://18.217.165.212/angular-tbwb-img/header-background.png);
+                background-repeat: no-repeat;
+                width: 100%;
+                background-size: cover;
+                object-fit: cover;
                 height: 120px;
+                font-family: "Myriad Pro Regular";
             }
+            
             .footer-div-left {
                 text-align: center;
+                border-right: 1px solid white;
                 padding-bottom: 7px;
             }
-            .icons>a>Span {
-                padding-right: 20px;
-                text-align: center;
-            }
-            .icons>a>Span>img {
-                width: 9% !important;
-            }
-        }
-        /* Media Query for   tablets and Ipads screen start*/
-        /* Media Query for  tablets  screen start*/
-        
-        @media (max-width:759px) and (min-width:580px) {
-            .mini-header {
-                padding-top: 35px !important;
-            }
-            .leftIcon>img,
-            .rightIcon>img {
-                height: 3.3rem;
-            }
-            .centerIcon>img {
-                height: 3rem;
-            }
-            .centerIcon {
-                margin-top: 10px;
-                margin-left: 15px;
-                margin-right: 15px;
-            }
-            .navbar-toggler {
-                position: absolute;
-                top: -95px;
-                left: 5px;
-            }
-            .navbar-light .navbar-toggler-icon {
-                background-image: url('https://icon-library.net/images/hamburger-menu-icon-png-white/hamburger-menu-icon-png-white-10.jpg');
-                height: 40px;
-                width: 40px;
-            }
-            .navbar {
-                padding: 0px !important;
-                margin: 0px -60px;
-                background-image: none !important;
-                background-color: #01244e !important;
-            }
-            .navbar-nav {
-                position: relative;
-                z-index: 11111;
-                background-color: #01244e !important;
-            }
-            #navbarText {
-                transition: height 0.7s ease !important;
-            }
-            .nav-link {
-                padding-right: 0 !important;
-                padding-left: 0 !important;
-                margin-right: 0px;
-                border-bottom: 1px solid white;
-                text-align: center;
-                color: white !important;
-            }
-            .home-img {
-                padding: 10px 0px !important;
-            }
-            .main-footer {
-                height: 280px !important;
-            }
-            .footer-div-left {
+            
+            .footer-div-right {
                 text-align: center;
                 padding-bottom: 7px;
-                border-bottom: 1px solid white;
-                border-right: none;
-            }
-            .icons>a>Span {
-                padding-right: 20px;
-                text-align: center;
             }
             .icons>a>Span>img {
                 width: 9% !important;
@@ -635,90 +581,482 @@
             }
             .footer-div-left {
                 text-align: center;
-                border-bottom: 1px solid white !important;
-                border-right: none !important;
-                padding-bottom: 7px;
+                color: #fff;
+                font-size: 13px;
+                font-weight: bold;
+                padding: 10px 10px 0px 10px;
+                font-family: "Myriad Pro Regular";
             }
+            
             .icons>a>Span {
-                padding-right: 10px;
+                padding-right: 35px;
                 text-align: center;
             }
+            
             .icons>a>Span>img {
-                width: 9% !important;
+                width: 5% !important;
             }
-        }
-        /* Media Query for mobile screen start*/
-        /* Media Query for  mobile screen start*/
-        
-        @media (max-width:400px) and (min-width:300px) {
-            .mini-header {
-                padding-top: 18px !important;
-                margin-left: 50px !important;
+            /* headings */
+            
+            .main-heading {
+                color: #666666;
             }
-            .leftIcon>img,
-            .rightIcon>img {
-                height: 2.3rem;
+            
+            .subHeading {
+                font-style: italic;
+                font-weight: 600;
+                font-size: 16px;
+                color: #3c8cca;
             }
-            .centerIcon>img {
-                height: 1.8rem;
+            
+            .calender-div {
+                color: #666666;
+                font-size: 13px;
+                font-family: "Gotham Book Italic";
             }
-            .centerIcon {
-                margin-top: 10px;
-                margin-left: 10px;
-                margin-right: 10px;
+            
+            .LUPA_IMG {
+                width: 50%;
+                color: white;
             }
-            .footer-div-left {
-                border-right: none !important;
-                border-bottom: 1px solid white !important;
+            
+            .bg-white {
+                background-color: white;
+                /* max-width: 1110px; */
             }
-            .home-img {
-                padding: 10px 0px !important;
+            /*headings end */
+            /* SIDE BAR CSS */
+            
+            .search-button {
+                border: 0;
+                background: #3884c1;
+                padding: 0px 0px 5px;
             }
-        }
-        
-        @media (max-width:567px) and (min-width:300px) {
-            .Quem-Somos {
-                font-size: 1.8rem !important;
-                text-align: center;
-                padding-top: 37px !important;
+            
+            .blog-heading {
+                color: #3884c1 !important;
+                font-size: 23px;
+                font-weight: bold;
             }
-            .subHeading1>h3 {
-                font-size: 1.4rem !important;
-            }
+            
             .CV-Video-Link-Post {
-                padding-bottom: 4px;
+                height: auto;
+                border-bottom: 2px solid #dce4e7;
+                padding-top: 6px;
+                margin-bottom: 6px;
             }
-            .search-block {
-                display: none;
-            }
-            .home-img {
-                padding: 10px 0px !important;
-            }
-        }
-        
-        @media (max-width:1024px) {
+            
             .img_1 {
-                padding-top: 4px;
+                width: 25%;
             }
-        }
-        
-        @media (max-width:540px) {
-            .navbar-nav {
-                position: relative;
-                z-index: 11111;
-                background-color: #01244e !important;
+            
+            .video-logo {
+                width: 130px;
             }
-            #navbarText {
-                transition: height 0.7s ease !important;
+            
+            .video-logo-button {
+                width: 28%;
+                border: 0;
+                height: 40px;
+                background-color: #fff;
+                outline: none !important;
             }
-            .img_1 {
-                width: 15%;
+            
+            .add-mt-15-CV-Video {
+                font-size: 0.8rem;
+                color: #666666 !important;
+                font-family: "Gotham Medium";
             }
-            .search-block {
-                display: none;
+            
+            .date-text {
+                font-size: 0.7rem;
+                color: #999999 !important;
+                font-family: "Gotham Book Italic";
             }
-            .home-img {
-                padding: 10px 0px !important;
+            
+            .border-1 {
+                border-bottom: 2px solid #dce4e7;
             }
-        }
-        /* Media Query for mobile  screen start*/
+            /* SIDE BAR CSS END */
+            /* Media Query For imgs and text start */
+        }    
+            @media (min-width: 1100px) {
+                #home-post {
+                    max-width: 70% !important;
+                    padding-right: 35px !important;
+                }
+                #home-post-row {
+                    margin-right: -50px !important;
+                }
+                .post-img {
+                    width: 230px;
+                    height: 165px;
+                }
+                #home-post-text {
+                    padding-left: 0px !important;
+                }
+                #home-post-container {
+                    padding: 0px !important;
+                }
+                #home-post-sidebar {
+                    padding-right: 0px !important;
+                    padding-left: 0px !important;
+                }
+                #banner-row {
+                    margin-top: 3.5rem !important;
+                }
+                #pl-10px {
+                    padding-left: 10px !important;
+                }
+            }
+            /* Media Query For imgs and text end*/
+            /* Media Query for Ipad pro screen start*/
+            
+            @media (max-width:1100px) and (min-width:901px) {
+                .mini-header {
+                    padding-top: 35px !important;
+                }
+                .navbar-toggler {
+                    position: absolute;
+                    top: -95px;
+                    left: 10px;
+                }
+                .navbar-light .navbar-toggler-icon {
+                    background-image: url('https://icon-library.net/images/hamburger-menu-icon-png-white/hamburger-menu-icon-png-white-10.jpg');
+                    height: 40px;
+                    width: 40px;
+                }
+                .navbar-nav {
+                    padding-left: 30px;
+                    display: flex;
+                    align-items: center;
+                }
+                .navbar {
+                    padding: 0px !important;
+                    margin: 0px -19px;
+                }
+                .nav-link {
+                    padding-right: 0 !important;
+                    padding-left: 0 !important;
+                    margin-right: 30px;
+                    font-size: 17px;
+                    text-align: center;
+                    color: white !important;
+                }
+                .nav-link>img {
+                    margin-right: 30px;
+                }
+            }
+            /* Media Query for Ipad pro screen start*/
+            /* Media Query for  tablets and Ipad screen start*/
+            
+            @media (max-width:900px) and (min-width:700px) {
+                .mini-header {
+                    padding-top: 35px !important;
+                }
+                .leftIcon>img,
+                .rightIcon>img {
+                    height: 3.9rem;
+                }
+                .centerIcon>img {
+                    height: 3.3rem;
+                }
+                .centerIcon {
+                    margin-top: 10px;
+                    margin-left: 15px;
+                    margin-right: 15px;
+                }
+                .navbar-toggler {
+                    position: absolute;
+                    top: -95px;
+                    left: 10px;
+                }
+                .navbar-light .navbar-toggler-icon {
+                    background-image: url('https://icon-library.net/images/hamburger-menu-icon-png-white/hamburger-menu-icon-png-white-10.jpg');
+                    height: 40px;
+                    width: 40px;
+                }
+                .navbar {
+                    padding: 0px !important;
+                    margin: 0px -39px;
+                    background-image: none !important;
+                    background-color: #01244e !important;
+                }
+                .navbar-nav {
+                    position: relative;
+                    z-index: 11111;
+                    background-color: #01244e !important;
+                }
+                #navbarText {
+                    transition: height 0.7s ease !important;
+                }
+                .nav-link {
+                    padding-right: 0 !important;
+                    padding-left: 0 !important;
+                    margin-right: 0px;
+                    border-bottom: 1px solid white;
+                    text-align: center;
+                    color: white !important;
+                }
+                .home-img {
+                    padding: 10px 0px !important;
+                }
+                .main-footer {
+                    height: 120px;
+                }
+                .footer-div-left {
+                    text-align: center;
+                    padding-bottom: 7px;
+                }
+                .icons>a>Span {
+                    padding-right: 20px;
+                    text-align: center;
+                }
+                .icons>a>Span>img {
+                    width: 9% !important;
+                }
+            }
+            /* Media Query for   tablets and Ipads screen start*/
+            /* Media Query for  tablets  screen start*/
+            
+            @media (max-width:759px) and (min-width:580px) {
+                .mini-header {
+                    padding-top: 35px !important;
+                }
+                .leftIcon>img,
+                .rightIcon>img {
+                    height: 3.3rem;
+                }
+                .centerIcon>img {
+                    height: 3rem;
+                }
+                .centerIcon {
+                    margin-top: 10px;
+                    margin-left: 15px;
+                    margin-right: 15px;
+                }
+                .navbar-toggler {
+                    position: absolute;
+                    top: -95px;
+                    left: 5px;
+                }
+                .navbar-light .navbar-toggler-icon {
+                    background-image: url('https://icon-library.net/images/hamburger-menu-icon-png-white/hamburger-menu-icon-png-white-10.jpg');
+                    height: 40px;
+                    width: 40px;
+                }
+                .navbar {
+                    padding: 0px !important;
+                    margin: 0px -60px;
+                    background-image: none !important;
+                    background-color: #01244e !important;
+                }
+                .navbar-nav {
+                    position: relative;
+                    z-index: 11111;
+                    background-color: #01244e !important;
+                }
+                #navbarText {
+                    transition: height 0.7s ease !important;
+                }
+                .nav-link {
+                    padding-right: 0 !important;
+                    padding-left: 0 !important;
+                    margin-right: 0px;
+                    border-bottom: 1px solid white;
+                    text-align: center;
+                    color: white !important;
+                }
+                .home-img {
+                    padding: 10px 0px !important;
+                }
+                .main-footer {
+                    height: 280px !important;
+                }
+                .footer-div-left {
+                    text-align: center;
+                    padding-bottom: 7px;
+                    border-bottom: 1px solid white;
+                    border-right: none;
+                }
+                .icons>a>Span {
+                    padding-right: 20px;
+                    text-align: center;
+                }
+                .icons>a>Span>img {
+                    width: 9% !important;
+                }
+                .add-mt-15-CV-Video {
+                    font-size: 0.9rem;
+                }
+                .data-text {
+                    font-size: 0.8rem;
+                }
+            }
+            /* Media Query for tablets and laptops screen start*/
+            /* Media Query for  mobile screen start*/
+            
+            @media (max-width:579px) and (min-width:300px) {
+                .main-heading {
+                    font-size: 1.8rem !important;
+                    text-align: center;
+                }
+                .btn-leia-mais {
+                    width: 145px;
+                }
+                .main-header {
+                    height: 70px;
+                }
+                .mini-header {
+                    padding-top: 20px !important;
+                }
+                .leftIcon>img,
+                .rightIcon>img {
+                    height: 2.3rem;
+                }
+                .centerIcon>img {
+                    height: 1.8rem;
+                }
+                .centerIcon {
+                    margin-top: 10px;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+                .navbar-toggler {
+                    position: absolute;
+                    top: -52px;
+                    left: 5px;
+                }
+                .navbar-light .navbar-toggler-icon {
+                    background-image: url('https://icon-library.net/images/hamburger-menu-icon-png-white/hamburger-menu-icon-png-white-10.jpg');
+                    height: 20px;
+                    width: 20px;
+                }
+                .navbar {
+                    padding: 0px !important;
+                    margin: 0px -15px;
+                    background-image: none !important;
+                    background-color: #01244e !important;
+                }
+                .navbar-nav {
+                    position: relative;
+                    z-index: 11111;
+                    background-color: #01244e !important;
+                }
+                #navbarText {
+                    transition: height 0.7s ease !important;
+                }
+                .nav-link {
+                    padding-right: 0 !important;
+                    padding-left: 0 !important;
+                    margin-right: 0px;
+                    border-bottom: 1px solid white;
+                    text-align: center;
+                    color: white !important;
+                }
+                .home-img {
+                    padding: 10px 0px !important;
+                }
+                .main-footer {
+                    height: 235px;
+                }
+                .footer-div-left {
+                    text-align: center;
+                    border-bottom: 1px solid white !important;
+                    border-right: none !important;
+                    padding-bottom: 7px;
+                }
+                .icons>a>Span {
+                    padding-right: 10px;
+                    text-align: center;
+                }
+                .icons>a>Span>img {
+                    width: 9% !important;
+                }
+                .add-mt-15-CV-Video {
+                    font-size: 0.9rem;
+                }
+                .data-text {
+                    font-size: 0.8rem;
+                }
+            }
+            /* Media Query for mobile screen start*/
+            /* Media Query for  mobile screen start*/
+            
+            @media (max-width:400px) and (min-width:300px) {
+                .mini-header {
+                    padding-top: 18px !important;
+                    margin-left: 50px !important;
+                }
+                .leftIcon>img,
+                .rightIcon>img {
+                    height: 2.3rem;
+                }
+                .centerIcon>img {
+                    height: 1.8rem;
+                }
+                .centerIcon {
+                    margin-top: 10px;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+                .footer-div-left {
+                    border-right: none !important;
+                    border-bottom: 1px solid white !important;
+                }
+                .home-img {
+                    padding: 10px 0px !important;
+                }
+                .add-mt-15-CV-Video {
+                    font-size: 0.9rem;
+                }
+                .data-text {
+                    font-size: 0.8rem;
+                }}
+            
+            @media (max-width:567px) and (min-width:300px) {
+                .Quem-Somos {
+                    font-size: 1.8rem !important;
+                    text-align: center;
+                    padding-top: 37px !important;
+                }
+                .subHeading1>h3 {
+                    font-size: 1.4rem !important;
+                }
+                .CV-Video-Link-Post {
+                    padding-bottom: 4px;
+                }
+                .search-block {
+                    display: none;
+                }
+                .home-img {
+                    padding: 10px 0px !important;
+                }
+            }
+            
+            @media (max-width:1024px) {
+                .img_1 {
+                    padding-top: 4px;
+                }
+            }
+            
+            @media (max-width:540px) {
+                .navbar-nav {
+                    position: relative;
+                    z-index: 11111;
+                    background-color: #01244e !important;
+                }
+                #navbarText {
+                    transition: height 0.7s ease !important;
+                }
+                .img_1 {
+                    width: 15%;
+                }
+                .search-block {
+                    display: none;
+                }
+                .home-img {
+                    padding: 10px 0px !important;
+                }
+            }
+            /* Media Query for mobile  screen start*/
