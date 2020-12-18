@@ -97,6 +97,7 @@
         .GM {
             font-family: "Gotham Medium";
         }
+       
         
         .CL {
             color: #666666;
@@ -379,6 +380,7 @@
             #pl-10px {
                 padding-left: 10px !important;
             }
+           
         }
         /* Media Query For imgs and text end*/
         /* Media Query for Ipad pro screen start*/
@@ -566,8 +568,14 @@
                 font-size: 1.8rem !important;
                 text-align: center;
             }
+            fa-angle-right {
+                font-size: 28px;
+               
+            }
             .btn-leia-mais {
-                width: 145px;
+                width: 93px;
+                height: 30px;
+                font-size: 12px;
             }
             .main-header {
                 height: 70px;
