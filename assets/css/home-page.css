@@ -256,11 +256,12 @@ div>a>button {
 .footer-div-left {
     text-align: center;
     border-right: 1px solid white;
-    padding-bottom: 7px;
+    margin: 10px 0px;
 }
 
 .footer-div-right {
     text-align: center;
+    margin: 10px 0px;
     padding-bottom: 7px;
 }
 

@@ -1,44 +1,46 @@
-            * {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-            }
-            
-            @font-face {
-                font-family: "Gotham Medium";
-                src: url("../fonts/Gotham\ Medium\ Regular.ttf");
-            }
-            
-            @font-face {
-                font-family: "Gotham Book Regular";
-                src: url("../fonts/Gotham\ Book\ Regular.otf");
-            }
-            
-            @font-face {
-                font-family: "Gotham Book Italic";
-                src: url("../fonts/Gotham\ Book\ Italic.ttf");
-            }
-            
-            @font-face {
-                font-family: "Gotham Medium Italic";
-                src: url("../fonts/Gotham\ Medium\ Italic.ttf");
-            }
-            
-            @font-face {
-                font-family: "Gotham Light";
-                src: url("../fonts/Gotham\ Light\ Regular.otf");
-            }
-            
-            @font-face {
-                font-family: "nuevastd-boldcond";
-                src: url("../fonts/Nueva\ Std\ Bold\ Condensed.ttf");
-            }
-            
-            @font-face {
-                font-family: "nuevaStd-Cond";
-                src: url("../fonts/Nueva\ Std\ Condensed.ttf");
-            }
-            /* @font-face {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Gotham Medium";
+    src: url("../fonts/Gotham\ Medium\ Regular.ttf");
+}
+
+@font-face {
+    font-family: "Gotham Book Regular";
+    src: url("../fonts/Gotham\ Book\ Regular.otf");
+}
+
+@font-face {
+    font-family: "Gotham Book Italic";
+    src: url("../fonts/Gotham\ Book\ Italic.ttf");
+}
+
+@font-face {
+    font-family: "Gotham Medium Italic";
+    src: url("../fonts/Gotham\ Medium\ Italic.ttf");
+}
+
+@font-face {
+    font-family: "Gotham Light";
+    src: url("../fonts/Gotham\ Light\ Regular.otf");
+}
+
+@font-face {
+    font-family: "nuevastd-boldcond";
+    src: url("../fonts/Nueva\ Std\ Bold\ Condensed.ttf");
+}
+
+@font-face {
+    font-family: "nuevaStd-Cond";
+    src: url("../fonts/Nueva\ Std\ Condensed.ttf");
+}
+
+
+/* @font-face {
             font-family: "Montserrat-Regular";
             src: url("");
           } */
