@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contatos</title>
+    <title>Leitura-orante</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
     <link rel="stylesheet" href="../assets/css/headerfooter.css" />
@@ -16,13 +16,13 @@
     <div class="main-header">
         <div class="mini-header ">
             <div class="leftIcon">
-                <img src="../img/img6.png" class="img-fluid " alt="" />
+                <img src="../assets/img/img6.png" class="img-fluid " alt="" />
             </div>
             <div class="centerIcon">
-                <img src="../img/capela.png" class="img-fluid " alt="" />
+                <img src="../assets/img/capela.png" class="img-fluid " alt="" />
             </div>
             <div class="rightIcon">
-                <img src="../img/img7.png" class="img-fluid" alt="" />
+                <img src="../assets/img/img7.png" class="img-fluid" alt="" />
             </div>
         </div>
     </div>
@@ -38,7 +38,7 @@
                     <div>
                         <li class="nav-item active">
                             <a class="nav-link home-img" href="./home-page.html">
-                                <img src="http://18.217.165.212/angular-tbwb-img/home-icon.png" alt="Logo" style="width: 25px" /><span class="sr-only">(current)</span></a>
+                                <img src="../assets/img/home-icon.png" alt="Logo" style="width: 25px" /><span class="sr-only">(current)</span></a>
                         </li>
                     </div>
                     <div>
@@ -91,93 +91,91 @@
             </div>
         </div>
 
-     <div class="row">
-        <div class="col-lg-9 col-md-9 col-sm-12 pt-4">
-            <div class="myContainer-heading">
-                <p class="myContainer-date GB">
+        <div class="row">
+            <div class="col-lg-9 col-md-9 col-sm-12 pt-4">
+                <div class="myContainer-heading">
+                    <p class="myContainer-date GB">
 
-                   Sábado
+                        Sábado
 
-                </p>
-                <p class="myContainer-date GB">
-                  17ª Semana do Tempo Comum
+                    </p>
+                    <p class="myContainer-date GB">
+                        17ª Semana do Tempo Comum
 
-                </p>
-                <p class="myContainer-date-cal ">
-                  <span class="cal-icon fa fa-calendar"></span>
+                    </p>
+                    <p class="myContainer-date-cal ">
+                        <span class="cal-icon fa fa-calendar"></span> 1 de agosto de 2020
 
-                    1 de agosto de 2020
+                    </p>
 
-                </p>
-
-              </div>
-              <div class="row  ">
-                  <div class="col-md-12 col-lg-12 col-sm-12" id="paddingLeft_Leitura_img">
-                      <div class="img_div">
-                          <img src="../Leitura-orante-img/01_agosto_2020.jpg" class="container-img img-fluid" alt="" id="container-img">
-                      </div>
-                  </div>
-                  <!-- <div class="col-md-2"></div> -->
-              </div>
-              <div class="row bottom_div_top_padding mb-5">
-                  <div class="col-md-4 col-lg-4 col-sm-12 display_flex">
-                    <div class="myContainer-bottom-div">
-                        <div><img src="../Leitura-orante-img/IMG_Padre_Chagas.jpg"  alt="" class="img-fluid myContainer-bottom-div-img"></div>
+                </div>
+                <div class="row  ">
+                    <div class="col-md-12 col-lg-12 col-sm-12" id="paddingLeft_Leitura_img">
+                        <div class="img_div">
+                            <img src="../Leitura-orante-img/01_agosto_2020.jpg" class="container-img img-fluid" alt="" id="container-img">
+                        </div>
                     </div>
-                   <div id="paddingLeft">
-                    <p class="flex-div-heading GB">
-                        Leitura Orante do Evangelho
-                      </p>
-                      <p class="flex-div-detail GB">
-                        Faça sua leitura orante do Evangelho ouvindo o áudio com a oração e reflexão do Padre Francisco das Chagas.
-                      </p>
-                      <audio id="audio_play">
+                    <!-- <div class="col-md-2"></div> -->
+                </div>
+                <div class="row bottom_div_top_padding mb-5">
+                    <div class="col-md-4 col-lg-4 col-sm-12 display_flex">
+                        <div class="myContainer-bottom-div">
+                            <div><img src="../assets/img/Leitura-orante-img/IMG_Padre_Chagas.jpg" alt="" class="img-fluid myContainer-bottom-div-img"></div>
+                        </div>
+                        <div id="paddingLeft">
+                            <p class="flex-div-heading GB">
+                                Leitura Orante do Evangelho
+                            </p>
+                            <p class="flex-div-detail GB">
+                                Faça sua leitura orante do Evangelho ouvindo o áudio com a oração e reflexão do Padre Francisco das Chagas.
+                            </p>
+                            <audio id="audio_play">
                         <source src="../assets/audio/01_08_2020_Leitura_Orante.mp4" type="audio/ogg">
                       </audio>
-                      <img src="../Leitura-orante-img/LISTEN.png" class="img-fluid  listen_pause_web"  alt="" onclick="play()" id="play">
-                      <img src="../Leitura-orante-img/PAUSE.png" class="img-fluid listen_play_web" id="pause"  alt="" onclick="pause()" id="pause">
-                   </div>
-                  </div>
-                
-                  <div class="col-md-4 col-lg-4 col-sm-12 pl-2 display_flex " id="marginBottom">
-                    <div class="myContainer-bottom-div">
-                        <div><img src="../img/Leitura-orante-img/IMG_Leitura_Orante.jpg  "  alt="" class="img-fluid myContainer-bottom-div-img myContainer-bottom-div-img2"></div>
+                            <img src="../Leitura-orante-img/LISTEN.png" class="img-fluid  listen_pause_web" alt="" onclick="play()" id="play">
+                            <img src="../Leitura-orante-img/PAUSE.png" class="img-fluid listen_play_web" id="pause" alt="" onclick="pause()" id="pause">
+                        </div>
                     </div>
-                   <div id="paddingLeft">
-                    <p class="flex-div-heading GB" id="flex-div-heading">
-                        Leituras do dia :
-                      </p>
-                   
-                      <p class="flex-div-detail-1 GB">
 
-                        1ª Leitura: Jr 26, 11-16.21
+                    <div class="col-md-4 col-lg-4 col-sm-12 pl-2 display_flex " id="marginBottom">
+                        <div class="myContainer-bottom-div">
+                            <div><img src="../assets/img/Leitura-orante-img/IMG_Leitura_Orante.jpg  " alt="" class="img-fluid myContainer-bottom-div-img myContainer-bottom-div-img2"></div>
+                        </div>
+                        <div id="paddingLeft">
+                            <p class="flex-div-heading GB" id="flex-div-heading">
+                                Leituras do dia :
+                            </p>
+
+                            <p class="flex-div-detail-1 GB">
+
+                                1ª Leitura: Jr 26, 11-16.21
 
 
-                      </p>
-                      <p class="flex-div-detail-1 GB">
-                        Salmo 68
+                            </p>
+                            <p class="flex-div-detail-1 GB">
+                                Salmo 68
 
-                      </p>
-                      <p class="flex-div-detail-1 GB">
-                        Evangelho: Mt 14, 1-12
+                            </p>
+                            <p class="flex-div-detail-1 GB">
+                                Evangelho: Mt 14, 1-12
 
-                      </p>
-                      <div class="bottom_button_div">
-                        <a href="">
-                            <button type="button" class="btn-leia-mais">
+                            </p>
+                            <div class="bottom_button_div">
+                                <a href="">
+                                    <button type="button" class="btn-leia-mais">
                                 LEITURA &nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i>
 
                             </button>
-                        </a>
-                   </div>
+                                </a>
+                            </div>
+                        </div>
+
+
+
                     </div>
-                     
-                     
-                     
-                  </div>
-              </div>
-     </div>
-  
+                </div>
+            </div>
+
 
 
 
@@ -195,16 +193,16 @@
 
 
             <!-- side bar -->
-            
+
             <div class="col-lg-3 col-md-3 col-sm-12">
                 <div class="search-block">
                     <form class="search-form d-flex" action="">
                         <input type="text" class="search w-100">
                         <button type="submit" class="search-button">
-                            <img class="LUPA_IMG" src="../img/LUPA.png"></button>
+                            <img class="LUPA_IMG" src="../assets/img/LUPA.png"></button>
                     </form>
                 </div>
-            
+
                 <!-- BLOG HEADING -->
                 <p class="blog-heading pt-3">
                     Semana Anterior
@@ -213,7 +211,7 @@
                 <div class="d-flex CV-Video-Link-Post forHover">
 
                     <div class="img_1">
-                        <a href="##"><img src="../img/12_Dez_2020_Vocações .png" class="img-fluid" alt=""></div>
+                        <a href="##"><img src="../assets/img/12_Dez_2020_Vocações .png" class="img-fluid" alt=""></div>
                     <div class="pl-2 ">
 
                         <p class="add-mt-15-CV-Video mb-0">Você já imaginou com...</p>
@@ -226,7 +224,7 @@
                 <div class="d-flex CV-Video-Link-Post forHover">
 
                     <div class="img_1">
-                        <a href="##"><img src="../img/12_Dez_2020_Vocações .png" class="img-fluid" alt=""></div>
+                        <a href="##"><img src="../assets/img/12_Dez_2020_Vocações .png" class="img-fluid" alt=""></div>
                     <div class="pl-2 ">
 
                         <p class="add-mt-15-CV-Video mb-0">Você já imaginou com...</p>
@@ -239,7 +237,7 @@
                 <div class="d-flex CV-Video-Link-Post forHover">
 
                     <div class="img_1">
-                        <a href="##"><img src="../img/12_Dez_2020_Vocações .png" class="img-fluid" alt=""></div>
+                        <a href="##"><img src="../assets/img/12_Dez_2020_Vocações .png" class="img-fluid" alt=""></div>
                     <div class="pl-2 ">
 
                         <p class="add-mt-15-CV-Video mb-0">Você já imaginou com...</p>
@@ -252,7 +250,7 @@
                 <div class="d-flex CV-Video-Link-Post forHover">
 
                     <div class="img_1">
-                        <a href="##"><img src="../img/12_Dez_2020_Vocações .png" class="img-fluid" alt=""></div>
+                        <a href="##"><img src="../assets/img/12_Dez_2020_Vocações .png" class="img-fluid" alt=""></div>
                     <div class="pl-2 ">
 
                         <p class="add-mt-15-CV-Video mb-0">Você já imaginou com...</p>
@@ -265,7 +263,7 @@
                 <div class="d-flex CV-Video-Link-Post forHover">
 
                     <div class="img_1">
-                        <a href="##"><img src="../img/12_Dez_2020_Vocações .png" class="img-fluid" alt=""></div>
+                        <a href="##"><img src="../assets/img/12_Dez_2020_Vocações .png" class="img-fluid" alt=""></div>
                     <div class="pl-2 ">
 
                         <p class="add-mt-15-CV-Video mb-0">Você já imaginou com...</p>
@@ -278,7 +276,7 @@
                 <div class="d-flex CV-Video-Link-Post forHover">
 
                     <div class="img_1">
-                        <a href="##"><img src="../img/12_Dez_2020_Vocações .png" class="img-fluid" alt=""></div>
+                        <a href="##"><img src="../assets/img/12_Dez_2020_Vocações .png" class="img-fluid" alt=""></div>
                     <div class="pl-2 ">
 
                         <p class="add-mt-15-CV-Video mb-0">Você já imaginou com...</p>
@@ -291,7 +289,7 @@
                 <div class="d-flex CV-Video-Link-Post forHover">
 
                     <div class="img_1">
-                        <a href="##"><img src="../img/12_Dez_2020_Vocações .png" class="img-fluid" alt=""></div>
+                        <a href="##"><img src="../assets/img/12_Dez_2020_Vocações .png" class="img-fluid" alt=""></div>
                     <div class="pl-2 ">
 
                         <p class="add-mt-15-CV-Video mb-0">Você já imaginou com...</p>
@@ -312,10 +310,10 @@
 
 
 
-        <!-- HEADING CONTENT -->
+            <!-- HEADING CONTENT -->
 
 
-    </div>
+        </div>
 
 
     </div>
@@ -351,17 +349,17 @@
                     Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP | Tel. (11) 5547-7222
                 </p>
                 <div class="icons">
-                    <a href="#"><span><img src="../img/Icone_Facebook.png" alt="" /></span
+                    <a href="#"><span><img src="../assets/img/Icone_Facebook.png" alt="" /></span
             ></a>
-                    <a href="#"><span><img src="../img/Icone_Twitter.png" alt="" /></span
+                    <a href="#"><span><img src="../assets/img/Icone_Twitter.png" alt="" /></span
             ></a>
-                    <a href="#"><span><img src="../img/Icone_Insta.png" alt="" /></span
+                    <a href="#"><span><img src="../assets/img/Icone_Insta.png" alt="" /></span
             ></a>
-                    <a href="#"><span><img src="../img/Icone_Blog.png" alt="" /></span
+                    <a href="#"><span><img src="../assets/img/Icone_Blog.png" alt="" /></span
             ></a>
-                    <a href="#"><span><img src="../img/Icone_Youtube.png" alt="" /></span
+                    <a href="#"><span><img src="../assets/img/Icone_Youtube.png" alt="" /></span
             ></a>
-                    <a href="#"><span><img src="../img/Icone_Site.png" alt="" /></span
+                    <a href="#"><span><img src="../assets/img/Icone_Site.png" alt="" /></span
             ></a>
                 </div>
             </div>
@@ -370,30 +368,30 @@
                     Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP | Tel. (11) 5547-7222
                 </p>
                 <div class="icons">
-                    <a href="#"><span><img src="../img/Icone_Facebook.png" alt="" /></span
+                    <a href="#"><span><img src="../assets/img/Icone_Facebook.png" alt="" /></span
             ></a>
-                    <a href="#"><span><img src="../img/Icone_Blog.png" alt="" /></span
+                    <a href="#"><span><img src="../assets/img/Icone_Blog.png" alt="" /></span
             ></a>
-                    <a href="#"><span><img src="../img/Icone_Youtube.png" alt="" /></span
+                    <a href="#"><span><img src="../assets/img/Icone_Youtube.png" alt="" /></span
             ></a>
-                    <a href="#"><span><img src="../img/Icone_Site.png" alt="" /></span
+                    <a href="#"><span><img src="../assets/img/Icone_Site.png" alt="" /></span
             ></a>
                 </div>
             </div>
         </div>
     </footer>
     <script>
-          function play() {
-    document.getElementById('play').style.display = 'none'
-    document.getElementById('pause').style.display = 'block'
-    document.getElementById('audio_play').play()
-  }
+        function play() {
+            document.getElementById('play').style.display = 'none'
+            document.getElementById('pause').style.display = 'block'
+            document.getElementById('audio_play').play()
+        }
 
-  function pause() {
-    document.getElementById('play').style.display = 'block'
-    document.getElementById('pause').style.display = 'none'
-    document.getElementById('audio_play').pause()
-  }
+        function pause() {
+            document.getElementById('play').style.display = 'block'
+            document.getElementById('pause').style.display = 'none'
+            document.getElementById('audio_play').pause()
+        }
     </script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
