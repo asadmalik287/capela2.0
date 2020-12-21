@@ -38,8 +38,8 @@
 @font-face {
     font-family: "nuevaStd-Cond";
     src: url("../fonts/Nueva\ Std\ Condensed.ttf");
-}
-
+ }
+       
 
 /* @font-face {
             font-family: "Montserrat-Regular";
@@ -94,6 +94,7 @@
         }
         
         .GL {
+            
             font-family: "Gotham Light";
         }
         
