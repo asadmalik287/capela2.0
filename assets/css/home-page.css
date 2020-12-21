@@ -85,7 +85,7 @@
     position: relative;
     font-size: 45px;
     color: white;
-    bottom: 70px;
+    bottom: 65px;
     left: 93%;
     cursor: pointer;
     width: 4%;
@@ -95,7 +95,7 @@
     position: relative;
     font-size: 45px;
     color: white;
-    bottom: 70px;
+    bottom: 65px;
     left: 93%;
     cursor: pointer;
     display: none;
@@ -319,7 +319,7 @@ div>a>button {
         padding-left: 0px !important;
     }
     #banner-row {
-        margin-top: 3.5rem !important;
+        margin-top: 1.1rem !important;
     }
     #pl-10px {
         padding-left: 10px !important;
