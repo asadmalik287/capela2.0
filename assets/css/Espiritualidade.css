@@ -78,6 +78,19 @@
 
 /* side bar end */
 
+@media (min-width:1100px) {
+    .mainHeading
+    {
+        width: 40%;
+    }
+
+    .mainImage
+    {
+        margin-top: -13%;
+    }
+}
+
+
 @media (max-width:800px) and (min-width:300px) {
     .Quem-Somos {
         text-align: center;
