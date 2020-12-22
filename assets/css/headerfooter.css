@@ -328,7 +328,7 @@
     width: 100%;
     background-size: cover;
     object-fit: cover;
-    height: 120px;
+    height: 137px;
     font-family: "Myriad Pro Regular";
 }
 
@@ -583,7 +583,7 @@
         width: 100%;
         background-size: cover;
         object-fit: cover;
-        height: 120px;
+        height: 140px;
         font-family: "Myriad Pro Regular";
     }
     .footer-div-left {
@@ -596,7 +596,7 @@
         padding-bottom: 7px;
     }
     .icons>a>Span>img {
-        width: 9% !important;
+        width: 8% !important;
     }
 }
 
@@ -673,7 +673,8 @@
         padding: 10px 0px !important;
     }
     .main-footer {
-        height: 235px;
+        height: 270px !important;
+        margin-bottom: 0px !important;
     }
     .footer-div-left {
         text-align: center;
@@ -891,7 +892,7 @@
         padding: 10px 0px !important;
     }
     .main-footer {
-        height: 120px;
+        height: 150px !important;
     }
     .footer-div-left {
         text-align: center;
