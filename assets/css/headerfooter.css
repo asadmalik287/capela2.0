@@ -200,6 +200,7 @@
     font-size: 23px;
     /* width: 220px; */
     outline: none !important;
+    border-bottom: 2px solid lightgrey;
 }
 
 .videoHeading1 {
