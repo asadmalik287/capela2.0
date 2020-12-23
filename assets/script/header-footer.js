@@ -1,3 +1,4 @@
+let host = "http://" + window.location.host;
 var header = document.getElementById("headerCode");
 header.innerHTML = `<div class="main-header">
 <div class="mini-header ">
@@ -29,38 +30,38 @@ header.innerHTML = `<div class="main-header">
             </div>
             <div>
                 <li class="nav-item">
-                    <a class="nav-link" href="../Quem-somos.html">Quem Somos</a>
+                    <a class="nav-link" href="${host}/Quem-somos.html">Quem Somos</a>
                 </li>
             </div>
             <div>
                 <li class="nav-item">
-                    <a class="nav-link" href="../oracoces-missionarias.html">Orações Missionárias</a>
+                    <a class="nav-link"  id="oracoes">Orações Missionárias</a>
                 </li>
             </div>
             <div>
                 <li class="nav-item">
-                    <a class="nav-link" href="../Dia-de-Santo.html">Dia de Santo</a>
+                    <a class="nav-link" id="sant">Dia de Santo</a>
                 </li>
             </div>
             <div>
                 <li class="nav-item">
-                    <a class="nav-link" href="../vocacoes.html">Vocações</a>
+                    <a class="nav-link" id="vocoes">Vocações</a>
                 </li>
             </div>
             <div>
                 <li class="nav-item">
-                    <a class="nav-link" href="../Missão.html">Missão</a>
+                    <a class="nav-link" id="missao">Missão</a>
                 </li>
             </div>
             <div>
                 <li class="nav-item">
-                    <a class="nav-link" href="../Espiritualidade.html">Espiritualidade</a>
+                    <a class="nav-link" id="espirual-link">Espiritualidade</a>
                 </li>
             </div>
 
             <div>
                 <li class="nav-item">
-                    <a class="nav-link" href="../contatos.html">Contatos</a>
+                    <a class="nav-link" href="${host}/contatos.html">Contatos</a>
                 </li>
             </div>
         </ul>
