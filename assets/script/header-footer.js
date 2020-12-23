@@ -1,4 +1,4 @@
-var header = document.getElementById("headerCode")
+var header = document.getElementById("headerCode");
 header.innerHTML = `<div class="main-header">
 <div class="mini-header ">
     <div class="leftIcon">
@@ -66,9 +66,9 @@ header.innerHTML = `<div class="main-header">
         </ul>
     </div>
 </nav>
-</div>`
+</div>`;
 
-var footer = document.getElementById("footerCode")
+var footer = document.getElementById("footerCode");
 footer.innerHTML = `
 <footer class="main-footer">
     <div class="container-fluid card-deck">
@@ -97,4 +97,4 @@ footer.innerHTML = `
             </div>
         </div>
     </div>
-</footer>`
+</footer>`;
