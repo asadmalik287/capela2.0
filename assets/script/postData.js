@@ -2870,7 +2870,7 @@ for (var category in mainData) {
         // console.log("--------------------");
 
         let postTitleShort;
-        if (postTitle.length >= 28) {
+        if (postTitle.length >= 27) {
           postTitleShort = postTitle.substr(0, 20) + "...";
         } else {
           postTitleShort = postTitle;
@@ -2910,7 +2910,7 @@ for (var category in mainData) {
 <div class="pl-2 ">
 
     <p class="add-mt-15-CV-Video mb-0">${postTitleShort}</p>
-    <p class="date date-text"><i class="fa fa-calendar" aria-hidden="true"></i><span
+    <p class="date date-text"><span
             class="cal-icon fa fa-calendar date-text"></span> ${postDate} </p>
     </a>
 </div>
