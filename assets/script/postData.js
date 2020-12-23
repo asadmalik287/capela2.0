@@ -3086,10 +3086,10 @@ for (let i = currentDate; i > 0; i--) {
       "href",
       host + "/Espiritualidade-December/espiritualidade-" + i + ".html"
     );
-    console.log("File mil gayi ");
+    console.log("Espiritualidade Found ");
     break;
   } else {
-    console.log("File  Nahi mili  ");
+    console.log("Espiritualidade not  Found  ");
 
     espirtualLink.setAttribute("href", host + "/Espiritualidade.html");
   }
