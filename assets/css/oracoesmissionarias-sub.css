@@ -2,25 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
 }
 
-
-.subHeading1{
+.subHeading1 {
     color: #666666;
 }
 
-
-
-    
-
-
 .orac-content>p {
-  color: #666666;
+    color: #666666;
+    padding-top: 20px;
 }
+
 div>a>button {
     background-image: linear-gradient(#5ca9e3, #04518b);
-  
     width: 140px;
     height: 34px;
     color: #fff;
@@ -35,11 +29,4 @@ div>a>button {
 }
 
 
-
-
-
-
-
 /* MEDIA QUEIRIES */
-
-
