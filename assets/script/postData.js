@@ -2,7 +2,7 @@
 
 let mainData = {
     santoData: {
-       
+
 
         September: {
             3: {
@@ -658,7 +658,7 @@ let mainData = {
         `,
                 date: "24° de Dezembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-24.html",
+                    "/oracoes-missionarias/oracoes-missionarias-December/oracoes-missionarias-sub-24.html",
             },
         },
     },
