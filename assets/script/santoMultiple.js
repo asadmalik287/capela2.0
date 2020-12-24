@@ -74,7 +74,7 @@ $("#list").pagination({
 
                         <div class="col-lg-8 col-md-8 col-sm-12 mt-3">
 
-                            <a href="#">
+                            
                                 <div>
                                     <span class="h5 title-17px GM font-weight">${post.title}</span>
                                 </div>
@@ -98,7 +98,7 @@ $("#list").pagination({
                                     </a>
                                 </div>
 
-                            </a>
+                            
 
                         </div>
                     </div>

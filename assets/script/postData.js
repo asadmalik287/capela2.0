@@ -2,92 +2,7 @@
 
 let mainData = {
     santoData: {
-        // August: {
-        //     04: {
-        //         img: host + "./img/Dia-de-santo/August/04_Post_Dia_Santo_Agosto_2020.jpg",
-        //         title: "São João Maria Vianney",
-        //         details: "Hoje lembramos o Santo Cura D’Ars, o patrono dos párocos, que ficou conhecido em toda França pe contribuição que deu às pessoas vindas de perto e de longe para a confissão. Celebramos o Dia doPadre",
-        //         date: "04 de agosto de 2020",
-        //         route: host + "/Dia-August/Dia-4.html",
-        //     },
-        //     06: {
-        //         img: host + "./img/Dia-de-santo/August/06_Post_Dia_Santo_Agosto_2020.jpg",
-        //         title: "Transfiguração do Senhor",
-        //         details: "A transfiguração de Jesus foi uma experiência extraordinária que reforçou a fé dos discípulos em Cristo. Hoje também somos chamados a nos transformar em pessoas melhores e mais solidárias, seguindo o exemplo de Jesus",
-        //         date: "06 de agosto de 2020",
-        //         route: host + "/Dia-August/Dia-6.html",
-        //     },
-        //     09: {
-        //         img: host + "./img/Dia-de-santo/August/09_Post_Dia_Santo_Agosto_2020.jpg",
-        //         title: "Santa Teresa Benedita da Cruz",
-        //         details: "Hoje a Igreja celebra Santa Teresa Benedita da Cruz (Edith Stein), grande filósofa e mística que soube buscar sempre a verdade e o amor. Em sua rica vida, temos uma síntese do drama humano que ainda necessita ser sarado. Que ela rogue por nós!",
-        //         date: "9 de agosto de 2020",
-        //         route: host + "/Dia-August/Dia-9.html",
-        //     },
-        //     11: {
-        //         img: host + "./img/Dia-de-santo/August/11_Post_Dia_Santo_Agosto_2020.jpg",
-        //         title: "Santa Clara de Assis",
-        //         details: "Santa Clara nos inspira a ter uma vida de despojamento dos bens materiais, seguindo o Cristo pobre. Junto com São Francisco, fundou a ordem das clarissas e é a patrona da televisão por causa de uma visão que teve. ",
-        //         date: "11 de agosto de 2020",
-        //         route: host + "/Dia-August/Dia-11.html",
-        //     },
-        //     14: {
-        //         img: host + "./img/Dia-de-santo/August/14_Post_Dia_Santo_Agosto_2020.jpg",
-        //         title: "São Maximiliano Maria Kolbe",
-        //         details: "São Maximiliano é um santo atual que deu a vida num campo de concentração nazista. Ele foi capaz de sensibilizar-se com o sofrimento do outro, oferecendo a própria vida para morrer no lugar de um pai de família.",
-        //         date: "14 de agosto de 2020",
-        //         route: host + "/Dia-August/Dia-14.html",
-        //     },
-        //     16: {
-        //         img: host + "./img/Dia-de-santo/August/16_Post_Dia_Santo_Agosto_2020.jpg",
-        //         title: "Assunção de Maria",
-        //         details: "Hoje a Igreja celebra a Solenidade da Assunção de Maria. A Assunção é a participação de Maria na ressurreição de Cristo. Assim, é uma antecipação da nossa ressurreição. Que Maria nos ajude a lutar pelo bem, pela paz e pela justiça.",
-        //         date: "16 de agosto de 2020",
-        //         route: host + "/Dia-August/Dia-16.html",
-        //     },
-        //     22: {
-        //         img: host + "./img/Dia-de-santo/August/22_Post_Dia_Santo_Agosto_2020.jpg",
-        //         title: "Nossa Senhora Rainha",
-        //         details: "Celebramos hoje a memória de Nossa Senhora Rainha. A festividade foi instituída pelo Papa Pio XII, em 1954, e nada tem a ver com poder, mas com a realeza do serviço.",
-        //         date: "22 de agosto de 2020",
-        //         route: host + "/Dia-August/Dia-22.html",
-        //     },
-        //     23: {
-        //         img: host + "./img/Dia-de-santo/August/23_Post_Dia_Santo_Agosto_2020.jpg",
-        //         title: "Santa Rosa de Lima",
-        //         details: "HSanta Rosa de Lima viveu a vida religiosa num pequeno quarto, no fundo do quintal de casa, em oração, penitência e cuidado com os doentes, sobretudo indígenas e negros. Era uma mística que viveu a experiência do amor de Deus em sua vida.[..]",
-        //         date: "23 de agosto de 2020",
-        //         route: host + "/Dia-August/Dia-23.html",
-        //     },
-        //     24: {
-        //         img: host + "./img/Dia-de-santo/August/24_Post_Dia_Santo_Agosto_2020.jpg",
-        //         title: "São Bartolomeu",
-        //         details: "Celebramos hoje a festa de São Bartolomeu, um dos primeiros apóstolos de Jesus. No diálogo com Filipe, reconhece o Mestre que vem a seu encontro, e o segue. Deu sua vida ao anúncio do Evangelho, testemunhando o Cristo Ressuscitado [..].",
-        //         date: "24 de agosto de 2020",
-        //         route: host + "/Dia-August/Dia-24.html",
-        //     },
-        //     27: {
-        //         img: host + "./img/Dia-de-santo/August/27_Post_Dia_Santo_Agosto_2020.jpg",
-        //         title: "Santa Mônica",
-        //         details: "Celebramos hoje a memória de Santa Mônica, mãe de Santo Agostinho, por cuja conversão derramou muitas lágrimas. Mas Deus, consolação dos que choram, escutou seus gemidos e veio em seu socorro, cobrindo-a de sua misericórdia[..].",
-        //         date: "27 de agosto de 2020",
-        //         route: host + "/Dia-August/Dia-27.html",
-        //     },
-        //     28: {
-        //         img: host + "./img/Dia-de-santo/August/28_Post_Dia_Santo_Agosto_2020.jpg",
-        //         title: "Santo Agostinho",
-        //         details: "Santo Agostinho, de quem fazemos memória hoje, nos inspire à conversão, acolhendo a graça de Deus em nossa vida e buscando crescer na fé por meio da Palavra de Deus[..].",
-        //         date: "28 de agosto de 2020",
-        //         route: host + "/Dia-August/Dia-28.html",
-        //     },
-        //     29: {
-        //         img: host + "./img/Dia-de-santo/August/29_Post_Dia_Santo_Agosto_2020.jpg",
-        //         title: "Martírio de São João Batista",
-        //         details: "Hoje a Igreja celebra o martírio de São João Batista. Esta festa tem suas origens por volta dos séculos V e VI, e está vinculada à dedicação da igreja construída em Sebaste, na Samaria, no suposto túmulo do Precursor de Cristo[..].",
-        //         date: "29 de agosto de 2020",
-        //         route: host + "/Dia-August/Dia-29.html",
-        //     },
-        // },
+       
 
         September: {
             3: {
@@ -445,7 +360,7 @@ let mainData = {
                 route: host + "/Dia-November/Dia-16.html",
             },
             20: {
-                img: host + "./img/Dia-de-santo/December/20_Post_Dia_Santo_Dezembro_2020.jpg",
+                img: host + "/assets/img/Dia-de-santo/December/20_Post_Dia_Santo_Dezembro_2020.jpg",
                 title: "São Filogônio, bispo ",
                 details: "Hoje a Igreja recorda São Filogônio, advogado sírio e bispo de Antioquia. Com sabedoria e eloquência, participou nos acirrados debates para defender a fé católica diante da controvérsia ariana. Que seu exemplo de fé fortaleça nossa caminhada. ",
                 date: "20 de Dezembro de 2020",
