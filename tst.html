@@ -1,0 +1,117 @@
+<div id="list">
+    <div class="wrapper"></div>
+</div>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://pagination.js.org/dist/2.1.4/pagination.min.js"></script>
+<link rel="stylesheet" href="https://pagination.js.org/dist/2.1.4/pagination.css" />
+<script src="./assets/script/postData.js"></script>
+<script>
+    let santoPostsArr = []
+    var months = new Array();
+    months[0] = "January";
+    months[1] = "February";
+    months[2] = "March";
+    months[3] = "April";
+    months[4] = "May";
+    months[5] = "June";
+    months[6] = "July";
+    months[7] = "August";
+    months[8] = "September";
+    months[9] = "October";
+    months[10] = "November";
+    months[11] = "December";
+
+    var d = new Date();
+    var n = months[d.getMonth()];
+    console.log(mainData.santoData)
+    Object.keys(mainData.santoData).map((month) => {
+        // console.log(month)
+        Object.keys(mainData.santoData[month]).map((post) => {
+            // console.log(mainData.santoData[month][post])
+            if (month == n) {
+                console.log('sadsada')
+                
+                // mainData.santoData[month][post].date.split(' ')[0] <= new Date().getDate()
+
+                if (Array.isArray(mainData.santoData[month][post]) == true) {
+
+                    mainData.santoData[month][post].map((subPost) => {
+                        if (subPost.date.split(' ')[0] <= new Date().getDate()) {
+                            santoPostsArr.push(subPost)
+                        }
+                    })
+                }
+                else {
+                    if (mainData.santoData[month][post].date.split(' ')[0] <= new Date().getDate()) {
+                        console.log(mainData.santoData[month][post])
+                        santoPostsArr.push(mainData.santoData[month][post])
+                    }
+
+                }
+
+            }
+            else {
+                if (Array.isArray(mainData.santoData[month][post]) == true) {
+                    mainData.santoData[month][post].map((subPost) => {
+                        santoPostsArr.push(subPost)
+                    })
+                }
+                else {
+                    santoPostsArr.push(mainData.santoData[month][post])
+
+                }
+            }
+
+        })
+        // console.log('--------------------------*****************************')
+    })
+    santoPostsArr.reverse()
+    console.log(santoPostsArr)
+
+
+
+    $('#list').pagination({ // you call the plugin
+        dataSource: santoPostsArr, // pass all the data
+        pageSize: 7, // put how many items per page you want
+        callback: function (data, pagination) {
+            // data will be chunk of your data (json.Product) per page
+            // that you need to display
+            var wrapper = $('#list .wrapper').empty();
+            $.each(data, function (i, f) {
+
+                $('#list .wrapper').append(`
+         <div class="col-lg-8 col-md-8 col-sm-12 mt-3">
+
+                        <a href="#">
+                            <div>
+                                <span class="h5 title-17px GM font-weight">${f.title}</span>
+                            </div>
+                            <div class="calender-div pt-2 calender-div">
+                                <p> <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;
+                                    <i>${f.date}</i>
+                                </p>
+                            </div>
+                            <div class="border-1 pt-1"></div>
+                            <div class="pt-2">
+                                <p class="GB description">
+                                    Transfigura-me, Senhor! Transfigura-me em ti. Transforma tudo que há em mim para melhor te servir. </p>
+                            </div>
+                            <div class="pb-2">
+                                <a href="">
+                                    <button type="button" class="btn-leia-mais GB">
+                                        
+                                    LEIA MAIS &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i>
+                            
+                                    </button>
+                                </a>
+                            </div>
+
+                        </a>
+
+                    </div>`);
+
+
+            });
+        }
+    });
+</script>
