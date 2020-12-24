@@ -32,6 +32,16 @@
     
 }
 
+
+#mainImage
+    {
+        float: right;
+        
+        padding-left: 25px;
+        padding-top: 10px; 
+    }
+    
+
 .img-3 {
     float: right;
     width: 50%;
@@ -81,7 +91,7 @@
 
 @media (min-width:1100px) {
     .mainHeading {
-        width: 40%;
+        width: 45%;
         min-height: 115px;
         max-height: 115px;
     }
@@ -89,6 +99,8 @@
     .mainImage {
     margin-top: -11%;
     } 
+
+
     
     
 
