@@ -165,7 +165,7 @@
     font-size: 14px;
     border: 0px;
     /* font-weight: 600; */
-    font-family: 'Gotham Medium';
+    font-family: "Gotham Bold";
     display: flex;
     align-items: center;
     justify-content: center;
@@ -267,9 +267,10 @@
 }
 
 .description {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: #666666;
     text-align: justify;
+    line-height: 1.7;
 }
 
 .video-button {
@@ -376,6 +377,9 @@
 
 .main-heading {
     color: #666666;
+   padding: 20px;
+    font-family: "Gotham Medium";
+    padding-left: 0px;
 }
 
 .subHeading {

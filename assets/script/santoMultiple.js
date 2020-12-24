@@ -90,7 +90,7 @@ $("#list").pagination({
                                 </div>
                                 <div class="pb-2">
                                     <a href="${post.route}">
-                                        <button type="button" class="btn-leia-mais GB ">
+                                        <button type="button" class="btn-leia-mais">
 
                                             LEIA MAIS &nbsp;<i class="fa fa-angle-right" aria-hidden="true"></i>
 
@@ -102,7 +102,7 @@ $("#list").pagination({
 
                         </div>
                     </div>
-                    <div class="border-1 pt-2"></div>
+                    <div class="border-1 pt-3"></div>
                 </div>
     `);
     });
