@@ -117,8 +117,7 @@
     color: #408ac7;
 }
 
-.Date-F
-{
+.Date-F {
     font-size: 0.8rem;
 }
 
@@ -134,8 +133,6 @@
     object-fit: cover;
     height: 133.09px;
 }
-
-
 
 .sky-background {
     background-image: url('/assets/img/sky-blue-background.jpg');
@@ -377,9 +374,10 @@
 
 .main-heading {
     color: #666666;
-   padding: 20px;
+    padding: 20px;
     font-family: "Gotham Medium";
-    padding-left: 0px;
+    padding-left: 10px;
+    padding-top: 30px !important;
 }
 
 .subHeading {
