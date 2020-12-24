@@ -6,7 +6,7 @@ let mainData = {
 
         September: {
             3: {
-                img: host + "./img/Dia-de-santo/September/03_Post_Dia_Santo_Setembro_2020.jpg",
+                img: host + "../../assets/img/Dia-de-santo/September/03_Post_Dia_Santo_Setembro_2020.jpg",
                 title: "São Gregório Magno",
                 details: "Celebrando hoje São Gregório Magno, reconhecemos a grande contribuição desse Papa à Igreja, como guia de seu rebanho. Que, de sua fidelidade, aprendamos a fé e o amor a Deus por nosso compromisso com os mais sofridos. São Gregório, rogai por nós!",
                 date: "03 de Setembro de 2020",
