@@ -124,6 +124,8 @@ border-bottom: 3px solid #dce4e7;
     .mainHeading
     {
         width: 36%;
+        max-height: 233px;
+        min-height: 233px;
     }
     .webkit-right{
         text-align: -webkit-right;
@@ -139,6 +141,9 @@ border-bottom: 3px solid #dce4e7;
     width: 43%;
     text-align: justify;
     padding-right: 25px;
+}
+#eight_date_img_main{
+    padding-left: 15px;
 }
 }
 
