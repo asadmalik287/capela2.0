@@ -120,7 +120,7 @@
             }
             
             .font-weight {
-                font-weight: 600;
+                font-weight: 500;
             }
             
             .main-header {
@@ -366,9 +366,7 @@
             
             .main-heading {
                 color: #666666;
-                padding: 20px;
                 font-family: "Gotham Medium";
-                padding-left: 10px;
                 padding-top: 30px !important;
             }
             
