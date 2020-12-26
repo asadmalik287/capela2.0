@@ -619,8 +619,8 @@
                     font-size: 28px;
                 }
                 .btn-leia-mais {
-                    width: 93px;
-                    height: 30px;
+                    width: 99px !important;
+                    height: 30px !important;
                     font-size: 12px;
                 }
                 .main-header {
