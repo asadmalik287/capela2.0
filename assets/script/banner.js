@@ -422,7 +422,7 @@ let day = date.getDate()
 document.getElementById("banner").innerHTML += ` <div class="main-bannar main-img-border " style=" background-image: url(./assets/img/banner/${december[day].image}.jpg) !important;   background-size: cover;
     background-position: bottom;
     height: 28.3rem;">
-    <div class="img-content">
+    <div class="img-content ${december[day].footer}">
         <div>
             <p class="h2 mt-4 NB font-weight mb-0">
                 Intenção Missionária

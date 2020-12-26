@@ -3,13 +3,13 @@ var header = document.getElementById("headerCode");
 header.innerHTML = `<div class="main-header">
 <div class="mini-header ">
     <div class="leftIcon">
-        <img src="../assets/img/img6.png" class="img-fluid " alt="" />
+        <img src="../../assets/img/img6.png" class="img-fluid " alt="" />
     </div>
     <div class="centerIcon">
-        <img src="../assets/img/capela.png" class="img-fluid " alt="" />
+        <img src="../../assets/img/capela.png" class="img-fluid " alt="" />
     </div>
     <div class="rightIcon">
-        <img src="../assets/img/img7.png" class="img-fluid" alt="" />
+        <img src="../../assets/img/img7.png" class="img-fluid" alt="" />
     </div>
 </div>
 </div>
@@ -25,7 +25,7 @@ header.innerHTML = `<div class="main-header">
             <div>
                 <li class="nav-item active">
                     <a class="nav-link home-img" href="../home-page.html">
-                        <img src="../assets/img/home-icon.png" alt="Logo" style="width: 25px" /><span class="sr-only">(current)</span></a>
+                        <img src="../../assets/img/home-icon.png" alt="Logo" style="width: 25px" /><span class="sr-only">(current)</span></a>
                 </li>
             </div>
             <div>
@@ -78,12 +78,12 @@ footer.innerHTML = `
                 Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP | Tel. (11) 5547-7222
             </p>
             <div class="icons">
-                <a href="#"><span><img src="../assets/img/Icone_Facebook.png" alt=""></span></a>
-                <a href="#"><span><img src="../assets/img/Icone_Twitter.png" alt=""></span></a>
-                <a href="#"><span><img src="../assets/img/Icone_Insta.png" alt=""></span></a>
+                <a href="#"><span><img src="../../assets/img/Icone_Facebook.png" alt=""></span></a>
+                <a href="#"><span><img src="../../assets/img/Icone_Twitter.png" alt=""></span></a>
+                <a href="#"><span><img src="../../assets/img/Icone_Insta.png" alt=""></span></a>
                 <a href="#"><span><img src="../assets/img/Icone_Blog.png" alt=""></span></a>
-                <a href="#"><span><img src="../assets/img/Icone_Youtube.png" alt=""></span></a>
-                <a href="#"><span><img src="../assets/img/Icone_Site.png" alt=""></span></a>
+                <a href="#"><span><img src="../../assets/img/Icone_Youtube.png" alt=""></span></a>
+                <a href="#"><span><img src="../../assets/img/Icone_Site.png" alt=""></span></a>
             </div>
         </div>
         <div class="col-md-6 col-sm-12 footer-div-right">
@@ -91,10 +91,10 @@ footer.innerHTML = `
                 Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP | Tel. (11) 5547-7222
             </p>
             <div class="icons">
-                <a href="#"><span><img src="../assets/img/Icone_Facebook.png" alt=""></span></a>
-                <a href="#"><span><img src="../assets/img/Icone_Blog.png" alt=""></span></a>
-                <a href="#"><span><img src="../assets/img/Icone_Youtube.png" alt=""></span></a>
-                <a href="#"><span><img src="../assets/img/Icone_Site.png" alt=""></span></a>
+                <a href="#"><span><img src="../../assets/img/Icone_Facebook.png" alt=""></span></a>
+                <a href="#"><span><img src="../../assets/img/Icone_Blog.png" alt=""></span></a>
+                <a href="#"><span><img src="../../assets/img/Icone_Youtube.png" alt=""></span></a>
+                <a href="#"><span><img src="../../assets/img/Icone_Site.png" alt=""></span></a>
             </div>
         </div>
     </div>
