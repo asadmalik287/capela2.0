@@ -840,83 +840,79 @@ let mainData = {
         },
         November: {
             1: {
-                img: host + "/img/01_nov_Quando a morte chega sem aviso.jpg",
+                img: host + "/assets/img/01_nov_Quando a morte chega sem aviso.jpg",
                 title: "Quando a morte chega sem aviso",
                 details: `O que dizer a uma pessoa que perdeu alguém querido? Nem sempre as palavras aparecem na hora que se quer dizer algo para aliviar a dor. Pequenos gestos, às vezes, expressam melhor a comunhão no sofrimento. Veja a reflexão do Pe. Deolino Baldissera.`,
                 date: "01 de novembro de 2020",
-                route: host + "/Espiritualidade-November/espiritualidade-1.html",
+                route: host + "/Espiritualidade/November/1.html",
             },
             3: {
-                img: host + "/img/03_Nov_2020 Experiências Interculturais .png",
+                img: host + "/assets/img/03_Nov_2020 Experiências Interculturais .png",
                 title: "Experiências Interculturais",
                 details: ` A interculturalidade e a internacionalidade fazem parte da identidade das Missionárias Servas do Espírito Santo.`,
                 date: "03 de novembro de 2020",
-                route: host + "/Espiritualidade-November/espiritualidade-3.html",
+                route: host + "/Espiritualidade/November/3.html",
             },
             8: {
                 img: host +
-                    "/img/08_nov_2020_Espiritualidade_A espiritualidade cristã_CAPA.jpg",
+                    "/assets/img/08_nov_2020_Espiritualidade_A espiritualidade cristã_CAPA.jpg",
                 title: "A espiritualidade cristã",
                 details: `Na Contemporaneidade, parece que falar de espiritualidade é se referir a esoterismo. Será porque o esoterismo tudo o permite e a religião impõe deveres e proíbe coisas que são prazerosas? Mas, e se a espiritualidade for além da religião?`,
                 date: "08 de novembro de 2020",
-                route: host + "/Espiritualidade-November/espiritualidade-8.html",
+                route: host + "/Espiritualidade/November/8.html",
             },
             15: {
                 img: host +
-                    "/img/15_nov_2020_Espiritualidade_O amor não está de quarentena.jpg",
+                    "/assets/img/15_nov_2020_Espiritualidade_O amor não está de quarentena.jpg",
                 title: "O amor não está de quarentena",
                 details: `A pandemia não atingiu o amor nem há perigo de que ele seja afetado. Quando o amor move as pessoas, elas se transformam e revelam o lado bom da vida, e enchem de esperança quando o caos quer dominar. Veja o artigo do Pe. Deolino Pedro Baldissera.`,
                 date: "15 de novembro de 2020",
-                route: host + "/Espiritualidade-November/espiritualidade-15.html",
+                route: host + "/Espiritualidade/November/15.html",
             },
             22: {
                 img: host +
-                    "/img/22_nov_2020_CAPA__Espiritualidade_Água benta evapora.jpg",
+                    "/assets/img/22_nov_2020_CAPA__Espiritualidade_Água benta evapora.jpg",
                 title: "Água benta evapora…",
                 details: `A vida, tomada como um pote de água benta, é assim. Há de se cuidar! Que saibamos cuidar do pote de água benta que é nossa vida. Veja a reflexão de Maria José Brant (Deka). `,
                 date: "22 de novembro de 2020",
-                route: host + "/Espiritualidade-November/espiritualidade-22.html",
+                route: host + "/Espiritualidade/November/22.html",
             },
             29: {
-                img: host + "/img/esp-29.jpg",
+                img: host + "/assets/img/esp-29.jpg",
                 title: "O sonho missionário de Madre Maria Helena",
                 details: `Desde cedo, Helena Stollenwerk sentiu-se chamada à vida missionária. Com a típica determinação feminina, ela buscou realizar seu sonho. Mas Deus teve outra proposta para a futura Ir. Maria, o que exigiu dela muita paciência e despojamento. Veja mais.`,
                 date: "29 de novembro de 2020",
-                route: host + "/Espiritualidade-November/espiritualidade-29.html",
+                route: host + "/Espiritualidade/November/29.html",
             },
         },
         December: {
             6: {
-                img: host + "/img/06_Dez_2020_Espiritualidade1.png",
+                img: host + "/assets/img/06_Dez_2020_Espiritualidade1.png",
                 title: "Advento: preparar-se para a chegada do noivo",
-                details: `
-        O Advento abre o ano litúrgico. É uma ideia muito limitada dizer que este período é uma preparação para o Natal. Nestas quatro semanas, de fato, celebramos diferentes formas de encontro com o Senhor, o noivo apaixonado que, sem aviso, vem até nós. 
-        `,
+                details: `O Advento abre o ano litúrgico. É uma ideia muito limitada dizer que este período é uma preparação para o Natal. Nestas quatro semanas, de fato, celebramos diferentes formas de encontro com o Senhor, o noivo apaixonado que, sem aviso, vem até nós.`,
                 date: "06 de dezembro de 2020",
-                route: host + "/Espiritualidade-December/espiritualidade-6.html",
+                route: host + "/Espiritualidade/December/6.html",
             },
             13: {
-                img: host + "/img/13_Dez_2020_Espiritualidade1.png",
+                img: host + "/assets/img/13_Dez_2020_Espiritualidade1.png",
                 title: "Ecumenismo: um novo caminho de fé",
-                details: `
-        O conceito de ecumenismo evolui com a sociedade. Encontro-acolhimento, respeito, justiça e ética são alguns pilares que sustentam a busca da fraternidade universal e podem ser compreensíveis em todas as línguas. Veja o artigo de Mariano Gaioski.
-        `,
+                details: `O conceito de ecumenismo evolui com a sociedade. Encontro-acolhimento, respeito, justiça e ética são alguns pilares que sustentam a busca da fraternidade universal e podem ser compreensíveis em todas as línguas. Veja o artigo de Mariano Gaioski.`,
                 date: "13 de dezembro de 2020",
-                route: host + "/Espiritualidade-December/espiritualidade-13.html",
+                route: host + "/Espiritualidade/December/13.html",
             },
             20: {
-                img: host + "/img/20_Dez_2020_Espiritualidade(1).png",
+                img: host + "/assets/img/20_Dez_2020_Espiritualidade(1).png",
                 title: "A paz depende também de nós",
                 details: `Se você está cansado de ver tantas notícias de violência e tragédias, e se sente impotente, leia este artigo e descubra como colaborar com a paz no mundo, cultivando-a dentro de si e a seu redor. Depois reze e compartilhe a “Oração pela Paz”.`,
                 date: "20 de dezembro de 2020",
-                route: host + "/Espiritualidade-December/espiritualidade-20.html",
+                route: host + "/Espiritualidade/December/20.html",
             },
             27: {
-                img: host + "/img/27_Dez_2020_Espiritualidade_CAPA.jpg",
+                img: host + "/assets/img/27_Dez_2020_Espiritualidade_CAPA.jpg",
                 title: "Afetividade e relações",
                 details: `Nesta pandemia, como estão nossa afetividade, nossas relações? Temos paciência com as crianças e os idosos? Somos humildes ao aprender um serviço que não era executado? É preciso serenidade e discernimento. Veja o artigo de Maria Terezinha Corrêa.`,
                 date: "27 de dezembro de 2020",
-                route: host + "/Espiritualidade-December/espiritualidade-27.html",
+                route: host + "/Espiritualidade/December/27.html",
             },
         },
     },
@@ -1145,7 +1141,7 @@ let mainData = {
         September: {
             1: {
                 img: host +
-                    "/assets/img/leitura-img-sep/01_setembro_2020_Leit_Oran.jpg",
+                    "/assets/assets/img/leitura-img-sep/01_setembro_2020_Leit_Oran.jpg",
                 title: "Terça-feira da 22ª Semana do Tempo Comum",
                 details: "(Verde -Ofício do dia)",
                 date: "1 de setembro de 2020",
