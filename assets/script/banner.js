@@ -438,7 +438,7 @@ document.getElementById("banner").innerHTML += ` <div class="main-bannar main-im
         </div>
     </div>
     <div>
-        <div class="europa">
+        <div class="europa ">
             <p>${december[day].footer} </p>
         </div>
     </div>
