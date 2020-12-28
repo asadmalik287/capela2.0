@@ -408,51 +408,51 @@ let mainData = {
     oracoesMissionarias: {
         September: {
             3: {
-                img: host + "/img/14_img_oracoes_n_14.jpg",
+                img: host + "/assets/img/oracoes-missionarias/September/14_img_oracoes_n_14.jpg",
                 title: "Jesus nos envia em missão",
                 details: `O projeto de Jesus Cristo é nosso programa de vida. <br>
                 Por isso, rezemos: <br>
                 • Onde houver alguém que não te conhece e ainda não te segue,`,
                 date: "3 de Setembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-3.html",
+                    "/oracoes-missionarias/September/3.html",
             },
             10: {
-                img: host + "/img/02_img_oracoes_n_14.JPG",
+                img: host + "/assets/img/oracoes-missionarias/September/02_img_oracoes_n_14.JPG",
                 title: "Dai-me, Senhor, um Coração Missionãrio",
                 details: `Senhor Jesus, Evangelho do Pai, <br>
                 que um dia rogastes: “Pai Nosso... <br>
                 Venha a nós o vosso Reino”.`,
                 date: "10 de Setembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-10.html",
+                    "/oracoes-missionarias/September/10.html",
             },
             17: {
-                img: host + "/img/06_img_oracoes_n_14.JPG",
+                img: host + "/assets/img/oracoes-missionarias/September/06_img_oracoes_n_14.JPG",
                 title: "Oração Vocacional por intercessão de Madre Maria",
                 details: `Ó Trindade, <br>
                 nós te louvamos e te agradecemos <br>
                 porque olhaste com amor`,
                 date: "17 de Setembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-17.html",
+                    "/oracoes-missionarias/September/17.html",
             },
 
             24: {
-                img: host + "/img/17_img_oracoes_n_14.JPG",
+                img: host + "/assets/img/oracoes-missionarias/September/17_img_oracoes_n_14.JPG",
                 title: "Oração pela Missão",
                 details: `“Ide por todo o mundo <br>
                 e anunciai o Evangelho <br>
                 a todos os povos”.`,
                 date: "24 de Setembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-september/capela-virtual-oracoes-missionarias-24.html",
+                    "/oracoes-missionarias/September/24.html",
             },
         },
 
         October: {
             1: {
-                img: host + "/img/01 Orações Mis.jpg",
+                img: host + "/assets/img/oracoes-missionarias/October/01 Orações Mis.jpg",
                 title: "Missão é partir, caminhar,",
                 details: `Missão é partir, caminhar, <br>
             deixar tudo, sair de si,<br>
@@ -460,10 +460,10 @@ let mainData = {
             que nos fecha no nosso Eu.`,
                 date: "1 de Outubro de 2020",
                 route: host +
-                    "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-1.html",
+                    "/oracoes-missionarias/October/1.html",
             },
             8: {
-                img: host + "/img/07.Orações Mis.JPG",
+                img: host + "/assets/img/oracoes-missionarias/October/07.Orações Mis.JPG",
                 title: "Salmo para a Missão",
                 details: `  A tua vida, Senhor, é nossa vida, <br>
             tua missão é nossa missão.<br>
@@ -471,18 +471,18 @@ let mainData = {
             e a nossa força será a comunhão.`,
                 date: "8 de Outubro de 2020",
                 route: host +
-                    "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-8.html",
+                    "/oracoes-missionarias/October/8.html",
             },
             14: {
-                img: host + "/img/1_dia_Novena_Missionaria.jpg",
+                img: host + "/assets/img/oracoes-missionarias/October/1_dia_Novena_Missionaria.jpg",
                 title: "A vida é missão",
                 details: `Iniciamos hoje a Novena Missionária, para rezar pelas missões e aprofundar nosso chamado missionário como batizados e batizadas. Com o tema “A vida é missão” e o lema “Eis-me aqui, envia-me”, peçamos a Deus que nos fortaleça em nossa vocação.`,
                 date: "14 de Outubro de 2020",
                 route: host +
-                    "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-14.html",
+                    "/oracoes-missionarias/October/14.html",
             },
             // 15: {
-            //   img: host + "/img/12.Orações Mis.JPG",
+            //   img: host + "/assets/img/oracoes-missionarias/October/12.Orações Mis.JPG",
             //   title: "Prece Missionária",
             //   details: `Pai Nosso, Deus de amor e de misericórdia, nós vos <br> louvamos porque
             //       nos enviastes Jesus, vosso Filho e  <br>irmão nosso, vida e esperança para todos
@@ -490,77 +490,77 @@ let mainData = {
             //   date: "15 de Outubro de 2020",
             //   route:
             //     host +
-            //     "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-15.html",
+            //     "/oracoes-missionarias/October/15.html",
             // },
             16: {
-                img: host + "/img/2_dia_Novena_Missionaria.jpg",
+                img: host + "/assets/img/oracoes-missionarias/October/2_dia_Novena_Missionaria.jpg",
                 title: "A vida missionária das famílias",
                 details: `No segundo dia da novena missionária, vemos a importância da família na transmissão da fé e como é possível, como família, abraçar a vocação missionária. Exemplo disso é a família de migrantes da Guatemala, do grupo de missionários leigos combonianos. .`,
                 date: "16 de Outubro de 2020",
                 route: host +
-                    "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-16.html",
+                    "/oracoes-missionarias/October/16.html",
             },
             18: {
-                img: host + "/img/3_dia_Novena_Missionaria.jpg",
+                img: host + "/assets/img/oracoes-missionarias/October/3_dia_Novena_Missionaria.jpg",
                 title: "A vida missionária dos seminaristas",
                 details: `No terceiro dia da Novena Missionária, vamos rezar pela missão dos seminaristas. Por todos os jovens que atendem ao chamado de Deus para o sacerdócio e, em meio às contradições do mundo de hoje, põem-se a caminho do serviço ao povo de Deus. `,
                 date: "18 de Outubro de 2020",
                 route: host +
-                    "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-18.html",
+                    "/oracoes-missionarias/October/18.html",
             },
             20: {
-                img: host + "/img/4_dia_Novena_Missionaria.jpg",
+                img: host + "/assets/img/oracoes-missionarias/October/4_dia_Novena_Missionaria.jpg",
                 title: "A vida missionária consagrada",
                 details: `A vida missionária consagrada é fonte de bênção para a Igreja. São homens e mulheres que deixam tudo para seguir Jesus Cristo e se colocam a serviço dos mais necessitados. No quarto dia da novena, refletimos sobre a missão junto aos migrantes `,
                 date: "20 de Outubro de 2020",
                 route: host +
-                    "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-20.html",
+                    "/oracoes-missionarias/October/20.html",
             },
             21: {
-                img: host + "/img/22_img_oracoes_n_14.JPG",
+                img: host + "/assets/img/oracoes-missionarias/October/22_img_oracoes_n_14.JPG",
                 title: "Oração pelas Vocações Missionárias",
                 details: `Senhor, que chamaste os apóstolos <br>
                 para serem pescadores de gente <br>
                 e construtores de um mundo novo, <br>`,
                 date: "21 de Outubro de 2020",
                 route: host +
-                    "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-21.html",
+                    "/oracoes-missionarias/October/21.html",
             },
             22: {
-                img: host + "/img/5_dia_Novena_Missionaria.jpg",
+                img: host + "/assets/img/oracoes-missionarias/October/5_dia_Novena_Missionaria.jpg",
                 title: "A vida missionária da Infância e Adolescência Missionária (IAM)",
                 details: `No quinto dia da Novena Missionária, vamos conhecer o testemunho e a ação das crianças e dos adolescentes, e como se organizam para realizar a missão: “Criança e adolescente rezando e ajudando criança e adolescente”. Rezemos juntos! `,
                 date: "22 de Outubro de 2020",
                 route: host +
-                    "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-22.html",
+                    "/oracoes-missionarias/October/22.html",
             },
             24: {
-                img: host + "/img/6_dia_Novena_Missionaria.jpg",
+                img: host + "/assets/img/oracoes-missionarias/October/6_dia_Novena_Missionaria.jpg",
                 title: "A vida missionária dos ministros ordenados",
                 details: `Neste sexto dia da novena, vamos refletir sobre a missão dos ministros ordenados, que são os pastores que se colocam a serviço do povo de Deus. Como Jesus, eles vão ao encontro das pessoas, nas paróquias e comunidades, mas também além-fronteiras. `,
                 date: "24 de Outubro de 2020",
                 route: host +
-                    "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-24.html",
+                    "/oracoes-missionarias/October/24.html",
             },
             26: {
-                img: host + "/img/7_dia_Novena_Missionaria.jpg",
+                img: host + "/assets/img/oracoes-missionarias/October/7_dia_Novena_Missionaria.jpg",
                 title: "A vida missionária da Juventude",
                 details: `A Juventude Missionária nos convida a refletir sobre os jovens brasileiros, especialmente os que enfrentam a violência, a marginalização, o desemprego e a falta de acesso à educação. Rezemos neste sétimo dia da Novena para que haja mais inclusão.`,
                 date: "26 de Outubro de 2020",
                 route: host +
-                    "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-26.html",
+                    "/oracoes-missionarias/October/26.html",
             },
             28: {
-                img: host + "/img/8_dia_Novena_Missionaria.jpg",
+                img: host + "/assets/img/oracoes-missionarias/October/8_dia_Novena_Missionaria.jpg",
                 title: "A vida missionária na Amazônia",
                 details: `No oitavo dia da Novena Missionária, somos convidados a assumir a Ecologia Integral, a apoiar as iniciativas missionárias pós sinodais na Amazônia e a defender os direitos dos povos indígenas e de todos que dependem da floresta. `,
                 date: "28 de Outubro de 2020",
                 route: host +
-                    "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-28.html",
+                    "/oracoes-missionarias/October/28.html",
             },
 
             29: {
-                img: host + "/img/24Orações Mis.jpg",
+                img: host + "/assets/img/oracoes-missionarias/October/24Orações Mis.jpg",
                 title: "Oração pela Missão",
                 details: `Senhor Jesus, cansado das viagens missionárias, <br>
             sentastes junto ao poço de Jacó <br>
@@ -568,64 +568,64 @@ let mainData = {
             “Dá-me de beber”.`,
                 date: "29 de Outubro de 2020",
                 route: host +
-                    "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-29.html",
+                    "/oracoes-missionarias/October/29.html",
             },
             30: {
-                img: host + "/img/9_dia_Novena_Missionaria.jpg",
+                img: host + "/assets/img/oracoes-missionarias/October/9_dia_Novena_Missionaria.jpg",
                 title: "A vida missionária dos idosos e enfermos",
                 details: `As doenças e os sofrimentos que enfrentam os idosos não são um castigo de Deus, mas uma oportunidade para se unir a Cristo crucificado e, pelo oferecimento de si mesmo, transformar a dor em amor, testemunhando a misericórdia de Deus.  `,
                 date: "30 de Outubro de 2020",
                 route: host +
-                    "/oracoes-missionarias-october/capela-virtual-oracoes-missionarias-30.html",
+                    "/oracoes-missionarias/October/30.html",
             },
         },
         November: {
             5: {
-                img: host + "/img/5 Nov 2020_ orações Missionária  .jpg",
+                img: host + "/assets/img/oracoes-missionarias/November/5 Nov 2020_ orações Missionária  .jpg",
                 title: "Senhor que amas",
                 details: `Senhor que amas, ajuda-nos a perceber, em nossa missão,  as ocasiões de amar. De amar espontaneamente com o olhar e o coração aqueles que encontramos.`,
                 date: "5° de Novembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-5.html",
+                    "/oracoes-missionarias/November/5.html",
             },
             12: {
-                img: host + "/img/12 Nov 2020_Orações Missionárias.jpg",
+                img: host + "/assets/img/oracoes-missionarias/November/12 Nov 2020_Orações Missionárias.jpg",
                 title: "Unge-me",
                 details: `Senhor, unge minha cabeçapara que todos os meus pensamentossaiam da fonte do teu ser,para encher-me com graça e paz..`,
                 date: "12° de Novembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-12.html",
+                    "/oracoes-missionarias/November/12.html",
             },
             19: {
-                img: host + "/img/19 Nov 2020_Orações Missionárias.jpg",
+                img: host + "/assets/img/oracoes-missionarias/November/19 Nov 2020_Orações Missionárias.jpg",
                 title: "Súplica Missionária",
                 details: `Senhor Jesus, Bom Pastor e nosso irmão, viestes habitar no meio de nós, para ser caminho de vida e esperança para todos.`,
                 date: "19° de Novembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-19.html",
+                    "/oracoes-missionarias/November/19.html",
             },
             26: {
-                img: host + "/img/26 Nov 2020_Orações Missionárias .JPG",
+                img: host + "/assets/img/oracoes-missionarias/November/26 Nov 2020_Orações Missionárias .JPG",
                 title: "Oração Vocacional por intercessão de Madre Maria",
                 details: `Ó Trindade, nós te louvamos e te agradecemosporque olhaste com amorpara a bem-aventurada Madre Mariaconcedendo-lhe fidelidadeàs inspirações do Espírito Santo,.`,
                 date: "26° de Novembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-november/capela-virtual-oracoes-missionarias-26.html",
+                    "/oracoes-missionarias/November/26.html",
             },
         },
         December: {
             3: {
-                img: host + "/img/03 Dez 2020_Orações Missionária.jpg",
+                img: host + "/assets/img/oracoes-missionarias/December/03 Dez 2020_Orações Missionária.jpg",
                 title: "PARA ALCANÇAR OS FRUTOS",
                 details: `Espírito Santo, amor eterno do Pai e do Filho,
         dignai-vos conceder-nos os vossos doze frutos.
         `,
                 date: "3° de Dezembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-3.html",
+                    "/oracoes-missionarias/December/3.html",
             },
             10: {
-                img: host + "/img/10dez2020_Orações Missionárias .jpg",
+                img: host + "/assets/img/oracoes-missionarias/December/10dez2020_Orações Missionárias .jpg",
                 title: "TRANSFIGURA-ME, SENHOR!",
                 details: `Transfigura-me, Senhor!
         Transfigura-me em ti.
@@ -634,10 +634,10 @@ let mainData = {
         `,
                 date: "10° de Dezembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-10.html",
+                    "/oracoes-missionarias/December/10.html",
             },
             17: {
-                img: host + "/img/17 Dez 2020_ Orações Missionária .JPG",
+                img: host + "/assets/img/oracoes-missionarias/December/17 Dez 2020_ Orações Missionária .JPG",
                 title: "Oração pela Evangelização",
                 details: `Senhor Jesus Cristo,
         Vós deixastes aos apóstolos a missão de evangelizar.
@@ -647,10 +647,10 @@ let mainData = {
         `,
                 date: "17° de Dezembro de 2020",
                 route: host +
-                    "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-17.html",
+                    "/oracoes-missionarias/December/17.html",
             },
             24: {
-                img: host + "/img/24 Nov 2020_Orações Missionárias .JPG",
+                img: host + "/assets/img/oracoes-missionarias/December/24 Nov 2020_Orações Missionárias .JPG",
                 title: "O Verbo Encarnado",
                 details: `L.1: “O Espírito Santo descerá sobre ti e a virtude do Altíssimo
         te cobrirá com sua sombra. E, por isto mesmo, o Santo que há
@@ -658,142 +658,143 @@ let mainData = {
         `,
                 date: "24° de Dezembro de 2020",
                 route: host +
-                    "/oracoes-missionarias/oracoes-missionarias-December/oracoes-missionarias-sub-24.html",
+                    "/oracoes-missionarias/December/24.html",
             },
         },
     },
     vocoesData: {
         September: {
             12: {
-                img: host + "/img/Individual.jpg",
+                img: host + "/assets/img/Vocacoes/September/Individual.jpg",
                 title: "Vocação é caminho de amor e serviço",
                 details: `A Igreja Católica dedica o mês de agosto às vocações, especialmente às de especial consagração, como é o caso das irmãs, padres, diáconos e leigas e leigos consagrados`,
                 date: "12 de Setembro de 2020",
-                route: host + "/Vocacoes-September/Vocacoes-12.html",
+                route: host + "/Vocaoes/September/Vocaoes-12.html",
             },
             19: {
-                img: host + "/img/2–set_2020_papo_vocacional.jpg",
+                img: host + "/assets/img/Vocacoes/September/2–set_2020_papo_vocacional.jpg",
                 title: "Papo Vocacional - Como responder ao chamado",
                 details: `Você já sentiu vontade de conversar com alguém sobre vocação? De falar sobre suas dúvidas, trocar ideias, dizer o que você pensa e conhecer experiências de outras pessoas? `,
                 date: "19 de Setembro de 2020",
-                route: host + "/Vocacoes-September/Vocacoes-19.html",
+                route: host + "/Vocaoes/September/Vocaoes-19.html",
                 video: true,
             },
             26: {
-                img: host + "/img/26_ago_2020_o que Deus quer de mim.jpg",
+                img: host + "/assets/img/Vocacoes/September/26_ago_2020_o que Deus quer de mim.jpg",
                 title: "Vocação: o que Deus quer de mim?",
                 details: `Agosto é o Mês Vocacional desde 1981, quando a Conferência Nacional dos Bispos do Brasil (CNBB) decidiu incentivar e despertar a responsabilidade vocacional nas comunidades. Desde então, cada domingo do mês celebra a vocação em um estado concreto de vida.`,
                 date: "26 de Setembro de 2020",
-                route: host + "/Vocacoes-September/Vocacoes-26.html",
+                route: host + "/Vocaoes/September/Vocaoes-26.html",
             },
         },
         October: {
             03: {
-                img: host + "/img/2–set_2020_papo_vocacional.jpg",
+                img: host + "/assets/img/Vocacoes/October/2–set_2020_papo_vocacional.jpg",
                 title: "Papo Vocacional - Será que tenho vocação?",
                 details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
                 date: "03 de outubro de 2020",
-                route: host + "/Vocacoes-October/Vocacoes-3.html",
+                route: host + "/Vocaoes/October/Vocaoes-3.html",
                 video: true,
             },
             10: {
-                img: host + "/img/12_ago_2020_Noviciado Panam_A_CAPA.jpg",
+
+                img: host + "/assets/img/Vocacoes/October/12 _ago_2020_Noviciado Panam_A_CAPA.jpg",
                 title: "Noviciado Panam em tempos de pandemia",
                 details: `Nas Américas, as missionárias servas do Espírito Santo (SSpS) estão pr esentes no Brasil, Argentina, México, Estados Unidos, Cuba, Bolívia, Chi le, Paraguai, Equador, São Cristóvão e Névis, Jamaica e Antígua e Barbuda`,
                 date: "10 de outubro de 2020",
-                route: host + "/Vocacoes-October/Vocacoes-10.html",
+                route: host + "/Vocaoes/October/Vocacoes-10.html",
             },
             17: {
-                img: host + "/img/2–set_2020_papo_vocacional.jpg",
+                img: host + "/assets/img/Vocacoes/October/2–set_2020_papo_vocacional.jpg",
                 title: "Papo Vocacional - Como é a vida de uma irmã SSpS? ",
                 details: `Viver a vocação é descobrir nossos dons e colocá-los a serviço da humanidade. Deus nos quer felizes, mas ninguém é feliz sozinho. Quanto mais partilhamos nossos dons, mais crescemos como pessoas e contribuímos para um mundo melhor`,
                 date: "17 de outubro de 2020",
-                route: host + "/Vocacoes-October/Vocacoes-17.html",
+                route: host + "/Vocaoes/October/Vocacoes-17.html",
                 video: true,
             },
             24: {
-                img: host + "/img/24_out_2020_ Vocacoes_Nossa vida e dom.jpg",
+                img: host + "/assets/img/Vocacoes/October/24_out_2020_ Vocacoes_Nossa vida e dom.jpg",
                 title: "Nossa vida é dom para a humanidade ",
                 details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
                 date: "24 de outubro de 2020",
-                route: host + "/Vocacoes-October/Vocacoes-24.html",
+                route: host + "/Vocaoes/October/Vocacoes-24.html",
             },
             31: {
-                img: host + "/img/2–set_2020_papo_vocacional.jpg",
+                img: host + "/assets/img/Vocacoes/October/2–set_2020_papo_vocacional.jpg",
                 title: "Papo Vocacional - Como é a vida de uma irmã SSpS?",
                 details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
                 date: "31 de outubro de 2020",
-                route: host + "/Vocacoes-October/Vocacoes-31.html",
+                route: host + "/Vocaoes/October/Vocacoes-31.html",
                 video: true,
             },
         },
         November: {
             7: {
-                img: host + "/img/07_nov_2020_Vocacoes_Vocacao pessoal e especifica.jpg",
+                img: host + "/assets/img/Vocacoes/November/07_nov_2020_Vocacoes_Vocacao pessoal e especifica.jpg",
                 title: "Vocação pessoal e vocação específica",
                 details: `Toda pessoa recebe de Deus uma vocação para colocar a serviço das pessoas, mas algumas são chamadas a um estilo especial de vida, como religiosas, ministros ordenados, missionárias e missionários leigos… E você, já descobriu sua vocação?`,
                 date: "07 de Novembro de 2020",
-                route: host + "/Vocacoes-November/Vocacoes-7.html",
+                route: host + "/Vocaoes/November/Vocaoes-7.html",
                 video: false,
             },
             14: {
-                img: host + "/img/v-14.png",
+                img: host + "/assets/img/Vocacoes/November/v-14.png",
                 title: "Missionárias contam como descobriram a vocação",
                 details: `Toda pessoa recebe de Deus uma vocação muito significativa. Três irmãs compartilham sua vocação para uma Congregação internacional chamada  Missionárias Servas do Espírito Santo. Assista como cada uma fala sobre como surgiu sua vocação para a  vida religiosa...`,
                 date: "14 de Novembro de 2020",
-                route: host + "/Vocacoes-November/Vocacoes-14.html",
+                route: host + "/Vocaoes/November/Vocacoes-14.html",
                 video: true,
             },
             21: {
-                img: host + "/img/21_nov_ Foto_Vocações.jpg",
+                img: host + "/assets/img/Vocacoes/November/21_nov_ Foto_Vocações.jpg",
                 title: " Vocação pessoal e vocação específica",
                 details: `Todas as pessoas são chamadas por Deus à vida e têm uma missão a realizar. Mesmo quem não acredita ou não conhece a Deus é amado e cuidado por Ele. Deus não faz diferença entre as pessoas e “Faz o sol brilhar sobre os bons e os maus” (cf. Mt 5,45-46), distribuindo generosamente seus dons a todos.`,
                 date: "21 de Novembro de 2020",
-                route: host + "/Vocacoes-November/Vocacoes-21.html",
+                route: host + "/Vocaoes/November/Vocacoes-21.html",
                 video: false,
             },
             28: {
-                img: host + "/img/Vocacoes-21.jpg",
+                img: host + "/assets/img/Vocacoes/November/Vocacoes-21.jpg",
                 title: "  Amadas e chamadas por Deus",
                 details: `Chamadas de diferentes países e culturas, as Irmãs Missionárias do Espírito Santo são mulheres
         escolhidas como instrumento do Espírito Santo para servir. Enviadas para irradiar a presença do Pai, do
         Filho e do Espírito Santo, atuam nos cinco continentes, compondo uma congregação internacional.`,
                 date: "28 de Novembro de 2020",
-                route: host + "/Vocacoes-November/Vocacoes-28.html",
+                route: host + "/Vocaoes/November/Vocacoes-28.html",
                 video: true,
             },
         },
         December: {
             5: {
-                img: host + "/img/05_Dez_2020_Foto_Vocação.png",
+                img: host + "/assets/img/Vocacoes/December/05_Dez_2020_Foto_Vocação.png",
                 title: "Irmã Zilda Hornai: confiança em Deus e desafios em nossa cultura",
                 details: `Neste Mês das Vocações, conheça um pouco da experiência da irmã Zilda Hornai, vinda do Timor Leste. Ela conta como foi seu chamado à vida religiosa e em quem se inspira para superar os desafios que enfrenta em nosso país. Imperdível!  `,
                 date: "5 de dezembro de 2020",
-                route: host + "/Vocacoes-December/Vocacoes-12.html",
+                route: host + "/Vocaoes/December/Vocaoes-5.html",
                 video: false,
             },
             12: {
-                img: host + "/img/12_Dez_2020_Vocações .png",
+                img: host + "/assets/img/Vocacoes/December/12_Dez_2020_Vocações .png",
                 title: "Você já imaginou como é a preparação para ser uma irmã missionária",
                 details: `Você já imaginou como é a preparação para ser uma irmã missionária? Você vai ter oportunidade de assistir a um vídeo que mostra o cotidiano de uma comunidade de formação onde a preparação se dá no dia a dia da convivência e da missão. `,
                 date: "12 de dezembro de 2020",
-                route: host + "/Vocacoes-December/Vocacoes-12.html",
+                route: host + "/Vocaoes/December/Vocacoes-12.html",
                 video: true,
             },
             19: {
-                img: host + "/img/19_Dez_Foto_Vocacional.jpg",
+                img: host + "/assets/img/Vocacoes/December/19_Dez_Foto_Vocacional.jpg",
                 title: "Neste artigo irmã Adriana, promotora vocacional destaca ",
                 details: ` Neste artigo irmã Adriana, promotora vocacional destaca a importância da presença do animador juvenil no discernimento vocacional das jovens.  `,
                 date: "19 de dezembro de 2020",
-                route: host + "/Vocacoes-December/Vocacoes-19.html",
+                route: host + "/Vocaoes/December/Vocacoes-19.html",
                 video: false,
             },
             26: {
-                img: host + "/img/26_Dez_2020_Vídeo_Vocações.png",
+                img: host + "/assets/img/Vocacoes/December/26_Dez_2020_Vídeo_Vocações.png",
                 title: "Natural de Angola ",
                 details: `Natural de Angola, veio ao Brasil para cross cultural experiência e estudou fisioterapia e atuou na pastoral paroquial e na Infância e Adolescência Missionária. Irmã Mitilene retorna ao seu país de origem em 2021.  `,
                 date: "26 de dezembro de 2020",
-                route: host + "/Vocacoes-December/Vocacoes-19.html",
+                route: host + "/Vocaoes/December/Vocacoes-19.html",
                 video: true,
             },
         },
@@ -2094,122 +2095,122 @@ let mainData = {
     missaoData: {
         September: {
             15: {
-                img: host + "/img/person2 - Copy.png",
+                img: host + "/assets/img/Missao/September/person2.png",
                 title: "TESTEMUNHO MISSIONÁRIO",
                 details: `Só quem experimentou na pele sabe o que significa deixar tudo para trás e enfrentar o desconhecido para reconstruir a própria vida longe da pátria. Ir. Hermezilda partilha a luta de sua família para fugir da guerra.`,
                 date: "15 de Setembro de 2020",
-                route: host + "/Missao-September/missao-15.html",
+                route: host + "/Missao/September/15.html",
             },
             22: {
-                img: host + "/img/TM_Irma Maurina.jpg",
+                img: host + "/assets/img/Missao/September/TM_Irma Maurina.jpg",
                 title: "Testemunho Missionário - Ir. Maurina",
                 details: `Ir. Maurina Rodrigues de Souza é missionária brasileira e trabalha em Angola, na África. Religiosa há 37 anos, cuida da vida e da saúde especialmente das pessoas mais necessitadas.`,
                 date: "22 de Setembro de 2020",
-                route: host + "/Missao-September/missao-22.html",
+                route: host + "/Missao/September/22.html",
                 video: true,
             },
 
             29: {
-                img: host + "/img/missao-august-30.jpg",
+                img: host + "/assets/img/Missao/September/missao-august-30.jpg",
                 title: "Uma vida consagrada ao povo da periferia",
                 details: `Ao responder ao chamado de Deus, Ir. Monika vivenciou na própria vida as transformações da vida consagrada no Brasil.`,
                 date: "29 de Setembro de 2020",
-                route: host + "/Missao-September/missao-29.html",
+                route: host + "/Missao/September/29.html",
             },
         },
         October: {
             6: {
-                img: host + "/img/Asia2.jpg",
+                img: host + "/assets/img/Missao/October/Asia2.jpg",
                 title: "Em missão até os confins da terra",
                 details: `As missionárias servas do Espírito Santo estão presentes nos cinco continentes respondendo às urgências da missão. Neste artigo você vai conhecer um pouco da história, onde estão as irmãs e o que elas estão fazendo.`,
                 date: "06 de outubro de 2020",
-                route: host + "/Missao-October/missao-6.html",
+                route: host + "/Missao/October/6.html",
             },
             27: {
-                img: host + "/imagens/TM_Irma Ashrita Soreng.jpg",
+                img: host + "/assets/img/Missao/October/TM_Irma Ashrita Soreng.jpg",
                 title: "Testemunho Missionário - Ir. Ashrita",
                 details: `Ir. Ashrita Soreng é da Índia e está no Brasil como missionária. Trabalha na formação de jovens e na animação vocacional.`,
                 date: "27 de outubro de 2020",
-                route: host + "/Missao-October/missao-27.html",
+                route: host + "/Missao/October/27.html",
                 video: true,
             },
             13: {
-                img: host + "/img/missao-sep.jpg",
+                img: host + "/assets/img/Missao/October/missao-sep.jpg",
 
                 title: "Testemunho Missionário - Irmã Maria de Lurdes Pinto",
                 details: `Irmã Maria de Lurdes Pinto, agradece Deus Uno e Trino pelo chamado à missão de torná-lo Deus conhecido, amado e glorificado por todas as pessoas.`,
                 date: "13 de outubro de 2020",
-                route: host + "/Missao-October/missao-13.html",
+                route: host + "/Missao/October/13.html",
                 video: true,
             },
         },
         November: {
             3: {
-                img: host + "/img/03_Nov_2020 Experiências Interculturais .png",
+                img: host + "/assets/img/Missao/November/03_Nov_2020 Experiências Interculturais .png",
                 title: "Experiências Interculturais",
                 details: `A interculturalidade e a internacionalidade fazem parte da 
         identidade das Missionárias Servas do Espírito Santo. `,
                 date: "03 de novembro de 2020",
-                route: host + "/Missao-November/missao-3.html",
+                route: host + "/Missao/November/3.html",
                 video: true,
             },
             10: {
-                img: host + "/img/10_Nov_2020 SSpS abrem nova Comunidade na capital .jpg",
+                img: host + "/assets/img/Missao/November/10_Nov_2020 SSpS abrem nova Comunidade na capital .jpg",
                 title: "SSpS abrem nova comunidade na capital paulista ",
                 details: `As missionárias servas do Espírito Santo abriram uma nova comunidade na capital paulista. As irmãs vão acompanhar mais de perto as famílias das crianças atendidas pelo Centro Educacional Madre Theresia. São José Freinademetz é o patrono da nova casa.`,
                 date: "10 de Novembro 20",
-                route: host + "/Missao-November/missao-10.html",
+                route: host + "/Missao/November/10.html",
             },
             24: {
-                img: host + "/img/11_Nov_Missão_Haiti_Foto_02_.jpg",
+                img: host + "/assets/img/Missao/November/11_Nov_Missão_Haiti_Foto_02_.jpg",
                 title: "PROJETO MISSIONÁRIO INTERCONGREGACIONAL NO HAITI",
                 details: `Neste artigo nos propomos a uma breve retomada histórica e partilha da experiência intercongregacional e missionária, realizada no Haiti, a partir do terremoto acontecido em 2010. `,
                 date: "24 de novembro de 2020",
-                route: host + "/Missao-November/missao-24.html",
+                route: host + "/Missao/November/24.html",
             },
             27: {
-                img: host + "/img/TM_Irma Ashrita Soreng.jpg",
+                img: host + "/assets/img/Missao/November/TM_Irma Ashrita Soreng.jpg",
                 title: "Testemunho Missionário - Ir. Ashrita",
                 details: `    Ir. Ashrita Soreng é da Índia e está no Brasil como missionária. Trabalha na formação de jovens e na
         animação vocacional.`,
                 date: "27 de novembro de 2020",
-                route: host + "/Missao-November/missao-27.html",
+                route: host + "/Missao/November/27.html",
                 video: true,
             },
             29: {
-                img: host + "/img/Ir.Monika.jpg",
+                img: host + "/assets/img/Missao/November/Ir.Monika.jpg",
                 title: "Uma vida consagrada ao povo da periferia",
                 details: `O itinerário vocacional e missionário de Ir. Monika Kopf é
         praticamente o mesmo da vida religiosa consagrada no Brasil, com
         os seus desafios, avanços e buscas, passando por momentos de
         profundas transformações.`,
                 date: "29 de Novembro de 2020",
-                route: host + "/Missao-November/missao-29.html",
+                route: host + "/Missao/November/29.html",
             },
         },
         December: {
             1: {
-                img: host + "/img/01_Dez_2020_Missão_CAPA.jpg",
+                img: host + "/assets/img/Missao/December/01_Dez_2020_Missão_CAPA.jpg",
                 title: "Irmã Veramaria Ribeiro Miranda ",
                 details: `É possível aprender e crescer no amor até o fim de nossa vida. Nunca é tarde demais para aprofundar nossa entrega a Deus. Esse é o testemunho que a irmã Veramaria nos deixou antes de falecer, aos 92 anos. Assista ao vídeo e leia sua biografia.`,
                 date: "01 de dezembro de 2020",
-                route: host + "/Missao-December/missao-1.html",
+                route: host + "/Missao/December/1.html",
                 video: true,
             },
             8: {
-                img: host + "/img/08_Dez_2020_foto CAPA.jpg",
+                img: host + "/assets/img/Missao/December/08_Dez_2020_foto CAPA.jpg",
                 title: "Comunidade Santana  ",
                 details: `A Comunidade Santana, em São Paulo-SP, acolhe as missionárias servas do Espírito Santo que já trabalharam muito ao longo da vida e hoje necessitam de cuidados. Mas se engana quem pensa que elas levam uma vida monótona. Assista ao vídeo e veja! `,
                 date: "08 de dezembro de 2020",
-                route: host + "/Missao-December/missao-8.html",
+                route: host + "/Missao/December/8.html",
                 video: false,
             },
             22: {
-                img: host + "/img/22_Dez_2020_Foto2 Artigo Henriette_DENTRO_ARTIGO.jpg",
+                img: host + "/assets/img/Missao/December/22_Dez_2020_Foto2 Artigo Henriette_DENTRO_ARTIGO.jpg",
                 title: "Um coração missionário   ",
                 details: `Sensível às necessidades das mulheres desamparadas, Henriette doa seu tempo e seus recursos para atender os fragilizados. Esse é o relato de um coração generoso que pratica um serviço de amor em favor dos mais necessitados.`,
                 date: "22 de dezembro de 2020",
-                route: host + "/Missao-December/missao-22.html",
+                route: host + "/Missao/December/22.html",
                 video: false,
             },
         },
