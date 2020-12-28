@@ -1133,6 +1133,11 @@
                     padding-top: 4px;
                 }
             }
+            @media (max-width:667px){
+                .search-block {
+                    display: none;
+                }
+            }
             
             @media (max-width:540px) {
                 .navbar-nav {
@@ -1146,9 +1151,7 @@
                 .img_1 {
                     width: 15%;
                 }
-                .search-block {
-                    display: none;
-                }
+                
                 .home-img {
                     padding: 10px 0px !important;
                 }
