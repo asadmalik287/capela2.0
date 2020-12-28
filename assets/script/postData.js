@@ -840,83 +840,79 @@ let mainData = {
         },
         November: {
             1: {
-                img: host + "/img/01_nov_Quando a morte chega sem aviso.jpg",
+                img: host + "/assets/img/01_nov_Quando a morte chega sem aviso.jpg",
                 title: "Quando a morte chega sem aviso",
                 details: `O que dizer a uma pessoa que perdeu alguém querido? Nem sempre as palavras aparecem na hora que se quer dizer algo para aliviar a dor. Pequenos gestos, às vezes, expressam melhor a comunhão no sofrimento. Veja a reflexão do Pe. Deolino Baldissera.`,
                 date: "01 de novembro de 2020",
-                route: host + "/Espiritualidade-November/espiritualidade-1.html",
+                route: host + "/Espiritualidade/November/1.html",
             },
             3: {
-                img: host + "/img/03_Nov_2020 Experiências Interculturais .png",
+                img: host + "/assets/img/03_Nov_2020 Experiências Interculturais .png",
                 title: "Experiências Interculturais",
                 details: ` A interculturalidade e a internacionalidade fazem parte da identidade das Missionárias Servas do Espírito Santo.`,
                 date: "03 de novembro de 2020",
-                route: host + "/Espiritualidade-November/espiritualidade-3.html",
+                route: host + "/Espiritualidade/November/3.html",
             },
             8: {
                 img: host +
-                    "/img/08_nov_2020_Espiritualidade_A espiritualidade cristã_CAPA.jpg",
+                    "/assets/img/08_nov_2020_Espiritualidade_A espiritualidade cristã_CAPA.jpg",
                 title: "A espiritualidade cristã",
                 details: `Na Contemporaneidade, parece que falar de espiritualidade é se referir a esoterismo. Será porque o esoterismo tudo o permite e a religião impõe deveres e proíbe coisas que são prazerosas? Mas, e se a espiritualidade for além da religião?`,
                 date: "08 de novembro de 2020",
-                route: host + "/Espiritualidade-November/espiritualidade-8.html",
+                route: host + "/Espiritualidade/November/8.html",
             },
             15: {
                 img: host +
-                    "/img/15_nov_2020_Espiritualidade_O amor não está de quarentena.jpg",
+                    "/assets/img/15_nov_2020_Espiritualidade_O amor não está de quarentena.jpg",
                 title: "O amor não está de quarentena",
                 details: `A pandemia não atingiu o amor nem há perigo de que ele seja afetado. Quando o amor move as pessoas, elas se transformam e revelam o lado bom da vida, e enchem de esperança quando o caos quer dominar. Veja o artigo do Pe. Deolino Pedro Baldissera.`,
                 date: "15 de novembro de 2020",
-                route: host + "/Espiritualidade-November/espiritualidade-15.html",
+                route: host + "/Espiritualidade/November/15.html",
             },
             22: {
                 img: host +
-                    "/img/22_nov_2020_CAPA__Espiritualidade_Água benta evapora.jpg",
+                    "/assets/img/22_nov_2020_CAPA__Espiritualidade_Água benta evapora.jpg",
                 title: "Água benta evapora…",
                 details: `A vida, tomada como um pote de água benta, é assim. Há de se cuidar! Que saibamos cuidar do pote de água benta que é nossa vida. Veja a reflexão de Maria José Brant (Deka). `,
                 date: "22 de novembro de 2020",
-                route: host + "/Espiritualidade-November/espiritualidade-22.html",
+                route: host + "/Espiritualidade/November/22.html",
             },
             29: {
-                img: host + "/img/esp-29.jpg",
+                img: host + "/assets/img/esp-29.jpg",
                 title: "O sonho missionário de Madre Maria Helena",
                 details: `Desde cedo, Helena Stollenwerk sentiu-se chamada à vida missionária. Com a típica determinação feminina, ela buscou realizar seu sonho. Mas Deus teve outra proposta para a futura Ir. Maria, o que exigiu dela muita paciência e despojamento. Veja mais.`,
                 date: "29 de novembro de 2020",
-                route: host + "/Espiritualidade-November/espiritualidade-29.html",
+                route: host + "/Espiritualidade/November/29.html",
             },
         },
         December: {
             6: {
-                img: host + "/img/06_Dez_2020_Espiritualidade1.png",
+                img: host + "/assets/img/06_Dez_2020_Espiritualidade1.png",
                 title: "Advento: preparar-se para a chegada do noivo",
-                details: `
-        O Advento abre o ano litúrgico. É uma ideia muito limitada dizer que este período é uma preparação para o Natal. Nestas quatro semanas, de fato, celebramos diferentes formas de encontro com o Senhor, o noivo apaixonado que, sem aviso, vem até nós. 
-        `,
+                details: `O Advento abre o ano litúrgico. É uma ideia muito limitada dizer que este período é uma preparação para o Natal. Nestas quatro semanas, de fato, celebramos diferentes formas de encontro com o Senhor, o noivo apaixonado que, sem aviso, vem até nós.`,
                 date: "06 de dezembro de 2020",
-                route: host + "/Espiritualidade-December/espiritualidade-6.html",
+                route: host + "/Espiritualidade/December/6.html",
             },
             13: {
-                img: host + "/img/13_Dez_2020_Espiritualidade1.png",
+                img: host + "/assets/img/13_Dez_2020_Espiritualidade1.png",
                 title: "Ecumenismo: um novo caminho de fé",
-                details: `
-        O conceito de ecumenismo evolui com a sociedade. Encontro-acolhimento, respeito, justiça e ética são alguns pilares que sustentam a busca da fraternidade universal e podem ser compreensíveis em todas as línguas. Veja o artigo de Mariano Gaioski.
-        `,
+                details: `O conceito de ecumenismo evolui com a sociedade. Encontro-acolhimento, respeito, justiça e ética são alguns pilares que sustentam a busca da fraternidade universal e podem ser compreensíveis em todas as línguas. Veja o artigo de Mariano Gaioski.`,
                 date: "13 de dezembro de 2020",
-                route: host + "/Espiritualidade-December/espiritualidade-13.html",
+                route: host + "/Espiritualidade/December/13.html",
             },
             20: {
-                img: host + "/img/20_Dez_2020_Espiritualidade(1).png",
+                img: host + "/assets/img/20_Dez_2020_Espiritualidade(1).png",
                 title: "A paz depende também de nós",
                 details: `Se você está cansado de ver tantas notícias de violência e tragédias, e se sente impotente, leia este artigo e descubra como colaborar com a paz no mundo, cultivando-a dentro de si e a seu redor. Depois reze e compartilhe a “Oração pela Paz”.`,
                 date: "20 de dezembro de 2020",
-                route: host + "/Espiritualidade-December/espiritualidade-20.html",
+                route: host + "/Espiritualidade/December/20.html",
             },
             27: {
-                img: host + "/img/27_Dez_2020_Espiritualidade_CAPA.jpg",
+                img: host + "/assets/img/27_Dez_2020_Espiritualidade_CAPA.jpg",
                 title: "Afetividade e relações",
                 details: `Nesta pandemia, como estão nossa afetividade, nossas relações? Temos paciência com as crianças e os idosos? Somos humildes ao aprender um serviço que não era executado? É preciso serenidade e discernimento. Veja o artigo de Maria Terezinha Corrêa.`,
                 date: "27 de dezembro de 2020",
-                route: host + "/Espiritualidade-December/espiritualidade-27.html",
+                route: host + "/Espiritualidade/December/27.html",
             },
         },
     },
@@ -1145,7 +1141,7 @@ let mainData = {
         September: {
             1: {
                 img: host +
-                    "/assets/img/leitura-img-sep/01_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/01_setembro_2020_Leit_Oran.jpg",
                 title: "Terça-feira da 22ª Semana do Tempo Comum",
                 details: "(Verde -Ofício do dia)",
                 date: "1 de setembro de 2020",
@@ -1153,7 +1149,7 @@ let mainData = {
             },
             2: {
                 img: host +
-                    "/assets/img/leitura-img-sep/02_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/02_setembro_2020_Leit_Oran.jpg",
                 title: "Quarta-feira da 22ª Semana do Tempo Comum",
                 details: "(Verde -Ofício do dia)",
                 date: "2 de setembro de 2020",
@@ -1161,7 +1157,7 @@ let mainData = {
             },
             3: {
                 img: host +
-                    "/assets/img/leitura-img-sep/03_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/03_setembro_2020_Leit_Oran.jpg",
                 title: "São Gregório Magno - Papa e Doutor da Igreja      ",
                 details: "Quinta-feira da 22ª Semana do Tempo Comum (Branco - Ofício da memória)",
                 date: "3 de setembro de 2020",
@@ -1169,7 +1165,7 @@ let mainData = {
             },
             4: {
                 img: host +
-                    "/assets/img/leitura-img-sep/04_setembro_2020_Leit_Oran.png",
+                    "/assets/img/leitura/leitura-img-sep/04_setembro_2020_Leit_Oran.png",
                 title: "Sexta-feira da 22ª Semana do Tempo Comum",
                 details: "(Verde -Ofício do dia)",
                 date: "4 de setembro de 2020",
@@ -1177,7 +1173,7 @@ let mainData = {
             },
             5: {
                 img: host +
-                    "/assets/img/leitura-img-sep/05_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/05_setembro_2020_Leit_Oran.jpg",
                 title: "Sábado da 22ª Semana do Tempo Comum",
                 details: "(Verde -Ofício do dia)",
                 date: "5 de setembro de 2020",
@@ -1185,7 +1181,7 @@ let mainData = {
             },
             6: {
                 img: host +
-                    "/assets/img/leitura-img-sep/06_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/06_setembro_2020_Leit_Oran.jpg",
                 title: "Domingo - 23ª Semana do Tempo Comum",
                 details: "(Verde -Ofício do dia)",
                 date: "6 de setembro de 2020",
@@ -1193,7 +1189,7 @@ let mainData = {
             },
             7: {
                 img: host +
-                    "/assets/img/leitura-img-sep/07_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/07_setembro_2020_Leit_Oran.jpg",
                 title: "Segunda-feira - 23ª Semana do Tempo Comum",
                 details: "(Verde - Ofício do dia)",
                 date: "7 de setembro de 2020",
@@ -1201,7 +1197,7 @@ let mainData = {
             },
             8: {
                 img: host +
-                    "/assets/img/leitura-img-sep/08_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/08_setembro_2020_Leit_Oran.jpg",
                 title: "Terça-feira - Natividade de Nossa Senhora",
                 details: "(Branco - Ofício da festa)",
                 date: "8 de setembro de 2020",
@@ -1210,7 +1206,7 @@ let mainData = {
 
             9: {
                 img: host +
-                    "/assets/img/leitura-img-sep/09_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/09_setembro_2020_Leit_Oran.jpg",
                 title: "Quarta-feira - 22ª Semana do Tempo Comum",
                 details: "(Verde -Ofício do dia)",
                 date: "9 de setembro de 2020",
@@ -1218,7 +1214,7 @@ let mainData = {
             },
             10: {
                 img: host +
-                    "/assets/img/leitura-img-sep/10_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/10_setembro_2020_Leit_Oran.jpg",
                 title: "Quinta-feira da 23ª Semana do Tempo Comum",
                 details: "(Verde - Ofício do dia)",
                 date: "10 de setembro de 2020",
@@ -1226,7 +1222,7 @@ let mainData = {
             },
             11: {
                 img: host +
-                    "/assets/img/leitura-img-sep/11_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/11_setembro_2020_Leit_Oran.jpg",
                 title: "Sexta-feira da 23ª Semana do Tempo Comum",
                 details: "(Verde - Ofício do dia)",
                 date: "11 de setembro de 2020",
@@ -1234,7 +1230,7 @@ let mainData = {
             },
             12: {
                 img: host +
-                    "/assets/img/leitura-img-sep/12_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/12_setembro_2020_Leit_Oran.jpg",
                 title: "Sábado da 23ª Semana do Tempo Comum",
                 details: "(Verde -Ofício do dia)",
                 date: "12 de setembro de 2020",
@@ -1242,7 +1238,7 @@ let mainData = {
             },
             13: {
                 img: host +
-                    "/assets/img/leitura-img-sep/13_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/13_setembro_2020_Leit_Oran.jpg",
                 title: "Domingo da 24ª Semana do Tempo Comum",
                 details: "(Verde - Ofício do dia)",
                 date: "13 de setembro de 2020",
@@ -1250,7 +1246,7 @@ let mainData = {
             },
             14: {
                 img: host +
-                    "/assets/img/leitura-img-sep/14_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/14_setembro_2020_Leit_Oran.jpg",
                 title: "Segunda-feira - Exaltação da Santa Cruz",
                 details: "(Verde -Ofício do dia)",
                 date: "14 de setembro de 2020",
@@ -1258,7 +1254,7 @@ let mainData = {
             },
             15: {
                 img: host +
-                    "/assets/img/leitura-img-sep/15_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/15_setembro_2020_Leit_Oran.jpg",
                 title: "Terça-feira da 24ª Semana do Tempo Comum  Nossa Senhora das Dores",
                 details: "(Branco - Ofício da memória)",
                 date: "15 de setembro de 2020",
@@ -1266,7 +1262,7 @@ let mainData = {
             },
             16: {
                 img: host +
-                    "/assets/img/leitura-img-sep/16_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/16_setembro_2020_Leit_Oran.jpg",
                 title: "Quarta-feira da 24ª Semana do Tempo Comum  Santos Cornélio e Cipriano - Papa e Bispo Mártires",
                 details: "(Verde -Ofício do dia)",
                 date: "16 de setembro de 2020",
@@ -1274,7 +1270,7 @@ let mainData = {
             },
             17: {
                 img: host +
-                    "/assets/img/leitura-img-sep/17_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/17_setembro_2020_Leit_Oran.jpg",
                 title: "Quarta-feira da 24ª Semana do Tempo Comum Santos Cornélio e Cipriano - Papa e Bispo Mártires",
                 details: "(Verde - ofício do dia)",
                 date: "17 de setembro de 2020",
@@ -1282,7 +1278,7 @@ let mainData = {
             },
             18: {
                 img: host +
-                    "/assets/img/leitura-img-sep/18_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/18_setembro_2020_Leit_Oran.jpg",
                 title: "Sexta-feira - 24ª semana do tempo comum",
                 details: "(Verde - ofício do dia)",
                 date: "18 de setembro de 2020",
@@ -1291,7 +1287,7 @@ let mainData = {
 
             19: {
                 img: host +
-                    "/assets/img/leitura-img-sep/19_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/19_setembro_2020_Leit_Oran.jpg",
                 title: "Sábado - 24ª semana do tempo comum São Januário",
                 details: "(Verde - ofício do dia)",
                 date: "19 de setembro de 2020",
@@ -1299,7 +1295,7 @@ let mainData = {
             },
             20: {
                 img: host +
-                    "/assets/img/leitura-img-sep/20_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/20_setembro_2020_Leit_Oran.jpg",
                 title: "Domingo - 25a semana do tempo comum",
                 details: "(Verde - Ofício do dia)",
                 date: "20 de setembro de 2020",
@@ -1307,7 +1303,7 @@ let mainData = {
             },
             21: {
                 img: host +
-                    "/assets/img/leitura-img-sep/21_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/21_setembro_2020_Leit_Oran.jpg",
                 title: "Segunda-feira - São Mateus, Apóstolo e Evangelista",
                 details: "(Vermelho - Ofício da festa)",
                 date: "21 de setembro de 2020",
@@ -1315,7 +1311,7 @@ let mainData = {
             },
             22: {
                 img: host +
-                    "/assets/img/leitura-img-sep/22_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/22_setembro_2020_Leit_Oran.jpg",
                 title: "Terça-feira - 25ª semana do tempo comum",
                 details: "(Verde - Ofício do dia)      ",
                 date: "22 de setembro de 2020",
@@ -1323,7 +1319,7 @@ let mainData = {
             },
             23: {
                 img: host +
-                    "/assets/img/leitura-img-sep/23_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/23_setembro_2020_Leit_Oran.jpg",
                 title: "Quarta-feira - São Pio de Pietrelcina, Presbítero",
                 details: "(Verde -Ofício da memória)",
                 date: "23 de setembro de 2020",
@@ -1331,7 +1327,7 @@ let mainData = {
             },
             24: {
                 img: host +
-                    "/assets/img/leitura-img-sep/24_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/24_setembro_2020_Leit_Oran.jpg",
                 title: "Quinta-feira - 25ª semana do tempo comum",
                 details: "(Verde -Ofício da memória)",
                 date: "24 de setembro de 2020",
@@ -1339,7 +1335,7 @@ let mainData = {
             },
             25: {
                 img: host +
-                    "/assets/img/leitura-img-sep/25_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/25_setembro_2020_Leit_Oran.jpg",
                 title: "Sexta-feira - 25ª semana do tempo comum",
                 details: "(Verde - Ofício do dia)",
                 date: "25 de setembro de 2020",
@@ -1347,7 +1343,7 @@ let mainData = {
             },
             26: {
                 img: host +
-                    "/assets/img/leitura-img-sep/26_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/26_setembro_2020_Leit_Oran.jpg",
                 title: "Sábado - 25a semana do tempo comum",
                 details: "(Verde - Ofício do dia ou Memória facultativa: São Cosme e São Damião - Mártires, cor vermelha )",
                 date: "26 de setembro de 2020",
@@ -1355,7 +1351,7 @@ let mainData = {
             },
             27: {
                 img: host +
-                    "/assets/img/leitura-img-sep/27_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/27_setembro_2020_Leit_Oran.jpg",
                 title: "Domingo - 26ª semana do tempo comum Dia Nacional da Bíblia",
                 details: "(Verde -Ofício da memória)",
                 date: "27 de setembro de 2020",
@@ -1363,7 +1359,7 @@ let mainData = {
             },
             28: {
                 img: host +
-                    "/assets/img/leitura-img-sep/28_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/28_setembro_2020_Leit_Oran.jpg",
                 title: "Segunda-feira - 26ª semana do tempo comum",
                 details: "(Verde -Ofício da memória)",
                 date: "28 de setembro de 2020",
@@ -1371,7 +1367,7 @@ let mainData = {
             },
             29: {
                 img: host +
-                    "/assets/img/leitura-img-sep/29_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/29_setembro_2020_Leit_Oran.jpg",
                 title: "Terça-feira - Santos Arcanjos Miguel, Gabriel e Rafael",
                 details: "(Verde -Ofício da memória)",
                 date: "29 de setembro de 2020",
@@ -1379,7 +1375,7 @@ let mainData = {
             },
             30: {
                 img: host +
-                    "/assets/img/leitura-img-sep/30_setembro_2020_Leit_Oran.jpg",
+                    "/assets/img/leitura/leitura-img-sep/30_setembro_2020_Leit_Oran.jpg",
                 title: "Quarta-feira - São Jerônimo, Presbítero e Doutor",
                 details: "(Verde -Ofício da memória)",
                 date: "30 de setembro de 2020",
@@ -1389,126 +1385,126 @@ let mainData = {
 
         October: {
             1: {
-                img: host + "/assets/img/leitura-img-oct/01_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/01_Outubro_2020_Leit_Oran.jpg",
                 title: "Quinta-feira - 26ª Semana do Tempo Comum",
                 details: "Ó Deus, que preparais o vosso reino para os pequenos e humildes, dai-nos seguir confiantes o caminho de Santa Teresinha, para que, por sua intercessão, nos seja revelada a vossa glória. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "1 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura1a.html",
             },
             2: {
-                img: host + "/assets/img/leitura-img-oct/02_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/02_Outubro_2020_Leit_Oran.jpg",
                 title: "Sexta-feira - 26ª Semana do Tempo Comum Santos Anjos da Guarda",
                 details: "Ó Deus, que, na vossa misteriosa providência mandai vossos anjos para guardar-nos, concedei que nos defendam de todos os perigos e gozemos eternamente do seu convívio. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "2 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura2a.html",
             },
             3: {
-                img: host + "/assets/img/leitura-img-oct/03_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/03_Outubro_2020_Leit_Oran.jpg",
                 title: "Sábado - 26ª Semana do Tempo Comum Santos André e Ambrósio, Presbíteros e Mártires",
                 details: "Deus de misericórdia, aumentai em nós a fé que, conservada à custa do próprio sangue, glorificou vossos mártires, Santo André, Ambrósio e companheiros. Dai-nos também ser santificados pela vivência da mesma fé. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "3 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura3a.html",
             },
             4: {
-                img: host + "/assets/img/leitura-img-oct/04_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/04_Outubro_2020_Leit_Oran.jpg",
                 title: "Domingo - 27º domingo do tempo comum",
                 details: "Ó Deus eterno e todo-poderoso, que nos concedeis, no vosso imenso amor de Pai, mais do que merecemos e pedimos, derramais sobre nós a vossa misericórdia, perdoando o que nos pesa na consciência e dando-nos mais do que ousamos pedir. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "4 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura4a.html",
             },
             5: {
-                img: host + "/assets/img/leitura-img-oct/05_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/05_Outubro_2020_Leit_Oran.jpg",
                 title: "Segunda-feira - 27ª Semana do Tempo Comum São Benedito, O Negro",
                 details: "Ó Deus,que em são Benedito, o Negro, Manifestai as vossas maravilhas, chamando ~a vossa Igreja homens de todos os povos, raças e nações, concedei, por sua intercessão, que todos, feitos vossos filhos e filhas pelo batismo, convivam como verdadeiros irmãos.Por nossos Senhor Jesus Cristo, vosso filho, na unidade do Espírito Santo.",
                 date: "5 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura5a.html",
             },
             6: {
-                img: host + "/assets/img/leitura-img-oct/06Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/06Outubro_2020_Leit_Oran.jpg",
                 title: "Terça - feira - 27ª Semana do Tempo Comum",
                 details: "Ó Deus eterno e todo-poderoso, que nos concedeis, no vosso imenso amor de Pai, mais do que merecemos e pedimos, derramai sobre nós a nossa misericórdia, perdoando o que nos pesa na consciência e dando-nos mais do que ousamos pedir. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "6 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura6a.html",
             },
             7: {
-                img: host + "/assets/img/leitura-img-oct/07Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/07Outubro_2020_Leit_Oran.jpg",
                 title: "Quarta -feira - 27ª Semana do Tempo Comum Nossa Senhora do Rosário",
                 details: "Derramai, ó Deus, a vossa graça em nossos corações, para que, conhecendo, pela mensagem do anjo, a encarnação do Cristo, vosso Filho, cheguemos, por sua paixão e cruz, à glória da ressurreição pela intercessão da virgem Maria. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "7 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura7a.html",
             },
             8: {
-                img: host + "/assets/img/leitura-img-oct/08_Outubro_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/08_Outubro_Leit_Oran.jpg",
                 title: "Quinta - feira- 27ª Semana do Tempo Comum",
                 details: "Ó Deus eterno e todo-poderoso, que nos concedeis, no vosso imenso amor de Pai, mais do que merecemos e pedimos, derramai sobre nós a nossa misericórdia, perdoando o que nos pesa na consciência e dando-nos mais do que ousamos pedir. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "8 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura8a.html",
             },
             9: {
-                img: host + "/assets/img/leitura-img-oct/09_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/09_Outubro_2020_Leit_Oran.jpg",
                 title: "Sexta - feira - 27ª Semana do Tempo Comum Tempo Comum",
                 details: "Ó Deus eterno e todo-poderoso, que nos concedeis, no vosso imenso amor de Pai, mas do que merecemos e pedimos, derramai sobre nós a vossa misericórdia, perdoando o que nos pesa na consciência e dando-nos mais do que ousamos pedir. Por nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo",
                 date: "9 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura9a.html",
             },
             10: {
-                img: host + "/assets/img/leitura-img-oct/10_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/10_Outubro_2020_Leit_Oran.jpg",
                 title: "Sábado - 27ª Semana do Tempo Comum",
                 details: "Ó Deus eterno e todo-poderoso, que nos concedeis, no vosso imenso amor de Pai, mais do que merecemos e pedimos, derramai sobre nós a nossa misericórdia, perdoando o que nos pesa na consciência e dando-nos mais do que ousamos pedir. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "10 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura10a.html",
             },
             11: {
-                img: host + "/assets/img/leitura-img-oct/11_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/11_Outubro_2020_Leit_Oran.jpg",
                 title: "Domingo - 28º domingo do tempo comum",
                 details: "Ó Deus, sempre nos preceda e acompanhe a vossa graça para que estejamos sempre atentos ao bem que devemos fazer. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
                 date: "11 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura11a.html",
             },
             12: {
-                img: host + "/assets/img/leitura-img-oct/12_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/12_Outubro_2020_Leit_Oran.jpg",
                 title: "Segunda - feira - 28ª Semana do Tempo Comum Solenidade de Nossa Senhora Aparecida",
                 details: "Ó Deus todo poderoso, ao rendermos culto à Imaculada Conceição de Maria, Mãe de Deus e Senhora nossa, concedei que o povo brasileiro, fiel à sua vocação e vivendo na paz e na justiça, possa chegar um dia à pátria definitiva. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
                 date: "12 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura12a.html",
             },
             13: {
-                img: host + "/assets/img/leitura-img-oct/13_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/13_Outubro_2020_Leit_Oran.jpg",
                 title: "Terça - feira- 28ª Semana do Tempo Comum",
                 details: "Ó Deus, sempre nos preceda e acompanhe ao vossa graça para que estejamos sempre atentos ao bem que devemos fazer. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
                 date: "13 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura13a.html",
             },
             14: {
-                img: host + "/assets/img/leitura-img-oct/14_Outubro_2020_leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/14_Outubro_2020_leit_Oran.jpg",
                 title: "Quarta - feira- 28ª Semana do Tempo Comum",
                 details: "Ó Deus, sempre nos preceda e acompanhe ao vossa graça para que estejamos sempre atentos ao bem que devemos fazer. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.)",
                 date: "14 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura14a.html",
             },
             15: {
-                img: host + "/assets/img/leitura-img-oct/15_Outubro_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/15_Outubro_Leit_Oran.jpg",
                 title: "Quinta - feira- 28ª Semana do Tempo Comum Santa Teresa de Jesus Virgem e Doutora da Igreja",
                 details: "Ó Deus, que pelo vosso Espírito fizestes surgir Santa Teresa para recordar à Igreja o caminho da perfeição, dai-nos encontrar sempre alimento em sua doutrina celeste e sentir em nós o desejo da verdadeira santidade. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
                 date: "15 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura15a.html",
             },
             16: {
-                img: host + "/assets/img/leitura-img-oct/16_Outubro_2020_leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/16_Outubro_2020_leit_Oran.jpg",
                 title: "Sexta - feira- 28ª Semana do Tempo Comum",
                 details: "Ó Deus, sempre nos preceda e acompanhe ao vossa graça para que estejamos sempre atentos ao bem que devemos fazer. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo",
                 date: "16 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura16a.html",
             },
             17: {
-                img: host + "/assets/img/leitura-img-oct/17_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/17_Outubro_2020_Leit_Oran.jpg",
                 title: "Sábado - 28ª Semana do Tempo Comum Santo Inácio de Antioquia Bispo e Mártir",
                 details: "Deus eterno e todo-poderosa, que ornais a vossa Igreja com o testemunho dos mártires, fazei que a gloriosa paixão que hoje celebramos, dando a santo Inácio de Antioquia a glória eterna, nos conceda contínua proteção. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
                 date: "17 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura17a.html",
             },
             18: {
-                img: host + "/assets/img/leitura-img-oct/18_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/18_Outubro_2020_Leit_Oran.jpg",
                 title: "Domingo - 29ª do Tempo Comum",
                 details: "Deus eterno todo-poderoso, dai-nos a graça de estar sempre ao vosso dispor e vos servir de todo o coração por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
                 date: "18 de outubro de 2020",
@@ -1516,63 +1512,63 @@ let mainData = {
             },
 
             19: {
-                img: host + "/assets/img/leitura-img-oct/19_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/19_Outubro_2020_Leit_Oran.jpg",
                 title: "Segunda - feira 29ª do Tempo Comum",
                 details: "Deus eterno e todo-poderoso, dai-nos a graça de estar sempre ao vosso dispor e vos servir de todo o coração. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
                 date: "19 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura19a.html",
             },
             20: {
-                img: host + "/assets/img/leitura-img-oct/20_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/20_Outubro_2020_Leit_Oran.jpg",
                 title: "Terça - feira 29ª do Tempo Comum",
                 details: "Deus eterno e todo-poderoso, dai-nos a graça de estar sempre ao vosso dispor e vos servir de todo o coração. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
                 date: "20 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura20a.html",
             },
             21: {
-                img: host + "/assets/img/leitura-img-oct/21_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/21_Outubro_2020_Leit_Oran.jpg",
                 title: "Quarta - feira 29ª do Tempo Comum",
                 details: "Ó Deus todo-poderoso, salvação eterna dos que creem, ouvi compassivo as nossas preces em favor de vossos servos e servas doentes, para que, recuperada a saúde, vos rendam graças na vossa Igreja.",
                 date: "21 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura21a.html",
             },
             22: {
-                img: host + "/assets/img/leitura-img-oct/22_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/22_Outubro_2020_Leit_Oran.jpg",
                 title: "Quinta - feira 29ª do Tempo Comum São João Paulo II Papa",
                 details: "Ó Deus, rico de misericórdia, que escolhestes são João Paulo II para governar a vossa Igreja como papa, concedei-nos que, instruídos pelos seus ensinamentos, possamos abrir confiadamente os nossos corações à graça salvífica de Cristo, único Redentor do homem.",
                 date: "22 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura22a.html",
             },
             23: {
-                img: host + "/assets/img/leitura-img-oct/23_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/23_Outubro_2020_Leit_Oran.jpg",
                 title: "Sexta - feira 29ª do Tempo Comum",
                 details: "Deus eterno e todo-poderoso, dai-nos a graça de estar sempre ao vosso dispor e vos servir de todo o coração. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
                 date: "23 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura23a.html",
             },
             24: {
-                img: host + "/assets/img/leitura-img-oct/24_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/24_Outubro_2020_Leit_Oran.jpg",
                 title: "Sábado 29ª do Tempo Comum Santo Antônio Maria Claret",
                 details: "Ó Deus, que fortalecestes o bispo Santo Antônio Maria Claret com caridade e paciência admirável para propagar o Evangelho entre os povos, dai que, por sua intercessão, busquemos o que é vosso, e nos apliquemos com todo empenho em conquistar nossos irmãos para o Cristo.",
                 date: "24 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura24a.html",
             },
             25: {
-                img: host + "/assets/img/leitura-img-oct/25_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/25_Outubro_2020_Leit_Oran.jpg",
                 title: "Domingo - 30º do Tempo Comum",
                 details: "Deus Eterno e Todo-Poderoso, aumentai em nós a fé, a esperança e a caridade, e dai-nos amar o que ordenais para conseguirmos o que prometeis. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
                 date: "25 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura25a.html",
             },
             26: {
-                img: host + "/assets/img/leitura-img-oct/26_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/26_Outubro_2020_Leit_Oran.jpg",
                 title: "Segunda - feira 30ª do Tempo Comum",
                 details: "Deus eterno e todo-poderoso, aumentai em nós a fé, a esperança e a caridade, e dai-nos amar o que ordenais para conseguirmos o que prometeis. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
                 date: "26 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura26a.html",
             },
             27: {
-                img: host + "/assets/img/leitura-img-oct/27_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/27_Outubro_2020_Leit_Oran.jpg",
                 title: "Terça - feira 30ª do Tempo Comum",
                 details: "Deus eterno e todo-poderoso, aumentai em nós a fé, a esperança e a caridade, e dai-nos amar o que ordenais para conseguirmos o que prometeis.Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
                 date: "27 de outubro de 2020",
@@ -1580,28 +1576,28 @@ let mainData = {
             },
             // below title and details to be changed
             28: {
-                img: host + "/assets/img/leitura-img-oct/28_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/28_Outubro_2020_Leit_Oran.jpg",
                 title: "Quarta - feira 30ª do Tempo Comum São Simão e São Judas Tadeu",
                 details: "Ó Deus, que, pela pregação dos Apóstolos, nos fizestes chegar ao conhecimento do vosso Evangelho, concedei, pelas preces de São Simão e São Judas, que a vossa Igreja não cesse de crescer, acolhendo com amor novos fiéis.",
                 date: "28 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura28a.html",
             },
             29: {
-                img: host + "/assets/img/leitura-img-oct/29_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/29_Outubro_2020_Leit_Oran.jpg",
                 title: "Quinta - feira 30ª do Tempo Comum",
                 details: "Deus eterno e todo-poderoso, aumentai em nós a fé, a esperança e a caridade, e dai-nos amar o que ordenais para conseguirmos o que prometeis. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
                 date: "29 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura29a.html",
             },
             30: {
-                img: host + "/assets/img/leitura-img-oct/30_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/30_Outubro_2020_Leit_Oran.jpg",
                 title: "Sexta - feira 30ª do Tempo Comum Pela União dos Cristãost",
                 details: "Deus eterno e todo-poderoso, que reunis o que está disperso e conversais o que está unido, velai sobre o rebanho do vosso Filho. Que a integridade da fee e os laços da caridade unam os que foram consagrados por um só batismo. ",
                 date: "30 de outubro de 2020",
                 route: host + "/leitura-orante/october/leitura30a.html",
             },
             31: {
-                img: host + "/assets/img/leitura-img-oct/31_Outubro_2020_Leit_Oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-oct/31_Outubro_2020_Leit_Oran.jpg",
                 title: "Sábado 30ª do Tempo Comum",
                 details: "Deus eterno e todo-poderoso, aumentai em nós a fé, a esperança e a caridade, e dai-nos amar o que ordenais para conseguirmos o que prometeis. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
                 date: "31 de outubro de 2020",
@@ -1611,7 +1607,7 @@ let mainData = {
         November: {
             1: {
                 img: host +
-                    "/assets/img/leitura-img-nov/01_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/01_Novembro_2020_Leit_oran.jpg",
                 title: "Domingo - Todos os Santos e Santas",
                 details: "Deus eterno e todo-poderoso, que nos dais celebrar numa só festa os méritos de todos os santos, concedei-nos, por intercessores tão numerosos, a plenitude da vossa misericórdia. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "1 de Novembro de 2020",
@@ -1619,7 +1615,7 @@ let mainData = {
             },
             2: {
                 img: host +
-                    "/assets/img/leitura-img-nov/02_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/02_Novembro_2020_Leit_oran.jpg",
                 title: "Segunda - Comemoração de todos os fiéis defuntos",
                 details: "Ó Deus, escutai com bondade nossas preces e aumentai a nossa fé no Cristo ressuscitado, para que seja mais viva nossa esperança dos vossos filhos e filhas. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "2 de Novembro de 2020",
@@ -1627,7 +1623,7 @@ let mainData = {
             },
             3: {
                 img: host +
-                    "/assets/img/leitura-img-nov/03_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/03_Novembro_2020_Leit_oran.jpg",
                 title: "Terça-feira - 31ª Semana do Tempo Comum",
                 details: "Ó Deus de poder e misericórdia, que concedeis a vossos filhos e filhas a graça de vos servir como devem, fazei que corramos livremente ao encontro das vossas promessas. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "3 de Novembro de 2020",
@@ -1635,7 +1631,7 @@ let mainData = {
             },
             4: {
                 img: host +
-                    "/assets/img/leitura-img-nov/04_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/04_Novembro_2020_Leit_oran.jpg",
                 title: "Quarta-feira - São Carlos Borromeu",
                 details: "Conservai, ó Deus, no vosso povo o espírito que animava São Carlos Borromeu, para que a vossa Igreja, continuamente renovada e sempre fiel ao Evangelho, possa mostrar ao mundo a verdadeira face do Cristo. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "4 de Novembro de 2020",
@@ -1643,7 +1639,7 @@ let mainData = {
             },
             5: {
                 img: host +
-                    "/assets/img/leitura-img-nov/05_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/05_Novembro_2020_Leit_oran.jpg",
                 title: "Quinta-feira - 31ª Semana do Tempo Comum",
                 details: "Ó Deus de poder e misericórdia, que concedeis a vossos filhos e filhas a graça de vos servir como devem, fazei que corramos livremente ao encontro das vossas promessas. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "5 de Novembro de 2020",
@@ -1651,7 +1647,7 @@ let mainData = {
             },
             6: {
                 img: host +
-                    "/assets/img/leitura-img-nov/06_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/06_Novembro_2020_Leit_oran.jpg",
                 title: "Sexta-feira - 31ª Semana do Tempo Comum",
                 details: "Ó Deus de poder e misericórdia, que concedeis a vossos filhos e filhas a graça de vos servir como devem, fazei que corramos livremente ao encontro das vossas promessas.",
                 date: "6 de Novembro de 2020",
@@ -1659,14 +1655,14 @@ let mainData = {
             },
             7: {
                 img: host +
-                    "/assets/img/leitura-img-nov/07_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/07_Novembro_2020_Leit_oran.jpg",
                 title: "Sábado - 31ª Semana do Tempo Comum",
                 details: "Ó Deus de poder e misericórdia, que concedeis a vossos filhos e filhas a graça de vos servir como devem, fazei que corramos livremente ao encontro das vossas promessas. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "7 de Novembro de 2020",
                 route: host + "/leitura-orante/november/leitura7a.html",
             },
             8: {
-                img: host + "/assets/img/leitura-img-nov/08_Novembro_Leit_oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-nov/08_Novembro_Leit_oran.jpg",
                 title: "Domingo - 32ª Semana do Tempo Comum",
                 details: "Deus de poder e misericórdia, afastai de nós todo obstáculo para que, inteiramente disponíveis, nos dediquemos ao vosso serviço. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "8 de Novembro de 2020",
@@ -1674,7 +1670,7 @@ let mainData = {
             },
             9: {
                 img: host +
-                    "/assets/img/leitura-img-nov/09_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/09_Novembro_2020_Leit_oran.jpg",
                 title: "Segunda-feira - Dedicação da Basílica do Latrão",
                 details: "Ó Deus, que edificais o vosso templo eterno com pedras vivas e escolhidas, difundi na vossa Igreja o Espírito que lhe destes, para que o vosso povo cresça sempre mais, construindo a Jerusalém celeste.",
                 date: "9 de Novembro de 2020",
@@ -1682,7 +1678,7 @@ let mainData = {
             },
             10: {
                 img: host +
-                    "/assets/img/leitura-img-nov/10_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/10_Novembro_2020_Leit_oran.jpg",
                 title: "Terça-feira - São Leão Magno",
                 details: "Ó Deus, que jamais permitis que as potências do mal prevaleçam contra a vossa Igreja, fundada sobre a rocha inabalável dos apóstolos, dai-lhe, sob os méritos do Papa São Leão, permanecer firme na verdade e gozar paz para sempre.",
                 date: "10 de Novembro de 2020",
@@ -1690,7 +1686,7 @@ let mainData = {
             },
             11: {
                 img: host +
-                    "/assets/img/leitura-img-nov/11_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/11_Novembro_2020_Leit_oran.jpg",
                 title: "Quarta-feira - São Martinho de Tours, Bispo",
                 details: "Ó Deus, que fostes glorificado pela vida e morte do Bispo São Martinho, renovai em nossos corações as maravilhas da vossa graça, de modo que nem a morte nem a vida nos possam separar do vosso amor.",
                 date: "11 de Novembro de 2020",
@@ -1698,7 +1694,7 @@ let mainData = {
             },
             12: {
                 img: host +
-                    "/assets/img/leitura-img-nov/12_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/12_Novembro_2020_Leit_oran.jpg",
                 title: "Quinta-feira - São Josafá, Bispo e Mártir",
                 details: "Suscitai, ó Deus, na vossa Igreja, o Espírito que impeliu o Bispo São Josafá a dar a vida por suas ovelhas e concedei que, por sua intercessão, fortificados pelo mesmo espírito, estejamos prontos a dar a nossa vida pelos nossos irmãos. ",
                 date: "12 de Novembro de 2020",
@@ -1706,7 +1702,7 @@ let mainData = {
             },
             13: {
                 img: host +
-                    "/assets/img/leitura-img-nov/13_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/13_Novembro_2020_Leit_oran.jpg",
                 title: "Sexta-feira - 32ª Semana do Tempo Comum",
                 details: "Deus de poder e misericórdia, afastai de nós todo obstáculo para que, inteiramente disponíveis, nos dediquemos ao vosso serviço. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "13 de Novembro de 2020",
@@ -1714,7 +1710,7 @@ let mainData = {
             },
             14: {
                 img: host +
-                    "/assets/img/leitura-img-nov/14_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/14_Novembro_2020_Leit_oran.jpg",
                 title: "Sábado - 32ª Semana do Tempo Comum",
                 details: "Deus de poder e misericórdia, afastai de nós todo obstáculo para que, inteiramente disponíveis, nos dediquemos ao vosso serviço. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "14 de Novembro de 2020",
@@ -1722,7 +1718,7 @@ let mainData = {
             },
             15: {
                 img: host +
-                    "/assets/img/leitura-img-nov/15_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/15_Novembro_2020_Leit_oran.jpg",
                 title: "Domingo - 33ª Semana do Tempo Comum",
                 details: "Senhor, nosso Deus, fazei que a nossa alegria consista em vos servir de todo coração, pois só teremos felicidade completa servindo a vós, o criador de todas as coisas. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "15 de Novembro de 2020",
@@ -1730,7 +1726,7 @@ let mainData = {
             },
             16: {
                 img: host +
-                    "/assets/img/leitura-img-nov/16_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/16_Novembro_2020_Leit_oran.jpg",
                 title: "Segunda-feira - 33ª Semana do Tempo Comum",
                 details: "Senhor, nosso Deus, fazei que a nossa alegria consista em vos servir de todo coração, pois só teremos felicidade completa servindo a vós, o criador de todas as coisas. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "16 de Novembro de 2020",
@@ -1738,7 +1734,7 @@ let mainData = {
             },
             17: {
                 img: host +
-                    "/assets/img/leitura-img-nov/17_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/17_Novembro_2020_Leit_oran.jpg",
                 title: "Terça-feira - Santa Isabel da Hungria, Esposa e Religiosa",
                 details: "Ó Deus, que destes à Santa Isabel da Hungria reconhecer e venerar o Cristo nos pobres, concedei-nos, por sua intercessão, servir os pobres e aflitos com incansável caridade. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "17 de Novembro de 2020",
@@ -1746,7 +1742,7 @@ let mainData = {
             },
             18: {
                 img: host +
-                    "/assets/img/leitura-img-nov/18_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/18_Novembro_2020_Leit_oran.jpg",
                 title: "Quarta-feira - Dedicação das Basílicas de São Pedro e São Paulo",
                 details: "Ó deus, guardai sob a proteção dos apóstolos Pedro e Paulo a vossa Igreja, que deles recebeu a primeira semente do Evangelho, e concedei que por eles receba, até o fim dos tempos, a graça que a faz crescer. ",
                 date: "18 de Novembro de 2020",
@@ -1755,7 +1751,7 @@ let mainData = {
 
             19: {
                 img: host +
-                    "/assets/img/leitura-img-nov/19_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/19_Novembro_2020_Leit_oran.jpg",
                 title: "Quinta-feira - Santos Roque, Afonso e João, Presbíteros e Mártires",
                 details: "Senhor, que a vossa Palavra cresça nas terras onde os vossos mártires a semearam e seja multiplicada em frutos de justiça e de paz. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "19 de Novembro de 2020",
@@ -1763,7 +1759,7 @@ let mainData = {
             },
             20: {
                 img: host +
-                    "/assets/img/leitura-img-nov/20_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/20_Novembro_2020_Leit_oran.jpg",
                 title: "Terça - feira 29ª do Tempo Comum",
                 details: "Deus eterno e todo-poderoso, dai-nos a graça de estar sempre ao vosso dispor e vos servir de todo o coração. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
                 date: "20 de Novembro de 2020",
@@ -1771,7 +1767,7 @@ let mainData = {
             },
             21: {
                 img: host +
-                    "/assets/img/leitura-img-nov/21_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/21_Novembro_2020_Leit_oran.jpg",
                 title: "Sábado - Apresentação de Nossa Senhora",
                 details: "Ao celebrarmos, ó Deus, a gloriosa memória da Santa Virgem Maria, concedei-nos, por sua intercessão, participar da plenitude de vossa graça. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "21 de Novembro de 2020",
@@ -1779,7 +1775,7 @@ let mainData = {
             },
             22: {
                 img: host +
-                    "/assets/img/leitura-img-nov/22_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/22_Novembro_2020_Leit_oran.jpg",
                 title: "Domingo - Nosso Senhor Jesus Cristo, Rei do Universo",
                 details: "Deus eterno e todo-poderoso, que dispusestes restaurar todas as coisas em vosso amado Filho, rei do universo, fazei que todas as criaturas, libertas da escravidão e servindo à vossa majestade, vos glorifiquem eternamente.",
                 date: "22 de Novembro de 2020",
@@ -1787,7 +1783,7 @@ let mainData = {
             },
             23: {
                 img: host +
-                    "/assets/img/leitura-img-nov/23_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/23_Novembro_2020_Leit_oran.jpg",
                 title: "Segunda-feira - 34ª Semana do Tempo Comum",
                 details: "Levantai, ó Deus, o ânimo dos vossos filhos e filhas, para que, aproveitando melhor as vossas graças, obtenham de vossa paternal bondade mais poderosos auxílios. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "23 de Novembro de 2020",
@@ -1795,7 +1791,7 @@ let mainData = {
             },
             24: {
                 img: host +
-                    "/assets/img/leitura-img-nov/24_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/24_Novembro_2020_Leit_oran.jpg",
                 title: "Terça-feira - Santo André Dung-Lac, Presbítero e Mártir",
                 details: "Ó Deus, fonte e origem de toda paternidade, que destes aos santos mártires André e seus companheiros serem fiéis à cruz do vosso Filho até a efusão do sangue, concedei, por sua intercessão, que, propagando o vosso amor entre os irmãos, possamos ser chamados vossos filhos e filhas e realmente o sejamos.",
                 date: "24 de Novembro de 2020",
@@ -1803,7 +1799,7 @@ let mainData = {
             },
             25: {
                 img: host +
-                    "/assets/img/leitura-img-nov/25_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/25_Novembro_2020_Leit_oran.jpg",
                 title: "Quarta-feira - 34ª Semana do Tempo Comum",
                 details: "Levantai, ó Deus, o ânimo dos vossos filhos e filhas, para que, aproveitando melhor as vossas graças, obtenham de vossa paternal bondade mais poderosos auxílios. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "25 de Novembro de 2020",
@@ -1811,7 +1807,7 @@ let mainData = {
             },
             26: {
                 img: host +
-                    "/assets/img/leitura-img-nov/26_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/26_Novembro_2020_Leit_oran.jpg",
                 title: "Quinta-feira - Missa em Ação de Graças",
                 details: "Ó Deus, pai de todos os dons, nós vos proclamamos fonte de tudo o que temos e somos; ensinai-nos a reconhecer vossos imensos benefícios e amar-vos de todo o coração e com todas as forças.",
                 date: "26 de Novembro de 2020",
@@ -1819,7 +1815,7 @@ let mainData = {
             },
             27: {
                 img: host +
-                    "/assets/img/leitura-img-nov/27_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/27_Novembro_2020_Leit_oran.jpg",
                 title: "Sexta-feira - 34ª Semana do Tempo Comum",
                 details: "Levantai, ó Deus, o ânimo dos vossos filhos e filhas, para que, aproveitando melhor as vossas graças, obtenham de vossa paternal bondade mais poderosos auxílios. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "27 de Novembro de 2020",
@@ -1827,7 +1823,7 @@ let mainData = {
             },
             28: {
                 img: host +
-                    "/assets/img/leitura-img-nov/28_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/28_Novembro_2020_Leit_oran.jpg",
                 title: "Sábado - 34ª Semana do Tempo Comum",
                 details: "Levantai, ó Deus, o ânimo dos vossos filhos e filhas, para que, aproveitando melhor as vossas graças, obtenham de vossa paternal bondade mais poderosos auxílios. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "28 de Novembro de 2020",
@@ -1835,7 +1831,7 @@ let mainData = {
             },
             29: {
                 img: host +
-                    "/assets/img/leitura-img-nov/29_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/29_Novembro_2020_Leit_oran.jpg",
                 title: "Domingo - 1º Domingo do Advento",
                 details: "Ó Deus todo-poderoso, concedei aos vossos fiéis o ardente desejo de possuir o Reino celeste, para que, acorrendo com as nossas boas obras ao encontro do Cristo que vem, sejamos reunidos à sua direita na comunidade dos justos.",
                 date: "29 de Novembro de 2020",
@@ -1843,7 +1839,7 @@ let mainData = {
             },
             30: {
                 img: host +
-                    "/assets/img/leitura-img-nov/30_Novembro_2020_Leit_oran.jpg",
+                    "/assets/img/leitura/leitura-img-nov/30_Novembro_2020_Leit_oran.jpg",
                 title: "Segunda-feira - Santo André, Apóstolo",
                 details: "Nós vos suplicamos, ó Deus onipotente, que o apóstolo Santo andré, pregador do Evangelho e pastor da vossa Igreja, não cesse no céu de interceder por nós. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "30 de Novembro de 2020",
@@ -1852,42 +1848,42 @@ let mainData = {
         },
         December: {
             1: {
-                img: host + "/assets/img/Leitura-orante-img-dec/01_ Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/01_ Dezembro_2020.jpg",
                 title: "Terça-feira - 1ª Semana do Advento",
                 details: "Sede propício, ó Deus, às nossas súplicas e auxilai-nos em nossa tribulação. Consolados pela vinda do vosso Filho, sejamos purificados da antiga culpa. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "01 de Dezembro de 2020",
                 route: host + "/leitura-orante/december/leitura-orante1a.html",
             },
             2: {
-                img: host + "/assets/img/Leitura-orante-img-dec/02_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/02_Dezembro_2020.jpg",
                 title: "Quarta-feira - 2ª Semana do Advento",
                 details: "Senhor Deus, preparai os nossos corações com a força da vossa graça, para que, ao chegar o Cristo, vosso Filho, nos encontre dignos do banquete da vida eterna e ele mesmo nos sirva o alimento celeste. ",
                 date: "02 de Dezembro de 2020",
                 route: host + "/leitura-orante/december/leitura-orante2a.html",
             },
             3: {
-                img: host + "/assets/img/Leitura-orante-img-dec/03_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/03_Dezembro_2020.jpg",
                 title: "Quinta-feira - São Francisco Xavier",
                 details: "Ó Deus, que pela pregação de São Francisco Xavier, conquistastes para vós muitos povos do Oriente, concedei a todos os fiéis o mesmo zelo, para que a santa Igreja possa alegrar-se com o nascimento de novos filhos em toda a terra. ",
                 date: "03 de Dezembro de 2020",
                 route: host + "/leitura-orante/december/leitura-orante3a.html",
             },
             4: {
-                img: host + "/assets/img/Leitura-orante-img-dec/04_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/04_Dezembro_2020.jpg",
                 title: "Sexta-feira - 1ª Semana do Advento",
                 details: "Despertai, Senhor, vosso poder e vinde, para que vossa proteção afaste os perigos a que nossos pecados nos expõem e a vossa salvação nos liberte. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "04 de Dezembro de 2020",
                 route: host + "/leitura-orante/december/leitura-orante4a.html",
             },
             5: {
-                img: host + "/assets/img/Leitura-orante-img-dec/05_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/05_Dezembro_2020.jpg",
                 title: "Sábado - 1ª Semana do Advento",
                 details: "Ó Deus, que enviastes a este mundo o vosso Unigênito para libertar da antiga escravidão do egito o gênero humano, concedei aos que esperam vossa misericórdia chegar à verdadeira liberdade. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "05 de Dezembro de 2020",
                 route: host + "/leitura-orante/december/leitura-orante5a.html",
             },
             6: {
-                img: host + "/assets/img/Leitura-orante-img-dec/06_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/06_Dezembro_2020.jpg",
                 title: "Domingo - 2º Domingo do Advento Tempo Comum",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "06 de Dezembro de 2020",
@@ -1895,7 +1891,7 @@ let mainData = {
             },
 
             7: {
-                img: host + "/assets/img/Leitura-orante-img-dec/07_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/07_Dezembro_2020.jpg",
                 title: "Segunda-feira - Santo Ambrósio",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "07 de Dezembro de 2020",
@@ -1903,7 +1899,7 @@ let mainData = {
             },
 
             8: {
-                img: host + "/assets/img/Leitura-orante-img-dec/08_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/08_Dezembro_2020.jpg",
                 title: "Terça-feira - Imaculada Conceição de Nossa Senhora",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "08 de Dezembro de 2020",
@@ -1911,7 +1907,7 @@ let mainData = {
             },
 
             9: {
-                img: host + "/assets/img/Leitura-orante-img-dec/09_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/09_Dezembro_2020.jpg",
                 title: "Quarta-feira - 2ª Semana do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "09 de Dezembro de 2020",
@@ -1919,7 +1915,7 @@ let mainData = {
             },
 
             10: {
-                img: host + "/assets/img/Leitura-orante-img-dec/10_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/10_Dezembro_2020.jpg",
                 title: "Quinta-feira - 2ª Semana do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "10 de Dezembro de 2020",
@@ -1927,7 +1923,7 @@ let mainData = {
             },
 
             11: {
-                img: host + "/assets/img/Leitura-orante-img-dec/11_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/11_Dezembro_2020.jpg",
                 title: "Sexta-feira - 2ª Semana do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "11 de Dezembro de 2020",
@@ -1935,7 +1931,7 @@ let mainData = {
             },
 
             12: {
-                img: host + "/assets/img/Leitura-orante-img-dec/12_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/12_Dezembro_2020.jpg",
                 title: "Sábado - Nossa Senhora de Guadalupe",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "12 de Dezembro de 2020",
@@ -1943,7 +1939,7 @@ let mainData = {
             },
 
             13: {
-                img: host + "/assets/img/Leitura-orante-img-dec/13_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/13_Dezembro_2020.jpg",
                 title: "Domingo - 3º Domingo do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "13 de Dezembro de 2020",
@@ -1951,7 +1947,7 @@ let mainData = {
             },
 
             14: {
-                img: host + "/assets/img/Leitura-orante-img-dec/14_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/14_Dezembro_2020.jpg",
                 title: "Segunda-feira - São João da Cruz, Presbítero e Doutor da Igreja",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "14 de Dezembro de 2020",
@@ -1959,7 +1955,7 @@ let mainData = {
             },
 
             15: {
-                img: host + "/assets/img/Leitura-orante-img-dec/15_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/15_Dezembro_2020.jpg",
                 title: "Terça-feira - Terceira Semana do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "15 de Dezembro de 2020",
@@ -1967,7 +1963,7 @@ let mainData = {
             },
 
             16: {
-                img: host + "/assets/img/Leitura-orante-img-dec/16_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/16_Dezembro_2020.jpg",
                 title: "Quarta-feira - Terceira Semana do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "16 de Dezembro de 2020",
@@ -1975,7 +1971,7 @@ let mainData = {
             },
 
             17: {
-                img: host + "/assets/img/Leitura-orante-img-dec/17_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/17_Dezembro_2020.jpg",
                 title: "Quinta-feira - Terceira Semana do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "17 de Dezembro de 2020",
@@ -1983,7 +1979,7 @@ let mainData = {
             },
 
             18: {
-                img: host + "/assets/img/Leitura-orante-img-dec/18_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/18_Dezembro_2020.jpg",
                 title: "Sexta-feira - Terceira Semana do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "18 de Dezembro de 2020",
@@ -1991,7 +1987,7 @@ let mainData = {
             },
 
             19: {
-                img: host + "/assets/img/Leitura-orante-img-dec/19_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/19_Dezembro_2020.jpg",
                 title: "Sábado - Terceira Semana do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "19 de Dezembro de 2020",
@@ -1999,7 +1995,7 @@ let mainData = {
             },
 
             20: {
-                img: host + "/assets/img/Leitura-orante-img-dec/20_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/20_Dezembro_2020.jpg",
                 title: "4º Domingo do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "20 de Dezembro de 2020",
@@ -2007,7 +2003,7 @@ let mainData = {
             },
 
             21: {
-                img: host + "/assets/img/Leitura-orante-img-dec/21_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/21_Dezembro_2020.jpg",
                 title: "Segunda-feira - 4ª Semana do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "21 de Dezembro de 2020",
@@ -2015,7 +2011,7 @@ let mainData = {
             },
 
             22: {
-                img: host + "/assets/img/Leitura-orante-img-dec/22_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/22_Dezembro_2020.jpg",
                 title: "Terça-feira - 4ª Semana do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "22 de Dezembro de 2020",
@@ -2023,7 +2019,7 @@ let mainData = {
             },
 
             23: {
-                img: host + "/assets/img/Leitura-orante-img-dec/23_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/23_Dezembro_2020.jpg",
                 title: "Quarta-feira - Quarta Semana do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "23 de Dezembro de 2020",
@@ -2031,7 +2027,7 @@ let mainData = {
             },
 
             24: {
-                img: host + "/assets/img/Leitura-orante-img-dec/24_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/24_Dezembro_2020.jpg",
                 title: "Quinta-feira - Missa da Noite",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "24 de Dezembro de 2020",
@@ -2039,7 +2035,7 @@ let mainData = {
             },
 
             25: {
-                img: host + "/assets/img/Leitura-orante-img-dec/25_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/25_Dezembro_2020.jpg",
                 title: "Sexta-feira",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "25 de Dezembro de 2020",
@@ -2047,7 +2043,7 @@ let mainData = {
             },
 
             26: {
-                img: host + "/assets/img/Leitura-orante-img-dec/26_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/26_Dezembro_2020.jpg",
                 title: "Sábado - Santo Estêvão, Diácono e Protomártir",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "26 de Dezembro de 2020",
@@ -2055,7 +2051,7 @@ let mainData = {
             },
 
             27: {
-                img: host + "/assets/img/Leitura-orante-img-dec/27_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/27_Dezembro_2020.jpg",
                 title: "Domingo-SAGRADA FAMÍLIA DE JESUS, MARIA E JOSÉ",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "27 de Dezembro de 2020",
@@ -2063,7 +2059,7 @@ let mainData = {
             },
 
             28: {
-                img: host + "/assets/img/Leitura-orante-img-dec/28_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/28_Dezembro_2020.jpg",
                 title: "Segunda-feira-SANTOS INOCENTES, MÁRTIRES",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "28 de Dezembro de 2020",
@@ -2071,7 +2067,7 @@ let mainData = {
             },
 
             29: {
-                img: host + "/assets/img/Leitura-orante-img-dec/29_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/29_Dezembro_2020.jpg",
                 title: "Terça-feira-OITAVA DO NATAL*",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "29 de Dezembro de 2020",
@@ -2079,7 +2075,7 @@ let mainData = {
             },
 
             30: {
-                img: host + "/assets/img/Leitura-orante-img-dec/30_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/30_Dezembro_2020.jpg",
                 title: "Quarta-feira-OITAVA DO NATAL*",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "30 de Dezembro de 2020",
@@ -2087,7 +2083,7 @@ let mainData = {
             },
 
             31: {
-                img: host + "/assets/img/Leitura-orante-img-dec/31_Dezembro_2020.jpg",
+                img: host + "/assets/img/leitura/Leitura-orante-img-dec/31_Dezembro_2020.jpg",
                 title: "Quinta-feira-OITAVA DO NATAL**",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "31 de Dezembro de 2020",
