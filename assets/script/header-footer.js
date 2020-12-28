@@ -78,12 +78,12 @@ footer.innerHTML = `
                 Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP | Tel. (11) 5547-7222
             </p>
             <div class="icons">
-                <a href="#"><span><img src="../../assets/img/Icone_Facebook.png" alt=""></span></a>
-                <a href="#"><span><img src="../../assets/img/Icone_Twitter.png" alt=""></span></a>
-                <a href="#"><span><img src="../../assets/img/Icone_Insta.png" alt=""></span></a>
-                <a href="#"><span><img src="../assets/img/Icone_Blog.png" alt=""></span></a>
-                <a href="#"><span><img src="../../assets/img/Icone_Youtube.png" alt=""></span></a>
-                <a href="#"><span><img src="../../assets/img/Icone_Site.png" alt=""></span></a>
+                <a href="https://www.facebook.com/sspsbrasilnorte" target="_blank"><span><img src="../../assets/img/Icone_Facebook.png" alt=""></span></a>
+                <a href="https://twitter.com/sspsbrasilnorte" target="_blank"><span><img src="../../assets/img/Icone_Twitter.png" alt=""></span></a>
+                <a href="https://www.instagram.com/sspsbrasilnorte/" target="_blank"><span><img src="../../assets/img/Icone_Insta.png" alt=""></span></a>
+                <a href="https://blog.ssps.org.br/" target="_blank"><span><img src="../assets/img/Icone_Blog.png" alt=""></span></a>
+                <a href="https://www.youtube.com/SspsBrasilNorte" target="_blank"><span><img src="../../assets/img/Icone_Youtube.png" alt=""></span></a>
+                <a href="http://www.ssps.org.br/" target="_blank"><span><img src="../../assets/img/Icone_Site.png" alt=""></span></a>
             </div>
         </div>
         <div class="col-md-6 col-sm-12 footer-div-right">
@@ -91,10 +91,10 @@ footer.innerHTML = `
                 Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP | Tel. (11) 5547-7222
             </p>
             <div class="icons">
-                <a href="#"><span><img src="../../assets/img/Icone_Facebook.png" alt=""></span></a>
-                <a href="#"><span><img src="../../assets/img/Icone_Blog.png" alt=""></span></a>
-                <a href="#"><span><img src="../../assets/img/Icone_Youtube.png" alt=""></span></a>
-                <a href="#"><span><img src="../../assets/img/Icone_Site.png" alt=""></span></a>
+                <a href="https://www.facebook.com/sspsbrasilnorte" target="_blank"><span><img src="../../assets/img/Icone_Facebook.png" alt=""></span></a>
+                <a href="https://blog.ssps.org.br/" target="_blank"><span><img src="../../assets/img/Icone_Blog.png" alt=""></span></a>
+                <a href="https://www.youtube.com/SspsBrasilNorte" target="_blank"><span><img src="../../assets/img/Icone_Youtube.png" alt=""></span></a>
+                <a href="http://www.ssps.org.br/" target="_blank"><span><img src="../../assets/img/Icone_Site.png" alt=""></span></a>
             </div>
         </div>
     </div>
