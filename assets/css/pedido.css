@@ -4,6 +4,7 @@
     border: 5px solid white;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center ;
 }
 .bg_Color{
     background: rgb(242 242 242 / 0.1);
@@ -25,10 +26,7 @@
 .heading1 {
     color: #fdfafa !important;
     text-align: center;
-    width: 90%;
-    /* margin: auto; */
     font-size: 31px;
-    margin-left: 20px;
     padding-top: 23px;
     opacity: 1 !important;
     /* font-family: GothamMedium !important; */
@@ -92,6 +90,7 @@
     background-color: #ffb400;
     border-radius: 4px;
     color: #6b0502;
+    margin-top: 20px;
 }
 .lastBtn{
     text-align: end;

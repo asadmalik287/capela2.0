@@ -24,7 +24,7 @@ header.innerHTML = `<div class="main-header">
         <ul class="navbar-nav mr-auto MPR">
             <div>
                 <li class="nav-item active">
-                    <a class="nav-link home-img" href="../home-page.html">
+                    <a class="nav-link home-img" href="${host}/index.html">
                         <img src="../../assets/img/home-icon.png" alt="Logo" style="width: 25px" /><span class="sr-only">(current)</span></a>
                 </li>
             </div>
