@@ -10,7 +10,7 @@
 
 .orac-content>p {
     color: #666666;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 
 div>a>button {
@@ -27,6 +27,12 @@ div>a>button {
     line-height: 22px;
     outline: none !important;
 }
+.orac_video_content{
+    color: red;
+    font-size: 15px;
+}
+.orac_pdf_contact{
+    text-decoration: underline;
+    color: black;
+}
 
-
-/* MEDIA QUEIRIES */
