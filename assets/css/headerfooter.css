@@ -792,6 +792,10 @@
                 #pl-10px {
                     padding-left: 10px !important;
                 }
+                #novena-iframe{
+                    width: 800px;
+                    height: 400px;
+                }
             }
             /* Media Query For imgs and text end*/
             /* Media Query for Ipad pro screen start*/
