@@ -650,7 +650,7 @@ let mainData = {
                     "/oracoes-missionarias/December/17.html",
             },
             24: {
-                img: host + "/assets/img/oracoes-missionarias/December/24 Nov 2020_Orações Missionárias .JPG",
+                img: host + "/assets/img/oracoes-missionarias/December/24 Dez 2020 _ Orações Missionária .jpg",
                 title: "O Verbo Encarnado",
                 details: `L.1: “O Espírito Santo descerá sobre ti e a virtude do Altíssimo
         te cobrirá com sua sombra. E, por isto mesmo, o Santo que há
@@ -669,14 +669,14 @@ let mainData = {
                 title: "Vocação é caminho de amor e serviço",
                 details: `A Igreja Católica dedica o mês de agosto às vocações, especialmente às de especial consagração, como é o caso das irmãs, padres, diáconos e leigas e leigos consagrados`,
                 date: "12 de Setembro de 2020",
-                route: host + "/Vocaoes/September/Vocaoes-12.html",
+                route: host + "/Vocaoes/September/12.html",
             },
             19: {
                 img: host + "/assets/img/Vocacoes/September/2–set_2020_papo_vocacional.jpg",
                 title: "Papo Vocacional - Como responder ao chamado",
                 details: `Você já sentiu vontade de conversar com alguém sobre vocação? De falar sobre suas dúvidas, trocar ideias, dizer o que você pensa e conhecer experiências de outras pessoas? `,
                 date: "19 de Setembro de 2020",
-                route: host + "/Vocaoes/September/Vocaoes-19.html",
+                route: host + "/Vocaoes/September/19.html",
                 video: true,
             },
             26: {
@@ -684,7 +684,7 @@ let mainData = {
                 title: "Vocação: o que Deus quer de mim?",
                 details: `Agosto é o Mês Vocacional desde 1981, quando a Conferência Nacional dos Bispos do Brasil (CNBB) decidiu incentivar e despertar a responsabilidade vocacional nas comunidades. Desde então, cada domingo do mês celebra a vocação em um estado concreto de vida.`,
                 date: "26 de Setembro de 2020",
-                route: host + "/Vocaoes/September/Vocaoes-26.html",
+                route: host + "/Vocaoes/September/26.html",
             },
         },
         October: {
@@ -693,7 +693,7 @@ let mainData = {
                 title: "Papo Vocacional - Será que tenho vocação?",
                 details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
                 date: "03 de outubro de 2020",
-                route: host + "/Vocaoes/October/Vocaoes-3.html",
+                route: host + "/Vocaoes/October/3.html",
                 video: true,
             },
             10: {
@@ -702,14 +702,14 @@ let mainData = {
                 title: "Noviciado Panam em tempos de pandemia",
                 details: `Nas Américas, as missionárias servas do Espírito Santo (SSpS) estão pr esentes no Brasil, Argentina, México, Estados Unidos, Cuba, Bolívia, Chi le, Paraguai, Equador, São Cristóvão e Névis, Jamaica e Antígua e Barbuda`,
                 date: "10 de outubro de 2020",
-                route: host + "/Vocaoes/October/Vocacoes-10.html",
+                route: host + "/Vocaoes/October/10.html",
             },
             17: {
                 img: host + "/assets/img/Vocacoes/October/2–set_2020_papo_vocacional.jpg",
                 title: "Papo Vocacional - Como é a vida de uma irmã SSpS? ",
                 details: `Viver a vocação é descobrir nossos dons e colocá-los a serviço da humanidade. Deus nos quer felizes, mas ninguém é feliz sozinho. Quanto mais partilhamos nossos dons, mais crescemos como pessoas e contribuímos para um mundo melhor`,
                 date: "17 de outubro de 2020",
-                route: host + "/Vocaoes/October/Vocacoes-17.html",
+                route: host + "/Vocaoes/October/17.html",
                 video: true,
             },
             24: {
@@ -717,14 +717,14 @@ let mainData = {
                 title: "Nossa vida é dom para a humanidade ",
                 details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
                 date: "24 de outubro de 2020",
-                route: host + "/Vocaoes/October/Vocacoes-24.html",
+                route: host + "/Vocaoes/October/24.html",
             },
             31: {
                 img: host + "/assets/img/Vocacoes/October/2–set_2020_papo_vocacional.jpg",
                 title: "Papo Vocacional - Como é a vida de uma irmã SSpS?",
                 details: `Você já parou para pensar como é a vida de uma missionária serva do Espírito Santo? Será que é muito diferente da sua? O que faz uma irmã? Como vive? Em que trabalha? Deu curiosidade? Então assista a este vídeo da série Papo Vocacional e descubra.`,
                 date: "31 de outubro de 2020",
-                route: host + "/Vocaoes/October/Vocacoes-31.html",
+                route: host + "/Vocaoes/October/31.html",
                 video: true,
             },
         },
@@ -734,7 +734,7 @@ let mainData = {
                 title: "Vocação pessoal e vocação específica",
                 details: `Toda pessoa recebe de Deus uma vocação para colocar a serviço das pessoas, mas algumas são chamadas a um estilo especial de vida, como religiosas, ministros ordenados, missionárias e missionários leigos… E você, já descobriu sua vocação?`,
                 date: "07 de Novembro de 2020",
-                route: host + "/Vocaoes/November/Vocaoes-7.html",
+                route: host + "/Vocaoes/November/7.html",
                 video: false,
             },
             14: {
@@ -742,7 +742,7 @@ let mainData = {
                 title: "Missionárias contam como descobriram a vocação",
                 details: `Toda pessoa recebe de Deus uma vocação muito significativa. Três irmãs compartilham sua vocação para uma Congregação internacional chamada  Missionárias Servas do Espírito Santo. Assista como cada uma fala sobre como surgiu sua vocação para a  vida religiosa...`,
                 date: "14 de Novembro de 2020",
-                route: host + "/Vocaoes/November/Vocacoes-14.html",
+                route: host + "/Vocaoes/November/14.html",
                 video: true,
             },
             21: {
@@ -750,17 +750,17 @@ let mainData = {
                 title: " Vocação pessoal e vocação específica",
                 details: `Todas as pessoas são chamadas por Deus à vida e têm uma missão a realizar. Mesmo quem não acredita ou não conhece a Deus é amado e cuidado por Ele. Deus não faz diferença entre as pessoas e “Faz o sol brilhar sobre os bons e os maus” (cf. Mt 5,45-46), distribuindo generosamente seus dons a todos.`,
                 date: "21 de Novembro de 2020",
-                route: host + "/Vocaoes/November/Vocacoes-21.html",
+                route: host + "/Vocaoes/November/21.html",
                 video: false,
             },
             28: {
-                img: host + "/assets/img/Vocacoes/November/Vocacoes-21.jpg",
+                img: host + "/assets/img/Vocacoes/November/21.jpg",
                 title: "  Amadas e chamadas por Deus",
                 details: `Chamadas de diferentes países e culturas, as Irmãs Missionárias do Espírito Santo são mulheres
         escolhidas como instrumento do Espírito Santo para servir. Enviadas para irradiar a presença do Pai, do
         Filho e do Espírito Santo, atuam nos cinco continentes, compondo uma congregação internacional.`,
                 date: "28 de Novembro de 2020",
-                route: host + "/Vocaoes/November/Vocacoes-28.html",
+                route: host + "/Vocaoes/November/28.html",
                 video: true,
             },
         },
@@ -770,7 +770,7 @@ let mainData = {
                 title: "Irmã Zilda Hornai: confiança em Deus e desafios em nossa cultura",
                 details: `Neste Mês das Vocações, conheça um pouco da experiência da irmã Zilda Hornai, vinda do Timor Leste. Ela conta como foi seu chamado à vida religiosa e em quem se inspira para superar os desafios que enfrenta em nosso país. Imperdível!  `,
                 date: "5 de dezembro de 2020",
-                route: host + "/Vocaoes/December/Vocaoes-5.html",
+                route: host + "/Vocaoes/December/5.html",
                 video: false,
             },
             12: {
@@ -778,7 +778,7 @@ let mainData = {
                 title: "Você já imaginou como é a preparação para ser uma irmã missionária",
                 details: `Você já imaginou como é a preparação para ser uma irmã missionária? Você vai ter oportunidade de assistir a um vídeo que mostra o cotidiano de uma comunidade de formação onde a preparação se dá no dia a dia da convivência e da missão. `,
                 date: "12 de dezembro de 2020",
-                route: host + "/Vocaoes/December/Vocacoes-12.html",
+                route: host + "/Vocaoes/December/12.html",
                 video: true,
             },
             19: {
@@ -786,7 +786,7 @@ let mainData = {
                 title: "Neste artigo irmã Adriana, promotora vocacional destaca ",
                 details: ` Neste artigo irmã Adriana, promotora vocacional destaca a importância da presença do animador juvenil no discernimento vocacional das jovens.  `,
                 date: "19 de dezembro de 2020",
-                route: host + "/Vocaoes/December/Vocacoes-19.html",
+                route: host + "/Vocaoes/December/19.html",
                 video: false,
             },
             26: {
@@ -794,7 +794,7 @@ let mainData = {
                 title: "Natural de Angola ",
                 details: `Natural de Angola, veio ao Brasil para cross cultural experiência e estudou fisioterapia e atuou na pastoral paroquial e na Infância e Adolescência Missionária. Irmã Mitilene retorna ao seu país de origem em 2021.  `,
                 date: "26 de dezembro de 2020",
-                route: host + "/Vocaoes/December/Vocacoes-19.html",
+                route: host + "/Vocaoes/December/26.html",
                 video: true,
             },
         },
@@ -2220,23 +2220,23 @@ let mainData = {
 let tercoData = {
     Dolorosos: {
         title: "Mistérios Dolorosos",
-        route: host + "/Terço-missionário.html",
-        img: host + "/img/Banner_Terco_Missionario.jpg",
+        route: host + "/Terço missionário/Terço missionário.html",
+        img: host + "/assets/img/banner/Banner_Terco_Missionario.jpg",
     },
     Gloriosos: {
         title: "Mistérios Gloriosos",
-        route: host + "/Terço-missionário.html",
-        img: host + "/img/Banner_Terco_Missionario.jpg",
+        route: host + "/Terço missionário/Terço missionário.html",
+        img: host + "/img//assets/img/banner/Banner_Terco_Missionario.jpg",
     },
     Gozozos: {
         title: "Mistérios Gozozos",
-        route: host + "/Terço-missionário.html",
-        img: host + "/img/Banner_Terco_Missionario.jpg",
+        route: host + "/Terço missionário/Terço missionário.html",
+        img: host + "/img//assets/img/banner/Banner_Terco_Missionario.jpg",
     },
     Luminosos: {
         title: "Mistérios Luminosos",
-        route: host + "/Terço-missionário.html",
-        img: host + "/img/Banner_Terco_Missionario.jpg",
+        route: host + "/Terço missionário/Terço missionário.html",
+        img: host + "/img//assets/img/banner/Banner_Terco_Missionario.jpg",
     },
 };
 
