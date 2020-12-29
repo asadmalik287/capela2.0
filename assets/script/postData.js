@@ -2699,7 +2699,7 @@ for (let i = currentDate; i > 0; i--) {
 if (mainData.santoData.December[currentDate]) {
     santoLink.setAttribute(
         "href",
-        host + "/Dia-December/Dia-" + currentDate + ".html"
+        host + "/Dia-de-santo/Dia-December/Dia-" + currentDate + ".html"
     );
 } else {
     santoLink.setAttribute("href", host + "/Dia-de-santo.html");
