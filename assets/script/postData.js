@@ -2685,7 +2685,7 @@ for (let i = currentDate; i > 0; i--) {
         // console.log(mainData.espirtualData[espirtualLatestMonth][i]);
         espirtualLink.setAttribute(
             "href",
-            host + "/Espiritualidade-December/espiritualidade-" + i + ".html"
+            host + "/Espiritualidade/December/" + i + ".html"
         );
         console.log("Espiritualidade Found ");
         break;
@@ -2720,3 +2720,24 @@ if (mainData.oracoesMissionarias.December[currentDate]) {
 }
 
 
+var http = new XMLHttpRequest();
+var http2 = new XMLHttpRequest();
+
+
+var leitura = document.getElementById('leitura');
+// console.log(leitura);
+let url2 = "./leitura-orante/december/leitura-orante-" + currentDate + ".html";
+http2.open("HEAD", url2, false);
+http2.send();
+console.log(http2.status)
+
+if (http2.status === 200) {
+    console.log("Lutera file exists");
+    leitura.setAttribute("href", "./leitura-orante/december/leitura-orante" + currentDate + ".html")
+
+}
+if (http2.status === 404) {
+    console.log("Lutera file does not exists");
+    leitura.setAttribute("href", "./Leitura-Orante/leitura-Orante-main.html")
+
+}

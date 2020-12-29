@@ -4,7 +4,7 @@ let showPrevious = "";
 let dayTerco1 = "";
 var a1 = new Date(previousWeekDate);
 let tercoDay1 = previousWeekDate.getDate();
-console.log(tercoDay1);
+// console.log(tercoDay1);
 var days1 = new Array(7);
 days[0] = "Sunday";
 days[1] = "Monday";

@@ -4,6 +4,9 @@
                 box-sizing: border-box;
             }
             
+            html {
+                scroll-behavior: smooth !important;
+              }
             @font-face {
                 font-family: "Gotham Medium";
                 src: url("../fonts/Gotham\ Medium\ Regular.ttf");

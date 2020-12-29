@@ -15,37 +15,37 @@ months[11] = "December";
 
 var d = new Date();
 var n = months[d.getMonth()];
-// console.log(mainData.santoData);
-Object.keys(mainData.santoData).map((month) => {
+// console.log(mainData.vocoesData);
+Object.keys(mainData.vocoesData).map((month) => {
     // console.log(month)
-    Object.keys(mainData.santoData[month]).map((post) => {
-        // console.log(mainData.santoData[month][post])
+    Object.keys(mainData.vocoesData[month]).map((post) => {
+        // console.log(mainData.vocoesData[month][post])
         if (month == n) {
             // console.log("sadsada");
-            // mainData.santoData[month][post].date.split(' ')[0] <= new Date().getDate()
+            // mainData.vocoesData[month][post].date.split(' ')[0] <= new Date().getDate()
 
-            if (Array.isArray(mainData.santoData[month][post]) == true) {
-                mainData.santoData[month][post].map((subPost) => {
+            if (Array.isArray(mainData.vocoesData[month][post]) == true) {
+                mainData.vocoesData[month][post].map((subPost) => {
                     if (subPost.date.split(" ")[0] <= new Date().getDate()) {
                         santoPostsArr.push(subPost);
                     }
                 });
             } else {
                 if (
-                    mainData.santoData[month][post].date.split(" ")[0] <=
+                    mainData.vocoesData[month][post].date.split(" ")[0] <=
                     new Date().getDate()
                 ) {
-                    // console.log(mainData.santoData[month][post]);
-                    santoPostsArr.push(mainData.santoData[month][post]);
+                    // console.log(mainData.vocoesData[month][post]);
+                    santoPostsArr.push(mainData.vocoesData[month][post]);
                 }
             }
         } else {
-            if (Array.isArray(mainData.santoData[month][post]) == true) {
-                mainData.santoData[month][post].map((subPost) => {
+            if (Array.isArray(mainData.vocoesData[month][post]) == true) {
+                mainData.vocoesData[month][post].map((subPost) => {
                     santoPostsArr.push(subPost);
                 });
             } else {
-                santoPostsArr.push(mainData.santoData[month][post]);
+                santoPostsArr.push(mainData.vocoesData[month][post]);
             }
         }
     });
