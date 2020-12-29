@@ -91,8 +91,8 @@ function renderDate() {
                     }, 2000)
                     check = 1;
                 }
-                if (mainData.santoData.August[i]) {
-                    cells += `<a class='a-date' href="${host}/Dia-de-santo/Dia-August/Dia-` + i + `.html">` + i + `</a>`;
+                if (mainData.santoData.December[i]) {
+                    cells += `<a class='a-date' href="${host}/Dia-de-santo/Dia-December/Dia-` + i + `.html">` + i + `</a>`;
                 } else {
                     cells += `<a class='a-date' style="color:#bbbbbb !important">` + i + `</a>`;
                 }
