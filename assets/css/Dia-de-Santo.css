@@ -35,8 +35,8 @@
     float: right;
     width: 50%;
     padding-left: 25px;
-    padding-top: 5px;
-    padding-bottom: 10px;
+    padding-top: 2px;
+    padding-bottom: 20px;
     
 }
 
@@ -97,9 +97,15 @@ border-bottom: 3px solid #dce4e7;
 
 
 @media (min-width:1100px) {
+
+    .mainHeading {
+        width: 50%;
+        min-height: 115px;
+        max-height: 115px;
+    }
     .mainImage-2
     {
-        margin-top: -8%;
+        margin-top: -11%;
     }
 }
 
