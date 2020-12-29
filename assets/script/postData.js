@@ -408,7 +408,7 @@ let mainData = {
     oracoesMissionarias: {
         September: {
             3: {
-                img: host + "/assets/img/oracoes-missionarias/September/14_img_oracoes_n_14.jpg",
+                img: host + "/assets/img/oracoes-missionarias/September/child (1).jpg",
                 title: "Jesus nos envia em missão",
                 details: `O projeto de Jesus Cristo é nosso programa de vida. <br>
                 Por isso, rezemos: <br>
@@ -501,7 +501,7 @@ let mainData = {
                     "/oracoes-missionarias/October/16.html",
             },
             18: {
-                img: host + "/assets/img/oracoes-missionarias/October/3_dia_Novena_Missionaria.jpg",
+                img: host + "/assets/img/oracoes-missionarias/October/2_dia_Novena_Missionaria.jpg",
                 title: "A vida missionária dos seminaristas",
                 details: `No terceiro dia da Novena Missionária, vamos rezar pela missão dos seminaristas. Por todos os jovens que atendem ao chamado de Deus para o sacerdócio e, em meio às contradições do mundo de hoje, põem-se a caminho do serviço ao povo de Deus. `,
                 date: "18 de Outubro de 2020",
@@ -551,7 +551,7 @@ let mainData = {
                     "/oracoes-missionarias/October/26.html",
             },
             28: {
-                img: host + "/assets/img/oracoes-missionarias/October/8_dia_Novena_Missionaria.jpg",
+                img: host + "/assets/img/oracoes-missionarias/October/7_dia_Novena_Missionaria.jpg",
                 title: "A vida missionária na Amazônia",
                 details: `No oitavo dia da Novena Missionária, somos convidados a assumir a Ecologia Integral, a apoiar as iniciativas missionárias pós sinodais na Amazônia e a defender os direitos dos povos indígenas e de todos que dependem da floresta. `,
                 date: "28 de Outubro de 2020",
@@ -581,7 +581,7 @@ let mainData = {
         },
         November: {
             5: {
-                img: host + "/assets/img/oracoes-missionarias/November/5 Nov 2020_ orações Missionária  .jpg",
+                img: host + "/assets/img/oracoes-missionarias/November/5 Nov 2020_ orações Missionária   (1).jpg",
                 title: "Senhor que amas",
                 details: `Senhor que amas, ajuda-nos a perceber, em nossa missão,  as ocasiões de amar. De amar espontaneamente com o olhar e o coração aqueles que encontramos.`,
                 date: "5° de Novembro de 2020",
@@ -1663,7 +1663,7 @@ let mainData = {
                 route: host + "/leitura-orante/november/leitura7a.html",
             },
             8: {
-                img: host + "/assets/img/leitura/leitura-img-nov/08_Novembro_Leit_oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-nov/08_Novembro_2020_Leit_oran.jpg",
                 title: "Domingo - 32ª Semana do Tempo Comum",
                 details: "Deus de poder e misericórdia, afastai de nós todo obstáculo para que, inteiramente disponíveis, nos dediquemos ao vosso serviço. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "8 de Novembro de 2020",
