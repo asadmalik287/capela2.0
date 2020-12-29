@@ -353,7 +353,7 @@ let mainData = {
                 route: host + "/Dia-de-santo/Dia-December/Dia-13.html",
             },
             17: {
-                img: host + "/assets/img/Dia-de-santo/December/17_Post_Dia_Santo_Dezembro_2020.jpg",
+                img: host + "/assets/img/Dia-de-santo/December/17_Post_Dia_Santo_Dezembro_2020.jpeg",
                 title: "São Lázaro",
                 details: "Hoje a Igreja celebra São Lázaro, descrito na Bíblia como um amigo do Senhor. Hospedou Jesus em sua casa e, após ser ressuscitado, tornou-se sinal pelo qual muitos passaram a acreditar em Cristo. Que ele nos ensine a acolher o Senhor. ",
                 date: "17 de dezembro  de 2020",
@@ -389,7 +389,7 @@ let mainData = {
                 route: host + "/Dia-de-santo/Dia-December/Dia-28.html",
             },
             29: {
-                img: host + "/assets/img/Dia-de-santo/December/29_Post_Dia_Santo_Dezembro_2020.jpg",
+                img: host + "/assets/img/Dia-de-santo/December/29_Post_Dia_Santo_Dezembro_2020jpeg.jpeg",
                 title: "Sagrada Família ",
                 details: "A festa deste domingo mostra o valor da família, uma vez que Jesus quis vir ao mundo numa família. Nos tempos atuais, em que as famílias enfrentam tantas crises, podemos nos inspirar no jeito de viver da família de Nazaré. E sua família, como vai? ",
                 date: "29 de dezembro  de 2020",
@@ -818,7 +818,7 @@ let mainData = {
         },
         October: {
             4: {
-                img: host + "/assets/img/25_ago_2020_Passaros voam.jpg",
+                img: host + "/assets/img/Espiritualidade/October/18_ago_2020_capa (1).jpg",
                 title: "Espiritualidade da convivência intercultural",
                 details: `Antigamente era normal passar a vida num mesmo local, com pessoas da mesma origem e conviver apenas com as que praticavam a mesma religião e compartilhavam os mesmos ...`,
                 date: "04 de outubro de 2020",
@@ -2685,7 +2685,7 @@ for (let i = currentDate; i > 0; i--) {
         // console.log(mainData.espirtualData[espirtualLatestMonth][i]);
         espirtualLink.setAttribute(
             "href",
-            host + "/Espiritualidade-December/espiritualidade-" + i + ".html"
+            host + "/Espiritualidade/December/" + i + ".html"
         );
         console.log("Espiritualidade Found ");
         break;
@@ -2720,3 +2720,24 @@ if (mainData.oracoesMissionarias.December[currentDate]) {
 }
 
 
+var http = new XMLHttpRequest();
+var http2 = new XMLHttpRequest();
+
+
+var leitura = document.getElementById('leitura');
+// console.log(leitura);
+let url2 = "./leitura-orante/december/leitura-orante-" + currentDate + ".html";
+http2.open("HEAD", url2, false);
+http2.send();
+console.log(http2.status)
+
+if (http2.status === 200) {
+    console.log("Lutera file exists");
+    leitura.setAttribute("href", "./leitura-orante/december/leitura-orante" + currentDate + ".html")
+
+}
+if (http2.status === 404) {
+    console.log("Lutera file does not exists");
+    leitura.setAttribute("href", "./Leitura-Orante/leitura-Orante-main.html")
+
+}
