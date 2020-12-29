@@ -26,9 +26,9 @@
 
 .img-2 {
     float: right;
-    width: 50%;
+    width: 55%;
     padding-left: 25px;
-    padding-top: 5px;
+    padding-top: 2px;
 }
 
 .img-3 {
@@ -113,5 +113,11 @@
     }
     .bottom {
         padding-bottom: 30px;
+    }
+
+    #bottom-wrap
+    {
+        flex-wrap: nowrap;
+        font-size: 12px;
     }
 }
