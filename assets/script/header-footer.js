@@ -1,4 +1,6 @@
-let host = "http://" + window.location.host;
+
+
+var host = "http://" + window.location.host;
 var header = document.getElementById("headerCode");
 header.innerHTML = `<div class="main-header">
 <div class="mini-header ">
@@ -45,12 +47,12 @@ header.innerHTML = `<div class="main-header">
             </div>
             <div>
                 <li class="nav-item">
-                    <a class="nav-link" id="vocoes">Vocações</a>
+                    <a class="nav-link" href="${host}/capela-virtual-Vocacoes.html">Vocações</a>
                 </li>
             </div>
             <div>
                 <li class="nav-item">
-                    <a class="nav-link" id="missao">Missão</a>
+                    <a class="nav-link" href="${host}/capela-virtual-nossa-missao.html">Missão</a>
                 </li>
             </div>
             <div>
@@ -61,7 +63,7 @@ header.innerHTML = `<div class="main-header">
 
             <div>
                 <li class="nav-item">
-                    <a class="nav-link" href="${host}/contatos.html">Contatos</a>
+                    <a class="nav-link" href="${host}/Contatos/contatos.html">Contatos</a>
                 </li>
             </div>
         </ul>

@@ -7,7 +7,7 @@ let check = 0;
 function renderDate() {
     let currentDate = ''
     let currentDate2 = ''
-        // For Production
+    // For Production
 
     if (document.location.pathname.slice(41).length == 5) {
         currentDate = document.location.pathname.slice(41).slice(0, 1)
@@ -92,7 +92,7 @@ function renderDate() {
                     check = 1;
                 }
                 if (mainData.santoData.August[i]) {
-                    cells += `<a class='a-date' href="../../Dia-August/Dia-` + i + `.html">` + i + `</a>`;
+                    cells += `<a class='a-date' href="${host}/Dia-de-santo/Dia-August/Dia-` + i + `.html">` + i + `</a>`;
                 } else {
                     cells += `<a class='a-date' style="color:#bbbbbb !important">` + i + `</a>`;
                 }
@@ -102,7 +102,7 @@ function renderDate() {
             } else if (months[dt.getMonth()] == "Setembro") {
 
                 if (mainData.santoData.September[i]) {
-                    cells += `<a class='a-date' href="../../Dia-September/Dia-` + i + `.html">` + i + `</a>`;
+                    cells += `<a class='a-date' href="${host}/Dia-de-santo/Dia-September/Dia-` + i + `.html">` + i + `</a>`;
                 } else {
                     cells += `<a class='a-date' style="color:#bbbbbb !important">` + i + `</a>`;
                 }
@@ -121,7 +121,7 @@ function renderDate() {
             } else if (months[dt.getMonth()] == "Novembro") {
 
                 if (mainData.santoData.November[i]) {
-                    cells += `<a class='a-date' href="../../Dia-November/Dia-` + i + `.html">` + i + `</a>`;
+                    cells += `<a class='a-date' href="${host}/Dia-de-santo/Dia-November/Dia-` + i + `.html">` + i + `</a>`;
                 } else {
                     cells += `<a class='a-date' style="color:#bbbbbb !important">` + i + `</a>`;
                 }
@@ -129,7 +129,7 @@ function renderDate() {
             } else if (months[dt.getMonth()] == "Dezembro") {
 
                 if (mainData.santoData.December[i]) {
-                    cells += `<a class='a-date' href="../../Dia-December/Dia-` + i + `.html">` + i + `</a>`;
+                    cells += `<a class='a-date' href="${host}/Dia-de-santo/Dia-December/Dia-` + i + `.html">` + i + `</a>`;
                 } else {
                     cells += `<a class='a-date' style="color:#bbbbbb !important">` + i + `</a>`;
                 }
