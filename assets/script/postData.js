@@ -107,27 +107,27 @@ let mainData = {
                 route: host + "/Dia-de-santo/Dia-October/Dia-4.html",
             },
             5: [{
-                img: host + "/assets/img/Dia-de-santo/October/05_Post_Dia_Santo_Outubro_2020.jpg",
-                title: "São Benedito",
-                details: "Hoje celebramos a memória de São Benedito que, com muita fé e humildade, seguiu sua vida consagrada na Ordem dos Frades Menores Capuchinhos, cuidando dos mais pobres. São Benedito, rogai por nós!",
-                date: "05 de outubro de 2020",
-                route: host + "/Dia-de-santo/Dia-October/Dia-5.html",
-            },
-            {
-                img: host +
-                    "/assets/img/Dia-de-santo/October/05_Post_Dia_Santo_Outubro_2020_Canonizacao_Santo_Arnaldo.jpg",
-                title: "Canonização de Santo Arnaldo Janssen e São José Freinademetz",
-                details: "Unidos pelo amor à missão, Santo Arnaldo Janssen e São José Freinademetz foram canonizados juntos por São João Paulo II, no dia 5 de outubro de 2003. Arnaldo fundou três congregações religiosas, e José dedicou sua vida à evangelização do povo chinês.",
-                date: "05 de outubro de 2020",
-                route: host + "/Dia-de-santo/Dia-October/Dia-5a.html",
-            },
-            {
-                img: host + "/assets/img/Dia-de-santo/October/05_Post_Dia_Santo_Outubro_2020_B.jpg",
-                title: "Santa Faustina Kowalska",
-                details: "Hoje a Igreja celebra Santa Faustina, uma freira e mística polonesa. Ficou muito conhecida pelas extraordinárias revelações sob a misericórdia de Deus. Entre as muitas devoções difundidas por ela, temos o terço da Divina Misericórdia. ",
-                date: "05 de outubro de 2020",
-                route: host + "/Dia-de-santo/Dia-October/Dia-5b.html",
-            },
+                    img: host + "/assets/img/Dia-de-santo/October/05_Post_Dia_Santo_Outubro_2020.jpg",
+                    title: "São Benedito",
+                    details: "Hoje celebramos a memória de São Benedito que, com muita fé e humildade, seguiu sua vida consagrada na Ordem dos Frades Menores Capuchinhos, cuidando dos mais pobres. São Benedito, rogai por nós!",
+                    date: "05 de outubro de 2020",
+                    route: host + "/Dia-de-santo/Dia-October/Dia-5.html",
+                },
+                {
+                    img: host +
+                        "/assets/img/Dia-de-santo/October/05_Post_Dia_Santo_Outubro_2020_Canonizacao_Santo_Arnaldo.jpg",
+                    title: "Canonização de Santo Arnaldo Janssen e São José Freinademetz",
+                    details: "Unidos pelo amor à missão, Santo Arnaldo Janssen e São José Freinademetz foram canonizados juntos por São João Paulo II, no dia 5 de outubro de 2003. Arnaldo fundou três congregações religiosas, e José dedicou sua vida à evangelização do povo chinês.",
+                    date: "05 de outubro de 2020",
+                    route: host + "/Dia-de-santo/Dia-October/Dia-5a.html",
+                },
+                {
+                    img: host + "/assets/img/Dia-de-santo/October/05_Post_Dia_Santo_Outubro_2020_B.jpg",
+                    title: "Santa Faustina Kowalska",
+                    details: "Hoje a Igreja celebra Santa Faustina, uma freira e mística polonesa. Ficou muito conhecida pelas extraordinárias revelações sob a misericórdia de Deus. Entre as muitas devoções difundidas por ela, temos o terço da Divina Misericórdia. ",
+                    date: "05 de outubro de 2020",
+                    route: host + "/Dia-de-santo/Dia-October/Dia-5b.html",
+                },
             ],
             7: {
                 img: host + "/assets/img/Dia-de-santo/October/07_Post_Dia_Santo_Outubro_2020.jpg",
@@ -273,19 +273,19 @@ let mainData = {
             },
 
             22: [{
-                img: host + "/assets/img/Dia-de-santo/November/22_Post_Dia_Santo_Novembro_2020.jpg",
-                title: "Solenidade de Jesus Cristo, Rei do Universo",
-                details: "Na Solenidade de Jesus Cristo, Rei do Universo, queremos recordar que o reinado de Jesus Cristo não está atrelado ao poder dominador, mas se coloca ao lado dos mais pobres e vulneráveis. Que esta festividade renove nosso seguimento a Jesus Cristo. ",
-                date: "22 de Novembro de 2020",
-                route: host + "/Dia-de-santo/Dia-November/Dia-22.html",
-            },
-            {
-                img: host + "/assets/img/Dia-de-santo/November/22_Post_Dia_Santo_Novembro_2020_A.jpg",
-                title: "Santa Cecília",
-                details: "Hoje celebramos a memória de Santa Cecília, padroeira da música sacra e da poesia. Conta-se que Cecília foi martirizada e sepultada nas catacumbas de São Calisto, em Roma. Que ela interceda por nós, para que também possamos testemunhar nossa fé.",
-                date: "22 de Novembro de 2020",
-                route: host + "/Dia-de-santo/Dia-November/Dia-22a.html",
-            },
+                    img: host + "/assets/img/Dia-de-santo/November/22_Post_Dia_Santo_Novembro_2020.jpg",
+                    title: "Solenidade de Jesus Cristo, Rei do Universo",
+                    details: "Na Solenidade de Jesus Cristo, Rei do Universo, queremos recordar que o reinado de Jesus Cristo não está atrelado ao poder dominador, mas se coloca ao lado dos mais pobres e vulneráveis. Que esta festividade renove nosso seguimento a Jesus Cristo. ",
+                    date: "22 de Novembro de 2020",
+                    route: host + "/Dia-de-santo/Dia-November/Dia-22.html",
+                },
+                {
+                    img: host + "/assets/img/Dia-de-santo/November/22_Post_Dia_Santo_Novembro_2020_A.jpg",
+                    title: "Santa Cecília",
+                    details: "Hoje celebramos a memória de Santa Cecília, padroeira da música sacra e da poesia. Conta-se que Cecília foi martirizada e sepultada nas catacumbas de São Calisto, em Roma. Que ela interceda por nós, para que também possamos testemunhar nossa fé.",
+                    date: "22 de Novembro de 2020",
+                    route: host + "/Dia-de-santo/Dia-November/Dia-22a.html",
+                },
             ],
             25: {
                 img: host + "/assets/img/Dia-de-santo/November/25_Post_Dia_Santo_Novembro_2020_B.jpg",
@@ -380,7 +380,7 @@ let mainData = {
                 details: "Hoje a Igreja celebra São João Evangelista. Ele é um dos doze apóstolos que deixando tudo e seguiram Jesus. É autor de três epístolas, do Apocalipse e do quarto Evangelho. Ele se denomina como “O Discípulo Amado” e “O Discípulo que Dá Testemunho”. ",
                 date: "27 de dezembro  de 2020",
                 route: host + "/Dia-de-santo/Dia-December/Dia-27.html",
-            },],
+            }, ],
             28: {
                 img: host + "/assets/img/Dia-de-santo/December/28_Post_Dia_Santo_Dezembro_2020.jpg",
                 title: "Santos Inocentes ",
@@ -2007,7 +2007,7 @@ let tercoData = {
     Gloriosos: {
         title: "Mistérios Gloriosos",
         route: host + "/Terço missionário/Terço missionário.html",
-        img: host + "/img//assets/img/banner/Banner_Terco_Missionario.jpg",
+        img: host + "/assets/img/banner/Banner_Terco_Missionario.jpg",
     },
     Gozozos: {
         title: "Mistérios Gozozos",
@@ -2382,7 +2382,7 @@ for (var category in mainData) {
 showhtml += tercoHTML;
 
 // console.log(showhtml);
-window.setTimeout(function () {
+window.setTimeout(function() {
     jQuery("#destaquesPortion").html(showhtml);
     // document.getElementById('destaquesPortion').innerHTML +=
     // showhtml2 += tercoHTML2
@@ -2400,7 +2400,7 @@ window.setTimeout(function () {
     chat_order("destaquesMain", "sortpost1");
     jQuery("#destaquesPortion")
         .find(".CV-Video-Link-Post")
-        .each(function (i) {
+        .each(function(i) {
             if (i > 6) {
                 jQuery(this).remove();
             }
@@ -2408,7 +2408,7 @@ window.setTimeout(function () {
 
     jQuery("#destaquesMain")
         .find(".nVideo-Post")
-        .each(function (i) {
+        .each(function(i) {
             if (i > 6) {
                 jQuery(this).remove();
             }
@@ -2420,7 +2420,7 @@ function chat_order(pid, pcls) {
     var container = $("#" + pid);
     var items = $("." + pcls);
 
-    items.each(function (i) {
+    items.each(function(i) {
         // Convert the string in 'data-event-date' attribute to a more
         // standardized date format
         var BCDate = $(this).attr("data-event-date");
@@ -2432,12 +2432,12 @@ function chat_order(pid, pcls) {
     });
 
     items
-        .sort(function (a, b) {
+        .sort(function(a, b) {
             a = parseFloat($(a).attr("data-event-date"));
             b = parseFloat($(b).attr("data-event-date"));
             return a > b ? -1 : a < b ? 1 : 0;
         })
-        .each(function () {
+        .each(function() {
             container.append(this);
         });
 }
@@ -2483,7 +2483,7 @@ if (mainData.santoData.December[currentDate]) {
         host + "/Dia-de-santo/Dia-December/Dia-" + currentDate + ".html"
     );
 } else {
-    santoLink.setAttribute("href", host + "/Dia-de-santo.html");
+    santoLink.setAttribute("href", host + "/Dia-de-santo/Dia-Multiple.html");
 }
 
 // for oracoesMissionarias
