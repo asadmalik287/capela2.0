@@ -128,7 +128,7 @@
             }
             
             .main-header {
-                background: url('/assets/img/header-background.png');
+                background: url('/assets/img/header-footer/header-background.png');
                 background-repeat: no-repeat;
                 width: 100%;
                 background-size: cover;
@@ -137,7 +137,7 @@
             }
             
             .sky-background {
-                background-image: url('/assets/img/sky-blue-background.jpg');
+                background-image: url('/assets/img/header-footer/sky-blue-background.jpg');
                 background-repeat: no-repeat;
                 /* background-position: center; */
                 background-size: cover;
