@@ -2483,7 +2483,7 @@ if (mainData.santoData.December[currentDate]) {
         host + "/Dia-de-santo/Dia-December/Dia-" + currentDate + ".html"
     );
 } else {
-    santoLink.setAttribute("href", host + "/Dia-de-santo.html");
+    santoLink.setAttribute("href", host + "/Dia-de-santo/Dia-Multiple.html");
 }
 
 // for oracoesMissionarias
