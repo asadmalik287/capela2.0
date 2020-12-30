@@ -10,63 +10,63 @@ let mainData = {
                 title: "São Gregório Magno",
                 details: "Celebrando hoje São Gregório Magno, reconhecemos a grande contribuição desse Papa à Igreja, como guia de seu rebanho. Que, de sua fidelidade, aprendamos a fé e o amor a Deus por nosso compromisso com os mais sofridos. São Gregório, rogai por nós!",
                 date: "03 de Setembro de 2020",
-                route: host + "/Dia-de-santo/Dia-September/Dia-3-September.html",
+                route: host + "/Dia-de-santo/Dia-September/Dia-3.html",
             },
             5: {
                 img: host + "/assets/img/Dia-de-santo/September/05_Post_Dia_Santo_Setembro_2020.jpg",
                 title: "Santa Teresa de Calcutá",
                 details: " Hoje a Igreja celebra a memória de Santa Teresa de Calcutá. Seguindo a vontade de Deus, dedicou toda sua vida a amar sobretudo os pobres. “Temos de ir à procura das pessoas, porque podem ter fome de pão ou de amizade”, costumava dizer. ",
                 date: "05 de Setembro de 2020",
-                route: host + "/Dia-de-santo/Dia-September/Dia-5-September.html",
+                route: host + "/Dia-de-santo/Dia-September/Dia-5.html",
             },
             15: {
                 img: host + "/assets/img/Dia-de-santo/September/15_Post_Dia_Santo_Setembro_2020.jpg",
                 title: "Nossa Senhora das Dores",
                 details: "Nossa Senhora das Dores, de quem fazemos memória hoje, interceda por nós, seus filhos, neste mundo tão dilacerando pelo sofrimento pelo qual passam milhões de pessoas.",
                 date: "15 de Setembro de 2020",
-                route: host + "/Dia-de-santo/Dia-September/Dia-15-September.html",
+                route: host + "/Dia-de-santo/Dia-September/Dia-15.html",
             },
             16: {
                 img: host + "/assets/img/Dia-de-santo/September/16_Post_Dia_Santo_Setembro_2020.jpg",
                 title: " São Cornélio e São Cipriano",
                 details: "O Papa Cornélio e o bispo de Cartago, Cipriano, cujas memórias celebramos hoje, foram vítimas ilustres da perseguição.",
                 date: "16 de Setembro de 2020",
-                route: host + "/Dia-de-santo/Dia-September/Dia-16-September.html",
+                route: host + "/Dia-de-santo/Dia-September/Dia-16.html",
             },
             19: {
                 img: host + "/assets/img/Dia-de-santo/September/19_Post_Dia_Santo_Setembro_2020.jpg",
                 title: "Assunção de Maria",
                 details: "Hoje a Igreja celebra a Solenidade da Assunção de Maria. A Assunção é a participação de Maria na ressurreição de Cristo. Assim, é uma antecipação da nossa ressurreição. Que Maria nos ajude a lutarpelo bem, pela paz e pela justiça..",
                 date: "19 de Setembro de 2020",
-                route: host + "/Dia-de-santo/Dia-September/Dia-19-September.html",
+                route: host + "/Dia-de-santo/Dia-September/Dia-19.html",
             },
             21: {
                 img: host + "/assets/img/Dia-de-santo/September/21_Post_Dia_Santo_Setembro_2020.jpg",
                 title: "São Mateus Apóstolo e Evangelista",
                 details: "Que São Mateus, um dos doze apóstolos de Jesus, nos inspire a estar atentos ao chamado do Senhor, a nos colocar a caminho e de coração aberto para a missão.",
                 date: "21 de Setembro de 2020",
-                route: host + "/Dia-de-santo/Dia-September/Dia-21-September.html",
+                route: host + "/Dia-de-santo/Dia-September/Dia-21.html",
             },
             23: {
                 img: host + "/assets/img/Dia-de-santo/September/23_Post_Dia_Santo_Setembro_2020.jpg",
                 title: "São Pio de Pietrelcina",
                 details: "Hoje é dia de São Pio de Pietrelcina, o Padre Pio. Ele é um dos santos que mais se assemelharam a Nosso Senhor Jesus Cristo. Marcado pelo profundo amor a Deus e às pessoas, dizia: “Ficarei na porta do Paraíso até o último de meus filhos entrar",
                 date: "23 de Setembro de 2020",
-                route: host + "/Dia-de-santo/Dia-September/Dia-23-September.html",
+                route: host + "/Dia-de-santo/Dia-September/Dia-23.html",
             },
             26: {
                 img: host + "/assets/img/Dia-de-santo/September/26_Post_Dia_Santo_Setembro_2020.jpg",
                 title: "São Cosme e Damião, Mártires",
                 details: " Cosme e Damião foram escolhidos, por sua profissão, como patronos dos médicos e dos farmacêuticos. Sabe-se pouco da vida e do martírio desses dois santos, e as lendas não demoraram, colorindo de fantasias sua biografia.",
                 date: "26 de Setembro de 2020",
-                route: host + "/Dia-de-santo/Dia-September/Dia-26-September.html",
+                route: host + "/Dia-de-santo/Dia-September/Dia-26.html",
             },
             27: {
                 img: host + "/assets/img/Dia-de-santo/September/27_Post_Dia_Santo_Setembro_2020.jpg",
                 title: "São Vicente de Paulo",
                 details: "    Vicente de Paulo nasceu em Pouy, na França, em 24 de abril de 1581. Filho de pobres camponeses, gostava de estudar e se destacava por sua inteligência e zelo religioso. ",
                 date: "27 de Setembro de 2020",
-                route: host + "/Dia-de-santo/Dia-September/Dia-27-September.html",
+                route: host + "/Dia-de-santo/Dia-September/Dia-27.html",
             },
 
             29: {
@@ -74,14 +74,14 @@ let mainData = {
                 title: "São Miguel, São Gabriel e São Rafael, Arcanjos",
                 details: "Os arcanjos Miguel, Gabriel e Rafael são seres celestiais que estão a serviço de Deus como mensageiros e protetores.",
                 date: "29 de Setembro de 2020",
-                route: host + "/Dia-de-santo/Dia-September/Dia-29-September.html",
+                route: host + "/Dia-de-santo/Dia-September/Dia-29.html",
             },
             30: {
                 img: host + "/assets/img/Dia-de-santo/September/30_Post_Dia_Santo_Setembro_2020.jpg",
                 title: "São Jerônimo",
                 details: "São Jerônimo foi um escritor de estilo rico, capaz de pensar e escrever em latim, grego e hebraico. Nele se revela o filósofo, o retórico, o gramático e o dialético.",
                 date: "30 de Setembro de 2020",
-                route: host + "/Dia-de-santo/Dia-September/Dia-30-September.html",
+                route: host + "/Dia-de-santo/Dia-September/Dia-30.html",
             },
         },
         October: {
@@ -90,114 +90,114 @@ let mainData = {
                 title: "Santa Teresinha do Menino Jesus",
                 details: "Hoje celebramos Santa Teresinha do Menino Jesus, que nos inspira a viver, nas pequenas coisas do cotidiano, a experiência de Deus. Seu pensamento expressa bem sua vida: “Quero passar o céu fazendo o bem na terra”. Santa Teresinha, rogai por nós!",
                 date: "01 de outubro de 2020",
-                route: host + "/Dia-de-santo/Dia-October/Dia-1-October.html",
+                route: host + "/Dia-de-santo/Dia-October/Dia-1.html",
             },
             2: {
                 img: host + "/assets/img/Dia-de-santo/October/02_Post_Dia_Santo_Outubro_2020.jpg",
                 title: "Santos Anjos da Guarda",
                 details: "Hoje a Igreja celebra os Santos Anjos da Guarda. Os Anjos estão presentes na nossa vida, nos auxiliam, protegem e guardam de todo o mal. Não é possível descobrir sua ação com os nossos sentidos sensoriais. Mas, sabemos que realmente intervém na vida.",
                 date: "02 de outubro de 2020",
-                route: host + "/Dia-de-santo/Dia-October/Dia-2-October.html",
+                route: host + "/Dia-de-santo/Dia-October/Dia-2.html",
             },
             4: {
                 img: host + "/assets/img/Dia-de-santo/October/04_Post_Dia_Santo_Outubro_2020.jpg",
                 title: "São Francisco de Assis",
                 details: "Celebramos hoje a memória de São Francisco de Assis. Nasceu em Assis, Itália, em 1182. Como filho de um nobre comerciante, viveu na riqueza e no esbanjamento, mas experimentou a verdadeira conversão ao caminho de Jesus.",
                 date: "04 de outubro de 2020",
-                route: host + "/Dia-de-santo/Dia-October/Dia-4-October.html",
+                route: host + "/Dia-de-santo/Dia-October/Dia-4.html",
             },
             5: [{
-                img: host + "/assets/img/Dia-de-santo/October/05_Post_Dia_Santo_Outubro_2020.jpg",
-                title: "São Benedito",
-                details: "Hoje celebramos a memória de São Benedito que, com muita fé e humildade, seguiu sua vida consagrada na Ordem dos Frades Menores Capuchinhos, cuidando dos mais pobres. São Benedito, rogai por nós!",
-                date: "05 de outubro de 2020",
-                route: host + "/Dia-de-santo/Dia-October/Dia-5-October.html",
-            },
-            {
-                img: host +
-                    "/assets/img/Dia-de-santo/October/05_Post_Dia_Santo_Outubro_2020_Canonizacao_Santo_Arnaldo.jpg",
-                title: "Canonização de Santo Arnaldo Janssen e São José Freinademetz",
-                details: "Unidos pelo amor à missão, Santo Arnaldo Janssen e São José Freinademetz foram canonizados juntos por São João Paulo II, no dia 5 de outubro de 2003. Arnaldo fundou três congregações religiosas, e José dedicou sua vida à evangelização do povo chinês.",
-                date: "05 de outubro de 2020",
-                route: host + "/Dia-de-santo/Dia-October/Dia-5a-October.html",
-            },
-            {
-                img: host + "/assets/img/Dia-de-santo/October/05_Post_Dia_Santo_Outubro_2020_B.jpg",
-                title: "Santa Faustina Kowalska",
-                details: "Hoje a Igreja celebra Santa Faustina, uma freira e mística polonesa. Ficou muito conhecida pelas extraordinárias revelações sob a misericórdia de Deus. Entre as muitas devoções difundidas por ela, temos o terço da Divina Misericórdia. ",
-                date: "05 de outubro de 2020",
-                route: host + "/Dia-de-santo/Dia-October/Dia-5b-October.html",
-            },
+                    img: host + "/assets/img/Dia-de-santo/October/05_Post_Dia_Santo_Outubro_2020.jpg",
+                    title: "São Benedito",
+                    details: "Hoje celebramos a memória de São Benedito que, com muita fé e humildade, seguiu sua vida consagrada na Ordem dos Frades Menores Capuchinhos, cuidando dos mais pobres. São Benedito, rogai por nós!",
+                    date: "05 de outubro de 2020",
+                    route: host + "/Dia-de-santo/Dia-October/Dia-5.html",
+                },
+                {
+                    img: host +
+                        "/assets/img/Dia-de-santo/October/05_Post_Dia_Santo_Outubro_2020_Canonizacao_Santo_Arnaldo.jpg",
+                    title: "Canonização de Santo Arnaldo Janssen e São José Freinademetz",
+                    details: "Unidos pelo amor à missão, Santo Arnaldo Janssen e São José Freinademetz foram canonizados juntos por São João Paulo II, no dia 5 de outubro de 2003. Arnaldo fundou três congregações religiosas, e José dedicou sua vida à evangelização do povo chinês.",
+                    date: "05 de outubro de 2020",
+                    route: host + "/Dia-de-santo/Dia-October/Dia-5a.html",
+                },
+                {
+                    img: host + "/assets/img/Dia-de-santo/October/05_Post_Dia_Santo_Outubro_2020_B.jpg",
+                    title: "Santa Faustina Kowalska",
+                    details: "Hoje a Igreja celebra Santa Faustina, uma freira e mística polonesa. Ficou muito conhecida pelas extraordinárias revelações sob a misericórdia de Deus. Entre as muitas devoções difundidas por ela, temos o terço da Divina Misericórdia. ",
+                    date: "05 de outubro de 2020",
+                    route: host + "/Dia-de-santo/Dia-October/Dia-5b.html",
+                },
             ],
             7: {
                 img: host + "/assets/img/Dia-de-santo/October/07_Post_Dia_Santo_Outubro_2020.jpg",
                 title: "Nossa Senhora do Rosário",
                 details: "Que a memória de Nossa Senhora do Rosário nos inspire a buscarmos, na oração do rosário, a devoção mariana, meditando os mistérios de Jesus, na encarnação, paixão, morte e ressurreição de Cristo. Nossa Senhora do Rosário, rogai por nós!",
                 date: "07 de outubro de 2020",
-                route: host + "/Dia-de-santo/Dia-October/Dia-7-October.html",
+                route: host + "/Dia-de-santo/Dia-October/Dia-7.html",
             },
             10: {
                 img: host + "/assets/img/Dia-de-santo/October/10_Post_Dia_Santo_Outubro_2020.jpg",
                 title: "São Daniel Comboni",
                 details: "Celebramos hoje a memória do São Daniel Comboni. Ele se dedicou ao povo africano no Sudão. Sensibilizado pela realidade de pobreza em que viviam as pessoas, Comboni doou sua vida a serviço da missão. Seu lema: “Salvar a África com a África”.",
                 date: "10 de outubro de 2020",
-                route: host + "/Dia-de-santo/Dia-October/Dia-10-October.html",
+                route: host + "/Dia-de-santo/Dia-October/Dia-10.html",
             },
             11: {
                 img: host + "/assets/img/Dia-de-santo/October/11_Post_Dia_Santo_Outubro_2020.jpg",
                 title: "São João XXIII, Papa",
                 details: "Hoje a Igreja celebra São João XXIII, conhecido como “O Papa Bom”. Ele, que costumava dizer “Os santos do Senhor, em todos os lugares, nos alegram, nos animam e nos abençoam”, nos ensine a ser fiéis discípulos de Jesus e apóstolos de sua Palavra.",
                 date: "11 de outubro de 2020",
-                route: host + "/Dia-de-santo/Dia-October/Dia-11-October.html",
+                route: host + "/Dia-de-santo/Dia-October/Dia-11.html",
             },
             12: {
                 img: host + "/assets/img/Dia-de-santo/October/12_Post_Dia_Santo_Outubro_2020.jpg",
                 title: "Nossa Senhora Aparecida",
                 details: "Celebramos hoje Nossa Senhora da Conceição Aparecida, Padroeira do Brasil. Invocamos nossa Mãe e, por sua intercessão, peçamos a Deus muitas bênçãos a nosso Brasil. Que esta nação consagrada a ela caminhe na fé, esperança, amor e na solidariedade.",
                 date: "12 de outubro de 2020",
-                route: host + "/Dia-de-santo/Dia-October/Dia-12-October.html",
+                route: host + "/Dia-de-santo/Dia-October/Dia-12.html",
             },
             15: {
                 img: host + "/assets/img/Dia-de-santo/October/15_Post_Dia_Santo_Outubro_2020.jpg",
                 title: "Santa Teresa de Ávila",
                 details: "Santa Teresa de Ávila, de quem fazemos memória hoje, nos inspire a viver a mística no nosso dia a dia e a caminhar numa profunda experiência de Deus, pois somente como ela disse… “Tudo passa, só Deus basta”. ",
                 date: "15 de outubro de 2020",
-                route: host + "/Dia-de-santo/Dia-October/Dia-15-October.html",
+                route: host + "/Dia-de-santo/Dia-October/Dia-15.html",
             },
             17: {
                 img: host + "/assets/img/Dia-de-santo/October/17_Post_Dia_Santo_Outubro_2020.jpg",
                 title: "Santo Inácio de Antioquia, bispo e mártir",
                 details: "Celebramos hoje a memória de Santo Inácio de Antioquia, bispo e mártir da Igreja. Peçamos a intercessão desse santo que marcou a comunidade cristã de Antioquia. Que nós, seguidores de Jesus, vivamos em unidade e caminhemos à luz do Evangelho.",
                 date: "17 de outubro de 2020",
-                route: host + "/Dia-de-santo/Dia-October/Dia-17-October.html",
+                route: host + "/Dia-de-santo/Dia-October/Dia-17.html",
             },
             18: {
                 img: host + "/assets/img/Dia-de-santo/October/18_Post_Dia_Santo_Outubro_2020.jpg",
                 title: "São Lucas evangelista",
                 details: "“Visto que muitos já empreenderam compor uma narração dos fatos que se cumpriram entre nós, conforme no-los transmitiram os que, desde o princípio, foram testemunhas…, a mim também me pareceu conveniente escrever-te…, ilustre Teófilo” (Lc 1,1-4).",
                 date: "18 de outubro de 2020",
-                route: host + "/Dia-de-santo/Dia-October/Dia-18-October.html",
+                route: host + "/Dia-de-santo/Dia-October/Dia-18.html",
             },
             22: {
                 img: host + "/assets/img/Dia-de-santo/October/22_Post_Dia_Santo_Outubro_2020.jpg",
                 title: "São João Paulo II",
                 details: "Hoje a Igreja celebra São João Paulo II, o Papa polonês, muito influente no diálogo para a superação de conflitos mundiais. Ele se empenhou em reconduzir a Igreja pós-conciliar para um caminho mais religioso.",
                 date: "22 de outubro de 2020",
-                route: host + "/Dia-de-santo/Dia-October/Dia-22-October.html",
+                route: host + "/Dia-de-santo/Dia-October/Dia-22.html",
             },
             25: {
                 img: host + "/assets/img/Dia-de-santo/October/25_Post_Dia_Santo_Outubro_2020.jpg",
                 title: "Santo Antônio de Sant’Ana Galvão",
                 details: "Celebramos hoje a memória de Santo Antônio de Sant’Ana Galvão. Viveu sua vocação de consagrado com grande dedicação, serenidade e na caridade com os mais necessitados. Que ele rogue a Deus por nós!",
                 date: "25 de outubro de 2020",
-                route: host + "/Dia-de-santo/Dia-October/Dia-25-October.html",
+                route: host + "/Dia-de-santo/Dia-October/Dia-25.html",
             },
             28: {
                 img: host + "/assets/img/Dia-de-santo/October/28_Post_Dia_Santo_Outubro_2020.jpg",
                 title: "São Simão e São Judas Tadeu, Apóstolos",
                 details: "São Simão e São Judas Tadeu, chamados por Jesus e enviados a testemunhar o Evangelho. Que, pela intercessão desses apóstolos, sejamos fortalecidos em nossa fé e, com alegria, coragem e fidelidade, anunciemos o Cristo.",
                 date: "28 de outubro de 2020",
-                route: host + "/Dia-de-santo/Dia-October/Dia-28-October.html",
+                route: host + "/Dia-de-santo/Dia-October/Dia-28.html",
             },
         },
         November: {
@@ -206,107 +206,107 @@ let mainData = {
                 title: "Todos os Santos",
                 details: "Na Solenidade de Todos os Santos, a Igreja militante honra todos os servos de Deus. Aqueles que, pela fé, esperança e caridade, mantiveram-se fiéis, dando testemunho das bem-aventuranças. Que eles roguem por nós e, um dia, estejamos junto deles! ",
                 date: "01 de Novembro de 2020",
-                route: host + "/Dia-de-santo/Dia-November/Dia-1-November.html",
+                route: host + "/Dia-de-santo/Dia-November/Dia-1.html",
             },
             3: {
                 img: host + "/assets/img/Dia-de-santo/November/03_Post_Dia_Santo_Novembro_2020.jpg",
                 title: "São Martinho de Lima",
                 details: "Celebrando a memória de São Martinho de Lima, recordamos as vidas das pessoas que se entregam, com amor e caridade, no serviço simples. Que seu exemplo nos ajude a buscar, na singeleza, viver com santidade.",
                 date: "03 de Novembro de 2020",
-                route: host + "/Dia-de-santo/Dia-November/Dia-3-November.html",
+                route: host + "/Dia-de-santo/Dia-November/Dia-3.html",
             },
             4: {
                 img: host + "/assets/img/Dia-de-santo/November/04_Post_Dia_Santo_Novembro_2020.jpg",
                 title: "São Carlos Borromeu",
                 details: "Celebrando hoje a memória de São Carlos Borromeu, queremos lembrar esse Santo que tanto bem fez à Igreja. Concretizou as reformas do Concílio de Trento e destacou-se na caridade com os mais pobres e doentes. São Carlos Borromeu, rogai por nós!",
                 date: "04 de Novembro de 2020",
-                route: host + "/Dia-de-santo/Dia-November/Dia-4-November.html",
+                route: host + "/Dia-de-santo/Dia-November/Dia-4.html",
             },
             10: {
                 img: host + "/assets/img/Dia-de-santo/November/10_Post_Dia_Santo_Novembro_2020.jpg",
                 title: "São Leão Magno, Papa e Doutor da Igreja",
                 details: "Celebramos hoje a memória de São Leão Magno, Papa e Doutor da Igreja. Com sua liderança, ele ajudou muito na unidade da Igreja e na elaboração dogmática do Concílio de Calcedônia, ao defender as verdades de nossa fé. São Leão Magno, rogai por nós!",
                 date: "10 de Novembro de 2020",
-                route: host + "/Dia-de-santo/Dia-November/Dia-10-November.html",
+                route: host + "/Dia-de-santo/Dia-November/Dia-10.html",
             },
             11: {
                 img: host + "/assets/img/Dia-de-santo/November/11_Post_Dia_Santo_Novembro_2020.jpg",
                 title: "São Martinho de Tours, bispo",
                 details: "Martinho nasceu em Panônia, hoje Hungria, por volta do ano 316. Seus pais não eram cristãos, portanto foi somente na adolescência que ele teve contato mais direto com os seguidores de Jesus. Porém, quando seu pai o soube, opôs-se energicamente. Sendo geral no exército, queria que o filho Martinho seguisse a mesma carreira militar.",
                 date: "11 de Novembro de 2020",
-                route: host + "/Dia-de-santo/Dia-November/Dia-11-November.html",
+                route: host + "/Dia-de-santo/Dia-November/Dia-11.html",
             },
             12: {
                 img: host + "/assets/img/Dia-de-santo/November/12_Post_Dia_Santo_Novembro_2020.jpg",
                 title: "São Josafá, bispo e mártir",
                 details: "São Josafá nasceu na Ucrânia, por volta do ano 1580, de pais ortodoxos. Foi um buscador da verdade e da glória de Deus, por isso, certo dia se aproximou da Igreja católica e, ao conhecê-la, ficou encantado. Em 1604, ingressou no Mosteiro da Santíssima Trindade, na cidade de Vilna.",
                 date: "12 de Novembro de 2020",
-                route: host + "/Dia-de-santo/Dia-November/Dia-12-November.html",
+                route: host + "/Dia-de-santo/Dia-November/Dia-12.html",
             },
             15: {
                 img: host + "/assets/img/Dia-de-santo/November/15_Post_Dia_Santo_Novembro_2020.jpg",
                 title: "Santo Alberto Magno, bispo e doutor da Igreja",
                 details: "Celebrando hoje a memória de Santo Alberto Magno, bispo e doutor da Igreja, queremos recordar esse santo que soube buscar na oração a humildade e o desapego. Dedicou-se aos estudos das Ciências Naturais e ao conhecimento das verdades de nossa fé. ",
                 date: "15 de Novembro de 2020",
-                route: host + "/Dia-de-santo/Dia-November/Dia-15-November.html",
+                route: host + "/Dia-de-santo/Dia-November/Dia-15.html",
             },
             16: {
                 img: host + "/assets/img/Dia-de-santo/November/16_Post_Dia_Santo_Novembro_2020.jpg",
                 title: "Santa Gertrudes, virgem",
                 details: "Hoje a Igreja celebra Santa Gertrudes, uma mulher que, passando toda sua vida num mosteiro, encontrou alegria e liberdade verdadeiras junto do Senhor Jesus. Essa espiritualidade é um belo legado que deixou ao povo de Deus, à Igreja.  ",
                 date: "16 de Novembro de 2020",
-                route: host + "/Dia-de-santo/Dia-November/Dia-16-November.html",
+                route: host + "/Dia-de-santo/Dia-November/Dia-16.html",
             },
             17: {
                 img: host + "/assets/img/Dia-de-santo/November/17_Post_Dia_Santo_Novembro_2020.jpg",
                 title: "Santa Isabel da Hungria",
                 details: "Hoje a Igreja celebra a memória de Santa Isabel da Hungria, a rainha que renunciou a títulos e riquezas para dedicar-se, com amor e generosidade, a servir a Deus, servindo aos mais pobres e enfermos. Isso lhe mereceu ser chamada “a mulher maior”. ",
                 date: "17 de Novembro de 2020",
-                route: host + "/Dia-de-santo/Dia-November/Dia-17-November.html",
+                route: host + "/Dia-de-santo/Dia-November/Dia-17.html",
             },
             19: {
                 img: host + "/assets/img/Dia-de-santo/November/19_Post_Dia_Santo_Novembro_2020.jpg",
                 title: "Santos Roque Gonzáles, Afonso Rodríguez e João del Castillo ",
                 details: "Fazemos memória dos santos Roque Gonzáles, Afonso Rodríguez e João del Castillo, mártires. Foram missionários entre os índios guaranis e fundaram cinco reduções. Que eles intercedam por todos os missionários presentes nas lutas das nações indígenas.",
                 date: "19 de Novembro de 2020",
-                route: host + "/Dia-de-santo/Dia-November/Dia-19-November.html",
+                route: host + "/Dia-de-santo/Dia-November/Dia-19.html",
             },
 
             22: [{
-                img: host + "/assets/img/Dia-de-santo/November/22_Post_Dia_Santo_Novembro_2020.jpg",
-                title: "Solenidade de Jesus Cristo, Rei do Universo",
-                details: "Na Solenidade de Jesus Cristo, Rei do Universo, queremos recordar que o reinado de Jesus Cristo não está atrelado ao poder dominador, mas se coloca ao lado dos mais pobres e vulneráveis. Que esta festividade renove nosso seguimento a Jesus Cristo. ",
-                date: "22 de Novembro de 2020",
-                route: host + "/Dia-de-santo/Dia-November/Dia-22-November.html",
-            },
-            {
-                img: host + "/assets/img/Dia-de-santo/November/22_Post_Dia_Santo_Novembro_2020_B.jpg",
-                title: "Santa Cecília",
-                details: "Hoje celebramos a memória de Santa Cecília, padroeira da música sacra e da poesia. Conta-se que Cecília foi martirizada e sepultada nas catacumbas de São Calisto, em Roma. Que ela interceda por nós, para que também possamos testemunhar nossa fé.",
-                date: "22 de Novembro de 2020",
-                route: host + "/Dia-de-santo/Dia-November/Dia-22a-November.html",
-            },
+                    img: host + "/assets/img/Dia-de-santo/November/22_Post_Dia_Santo_Novembro_2020.jpg",
+                    title: "Solenidade de Jesus Cristo, Rei do Universo",
+                    details: "Na Solenidade de Jesus Cristo, Rei do Universo, queremos recordar que o reinado de Jesus Cristo não está atrelado ao poder dominador, mas se coloca ao lado dos mais pobres e vulneráveis. Que esta festividade renove nosso seguimento a Jesus Cristo. ",
+                    date: "22 de Novembro de 2020",
+                    route: host + "/Dia-de-santo/Dia-November/Dia-22.html",
+                },
+                {
+                    img: host + "/assets/img/Dia-de-santo/November/22_Post_Dia_Santo_Novembro_2020_A.jpg",
+                    title: "Santa Cecília",
+                    details: "Hoje celebramos a memória de Santa Cecília, padroeira da música sacra e da poesia. Conta-se que Cecília foi martirizada e sepultada nas catacumbas de São Calisto, em Roma. Que ela interceda por nós, para que também possamos testemunhar nossa fé.",
+                    date: "22 de Novembro de 2020",
+                    route: host + "/Dia-de-santo/Dia-November/Dia-22a.html",
+                },
             ],
             25: {
                 img: host + "/assets/img/Dia-de-santo/November/25_Post_Dia_Santo_Novembro_2020_B.jpg",
                 title: "Santa Catarina de Alexandria",
                 details: "Celebramos hoje Santa Catarina de Alexandria. Por causa do testemunho de sua fé, foi martirizada no início do século IV, assim como muitos cristãos. Peçamos que ela interceda por todos os cristãos hoje que continuam a ser perseguidos por sua fé. ",
                 date: "25 de Novembro de 2020",
-                route: host + "/Dia-de-santo/Dia-November/Dia-25-November.html",
+                route: host + "/Dia-de-santo/Dia-November/Dia-25.html",
             },
             27: {
                 img: host + "/assets/img/Dia-de-santo/November/27_Post_Dia_Santo_Novembro_2020.jpg",
                 title: "Nossa Senhora das Graças",
                 details: "Celebramos hoje a memória de Nossa Senhora das Graças. Que Maria interceda a Deus por todos nós, as graças abundantes. Num mundo marcado por tantos sofrimentos dos povos, roguemos a Deus, por Maria. ",
                 date: "27 de Novembro de 2020",
-                route: host + "/Dia-de-santo/Dia-November/Dia-27-November.html",
+                route: host + "/Dia-de-santo/Dia-November/Dia-27.html",
             },
             30: {
                 img: host + "/assets/img/Dia-de-santo/November/30_Post_Dia_Santo_Novembro_2020.jpg",
                 title: "Santo André, Apóstolo",
                 details: "Que o testemunho de Santo André nos inspire a viver nossa fé cristã no seguimento a Jesus e na coragem de nos lançarmos à missão de anunciar a Boa-Nova do Reino de Deus. Santo André, apóstolo de Jesus e mártir, intercedei por nós!",
                 date: "30 de Novembro de 2020",
-                route: host + "/Dia-de-santo/Dia-November/Dia-30-November.html",
+                route: host + "/Dia-de-santo/Dia-November/Dia-30.html",
             },
         },
         December: {
@@ -380,7 +380,7 @@ let mainData = {
                 details: "Hoje a Igreja celebra São João Evangelista. Ele é um dos doze apóstolos que deixando tudo e seguiram Jesus. É autor de três epístolas, do Apocalipse e do quarto Evangelho. Ele se denomina como “O Discípulo Amado” e “O Discípulo que Dá Testemunho”. ",
                 date: "27 de dezembro  de 2020",
                 route: host + "/Dia-de-santo/Dia-December/Dia-27.html",
-            },],
+            }, ],
             28: {
                 img: host + "/assets/img/Dia-de-santo/December/28_Post_Dia_Santo_Dezembro_2020.jpg",
                 title: "Santos Inocentes ",
@@ -408,7 +408,7 @@ let mainData = {
     oracoesMissionarias: {
         September: {
             3: {
-                img: host + "/assets/img/oracoes-missionarias/September/14_img_oracoes_n_14.jpg",
+                img: host + "/assets/img/oracoes-missionarias/September/child (1).jpg",
                 title: "Jesus nos envia em missão",
                 details: `O projeto de Jesus Cristo é nosso programa de vida. <br>
                 Por isso, rezemos: <br>
@@ -501,7 +501,7 @@ let mainData = {
                     "/oracoes-missionarias/October/16.html",
             },
             18: {
-                img: host + "/assets/img/oracoes-missionarias/October/3_dia_Novena_Missionaria.jpg",
+                img: host + "/assets/img/oracoes-missionarias/October/2_dia_Novena_Missionaria.jpg",
                 title: "A vida missionária dos seminaristas",
                 details: `No terceiro dia da Novena Missionária, vamos rezar pela missão dos seminaristas. Por todos os jovens que atendem ao chamado de Deus para o sacerdócio e, em meio às contradições do mundo de hoje, põem-se a caminho do serviço ao povo de Deus. `,
                 date: "18 de Outubro de 2020",
@@ -551,7 +551,7 @@ let mainData = {
                     "/oracoes-missionarias/October/26.html",
             },
             28: {
-                img: host + "/assets/img/oracoes-missionarias/October/8_dia_Novena_Missionaria.jpg",
+                img: host + "/assets/img/oracoes-missionarias/October/7_dia_Novena_Missionaria.jpg",
                 title: "A vida missionária na Amazônia",
                 details: `No oitavo dia da Novena Missionária, somos convidados a assumir a Ecologia Integral, a apoiar as iniciativas missionárias pós sinodais na Amazônia e a defender os direitos dos povos indígenas e de todos que dependem da floresta. `,
                 date: "28 de Outubro de 2020",
@@ -581,7 +581,7 @@ let mainData = {
         },
         November: {
             5: {
-                img: host + "/assets/img/oracoes-missionarias/November/5 Nov 2020_ orações Missionária  .jpg",
+                img: host + "/assets/img/oracoes-missionarias/November/5 Nov 2020_ orações Missionária   (1).jpg",
                 title: "Senhor que amas",
                 details: `Senhor que amas, ajuda-nos a perceber, em nossa missão,  as ocasiões de amar. De amar espontaneamente com o olhar e o coração aqueles que encontramos.`,
                 date: "5° de Novembro de 2020",
@@ -1663,7 +1663,7 @@ let mainData = {
                 route: host + "/leitura-orante/november/leitura7a.html",
             },
             8: {
-                img: host + "/assets/img/leitura/leitura-img-nov/08_Novembro_Leit_oran.jpg",
+                img: host + "/assets/img/leitura/leitura-img-nov/08_Novembro_2020_Leit_oran.jpg",
                 title: "Domingo - 32ª Semana do Tempo Comum",
                 details: "Deus de poder e misericórdia, afastai de nós todo obstáculo para que, inteiramente disponíveis, nos dediquemos ao vosso serviço. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "8 de Novembro de 2020",
@@ -1853,42 +1853,42 @@ let mainData = {
                 title: "Terça-feira - 1ª Semana do Advento",
                 details: "Sede propício, ó Deus, às nossas súplicas e auxilai-nos em nossa tribulação. Consolados pela vinda do vosso Filho, sejamos purificados da antiga culpa. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "01 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante1a.html",
+                route: host + "/leitura-orante/december/leitura1a.html",
             },
             2: {
                 img: host + "/assets/img/leitura/Leitura-orante-img-dec/02_Dezembro_2020.jpg",
                 title: "Quarta-feira - 2ª Semana do Advento",
                 details: "Senhor Deus, preparai os nossos corações com a força da vossa graça, para que, ao chegar o Cristo, vosso Filho, nos encontre dignos do banquete da vida eterna e ele mesmo nos sirva o alimento celeste. ",
                 date: "02 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante2a.html",
+                route: host + "/leitura-orante/december/leitura2a.html",
             },
             3: {
                 img: host + "/assets/img/leitura/Leitura-orante-img-dec/03_Dezembro_2020.jpg",
                 title: "Quinta-feira - São Francisco Xavier",
                 details: "Ó Deus, que pela pregação de São Francisco Xavier, conquistastes para vós muitos povos do Oriente, concedei a todos os fiéis o mesmo zelo, para que a santa Igreja possa alegrar-se com o nascimento de novos filhos em toda a terra. ",
                 date: "03 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante3a.html",
+                route: host + "/leitura-orante/december/leitura3a.html",
             },
             4: {
                 img: host + "/assets/img/leitura/Leitura-orante-img-dec/04_Dezembro_2020.jpg",
                 title: "Sexta-feira - 1ª Semana do Advento",
                 details: "Despertai, Senhor, vosso poder e vinde, para que vossa proteção afaste os perigos a que nossos pecados nos expõem e a vossa salvação nos liberte. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "04 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante4a.html",
+                route: host + "/leitura-orante/december/leitura4a.html",
             },
             5: {
                 img: host + "/assets/img/leitura/Leitura-orante-img-dec/05_Dezembro_2020.jpg",
                 title: "Sábado - 1ª Semana do Advento",
                 details: "Ó Deus, que enviastes a este mundo o vosso Unigênito para libertar da antiga escravidão do egito o gênero humano, concedei aos que esperam vossa misericórdia chegar à verdadeira liberdade. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "05 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante5a.html",
+                route: host + "/leitura-orante/december/leitura5a.html",
             },
             6: {
                 img: host + "/assets/img/leitura/Leitura-orante-img-dec/06_Dezembro_2020.jpg",
                 title: "Domingo - 2º Domingo do Advento Tempo Comum",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "06 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante6a.html",
+                route: host + "/leitura-orante/december/leitura6a.html",
             },
 
             7: {
@@ -1896,7 +1896,7 @@ let mainData = {
                 title: "Segunda-feira - Santo Ambrósio",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "07 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante7a.html",
+                route: host + "/leitura-orante/december/leitura7a.html",
             },
 
             8: {
@@ -1904,7 +1904,7 @@ let mainData = {
                 title: "Terça-feira - Imaculada Conceição de Nossa Senhora",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "08 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante8a.html",
+                route: host + "/leitura-orante/december/leitura8a.html",
             },
 
             9: {
@@ -1912,7 +1912,7 @@ let mainData = {
                 title: "Quarta-feira - 2ª Semana do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "09 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante9a.html",
+                route: host + "/leitura-orante/december/leitura9a.html",
             },
 
             10: {
@@ -1920,7 +1920,7 @@ let mainData = {
                 title: "Quinta-feira - 2ª Semana do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "10 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante10a.html",
+                route: host + "/leitura-orante/december/leitura10a.html",
             },
 
             11: {
@@ -1928,7 +1928,7 @@ let mainData = {
                 title: "Sexta-feira - 2ª Semana do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "11 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante11a.html",
+                route: host + "/leitura-orante/december/leitura11a.html",
             },
 
             12: {
@@ -1936,7 +1936,7 @@ let mainData = {
                 title: "Sábado - Nossa Senhora de Guadalupe",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "12 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante12a.html",
+                route: host + "/leitura-orante/december/leitura12a.html",
             },
 
             13: {
@@ -1944,7 +1944,7 @@ let mainData = {
                 title: "Domingo - 3º Domingo do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "13 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante13a.html",
+                route: host + "/leitura-orante/december/leitura13a.html",
             },
 
             14: {
@@ -1952,7 +1952,7 @@ let mainData = {
                 title: "Segunda-feira - São João da Cruz, Presbítero e Doutor da Igreja",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "14 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante14a.html",
+                route: host + "/leitura-orante/december/leitura14a.html",
             },
 
             15: {
@@ -1960,7 +1960,7 @@ let mainData = {
                 title: "Terça-feira - Terceira Semana do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "15 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante15a.html",
+                route: host + "/leitura-orante/december/leitura15a.html",
             },
 
             16: {
@@ -1968,7 +1968,7 @@ let mainData = {
                 title: "Quarta-feira - Terceira Semana do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "16 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante16a.html",
+                route: host + "/leitura-orante/december/leitura16a.html",
             },
 
             17: {
@@ -1976,7 +1976,7 @@ let mainData = {
                 title: "Quinta-feira - Terceira Semana do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "17 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante17a.html",
+                route: host + "/leitura-orante/december/leitura17a.html",
             },
 
             18: {
@@ -1984,7 +1984,7 @@ let mainData = {
                 title: "Sexta-feira - Terceira Semana do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "18 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante18a.html",
+                route: host + "/leitura-orante/december/leitura18a.html",
             },
 
             19: {
@@ -1992,7 +1992,7 @@ let mainData = {
                 title: "Sábado - Terceira Semana do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "19 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante19a.html",
+                route: host + "/leitura-orante/december/leitura19a.html",
             },
 
             20: {
@@ -2000,7 +2000,7 @@ let mainData = {
                 title: "4º Domingo do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "20 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante20a.html",
+                route: host + "/leitura-orante/december/leitura20a.html",
             },
 
             21: {
@@ -2008,7 +2008,7 @@ let mainData = {
                 title: "Segunda-feira - 4ª Semana do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "21 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante21a.html",
+                route: host + "/leitura-orante/december/leitura21a.html",
             },
 
             22: {
@@ -2016,7 +2016,7 @@ let mainData = {
                 title: "Terça-feira - 4ª Semana do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "22 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante22a.html",
+                route: host + "/leitura-orante/december/leitura22a.html",
             },
 
             23: {
@@ -2024,7 +2024,7 @@ let mainData = {
                 title: "Quarta-feira - Quarta Semana do Advento",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "23 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante23a.html",
+                route: host + "/leitura-orante/december/leitura23a.html",
             },
 
             24: {
@@ -2032,7 +2032,7 @@ let mainData = {
                 title: "Quinta-feira - Missa da Noite",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "24 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante24a.html",
+                route: host + "/leitura-orante/december/leitura24a.html",
             },
 
             25: {
@@ -2040,7 +2040,7 @@ let mainData = {
                 title: "Sexta-feira",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "25 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante25a.html",
+                route: host + "/leitura-orante/december/leitura25a.html",
             },
 
             26: {
@@ -2048,7 +2048,7 @@ let mainData = {
                 title: "Sábado - Santo Estêvão, Diácono e Protomártir",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "26 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante26a.html",
+                route: host + "/leitura-orante/december/leitura6a.html",
             },
 
             27: {
@@ -2056,7 +2056,7 @@ let mainData = {
                 title: "Domingo-SAGRADA FAMÍLIA DE JESUS, MARIA E JOSÉ",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "27 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante27a.html",
+                route: host + "/leitura-orante/december/leitura27a.html",
             },
 
             28: {
@@ -2064,7 +2064,7 @@ let mainData = {
                 title: "Segunda-feira-SANTOS INOCENTES, MÁRTIRES",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "28 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante28a.html",
+                route: host + "/leitura-orante/december/leitura28a.html",
             },
 
             29: {
@@ -2072,7 +2072,7 @@ let mainData = {
                 title: "Terça-feira-OITAVA DO NATAL*",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "29 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante29a.html",
+                route: host + "/leitura-orante/december/leitura29a.html",
             },
 
             30: {
@@ -2080,7 +2080,7 @@ let mainData = {
                 title: "Quarta-feira-OITAVA DO NATAL*",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "30 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante30a.html",
+                route: host + "/leitura-orante/december/leitura30a.html",
             },
 
             31: {
@@ -2088,7 +2088,7 @@ let mainData = {
                 title: "Quinta-feira-OITAVA DO NATAL**",
                 details: "Ó Deus todo-poderoso e cheio de misericórdia, nós vos pedimos que nenhuma atividade terrena nos impeça de correr ao encontro do vosso Filho, mas, instruídos pela vossa sabedoria, participemos da plenitude de sua vida.",
                 date: "31 de Dezembro de 2020",
-                route: host + "/leitura-orante/december/leitura-orante31a.html",
+                route: host + "/leitura-orante/december/leitura31a.html",
             },
         },
     },
@@ -2601,7 +2601,7 @@ for (var category in mainData) {
 showhtml += tercoHTML;
 
 // console.log(showhtml);
-window.setTimeout(function () {
+window.setTimeout(function() {
     jQuery("#destaquesPortion").html(showhtml);
     // document.getElementById('destaquesPortion').innerHTML +=
     // showhtml2 += tercoHTML2
@@ -2619,7 +2619,7 @@ window.setTimeout(function () {
     chat_order("destaquesMain", "sortpost1");
     jQuery("#destaquesPortion")
         .find(".CV-Video-Link-Post")
-        .each(function (i) {
+        .each(function(i) {
             if (i > 6) {
                 jQuery(this).remove();
             }
@@ -2627,7 +2627,7 @@ window.setTimeout(function () {
 
     jQuery("#destaquesMain")
         .find(".nVideo-Post")
-        .each(function (i) {
+        .each(function(i) {
             if (i > 6) {
                 jQuery(this).remove();
             }
@@ -2639,7 +2639,7 @@ function chat_order(pid, pcls) {
     var container = $("#" + pid);
     var items = $("." + pcls);
 
-    items.each(function (i) {
+    items.each(function(i) {
         // Convert the string in 'data-event-date' attribute to a more
         // standardized date format
         var BCDate = $(this).attr("data-event-date");
@@ -2651,12 +2651,12 @@ function chat_order(pid, pcls) {
     });
 
     items
-        .sort(function (a, b) {
+        .sort(function(a, b) {
             a = parseFloat($(a).attr("data-event-date"));
             b = parseFloat($(b).attr("data-event-date"));
             return a > b ? -1 : a < b ? 1 : 0;
         })
-        .each(function () {
+        .each(function() {
             container.append(this);
         });
 }
