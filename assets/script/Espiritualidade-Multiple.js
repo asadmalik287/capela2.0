@@ -66,9 +66,9 @@ $("#list").pagination({
         var wrapper = $("#list .postslist").empty();
         let abc = Array.from(document.getElementsByClassName('paginationjs-page'));
         abc.map((e) => {
-            console.log(
-                e.firstElementChild
-            );
+            // console.log(
+            //     e.firstElementChild
+            // );
             e.firstElementChild.setAttribute('href', '#top');
         });
         $.each(data, function(i, post) {

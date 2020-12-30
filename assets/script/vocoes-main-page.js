@@ -1,4 +1,3 @@
-
 var months = {
     'January': '01',
     'February': '02',
@@ -13,11 +12,12 @@ var months = {
     'November': '11',
     'December': '12'
 }
+
 function chat_order3(pid, pcls) {
     var container = $("#" + pid);
     var items = $("." + pcls);
 
-    items.each(function (i) {
+    items.each(function(i) {
         // Convert the string in 'data-event-date' attribute to a more
         // standardized date format
         var BCDate = $(this).attr("data-event-date");
@@ -29,20 +29,21 @@ function chat_order3(pid, pcls) {
     });
 
     items
-        .sort(function (a, b) {
+        .sort(function(a, b) {
             a = parseFloat($(a).attr("data-event-date"));
             b = parseFloat($(b).attr("data-event-date"));
             return a > b ? -1 : a < b ? 1 : 0;
         })
-        .each(function () {
+        .each(function() {
             container.append(this);
         });
 }
+
 function chat_order1() {
     var container = $("#postdiv");
     var items = $(".sortpost" + pcls);
 
-    items.each(function (i) {
+    items.each(function(i) {
         // Convert the string in 'data-event-date' attribute to a more
         // standardized date format
         var BCDate = $(this).attr("data-event-date");
@@ -54,12 +55,12 @@ function chat_order1() {
     });
 
     items
-        .sort(function (a, b) {
+        .sort(function(a, b) {
             a = parseFloat($(a).attr("data-event-date"));
             b = parseFloat($(b).attr("data-event-date"));
             return a > b ? -1 : a < b ? 1 : 0;
         })
-        .each(function () {
+        .each(function() {
             container.append(this);
         });
 }
@@ -178,7 +179,7 @@ for (var category in mainData['vocoesData']) {
                         <div class="">
                             <a href="${objec[getdays].route}">
                                 <button type="button" class="video-logo-button">
-                                       <img src="${host}/assets/img/video-logo.png" class="img-fluid video-logo" alt="">
+                                       <img src="${host}/assets/img/Vocacoes/video-logo.png" class="img-fluid video-logo" alt="">
 
                                     </button>
                             </a>
@@ -209,13 +210,13 @@ document.getElementById("recentPost").innerHTML = showdiv;
 // chat_order3("postdiv", "myNewVideo");
 chat_order3("recentPost", "sortpost1");
 var ul = $('#postdiv');
-ul.children().each(function (i, div) { ul.prepend(div) });
-jQuery("#postdiv").find(".CV-Video-Link-Post").each(function (i) {
+ul.children().each(function(i, div) { ul.prepend(div) });
+jQuery("#postdiv").find(".CV-Video-Link-Post").each(function(i) {
     if (i > 6) {
         jQuery(this).remove();
     }
 });
-jQuery("#recentPost").find(".myClassVideo").each(function (i) {
+jQuery("#recentPost").find(".myClassVideo").each(function(i) {
     if (i >= 1) {
         jQuery(this).remove();
     }
@@ -224,7 +225,7 @@ jQuery("#recentPost").find(".myClassVideo").each(function (i) {
 
 document.getElementById("recentVideo").innerHTML = showVideo;
 chat_order3("recentVideo", "sortpost2");
-jQuery("#recentVideo").find(".myClassVideo1").each(function (i) {
+jQuery("#recentVideo").find(".myClassVideo1").each(function(i) {
     if (i >= 1) {
         jQuery(this).remove();
     }
