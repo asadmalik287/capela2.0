@@ -410,9 +410,9 @@ let mainData = {
             3: {
                 img: host + "/assets/img/oracoes-missionarias/September/child (1).jpg",
                 title: "Jesus nos envia em missão",
-                details: `O projeto de Jesus Cristo é nosso programa de vida. <br>
-                Por isso, rezemos: <br>
-                • Onde houver alguém que não te conhece e ainda não te segue,`,
+                details: `O projeto de Jesus Cristo é nosso programa de vida. 
+                Por isso, rezemos: 
+                 Onde houver alguém que não te conhece e ainda não te segue,`,
                 date: "3 de Setembro de 2020",
                 route: host +
                     "/oracoes-missionarias/September/3.html",
@@ -420,8 +420,8 @@ let mainData = {
             10: {
                 img: host + "/assets/img/oracoes-missionarias/September/02_img_oracoes_n_14.JPG",
                 title: "Dai-me, Senhor, um Coração Missionãrio",
-                details: `Senhor Jesus, Evangelho do Pai, <br>
-                que um dia rogastes: “Pai Nosso... <br>
+                details: `Senhor Jesus, Evangelho do Pai, 
+                que um dia rogastes: “Pai Nosso... 
                 Venha a nós o vosso Reino”.`,
                 date: "10 de Setembro de 2020",
                 route: host +
@@ -430,8 +430,8 @@ let mainData = {
             17: {
                 img: host + "/assets/img/oracoes-missionarias/September/06_img_oracoes_n_14.JPG",
                 title: "Oração Vocacional por intercessão de Madre Maria",
-                details: `Ó Trindade, <br>
-                nós te louvamos e te agradecemos <br>
+                details: `Ó Trindade, 
+                nós te louvamos e te agradecemos 
                 porque olhaste com amor`,
                 date: "17 de Setembro de 2020",
                 route: host +
@@ -441,8 +441,8 @@ let mainData = {
             24: {
                 img: host + "/assets/img/oracoes-missionarias/September/17_img_oracoes_n_14.JPG",
                 title: "Oração pela Missão",
-                details: `“Ide por todo o mundo <br>
-                e anunciai o Evangelho <br>
+                details: `“Ide por todo o mundo 
+                e anunciai o Evangelho 
                 a todos os povos”.`,
                 date: "24 de Setembro de 2020",
                 route: host +
@@ -454,9 +454,7 @@ let mainData = {
             1: {
                 img: host + "/assets/img/oracoes-missionarias/October/01 Orações Mis.jpg",
                 title: "Missão é partir, caminhar,",
-                details: `Missão é partir, caminhar, <br>
-            deixar tudo, sair de si,<br>
-            quebrar a crosta do egoísmo<br>
+                details: `Missão é partir, caminhar, deixar tudo, sair de si, quebrar a crosta do egoísmo
             que nos fecha no nosso Eu.`,
                 date: "1 de Outubro de 2020",
                 route: host +
@@ -465,9 +463,9 @@ let mainData = {
             8: {
                 img: host + "/assets/img/oracoes-missionarias/October/07.Orações Mis.JPG",
                 title: "Salmo para a Missão",
-                details: `  A tua vida, Senhor, é nossa vida, <br>
-            tua missão é nossa missão.<br>
-            O Evangelho será nossa medida<br>
+                details: `  A tua vida, Senhor, é nossa vida, 
+            tua missão é nossa missão.
+            O Evangelho será nossa medida
             e a nossa força será a comunhão.`,
                 date: "8 de Outubro de 2020",
                 route: host +
@@ -484,8 +482,8 @@ let mainData = {
             // 15: {
             //   img: host + "/assets/img/oracoes-missionarias/October/12.Orações Mis.JPG",
             //   title: "Prece Missionária",
-            //   details: `Pai Nosso, Deus de amor e de misericórdia, nós vos <br> louvamos porque
-            //       nos enviastes Jesus, vosso Filho e  <br>irmão nosso, vida e esperança para todos
+            //   details: `Pai Nosso, Deus de amor e de misericórdia, nós vos  louvamos porque
+            //       nos enviastes Jesus, vosso Filho e  irmão nosso, vida e esperança para todos
             //       os povos.`,
             //   date: "15 de Outubro de 2020",
             //   route:
@@ -519,9 +517,9 @@ let mainData = {
             21: {
                 img: host + "/assets/img/oracoes-missionarias/October/22_img_oracoes_n_14.JPG",
                 title: "Oração pelas Vocações Missionárias",
-                details: `Senhor, que chamaste os apóstolos <br>
-                para serem pescadores de gente <br>
-                e construtores de um mundo novo, <br>`,
+                details: `Senhor, que chamaste os apóstolos 
+                para serem pescadores de gente 
+                e construtores de um mundo novo, `,
                 date: "21 de Outubro de 2020",
                 route: host +
                     "/oracoes-missionarias/October/21.html",
@@ -562,9 +560,9 @@ let mainData = {
             29: {
                 img: host + "/assets/img/oracoes-missionarias/October/24Orações Mis.jpg",
                 title: "Oração pela Missão",
-                details: `Senhor Jesus, cansado das viagens missionárias, <br>
-            sentastes junto ao poço de Jacó <br>
-            e dissestes à samaritana: <br>
+                details: `Senhor Jesus, cansado das viagens missionárias, 
+            sentastes junto ao poço de Jacó 
+            e dissestes à samaritana: 
             “Dá-me de beber”.`,
                 date: "29 de Outubro de 2020",
                 route: host +
@@ -698,7 +696,7 @@ let mainData = {
             },
             10: {
 
-                img: host + "/assets/img/Vocacoes/October/12 _ago_2020_Noviciado Panam_A_CAPA.jpg",
+                img: host + "/assets/img/Vocacoes/October/12_ago_2020_Noviciado Panam_A_CAPA.jpg",
                 title: "Noviciado Panam em tempos de pandemia",
                 details: `Nas Américas, as missionárias servas do Espírito Santo (SSpS) estão pr esentes no Brasil, Argentina, México, Estados Unidos, Cuba, Bolívia, Chi le, Paraguai, Equador, São Cristóvão e Névis, Jamaica e Antígua e Barbuda`,
                 date: "10 de outubro de 2020",
@@ -754,7 +752,7 @@ let mainData = {
                 video: false,
             },
             28: {
-                img: host + "/assets/img/Vocacoes/November/21.jpg",
+                img: host + "/assets/img/Vocacoes/November/Vocacoes-21.jpg",
                 title: "  Amadas e chamadas por Deus",
                 details: `Chamadas de diferentes países e culturas, as Irmãs Missionárias do Espírito Santo são mulheres
         escolhidas como instrumento do Espírito Santo para servir. Enviadas para irradiar a presença do Pai, do
@@ -790,7 +788,7 @@ let mainData = {
                 video: false,
             },
             26: {
-                img: host + "/assets/img/Vocacoes/December/26_Dez_2020_Vídeo_Vocações.png",
+                img: host + "/assets/img/Vocacoes/December/26_ago_2020_o que Deus quer de mim.jpg",
                 title: "Natural de Angola ",
                 details: `Natural de Angola, veio ao Brasil para cross cultural experiência e estudou fisioterapia e atuou na pastoral paroquial e na Infância e Adolescência Missionária. Irmã Mitilene retorna ao seu país de origem em 2021.  `,
                 date: "26 de dezembro de 2020",
