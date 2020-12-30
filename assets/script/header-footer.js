@@ -1,5 +1,3 @@
-
-
 var host = "http://" + window.location.host;
 var header = document.getElementById("headerCode");
 header.innerHTML = `<div class="main-header">
@@ -83,7 +81,7 @@ footer.innerHTML = `
                 <a href="https://www.facebook.com/sspsbrasilnorte" target="_blank"><span><img src="../../assets/img/Icone_Facebook.png" alt=""></span></a>
                 <a href="https://twitter.com/sspsbrasilnorte" target="_blank"><span><img src="../../assets/img/Icone_Twitter.png" alt=""></span></a>
                 <a href="https://www.instagram.com/sspsbrasilnorte/" target="_blank"><span><img src="../../assets/img/Icone_Insta.png" alt=""></span></a>
-                <a href="https://blog.ssps.org.br/" target="_blank"><span><img src="../assets/img/Icone_Blog.png" alt=""></span></a>
+                <a href="https://blog.ssps.org.br/" target="_blank"><span><img src="../../assets/img/Icone_Blog.png" alt=""></span></a>
                 <a href="https://www.youtube.com/SspsBrasilNorte" target="_blank"><span><img src="../../assets/img/Icone_Youtube.png" alt=""></span></a>
                 <a href="http://www.ssps.org.br/" target="_blank"><span><img src="../../assets/img/Icone_Site.png" alt=""></span></a>
             </div>
