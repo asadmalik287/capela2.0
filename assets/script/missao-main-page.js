@@ -71,8 +71,8 @@ var showhtml = "";
 var showdiv = "";
 var showVideo = "";
 let latestPost = 1;
-for (var category in mainData['vocoesData']) {
-    var specificCat = mainData['vocoesData'];
+for (var category in mainData['missaoData']) {
+    var specificCat = mainData['missaoData'];
     var objec = specificCat[category];
     for (var getdays in objec) {
         var dayname = getdays;
@@ -147,6 +147,36 @@ for (var category in mainData['vocoesData']) {
             }
 
 
+            //     // for displaying Posts
+            //     if (!objec[getdays].video == true) {
+            //         showdiv += '<div class="Video-Post myClassVideo sortpost1" data-event-date="' + postdateSort + '">\
+            //     <div class="Video-Thumbnail">\
+            //       <img src="'+ objec[getdays].img + '" alt="" class="Video-Image" id="arth-img" />\
+            //     </div>\
+            //     <div class="Video-Description">\
+            //       <p class="title">'+ objec[getdays].title + '\
+            //       </p>\
+            //       <p class="date">\
+            //         <span class="cal-icon fa fa-calendar"></span>\
+            //         <i><span style="color: #666666;">\
+            //             <span style="color: #666666;" id="artigo-date"></span>\
+            //             '+ objec[getdays].date + '\
+            //           </span></i>\
+            //       </p>\
+            //       <p class="description" id="decription">\
+            //         '+ objec[getdays].details + '\
+            //       </p>\
+            //       <a href='+ objec[getdays].route + '>\
+            //         <button class="btn-leia-mais">\
+            //           LEIA MAIS\
+            //           <span class="right-arrow">\
+            //             <i class="fa fa-angle-right">\
+            //               </i>\
+            //           </span></button>\
+            //           </a>\
+            //     </div>\
+            //   </div>';
+            //     }
 
 
             // for displaying Video
@@ -193,6 +223,36 @@ for (var category in mainData['vocoesData']) {
                 <div class="border-1"></div>
                 </div>`
             }
+            // if (objec[getdays].video == true) {
+
+            //     showVideo += '<div class="Video-Post myClassVideo1 sortpost2" data-event-date="' + postdateSort + '">\
+            // <div class="Video-Thumbnail">\
+            //   <img src="'+ objec[getdays].img + '" alt="" class="Video-Image" id="arth-img" />\
+            // </div>\
+            // <div class="Video-Description">\
+            //   <p class="title">'+ objec[getdays].title + '\
+            //   </p>\
+            //   <p class="date">\
+            //     <span class="cal-icon fa fa-calendar"></span>\
+            //     <i><span style="color: #666666;">\
+            //         <span style="color: #666666;" id="artigo-date"></span>\
+            //         '+ objec[getdays].date + '\
+            //       </span></i>\
+            //   </p>\
+            //   <p class="description" id="decription">\
+            //     '+ objec[getdays].details + '\
+            //   </p>\
+            //   <a href='+ objec[getdays].route + ' id="video1">\
+            //   <button style="width: 28%; border: 0; height: 40px; background-color: #fff;">\
+            // <img src="./img/video-logo.png" style="width: 130px;" alt="">\
+            // <!-- <span style="position: relative; top: -33px;">\
+            //   VIDEO\
+            // </span> -->\
+            // </button></a>\
+            //           </div>\
+            //           </div>';
+            // }
+
         }
 
 
