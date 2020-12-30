@@ -272,32 +272,52 @@
 
 
 
-                        <div class="icalendar">
-                            <div class="icalendar__month">
-                                <div class="icalendar__prev" onclick="moveDate('prev')">
-                                    <span>&#10104</span>
-                                </div>
-                                <div class="icalendar__current-date">
-                                    <h2 id="icalendarMonth"></h2>
-                                    <div>
-                                        <div id="icalendarDateStr"></div>
-                                    </div>
+                        <p class="blog-heading pt-3">
+                            Leituras do mês
 
+
+                        </p>
+                        <div>
+                            <div class="calendar">
+
+                                <!-- CAlendar -->
+
+                                <div class="icalendar">
+                                    <div class="icalendar__month">
+                                        <div class="icalendar__prev" onclick="moveDate('prev')">
+                                            <span>&#10094</span>
+                                        </div>
+                                        <div class="icalendar__current-date">
+                                            <h2 id="icalendarMonth"></h2>
+                                            <div>
+                                                <div id="icalendarDateStr"></div>
+                                            </div>
+
+                                        </div>
+                                        <div class="icalendar__next" onclick="moveDate('next')">
+                                            <span>&#10095</span>
+                                        </div>
+                                    </div>
+                                    <div class="icalendar__week-days">
+                                        <div>D</div>
+                                        <div>S</div>
+                                        <div>T</div>
+                                        <div>Q</div>
+                                        <div>Q</div>
+                                        <div>S</div>
+                                        <div>S</div>
+                                    </div>
+                                    <div class="icalendar__days"></div>
+
+
+                                    <script src="../../assets/script/leitura-calendar.js" type="text/javascript"></script>
                                 </div>
-                                <div class="icalendar__next" onclick="moveDate('next')">
-                                    <span>&#10105</span>
-                                </div>
+
+
+
+
                             </div>
-                            <div class="icalendar__week-days">
-                                <div>D</div>
-                                <div>S</div>
-                                <div>T</div>
-                                <div>Q</div>
-                                <div>Q</div>
-                                <div>S</div>
-                                <div>S</div>
-                            </div>
-                            <div class="icalendar__days"></div>
+
 
 
                         </div>
