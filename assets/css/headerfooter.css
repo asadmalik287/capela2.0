@@ -341,7 +341,7 @@
                     width: 100%;
                     background-size: cover;
                     object-fit: cover;
-                    height: 137px;
+                    height: 157px;
                     font-family: "Myriad Pro Regular";
                 }
                 
@@ -361,7 +361,7 @@
                 .footer-p {
                     text-align: center;
                     color: #fff;
-                    font-size: 15px;
+                    font-size: 16px;
                     font-weight: bold;
                     padding: 10px 10px 0px 10px;
                     font-family: "Myriad Pro Regular";
@@ -373,7 +373,7 @@
                 }
                 
                 .icons>a>Span>img {
-                    width: 7% !important;
+                    width: 6% !important;
                 }
                 /* headings */
                 
