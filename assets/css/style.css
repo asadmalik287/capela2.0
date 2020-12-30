@@ -338,19 +338,19 @@ div>a>button {
         margin-right: 30px;
     }
     .main-bannar {
-        height: 22.95rem;
+        height: 23.5rem !important;
     }
     .img-content>div>.h2 {
-        font-size: 1.5rem !important;
+        font-size: 2rem !important;
     }
     .img-content>div>.h4 {
-        font-size: 1.2rem !important;
+        font-size: 1.7rem !important;
     }
     .queTodas {
         font-weight: 300;
-        max-width: 28vw;
+        max-width: 34vw;
         margin: auto;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
     .europa {
         left: 9.5rem;
@@ -390,7 +390,7 @@ div>a>button {
         width: 9% !important;
     }
     .main-bannar {
-        height: 16.9rem;
+        height: 16.9rem !important;
     }
     .img-content>div>.h2 {
         font-size: 1.5rem !important;
@@ -399,12 +399,11 @@ div>a>button {
         font-size: 1.2rem !important;
     }
     .queTodas {
-        max-width: 32vw;
         margin: auto;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .europa {
-        bottom: -17px;
+        bottom: -11px;
         left: 7rem;
         font-size: 1.2rem;
     }
