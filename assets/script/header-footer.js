@@ -3,13 +3,13 @@ var header = document.getElementById("headerCode");
 header.innerHTML = `<div class="main-header">
 <div class="mini-header ">
     <div class="leftIcon">
-        <img src="../../assets/img/img6.png" class="img-fluid " alt="" />
+        <img src="../../assets/img/header-footer/img6.png" class="img-fluid " alt="" />
     </div>
     <div class="centerIcon">
-        <img src="../../assets/img/capela.png" class="img-fluid " alt="" />
+        <img src="../../assets/img/header-footer/capela.png" class="img-fluid " alt="" />
     </div>
     <div class="rightIcon">
-        <img src="../../assets/img/img7.png" class="img-fluid" alt="" />
+        <img src="../../assets/img/header-footer/img7.png" class="img-fluid" alt="" />
     </div>
 </div>
 </div>

@@ -2490,12 +2490,12 @@ if (mainData.oracoesMissionarias.December[currentDate]) {
     oracoes.setAttribute(
         "href",
         host +
-        "/oracoes-missionarias-december/capela-virtual-oracoes-missionarias-" +
+        "/oracoes-missionarias/december/" +
         currentDate +
         ".html"
     );
 } else {
-    oracoes.setAttribute("href", host + "/oracoes-missionarias.html");
+    oracoes.setAttribute("href", host + "/oracoes-missionarias/multiple.html");
 }
 
 
