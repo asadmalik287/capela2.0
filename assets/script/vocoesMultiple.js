@@ -15,6 +15,7 @@ months[11] = "December";
 
 var d = new Date();
 var n = months[d.getMonth()];
+
 // console.log(mainData.vocoesData);
 Object.keys(mainData.vocoesData).map((month) => {
     // console.log(month)

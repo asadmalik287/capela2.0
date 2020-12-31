@@ -126,6 +126,9 @@
                 .font-weight {
                     font-weight: 500;
                 }
+                .w-75{
+                    width: 75%;
+                }
                 
                 .main-header {
                     background: url('/assets/img/header-footer/header-background.png');
@@ -487,6 +490,12 @@
                 /* pagination css ended */
                 /* Media Query For imgs and text start */
                 
+                @media (min-width: 768px) {
+                    #novena-iframe{
+                        min-height: 400px;
+                        padding-bottom: 30px;
+                    }
+                }
                 @media (min-width: 1100px) {
                     #home-post {
                         max-width: 70% !important;
@@ -520,6 +529,7 @@
                 /* Media Query for Ipad pro screen start*/
                 
                 @media (max-width:1100px) and (min-width:901px) {
+                  
                     .mini-header {
                         padding-top: 35px !important;
                     }
@@ -765,6 +775,7 @@
                     .video-logo {
                         width: 130px;
                     }
+
                     .video-logo-button {
                         width: 28%;
                         border: 0;

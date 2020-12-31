@@ -15,10 +15,11 @@ months[11] = "December";
 
 var d = new Date();
 var n = months[d.getMonth()];
-// console.log(mainData.oracoesMissionarias);
+// console.log(mainData.oracoesMissionarias[month]);
 Object.keys(mainData.oracoesMissionarias).map((month) => {
     // console.log(month)
     Object.keys(mainData.oracoesMissionarias[month]).map((post) => {
+        // console.log(post)
         // console.log(mainData.oracoesMissionarias[month][post])
         if (month == n) {
             // console.log("sadsada");
@@ -31,11 +32,12 @@ Object.keys(mainData.oracoesMissionarias).map((month) => {
                     }
                 });
             } else {
+                // console.log(mainData.oracoesMissionarias[month][post])
                 if (
                     mainData.oracoesMissionarias[month][post].date.split(" ")[0] <=
                     new Date().getDate()
                 ) {
-                    // console.log(mainData.oracoesMissionarias[month][post]);
+                    console.log(mainData.oracoesMissionarias[month][post]);
                     santoPostsArr.push(mainData.oracoesMissionarias[month][post]);
                 }
             }
@@ -52,13 +54,14 @@ Object.keys(mainData.oracoesMissionarias).map((month) => {
     // console.log('--------------------------*****************************')
 });
 santoPostsArr.reverse();
-// console.log(santoPostsArr);
+
+console.log(santoPostsArr);
 
 $("#list").pagination({
     // you call the plugin
     dataSource: santoPostsArr, // pass all the data
     pageSize: 7, // put how many items per page you want
-    callback: function(data, pagination) {
+    callback: function (data, pagination) {
         // data will be chunk of your data (json.Product) per page
         // that you need to display
         // let html = document.getElementsByTagName('html')
@@ -66,12 +69,10 @@ $("#list").pagination({
         var wrapper = $("#list .postslist").empty();
         let abc = Array.from(document.getElementsByClassName('paginationjs-page'));
         abc.map((e) => {
-            console.log(
-                e.firstElementChild
-            );
+           
             e.firstElementChild.setAttribute('href', '#top');
         });
-        $.each(data, function(i, post) {
+        $.each(data, function (i, post) {
             $("#list .postslist").append(`
       <div>
 
@@ -117,12 +118,3 @@ $("#list").pagination({
     },
 });
 
-// console.log(html);
-// let abc = Array.from(document.getElementsByClassName('paginationjs-page'));
-// // abc.firstElementChild.setAttribute("id", "gradient");
-// // var arr = Array.prototype.slice.call(abc)
-// // console.log('child Element', abc)
-// abc.map((e) => {
-//     e.firstElementChild.setAttribute('href', '#top');
-//     // console.log(e.firstElementChild);
-// })

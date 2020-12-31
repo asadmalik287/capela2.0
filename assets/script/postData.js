@@ -763,7 +763,7 @@ let mainData = {
           "/assets/img/oracoes-missionarias/November/5 Nov 2020_ orações Missionária   (1).jpg",
         title: "Senhor que amas",
         details: `Senhor que amas, ajuda-nos a perceber, em nossa missão,  as ocasiões de amar. De amar espontaneamente com o olhar e o coração aqueles que encontramos.`,
-        date: "5° de Novembro de 2020",
+        date: "5 de Novembro de 2020",
         route: host + "/oracoes-missionarias/November/5.html",
       },
       12: {
@@ -772,7 +772,7 @@ let mainData = {
           "/assets/img/oracoes-missionarias/November/12 Nov 2020_Orações Missionárias.jpg",
         title: "Unge-me",
         details: `Senhor, unge minha cabeçapara que todos os meus pensamentossaiam da fonte do teu ser,para encher-me com graça e paz..`,
-        date: "12° de Novembro de 2020",
+        date: "12 de Novembro de 2020",
         route: host + "/oracoes-missionarias/November/12.html",
       },
       19: {
@@ -781,7 +781,7 @@ let mainData = {
           "/assets/img/oracoes-missionarias/November/19 Nov 2020_Orações Missionárias.jpg",
         title: "Súplica Missionária",
         details: `Senhor Jesus, Bom Pastor e nosso irmão, viestes habitar no meio de nós, para ser caminho de vida e esperança para todos.`,
-        date: "19° de Novembro de 2020",
+        date: "19 de Novembro de 2020",
         route: host + "/oracoes-missionarias/November/19.html",
       },
       26: {
@@ -790,20 +790,17 @@ let mainData = {
           "/assets/img/oracoes-missionarias/November/26 Nov 2020_Orações Missionárias .JPG",
         title: "Oração Vocacional por intercessão de Madre Maria",
         details: `Ó Trindade, nós te louvamos e te agradecemosporque olhaste com amorpara a bem-aventurada Madre Mariaconcedendo-lhe fidelidadeàs inspirações do Espírito Santo,.`,
-        date: "26° de Novembro de 2020",
+        date: "26 de Novembro de 2020",
         route: host + "/oracoes-missionarias/November/26.html",
       },
+      
     },
-    December: {
+    December:{
       3: {
-        img:
-          host +
-          "/assets/img/oracoes-missionarias/December/03 Dez 2020_Orações Missionária.jpg",
+        img:host +"/assets/img/oracoes-missionarias/December/03 Dez 2020_Orações Missionária.jpg",
         title: "PARA ALCANÇAR OS FRUTOS",
-        details: `Espírito Santo, amor eterno do Pai e do Filho,
-        dignai-vos conceder-nos os vossos doze frutos.
-        `,
-        date: "3° de Dezembro de 2020",
+        details: `Espírito Santo, amor eterno do Pai e do Filho,dignai-vos conceder-nos os vossos doze frutos.`,
+        date: "3 de Dezembro de 2020",
         route: host + "/oracoes-missionarias/December/3.html",
       },
       10: {
@@ -816,7 +813,7 @@ let mainData = {
         Transforma tudo que há em mim
         para melhor te servir.
         `,
-        date: "10° de Dezembro de 2020",
+        date: "10 de Dezembro de 2020",
         route: host + "/oracoes-missionarias/December/10.html",
       },
       17: {
@@ -830,7 +827,7 @@ let mainData = {
         continue penetrando na vida das pessoas
         e transformando a sociedade
         `,
-        date: "17° de Dezembro de 2020",
+        date: "17 de Dezembro de 2020",
         route: host + "/oracoes-missionarias/December/17.html",
       },
       24: {
@@ -842,7 +839,7 @@ let mainData = {
         te cobrirá com sua sombra. E, por isto mesmo, o Santo que há
         de nascer de ti, será chamado Filho de Deus”.
         `,
-        date: "24° de Dezembro de 2020",
+        date: "24 de Dezembro de 2020",
         route: host + "/oracoes-missionarias/December/24.html",
       },
     },
