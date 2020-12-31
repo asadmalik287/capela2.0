@@ -65,7 +65,7 @@ for (var category in mainData['santoData']) {
                 if (date1 < date2) {
                     showhtml += `<div class="d-flex CV-Video-Link-Post sortpost" data-event-date="${postdateSort}">
 
-                    <div class="img_1">
+                    <div class="img_santo">
                         <a href="${checkarr[postdesp].route}"><img src="${checkarr[postdesp].img}" class="img-fluid" alt="">
                     </div>
                     <div class="pl-2 ">
@@ -90,7 +90,7 @@ for (var category in mainData['santoData']) {
             if (date1 < date2) {
                 showhtml += `<div class="d-flex CV-Video-Link-Post sortpost" data-event-date="${postdateSort}">
 
-                <div class="img_1">
+                <div class="img_santo">
                     <a href="${objec[getdays].route}"><img src="${objec[getdays].img}" class="img-fluid" alt="">
                 </div>
                 <div class="pl-2 ">

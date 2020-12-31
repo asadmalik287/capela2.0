@@ -431,6 +431,10 @@
                     width: 25%;
                 }
                 
+                .img_santo {
+                    width: 18%;
+                }
+                
                 .video-logo {
                     width: 130px;
                 }
@@ -621,6 +625,14 @@
                 /* Media Query for tablets and laptops screen start*/
                 /* Media Query for  mobile screen start*/
                 
+                @media (max-width:768px)  {
+                    .navbar-expand-lg{
+                        z-index: 999999999999999;
+                        position: absolute;
+                        width: 100%;
+                    }
+
+                }
                 @media (max-width:579px) and (min-width:300px) {
                     .main-heading {
                         font-size: 1.8rem !important;
