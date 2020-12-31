@@ -3026,6 +3026,7 @@ if (mainData.oracoesMissionarias.December[currentDate]) {
 var http = new XMLHttpRequest();
 var http2 = new XMLHttpRequest();
 
+var leitura1 = document.getElementById("leitura1");
 var leitura = document.getElementById("leitura");
 // console.log(leitura);
 let url2 = "./leitura-orante/december/-orante-" + currentDate + ".html";
@@ -3039,8 +3040,14 @@ if (http2.status === 200) {
     "href",
     "./leitura-orante/december/-orante" + currentDate + ".html"
   );
+  leitura1.setAttribute(
+    "href",
+    "./leitura-orante/december/-orante" + currentDate + ".html"
+  );
 }
 if (http2.status === 404) {
   console.log("Lutera file does not exists");
   leitura.setAttribute("href", `${host}/leitura-orante/multiple.html`);
+  leitura1.setAttribute("href", `${host}/leitura-orante/multiple.html`);
 }
+

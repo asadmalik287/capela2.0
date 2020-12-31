@@ -616,7 +616,7 @@
                         width: 100%;
                         background-size: cover;
                         object-fit: cover;
-                        height: 140px;
+                        height: 165px;
                         font-family: "Myriad Pro Regular";
                     }
                     .footer-div-left {
@@ -710,7 +710,7 @@
                         padding: 10px 0px !important;
                     }
                     .main-footer {
-                        height: 270px !important;
+                        height: 318px !important;
                         margin-bottom: 0px !important;
                     }
                     .footer-div-left {
@@ -892,7 +892,7 @@
                         padding: 10px 0px !important;
                     }
                     .main-footer {
-                        height: 150px !important;
+                        height: 160px !important;
                     }
                     .footer-div-left {
                         text-align: center;
