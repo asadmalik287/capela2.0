@@ -124,7 +124,7 @@
                 }
                 
                 .font-weight {
-                    font-weight: 500;
+                    font-weight: 600;
                 }
                 
                 .main-header {
@@ -625,14 +625,14 @@
                 /* Media Query for tablets and laptops screen start*/
                 /* Media Query for  mobile screen start*/
                 
-                @media (max-width:768px)  {
-                    .navbar-expand-lg{
+                @media (max-width:768px) {
+                    .navbar-expand-lg {
                         z-index: 999999999999999;
                         position: absolute;
                         width: 100%;
                     }
-
                 }
+                
                 @media (max-width:579px) and (min-width:300px) {
                     .main-heading {
                         font-size: 1.8rem !important;
