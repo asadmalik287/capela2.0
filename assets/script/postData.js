@@ -2523,12 +2523,12 @@ let tercoData = {
   Gozozos: {
     title: "Mistérios Gozozos",
     route: host + "/Terço missionário/Terço missionário.html",
-    img: host + "/img//assets/img/banner/Banner_Terco_Missionario.jpg",
+    img: host + "/assets/img/banner/Banner_Terco_Missionario.jpg",
   },
   Luminosos: {
     title: "Mistérios Luminosos",
     route: host + "/Terço missionário/Terço missionário.html",
-    img: host + "/img//assets/img/banner/Banner_Terco_Missionario.jpg",
+    img: host + "/assets/img/banner/Banner_Terco_Missionario.jpg",
   },
 };
 
