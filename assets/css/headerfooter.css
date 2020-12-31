@@ -474,7 +474,7 @@
                 
                 .paginationjs {
                     margin: auto;
-                    padding: 50px;
+                    padding: 40px 12px;
                 }
                 
                 .paginationjs-pages li.active>a {
