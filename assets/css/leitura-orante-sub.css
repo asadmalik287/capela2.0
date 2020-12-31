@@ -124,8 +124,7 @@ border-bottom: 3px solid #dce4e7;
     .mainHeading
     {
         width: 36%;
-        max-height: 233px;
-        min-height: 233px;
+    
     }
     .webkit-right{
         text-align: -webkit-right;
@@ -133,7 +132,7 @@ border-bottom: 3px solid #dce4e7;
     
     .mainImage-2
     {
-        margin-top: -23%;
+        margin-top: -20%;
     }
     #para_content{
 

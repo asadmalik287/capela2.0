@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="../assets/css/headerfooter.css" />
     <link rel="stylesheet" href="../assets/css/oracoes-missionarias.css" />
+    <link rel="stylesheet" href="../../assets/css/calender.css">
 </head>
 
 <body class="sky-background" id="top">
@@ -38,16 +39,77 @@
             <div class="col-lg-3 col-md-3 col-sm-12">
                 <div class="search-block">
                     <form class="search-form d-flex" action="">
-                        <input type="text" class="search w-100" />
+                        <input type="text" class="search w-100">
                         <button type="submit" class="search-button">
-                            <img class="LUPA_IMG" src="../assets/img/header-footer/LUPA.png" />
-                        </button>
+                            <img class="LUPA_IMG" src="../../assets/img/header-footer/LUPA.png"></button>
                     </form>
                 </div>
+                <div>
+                    <div class="icalendar">
+                        <div class="icalendar__month">
+                            <div class="icalendar__prev" onclick="moveDate('prev')">
+                                <span>&#10094</span>
+                            </div>
+                            <div class="icalendar__current-date">
+                                <h2 id="icalendarMonth"></h2>
+                                <div>
+                                    <div id="icalendarDateStr"></div>
+                                </div>
 
+                            </div>
+                            <div class="icalendar__next" onclick="moveDate('next')">
+                                <span>&#10095</span>
+                            </div>
+                        </div>
+                        <div class="icalendar__week-days">
+                            <div>D</div>
+                            <div>S</div>
+                            <div>T</div>
+                            <div>Q</div>
+                            <div>Q</div>
+                            <div>S</div>
+                            <div>S</div>
+                        </div>
+                        <div class="icalendar__days"></div>
+
+
+                    </div>
+                </div>
                 <!-- BLOG HEADING -->
-                <p class="blog-heading pt-3">Destaques</p>
-                <div id="destaquesPortion"></div>
+                <a href="../Dia-Multiple.html">
+                    <p class="blog-heading pt-3 ">
+                        Santos Anteriores
+                    </p>
+                </a>
+                <!-- B_LOG HEADING 1-->
+                <div id="postdiv"></div>
+                <div class="tagDiv">
+                    <h class="blue tags GM pb-1">Tags</h5>
+                </div>
+                <div class="GM">
+                    <div class="btnclass GM">
+                        <button class="adjbtn">missão</button>
+                        <button class="adjbtn">Amazônia</button>
+                        <button class="adjbtn">evengel</button>
+                    </div>
+                    <div class="btnclass GM">
+                        <button class="adjbtn">covid-19</button>
+                        <button class="adjbtn">indigenas</button>
+                        <button class="adjbtn">noviça</button>
+                    </div>
+                    <div class="btnclass">
+
+
+
+                        <button class="adjbtn">papa francisco</button>
+                    </div>
+                </div>
+
+
+
+
+
+
             </div>
             <!-- SIDE BAR CONTENT END -->
         </div>
@@ -56,6 +118,7 @@
     <div id="footerCode"></div>
 
     <script src="../assets/script/header-footer.js"></script>
+    <script src="../../assets/script/calendar.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
@@ -66,3 +129,4 @@
 <link rel="stylesheet" href="https://pagination.js.org/dist/2.1.4/pagination.css" />
 <script src="../assets/script/postData.js"></script>
 <script src="../assets/script/santoMultiple.js"></script>
+<script src="../../assets/script/santo-single-page.js"></script>
