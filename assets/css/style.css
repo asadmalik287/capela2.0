@@ -688,12 +688,12 @@ div>a>button {
         font-size: 1.4rem !important;
     }
     .queTodas {
-        max-width: 80vw;
+        max-width: 90vw;
         font-size: 1.3rem;
     }
     .europa {
-        bottom: -16px;
-        left: 8.3rem;
+        bottom: -13px;
+        left: 8.6rem;
         font-size: 1.6rem;
     }
     .img-border {

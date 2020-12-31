@@ -644,9 +644,12 @@
                 }
                 
                 @media (max-width:579px) and (min-width:300px) {
+                   .title{
+                       font-size: 19px;
+                   }
                     .main-heading {
                         font-size: 1.8rem !important;
-                        text-align: center;
+                        text-align: center !important;
                     }
                     fa-angle-right {
                         font-size: 28px;
@@ -660,7 +663,7 @@
                         height: 70px;
                     }
                     .mini-header {
-                        padding-top: 20px !important;
+                        padding-top: 12px !important;
                     }
                     .leftIcon>img,
                     .rightIcon>img {
@@ -731,6 +734,7 @@
                     /* headings */
                     .main-heading {
                         color: #666666;
+                        text-align: center;
                     }
                     .subHeading {
                         font-style: italic;
@@ -740,7 +744,7 @@
                     }
                     .calender-div {
                         color: #666666;
-                        font-size: 13px;
+                        font-size: 11px;
                         font-family: "Gotham Book Italic";
                     }
                     .LUPA_IMG {
@@ -1040,7 +1044,7 @@
                     }
                     .navbar-toggler {
                         position: absolute;
-                        top: -52px;
+                        top: -55px;
                         left: 5px;
                     }
                     .navbar-light .navbar-toggler-icon {
@@ -1104,7 +1108,7 @@
                 
                 @media (max-width:400px) and (min-width:300px) {
                     .mini-header {
-                        padding-top: 18px !important;
+                        padding-top: 12px !important;
                         margin-left: 50px !important;
                     }
                     .leftIcon>img,
@@ -1186,7 +1190,7 @@
                         transition: height 0.7s ease !important;
                     }
                     .img_1 {
-                        width: 15%;
+                        width: 25%;
                     }
                     .home-img {
                         padding: 10px 0px !important;
