@@ -585,7 +585,7 @@ let mainData = {
       10: {
         img:
           host +
-          "/assets/img/oracoes-missionarias/September/02_img_oracoes_n_14.JPG",
+          "/assets/img/oracoes-missionarias/September/02_img_oracoes_n_14.jpg",
         title: "Dai-me, Senhor, um Coração Missionãrio",
         details: `Senhor Jesus, Evangelho do Pai, 
                 que um dia rogastes: “Pai Nosso... 
@@ -596,7 +596,7 @@ let mainData = {
       17: {
         img:
           host +
-          "/assets/img/oracoes-missionarias/September/06_img_oracoes_n_14.JPG",
+          "/assets/img/oracoes-missionarias/September/06_img_oracoes_n_14.jpg",
         title: "Oração Vocacional por intercessão de Madre Maria",
         details: `Ó Trindade, 
                 nós te louvamos e te agradecemos 
@@ -608,7 +608,7 @@ let mainData = {
       24: {
         img:
           host +
-          "/assets/img/oracoes-missionarias/September/17_img_oracoes_n_14.JPG",
+          "/assets/img/oracoes-missionarias/September/17_img_oracoes_n_14.jpg",
         title: "Oração pela Missão",
         details: `“Ide por todo o mundo 
                 e anunciai o Evangelho 
@@ -630,11 +630,11 @@ let mainData = {
       },
       8: {
         img:
-          host + "/assets/img/oracoes-missionarias/October/07.Orações Mis.JPG",
+          host + "/assets/img/oracoes-missionarias/October/07.Orações Mis.jpg",
         title: "Salmo para a Missão",
         details: `  A tua vida, Senhor, é nossa vida, 
             tua missão é nossa missão.
-            O Evangelho será nossa medida
+            O Evangelho será nossa medida 
             e a nossa força será a comunhão.`,
         date: "8 de Outubro de 2020",
         route: host + "/oracoes-missionarias/October/8.html",
@@ -649,7 +649,7 @@ let mainData = {
         route: host + "/oracoes-missionarias/October/14.html",
       },
       // 15: {
-      //   img: host + "/assets/img/oracoes-missionarias/October/12.Orações Mis.JPG",
+      //   img: host + "/assets/img/oracoes-missionarias/October/12.Orações Mis.jpg",
       //   title: "Prece Missionária",
       //   details: `Pai Nosso, Deus de amor e de misericórdia, nós vos  louvamos porque
       //       nos enviastes Jesus, vosso Filho e  irmão nosso, vida e esperança para todos
@@ -689,7 +689,7 @@ let mainData = {
       21: {
         img:
           host +
-          "/assets/img/oracoes-missionarias/October/22_img_oracoes_n_14.JPG",
+          "/assets/img/oracoes-missionarias/October/22_img_oracoes_n_14.jpg",
         title: "Oração pelas Vocações Missionárias",
         details: `Senhor, que chamaste os apóstolos 
                 para serem pescadores de gente 
@@ -787,7 +787,7 @@ let mainData = {
       26: {
         img:
           host +
-          "/assets/img/oracoes-missionarias/November/26 Nov 2020_Orações Missionárias .JPG",
+          "/assets/img/oracoes-missionarias/November/26 Nov 2020_Orações Missionárias .jpg",
         title: "Oração Vocacional por intercessão de Madre Maria",
         details: `Ó Trindade, nós te louvamos e te agradecemosporque olhaste com amorpara a bem-aventurada Madre Mariaconcedendo-lhe fidelidadeàs inspirações do Espírito Santo,.`,
         date: "26 de Novembro de 2020",
@@ -819,7 +819,7 @@ let mainData = {
       17: {
         img:
           host +
-          "/assets/img/oracoes-missionarias/December/17 Dez 2020_ Orações Missionária .JPG",
+          "/assets/img/oracoes-missionarias/December/17 Dez 2020_ Orações Missionária .jpg",
         title: "Oração pela Evangelização",
         details: `Senhor Jesus Cristo,
         Vós deixastes aos apóstolos a missão de evangelizar.
@@ -2994,10 +2994,10 @@ for (let i = currentDate; i > 0; i--) {
       "href",
       host + "/Espiritualidade/December/" + i + ".html"
     );
-    console.log("Espiritualidade Found ");
+    // console.log("Espiritualidade Found ");
     break;
   } else {
-    console.log("Espiritualidade not  Found  ");
+    // console.log("Espiritualidade not  Found  ");
 
     espirtualLink.setAttribute("href", host + "/Espiritualidade.html");
   }
@@ -3022,32 +3022,3 @@ if (mainData.oracoesMissionarias.December[currentDate]) {
 } else {
   oracoes.setAttribute("href", host + "/oracoes-missionarias/multiple.html");
 }
-
-var http = new XMLHttpRequest();
-var http2 = new XMLHttpRequest();
-
-var leitura1 = document.getElementById("leitura1");
-var leitura = document.getElementById("leitura");
-// console.log(leitura);
-let url2 = "./leitura-orante/december/-orante-" + currentDate + ".html";
-http2.open("HEAD", url2, false);
-http2.send();
-console.log(http2.status);
-
-if (http2.status === 200) {
-  console.log("Lutera file exists");
-  leitura.setAttribute(
-    "href",
-    "./leitura-orante/december/-orante" + currentDate + ".html"
-  );
-  leitura1.setAttribute(
-    "href",
-    "./leitura-orante/december/-orante" + currentDate + ".html"
-  );
-}
-if (http2.status === 404) {
-  console.log("Lutera file does not exists");
-  leitura.setAttribute("href", `${host}/leitura-orante/multiple.html`);
-  leitura1.setAttribute("href", `${host}/leitura-orante/multiple.html`);
-}
-
