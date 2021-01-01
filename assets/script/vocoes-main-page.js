@@ -88,7 +88,7 @@ for (var category in mainData['vocoesData']) {
             showhtml += `<div class="d-flex CV-Video-Link-Post forHover sortpost myNewVideo" data-event-date="${postdateSort}">
 
              <div class="img_1">
-                 <a href="${objec[getdays].route}"><img src="${objec[getdays].img}" class="img-fluid" alt="">
+                 <a href="${objec[getdays].route}"><img src="${objec[getdays].img}" class="img-fluid" id="sideBarImage" alt="">
              </div>
              <div class="pl-2 ">
              

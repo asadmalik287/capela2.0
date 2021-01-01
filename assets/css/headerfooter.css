@@ -126,7 +126,8 @@
                 .font-weight {
                     font-weight: 600;
                 }
-                .w-75{
+                
+                .w-75 {
                     width: 75%;
                 }
                 
@@ -318,6 +319,11 @@
                     font-size: 18px;
                 }
                 
+                #sideBarImage {
+                    height: 46px;
+                    width: 100%;
+                }
+                
                 .navbar {
                     padding: 6px !important;
                 }
@@ -491,11 +497,12 @@
                 /* Media Query For imgs and text start */
                 
                 @media (min-width: 768px) {
-                    #novena-iframe{
+                    #novena-iframe {
                         min-height: 400px;
                         padding-bottom: 30px;
                     }
                 }
+                
                 @media (min-width: 1100px) {
                     #home-post {
                         max-width: 70% !important;
@@ -529,7 +536,6 @@
                 /* Media Query for Ipad pro screen start*/
                 
                 @media (max-width:1100px) and (min-width:901px) {
-                  
                     .mini-header {
                         padding-top: 35px !important;
                     }
@@ -779,7 +785,6 @@
                     .video-logo {
                         width: 130px;
                     }
-
                     .video-logo-button {
                         width: 28%;
                         border: 0;

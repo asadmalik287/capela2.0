@@ -17,7 +17,7 @@ function chat_order() {
     var container = $("#postdiv");
     var items = $(".sortpost");
 
-    items.each(function (i) {
+    items.each(function(i) {
         // Convert the string in 'data-event-date' attribute to a more
         // standardized date format
         var BCDate = $(this).attr("data-event-date");
@@ -29,11 +29,11 @@ function chat_order() {
     });
 
 
-    items.sort(function (a, b) {
+    items.sort(function(a, b) {
         a = parseFloat($(a).attr("data-event-date"));
         b = parseFloat($(b).attr("data-event-date"));
         return a > b ? -1 : a < b ? 1 : 0;
-    }).each(function () {
+    }).each(function() {
         container.prepend(this);
     });
 
@@ -66,7 +66,7 @@ for (var category in mainData['santoData']) {
                     showhtml += `<div class="d-flex CV-Video-Link-Post sortpost" data-event-date="${postdateSort}">
 
                     <div class="img_santo">
-                        <a href="${checkarr[postdesp].route}"><img src="${checkarr[postdesp].img}" class="img-fluid" alt="">
+                        <a href="${checkarr[postdesp].route}"><img src="${checkarr[postdesp].img}" class="img-fluid" id="sideBarImage" alt="">
                     </div>
                     <div class="pl-2 ">
                     
@@ -77,7 +77,7 @@ for (var category in mainData['santoData']) {
                     </div>
                     
                     </div>`;
-                   
+
                 }
 
             }
@@ -113,10 +113,10 @@ for (var category in mainData['santoData']) {
 document.getElementById("postdiv").innerHTML = showhtml;
 chat_order();
 var ul = $('#postdiv');
-ul.children().each(function (i, div) {
+ul.children().each(function(i, div) {
     ul.prepend(div)
 });
-jQuery("#postdiv").find(".CV-Video-Link-Post").each(function (i) {
+jQuery("#postdiv").find(".CV-Video-Link-Post").each(function(i) {
     if (i > 6) {
         jQuery(this).remove();
     }
