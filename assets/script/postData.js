@@ -793,11 +793,11 @@ let mainData = {
         date: "26 de Novembro de 2020",
         route: host + "/oracoes-missionarias/November/26.html",
       },
-      
+
     },
-    December:{
+    December: {
       3: {
-        img:host +"/assets/img/oracoes-missionarias/December/03 Dez 2020_Orações Missionária.jpg",
+        img: host + "/assets/img/oracoes-missionarias/December/03 Dez 2020_Orações Missionária.jpg",
         title: "PARA ALCANÇAR OS FRUTOS",
         details: `Espírito Santo, amor eterno do Pai e do Filho,dignai-vos conceder-nos os vossos doze frutos.`,
         date: "3 de Dezembro de 2020",
@@ -3022,3 +3022,34 @@ if (mainData.oracoesMissionarias.December[currentDate]) {
 } else {
   oracoes.setAttribute("href", host + "/oracoes-missionarias/multiple.html");
 }
+
+var http = new XMLHttpRequest();
+var http2 = new XMLHttpRequest();
+
+var leitura1 = document.getElementById("leitura1");
+var leitura = document.getElementById("leitura");
+// console.log(leitura);
+let url2 = "./leitura-orante/december/-orante-" + currentDate + ".html";
+http2.open("HEAD", url2, false);
+http2.send();
+// console.log(http2.status);
+
+if (http2.status === 200) {
+  console.log("Lutera file exists");
+  leitura.setAttribute(
+    "href",
+    "./leitura-orante/december/-orante" + currentDate + ".html"
+  );
+  leitura1.setAttribute(
+    "href",
+    "./leitura-orante/december/-orante" + currentDate + ".html"
+  );
+}
+if (http2.status === 404) {
+  console.log("Lutera file does not exists");
+  leitura.setAttribute("href", `${host}/leitura-orante/multiple.html`);
+  leitura1.setAttribute("href", `${host}/leitura-orante/multiple.html`);
+}
+
+
+

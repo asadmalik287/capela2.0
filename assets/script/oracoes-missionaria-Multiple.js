@@ -37,7 +37,7 @@ Object.keys(mainData.oracoesMissionarias).map((month) => {
                     mainData.oracoesMissionarias[month][post].date.split(" ")[0] <=
                     new Date().getDate()
                 ) {
-                    console.log(mainData.oracoesMissionarias[month][post]);
+                    // console.log(mainData.oracoesMissionarias[month][post]);
                     santoPostsArr.push(mainData.oracoesMissionarias[month][post]);
                 }
             }
@@ -55,7 +55,7 @@ Object.keys(mainData.oracoesMissionarias).map((month) => {
 });
 santoPostsArr.reverse();
 
-console.log(santoPostsArr);
+// console.log(santoPostsArr);
 
 $("#list").pagination({
     // you call the plugin

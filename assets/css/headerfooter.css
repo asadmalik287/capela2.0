@@ -1145,7 +1145,7 @@
                         padding-top: 37px !important;
                     }
                     .subHeading1>h3 {
-                        font-size: 1.4rem !important;
+                        font-size: 1.3rem !important;
                     }
                     .CV-Video-Link-Post {
                         padding-bottom: 4px;
@@ -1155,6 +1155,9 @@
                     }
                     .home-img {
                         padding: 10px 0px !important;
+                    }
+                    .title-17px {
+                        font-size: 21px;
                     }
                 }
                 
