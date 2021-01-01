@@ -465,35 +465,38 @@ let mainData = {
                 details: `O projeto de Jesus Cristo é nosso programa de vida. 
                 Por isso, rezemos: 
                  Onde houver alguém que não te conhece e ainda não te segue,`,
-                date: "3 de Setembro de 2020",
-                route: host + "/oracoes-missionarias/September/3.html",
-            },
-            10: {
-                img: host +
-                    "/assets/img/oracoes-missionarias/September/02_img_oracoes_n_14.JPG",
-                title: "Dai-me, Senhor, um Coração Missionãrio",
-                details: `Senhor Jesus, Evangelho do Pai, 
+        date: "3 de Setembro de 2020",
+        route: host + "/oracoes-missionarias/September/3.html",
+      },
+      10: {
+        img:
+          host +
+          "/assets/img/oracoes-missionarias/September/02_img_oracoes_n_14.jpg",
+        title: "Dai-me, Senhor, um Coração Missionãrio",
+        details: `Senhor Jesus, Evangelho do Pai, 
                 que um dia rogastes: “Pai Nosso... 
                 Venha a nós o vosso Reino”.`,
-                date: "10 de Setembro de 2020",
-                route: host + "/oracoes-missionarias/September/10.html",
-            },
-            17: {
-                img: host +
-                    "/assets/img/oracoes-missionarias/September/06_img_oracoes_n_14.JPG",
-                title: "Oração Vocacional por intercessão de Madre Maria",
-                details: `Ó Trindade, 
+        date: "10 de Setembro de 2020",
+        route: host + "/oracoes-missionarias/September/10.html",
+      },
+      17: {
+        img:
+          host +
+          "/assets/img/oracoes-missionarias/September/06_img_oracoes_n_14.jpg",
+        title: "Oração Vocacional por intercessão de Madre Maria",
+        details: `Ó Trindade, 
                 nós te louvamos e te agradecemos 
                 porque olhaste com amor`,
-                date: "17 de Setembro de 2020",
-                route: host + "/oracoes-missionarias/September/17.html",
-            },
+        date: "17 de Setembro de 2020",
+        route: host + "/oracoes-missionarias/September/17.html",
+      },
 
-            24: {
-                img: host +
-                    "/assets/img/oracoes-missionarias/September/17_img_oracoes_n_14.JPG",
-                title: "Oração pela Missão",
-                details: `“Ide por todo o mundo 
+      24: {
+        img:
+          host +
+          "/assets/img/oracoes-missionarias/September/17_img_oracoes_n_14.jpg",
+        title: "Oração pela Missão",
+        details: `“Ide por todo o mundo 
                 e anunciai o Evangelho 
                 a todos os povos”.`,
                 date: "24 de Setembro de 2020",
@@ -507,67 +510,73 @@ let mainData = {
                 title: "Missão é partir, caminhar,",
                 details: `Missão é partir, caminhar, deixar tudo, sair de si, quebrar a crosta do egoísmo
             que nos fecha no nosso Eu.`,
-                date: "1 de Outubro de 2020",
-                route: host + "/oracoes-missionarias/October/1.html",
-            },
-            8: {
-                img: host + "/assets/img/oracoes-missionarias/October/07.Orações Mis.JPG",
-                title: "Salmo para a Missão",
-                details: `  A tua vida, Senhor, é nossa vida, 
+        date: "1 de Outubro de 2020",
+        route: host + "/oracoes-missionarias/October/1.html",
+      },
+      8: {
+        img:
+          host + "/assets/img/oracoes-missionarias/October/07.Orações Mis.jpg",
+        title: "Salmo para a Missão",
+        details: `  A tua vida, Senhor, é nossa vida, 
             tua missão é nossa missão.
-            O Evangelho será nossa medida
+            O Evangelho será nossa medida 
             e a nossa força será a comunhão.`,
-                date: "8 de Outubro de 2020",
-                route: host + "/oracoes-missionarias/October/8.html",
-            },
-            14: {
-                img: host +
-                    "/assets/img/oracoes-missionarias/October/1_dia_Novena_Missionaria.jpg",
-                title: "A vida é missão",
-                details: `Iniciamos hoje a Novena Missionária, para rezar pelas missões e aprofundar nosso chamado missionário como batizados e batizadas. Com o tema “A vida é missão” e o lema “Eis-me aqui, envia-me”, peçamos a Deus que nos fortaleça em nossa vocação.`,
-                date: "14 de Outubro de 2020",
-                route: host + "/oracoes-missionarias/October/14.html",
-            },
-            // 15: {
-            //   img: host + "/assets/img/oracoes-missionarias/October/12.Orações Mis.JPG",
-            //   title: "Prece Missionária",
-            //   details: `Pai Nosso, Deus de amor e de misericórdia, nós vos  louvamos porque
-            //       nos enviastes Jesus, vosso Filho e  irmão nosso, vida e esperança para todos
-            //       os povos.`,
-            //   date: "15 de Outubro de 2020",
-            //   route:
-            //     host +
-            //     "/oracoes-missionarias/October/15.html",
-            // },
-            16: {
-                img: host +
-                    "/assets/img/oracoes-missionarias/October/2_dia_Novena_Missionaria.jpg",
-                title: "A vida missionária das famílias",
-                details: `No segundo dia da novena missionária, vemos a importância da família na transmissão da fé e como é possível, como família, abraçar a vocação missionária. Exemplo disso é a família de migrantes da Guatemala, do grupo de missionários leigos combonianos. .`,
-                date: "16 de Outubro de 2020",
-                route: host + "/oracoes-missionarias/October/16.html",
-            },
-            18: {
-                img: host +
-                    "/assets/img/oracoes-missionarias/October/2_dia_Novena_Missionaria.jpg",
-                title: "A vida missionária dos seminaristas",
-                details: `No terceiro dia da Novena Missionária, vamos rezar pela missão dos seminaristas. Por todos os jovens que atendem ao chamado de Deus para o sacerdócio e, em meio às contradições do mundo de hoje, põem-se a caminho do serviço ao povo de Deus. `,
-                date: "18 de Outubro de 2020",
-                route: host + "/oracoes-missionarias/October/18.html",
-            },
-            20: {
-                img: host +
-                    "/assets/img/oracoes-missionarias/October/4_dia_Novena_Missionaria.jpg",
-                title: "A vida missionária consagrada",
-                details: `A vida missionária consagrada é fonte de bênção para a Igreja. São homens e mulheres que deixam tudo para seguir Jesus Cristo e se colocam a serviço dos mais necessitados. No quarto dia da novena, refletimos sobre a missão junto aos migrantes `,
-                date: "20 de Outubro de 2020",
-                route: host + "/oracoes-missionarias/October/20.html",
-            },
-            21: {
-                img: host +
-                    "/assets/img/oracoes-missionarias/October/22_img_oracoes_n_14.JPG",
-                title: "Oração pelas Vocações Missionárias",
-                details: `Senhor, que chamaste os apóstolos 
+        date: "8 de Outubro de 2020",
+        route: host + "/oracoes-missionarias/October/8.html",
+      },
+      14: {
+        img:
+          host +
+          "/assets/img/oracoes-missionarias/October/1_dia_Novena_Missionaria.jpg",
+        title: "A vida é missão",
+        details: `Iniciamos hoje a Novena Missionária, para rezar pelas missões e aprofundar nosso chamado missionário como batizados e batizadas. Com o tema “A vida é missão” e o lema “Eis-me aqui, envia-me”, peçamos a Deus que nos fortaleça em nossa vocação.`,
+        date: "14 de Outubro de 2020",
+        route: host + "/oracoes-missionarias/October/14.html",
+      },
+      // 15: {
+      //   img: host + "/assets/img/oracoes-missionarias/October/12.Orações Mis.jpg",
+      //   title: "Prece Missionária",
+      //   details: `Pai Nosso, Deus de amor e de misericórdia, nós vos  louvamos porque
+      //       nos enviastes Jesus, vosso Filho e  irmão nosso, vida e esperança para todos
+      //       os povos.`,
+      //   date: "15 de Outubro de 2020",
+      //   route:
+      //     host +
+      //     "/oracoes-missionarias/October/15.html",
+      // },
+      16: {
+        img:
+          host +
+          "/assets/img/oracoes-missionarias/October/2_dia_Novena_Missionaria.jpg",
+        title: "A vida missionária das famílias",
+        details: `No segundo dia da novena missionária, vemos a importância da família na transmissão da fé e como é possível, como família, abraçar a vocação missionária. Exemplo disso é a família de migrantes da Guatemala, do grupo de missionários leigos combonianos. .`,
+        date: "16 de Outubro de 2020",
+        route: host + "/oracoes-missionarias/October/16.html",
+      },
+      18: {
+        img:
+          host +
+          "/assets/img/oracoes-missionarias/October/2_dia_Novena_Missionaria.jpg",
+        title: "A vida missionária dos seminaristas",
+        details: `No terceiro dia da Novena Missionária, vamos rezar pela missão dos seminaristas. Por todos os jovens que atendem ao chamado de Deus para o sacerdócio e, em meio às contradições do mundo de hoje, põem-se a caminho do serviço ao povo de Deus. `,
+        date: "18 de Outubro de 2020",
+        route: host + "/oracoes-missionarias/October/18.html",
+      },
+      20: {
+        img:
+          host +
+          "/assets/img/oracoes-missionarias/October/4_dia_Novena_Missionaria.jpg",
+        title: "A vida missionária consagrada",
+        details: `A vida missionária consagrada é fonte de bênção para a Igreja. São homens e mulheres que deixam tudo para seguir Jesus Cristo e se colocam a serviço dos mais necessitados. No quarto dia da novena, refletimos sobre a missão junto aos migrantes `,
+        date: "20 de Outubro de 2020",
+        route: host + "/oracoes-missionarias/October/20.html",
+      },
+      21: {
+        img:
+          host +
+          "/assets/img/oracoes-missionarias/October/22_img_oracoes_n_14.jpg",
+        title: "Oração pelas Vocações Missionárias",
+        details: `Senhor, que chamaste os apóstolos 
                 para serem pescadores de gente 
                 e construtores de um mundo novo, `,
                 date: "21 de Outubro de 2020",
@@ -613,78 +622,85 @@ let mainData = {
             sentastes junto ao poço de Jacó 
             e dissestes à samaritana: 
             “Dá-me de beber”.`,
-                date: "29 de Outubro de 2020",
-                route: host + "/oracoes-missionarias/October/29.html",
-            },
-            30: {
-                img: host +
-                    "/assets/img/oracoes-missionarias/October/9_dia_Novena_Missionaria.jpg",
-                title: "A vida missionária dos idosos e enfermos",
-                details: `As doenças e os sofrimentos que enfrentam os idosos não são um castigo de Deus, mas uma oportunidade para se unir a Cristo crucificado e, pelo oferecimento de si mesmo, transformar a dor em amor, testemunhando a misericórdia de Deus.  `,
-                date: "30 de Outubro de 2020",
-                route: host + "/oracoes-missionarias/October/30.html",
-            },
-        },
-        November: {
-            5: {
-                img: host +
-                    "/assets/img/oracoes-missionarias/November/5 Nov 2020_ orações Missionária   (1).jpg",
-                title: "Senhor que amas",
-                details: `Senhor que amas, ajuda-nos a perceber, em nossa missão,  as ocasiões de amar. De amar espontaneamente com o olhar e o coração aqueles que encontramos.`,
-                date: "5 de Novembro de 2020",
-                route: host + "/oracoes-missionarias/November/5.html",
-            },
-            12: {
-                img: host +
-                    "/assets/img/oracoes-missionarias/November/12 Nov 2020_Orações Missionárias.jpg",
-                title: "Unge-me",
-                details: `Senhor, unge minha cabeçapara que todos os meus pensamentossaiam da fonte do teu ser,para encher-me com graça e paz..`,
-                date: "12 de Novembro de 2020",
-                route: host + "/oracoes-missionarias/November/12.html",
-            },
-            19: {
-                img: host +
-                    "/assets/img/oracoes-missionarias/November/19 Nov 2020_Orações Missionárias.jpg",
-                title: "Súplica Missionária",
-                details: `Senhor Jesus, Bom Pastor e nosso irmão, viestes habitar no meio de nós, para ser caminho de vida e esperança para todos.`,
-                date: "19 de Novembro de 2020",
-                route: host + "/oracoes-missionarias/November/19.html",
-            },
-            26: {
-                img: host +
-                    "/assets/img/oracoes-missionarias/November/26 Nov 2020_Orações Missionárias .JPG",
-                title: "Oração Vocacional por intercessão de Madre Maria",
-                details: `Ó Trindade, nós te louvamos e te agradecemosporque olhaste com amorpara a bem-aventurada Madre Mariaconcedendo-lhe fidelidadeàs inspirações do Espírito Santo,.`,
-                date: "26 de Novembro de 2020",
-                route: host + "/oracoes-missionarias/November/26.html",
-            },
-
-        },
-        December: {
-            3: {
-                img: host + "/assets/img/oracoes-missionarias/December/03 Dez 2020_Orações Missionária.jpg",
-                title: "PARA ALCANÇAR OS FRUTOS",
-                details: `Espírito Santo, amor eterno do Pai e do Filho,dignai-vos conceder-nos os vossos doze frutos.`,
-                date: "3 de Dezembro de 2020",
-                route: host + "/oracoes-missionarias/December/3.html",
-            },
-            10: {
-                img: host +
-                    "/assets/img/oracoes-missionarias/December/10dez2020_Orações Missionárias .jpg",
-                title: "TRANSFIGURA-ME, SENHOR!",
-                details: `Transfigura-me, Senhor!
+        date: "29 de Outubro de 2020",
+        route: host + "/oracoes-missionarias/October/29.html",
+      },
+      30: {
+        img:
+          host +
+          "/assets/img/oracoes-missionarias/October/9_dia_Novena_Missionaria.jpg",
+        title: "A vida missionária dos idosos e enfermos",
+        details: `As doenças e os sofrimentos que enfrentam os idosos não são um castigo de Deus, mas uma oportunidade para se unir a Cristo crucificado e, pelo oferecimento de si mesmo, transformar a dor em amor, testemunhando a misericórdia de Deus.  `,
+        date: "30 de Outubro de 2020",
+        route: host + "/oracoes-missionarias/October/30.html",
+      },
+    },
+    November: {
+      5: {
+        img:
+          host +
+          "/assets/img/oracoes-missionarias/November/5 Nov 2020_ orações Missionária   (1).jpg",
+        title: "Senhor que amas",
+        details: `Senhor que amas, ajuda-nos a perceber, em nossa missão,  as ocasiões de amar. De amar espontaneamente com o olhar e o coração aqueles que encontramos.`,
+        date: "5 de Novembro de 2020",
+        route: host + "/oracoes-missionarias/November/5.html",
+      },
+      12: {
+        img:
+          host +
+          "/assets/img/oracoes-missionarias/November/12 Nov 2020_Orações Missionárias.jpg",
+        title: "Unge-me",
+        details: `Senhor, unge minha cabeçapara que todos os meus pensamentossaiam da fonte do teu ser,para encher-me com graça e paz..`,
+        date: "12 de Novembro de 2020",
+        route: host + "/oracoes-missionarias/November/12.html",
+      },
+      19: {
+        img:
+          host +
+          "/assets/img/oracoes-missionarias/November/19 Nov 2020_Orações Missionárias.jpg",
+        title: "Súplica Missionária",
+        details: `Senhor Jesus, Bom Pastor e nosso irmão, viestes habitar no meio de nós, para ser caminho de vida e esperança para todos.`,
+        date: "19 de Novembro de 2020",
+        route: host + "/oracoes-missionarias/November/19.html",
+      },
+      26: {
+        img:
+          host +
+          "/assets/img/oracoes-missionarias/November/26 Nov 2020_Orações Missionárias .jpg",
+        title: "Oração Vocacional por intercessão de Madre Maria",
+        details: `Ó Trindade, nós te louvamos e te agradecemosporque olhaste com amorpara a bem-aventurada Madre Mariaconcedendo-lhe fidelidadeàs inspirações do Espírito Santo,.`,
+        date: "26 de Novembro de 2020",
+        route: host + "/oracoes-missionarias/November/26.html",
+      },
+      
+    },
+    December:{
+      3: {
+        img:host +"/assets/img/oracoes-missionarias/December/03 Dez 2020_Orações Missionária.jpg",
+        title: "PARA ALCANÇAR OS FRUTOS",
+        details: `Espírito Santo, amor eterno do Pai e do Filho,dignai-vos conceder-nos os vossos doze frutos.`,
+        date: "3 de Dezembro de 2020",
+        route: host + "/oracoes-missionarias/December/3.html",
+      },
+      10: {
+        img:
+          host +
+          "/assets/img/oracoes-missionarias/December/10dez2020_Orações Missionárias .jpg",
+        title: "TRANSFIGURA-ME, SENHOR!",
+        details: `Transfigura-me, Senhor!
         Transfigura-me em ti.
         Transforma tudo que há em mim
         para melhor te servir.
         `,
-                date: "10 de Dezembro de 2020",
-                route: host + "/oracoes-missionarias/December/10.html",
-            },
-            17: {
-                img: host +
-                    "/assets/img/oracoes-missionarias/December/17 Dez 2020_ Orações Missionária .JPG",
-                title: "Oração pela Evangelização",
-                details: `Senhor Jesus Cristo,
+        date: "10 de Dezembro de 2020",
+        route: host + "/oracoes-missionarias/December/10.html",
+      },
+      17: {
+        img:
+          host +
+          "/assets/img/oracoes-missionarias/December/17 Dez 2020_ Orações Missionária .jpg",
+        title: "Oração pela Evangelização",
+        details: `Senhor Jesus Cristo,
         Vós deixastes aos apóstolos a missão de evangelizar.
         Enviai também a nós, como anunciadores, para que vosso Evangelho
         continue penetrando na vida das pessoas
@@ -2101,7 +2117,7 @@ let mainData = {
                 details: `A Comunidade Santana, em São Paulo-SP, acolhe as missionárias servas do Espírito Santo que já trabalharam muito ao longo da vida e hoje necessitam de cuidados. Mas se engana quem pensa que elas levam uma vida monótona. Assista ao vídeo e veja! `,
                 date: "08 de dezembro de 2020",
                 route: host + "/Missao/December/8.html",
-                video: false,
+                video:true,
             },
             22: {
                 img: host +
@@ -2117,26 +2133,26 @@ let mainData = {
 };
 
 let tercoData = {
-    Dolorosos: {
-        title: "Mistérios Dolorosos",
-        route: host + "/Terço missionário/Terço missionário.html",
-        img: host + "/assets/img/banner/Banner_Terco_Missionario.jpg",
-    },
-    Gloriosos: {
-        title: "Mistérios Gloriosos",
-        route: host + "/Terço missionário/Terço missionário.html",
-        img: host + "/assets/img/banner/Banner_Terco_Missionario.jpg",
-    },
-    Gozozos: {
-        title: "Mistérios Gozozos",
-        route: host + "/Terço missionário/Terço missionário.html",
-        img: host + "/img//assets/img/banner/Banner_Terco_Missionario.jpg",
-    },
-    Luminosos: {
-        title: "Mistérios Luminosos",
-        route: host + "/Terço missionário/Terço missionário.html",
-        img: host + "/img//assets/img/banner/Banner_Terco_Missionario.jpg",
-    },
+  Dolorosos: {
+    title: "Mistérios Dolorosos",
+    route: host + "/Terço missionário/Terço missionário.html",
+    img: host + "/assets/img/banner/Banner_Terco_Missionario.jpg",
+  },
+  Gloriosos: {
+    title: "Mistérios Gloriosos",
+    route: host + "/Terço missionário/Terço missionário.html",
+    img: host + "/assets/img/banner/Banner_Terco_Missionario.jpg",
+  },
+  Gozozos: {
+    title: "Mistérios Gozozos",
+    route: host + "/Terço missionário/Terço missionário.html",
+    img: host + "/assets/img/banner/Banner_Terco_Missionario.jpg",
+  },
+  Luminosos: {
+    title: "Mistérios Luminosos",
+    route: host + "/Terço missionário/Terço missionário.html",
+    img: host + "/assets/img/banner/Banner_Terco_Missionario.jpg",
+  },
 };
 
 let dayTerco = "";
@@ -2601,10 +2617,10 @@ for (let i = currentDate; i > 0; i--) {
             "href",
             host + "/Espiritualidade/December/" + i + ".html"
         );
-        console.log("Espiritualidade Found ");
+        // console.log("Espiritualidade Found ");
         break;
     } else {
-        console.log("Espiritualidade not  Found  ");
+        // console.log("Espiritualidade not  Found  ");
 
         espirtualLink.setAttribute("href", host + "/Espiritualidade/Espiritualidade-Multiple.html");
     }
@@ -2628,26 +2644,4 @@ if (mainData.oracoesMissionarias.December[currentDate]) {
     );
 } else {
     oracoes.setAttribute("href", host + "/oracoes-missionarias/multiple.html");
-}
-
-var http = new XMLHttpRequest();
-var http2 = new XMLHttpRequest();
-
-var leitura = document.getElementById("leitura");
-// console.log(leitura);
-let url2 = "./leitura-orante/december/-orante-" + currentDate + ".html";
-http2.open("HEAD", url2, false);
-http2.send();
-console.log(http2.status);
-
-if (http2.status === 200) {
-    console.log("Lutera file exists");
-    leitura.setAttribute(
-        "href",
-        "./leitura-orante/december/-orante" + currentDate + ".html"
-    );
-}
-if (http2.status === 404) {
-    console.log("Lutera file does not exists");
-    leitura.setAttribute("href", `${host}/leitura-orante/multiple.html`);
 }

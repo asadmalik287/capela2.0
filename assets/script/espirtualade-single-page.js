@@ -25,7 +25,7 @@ function chat_order() {
         var standardDate = BCDate[1]+" "+BCDate[0]+" "+BCDate[2];*/
         var standartDate = new Date(BCDate).getTime();
         $(this).attr("data-event-date", standartDate);
-        console.log(standartDate);
+        // console.log(standartDate);
     });
 
 

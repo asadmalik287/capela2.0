@@ -120,4 +120,19 @@
         flex-wrap: nowrap;
         font-size: 12px;
     }
+    .bottom-flex
+    {
+        flex-wrap: nowrap;
+       
+    font-size: 8px;
+
+        
+    }
+    .h-font
+    {
+      
+        font-size: 12px;
+        font-weight: 600;
+    }
+
 }

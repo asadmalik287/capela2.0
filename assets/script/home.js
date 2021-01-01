@@ -53,3 +53,34 @@ function audioControl() {
 }
 
 // Audio Script end
+
+
+
+var http = new XMLHttpRequest();
+var http2 = new XMLHttpRequest();
+
+var leitura1 = document.getElementById("leitura1");
+var leitura = document.getElementById("leitura");
+// console.log(leitura);
+let url2 = "./leitura-orante/december/-orante-" + currentDate + ".html";
+http2.open("HEAD", url2, false);
+http2.send();
+// console.log(http2.status);
+
+if (http2.status === 200) {
+//   console.log("Lutera file exists");
+  leitura.setAttribute(
+    "href",
+    "./leitura-orante/december/-orante" + currentDate + ".html"
+  );
+  leitura1.setAttribute(
+    "href",
+    "./leitura-orante/december/-orante" + currentDate + ".html"
+  );
+}
+if (http2.status === 404) {
+//   console.log("Lutera file does not exists");
+  leitura.setAttribute("href", `${host}/leitura-orante/multiple.html`);
+  leitura1.setAttribute("href", `${host}/leitura-orante/multiple.html`);
+}
+
