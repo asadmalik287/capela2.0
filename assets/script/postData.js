@@ -455,6 +455,83 @@ let mainData = {
                 route: host + "/Dia-de-santo/Dia-December/Dia-31.html",
             },
         },
+        January: {
+            1: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/01_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "Dia de Reis (Epifania)",
+                details: "A solenidade da Epifania do Senhor, popularmente conhecida como Dia de Reis, relembra a visita dos reis magos ao Menino Jesus, pouco tempo depois de seu nascimento. Veja qual é o significado desta solenidade tão rica de imagens simbólicas.",
+                date: "1 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-1.html",
+            },
+            3: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/03_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "Dia de Reis (Epifania)",
+                details: "A solenidade da Epifania do Senhor, popularmente conhecida como Dia de Reis, relembra a visita dos reis magos ao Menino Jesus, pouco tempo depois de seu nascimento. Veja qual é o significado desta solenidade tão rica de imagens simbólicas.",
+                date: "3 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-3.html",
+            },
+            10: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/10_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "O Batismo do Senhor",
+                details: "Hoje a Igreja celebra o Batismo do Senhor, um dos momentos essenciais na vida de Jesus. No Jordão, o Pai unge o Filho com o Espírito Santo e lhe revela sua missão: “Este é meu Filho amado, no qual eu pus o meu agrado” (Mt 3,17; Mc 1,11; Lc 3,22). ",
+                date: "10 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-10.html",
+            },
+            15: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/15_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "Santo Arnaldo Janssen ",
+                details: "Fundador de três congregações religiosas e incentivador da imprensa, Santo Arnaldo Janssen teve sua vida marcada pela busca da vontade de Deus e trabalho incansável. Hoje, seus missionários e missionárias estão espalhados pelos cinco continentes.",
+                date: "15 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-15.html",
+            },
+            20: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/20_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "São Sebastião",
+                details: "Hoje celebramos  a memória do mártir São Sebastião. Ele testemunhou sua fé como cristão e esteve ao lado dos irmãos de fé, dando-lhes forças, cuidando dos enfraquecidos pelas torturas e, sem temer, enfrentando o poder. São Sebastião, intercedei por todos nós! ",
+                date: "20 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-20.html",
+            },
+            21: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/21_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "Santa Inês",
+                details: "Celebrando a memória de Santa Inês, jovem martirizada por dar seu testemunho de cristã, vítima de um sistema violento de um imperador. Que ela nos inspire a viver a fé num constante testemunho de fidelidade a Jesus hoje. Santa Inês, rogai por nós!  ",
+                date: "21 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-21.html",
+            },
+            28: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/28_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "Santo Tomás de Aquino",
+                details: "Celebramos hoje a memória de Santo Tomás de Aquino, presbítero e doutor da Igreja. Grande mestre, respeitava todos e por todos era amado. Sua obra, datada do século XIII, é a base de estudos filosóficos e teológicos até os dias de hoje.  ",
+                date: "28 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-28.html",
+            },
+            29: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/29_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "São José Freinademetz ",
+                details: "A Igreja celebra hoje São José Freinademetz. Enviado à China por Santo Arnaldo Janssen, fundou comunidades cristãs e, mesmo com muitos desafios, dedicou sua vida àquele povo. São José Freinademetz, rogai por nós e por todos os evangelizadores ",
+                date: "29 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-29.html",
+            },
+            31: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/31_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "São João Bosco",
+                details: "Em 31 de janeiro, a Igreja celebra a memória de São João Bosco, ou Dom Bosco, como é mais conhecido. Homem criativo e bondoso, dedicou sua vida à juventude. Criou uma pedagogia baseada no amor e fundou a Família Salesiana, uma das maiores da Igreja.  ",
+                date: "31 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-31.html",
+            },
+
+
+
+        },
     },
 
     oracoesMissionarias: {
@@ -721,6 +798,45 @@ let mainData = {
                 route: host + "/oracoes-missionarias/December/24.html",
             },
         },
+        January:{
+            7: {
+              img:host +"/assets/img/oracoes-missionarias/january/07_Janeiro_2021_Orações Missionárias.jpg",
+              title: "Oração ao Espírito Santo ",
+              details: `Aqui você encontra orações 
+              para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.
+              `,
+              date: "7 de Janeiro de 2021",
+              route: host + "/oracoes-missionarias/January/7.html",
+            },
+            14: {
+                img:host +"/assets/img/oracoes-missionarias/january/14_Janeiro_2021_ Orações Missionárias.jpg",
+                title: "Oração de Santo Arnaldo Janssen ",
+                details: `Aqui você encontra orações 
+                para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.
+                
+                `,
+                date: "14 de Janeiro de 2021",
+                route: host + "/oracoes-missionarias/January/14.html",
+              },
+              21: {
+                img:host +"/assets/img/oracoes-missionarias/january/21_Janeiro_2021_Orações Missionárias.JPG",
+                title: "Oração de Santo Arnaldo Janssen ",
+                details: `Aqui você encontra orações 
+                para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.      
+                `,
+                date: "21 de Janeiro de 2021",
+                route: host + "/oracoes-missionarias/January/21.html",
+              },
+              28: {
+                img:host +"/assets/img/oracoes-missionarias/january/28_Janeiro_2021_Orações Missionárias.JPG",
+                title: "Oração pela Paz",
+                details: `Aqui você encontra orações 
+                para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.                
+                `,
+                date: "28 de Janeiro de 2021",
+                route: host + "/oracoes-missionarias/January/28.html",
+              },
+              },
     },
     vocoesData: {
         September: {

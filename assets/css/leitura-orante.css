@@ -59,10 +59,13 @@
         height: 119px;
       }
       .listen_pause_web{
-        width: 52%;
+        width: 68%;
     }
      .listen_play_web{
-        width: 52%;
+        width: 68%;
+    }
+    #marginBottom{
+        padding-left: 15px !important;
     }
     .flex-div-heading{
         font-size: 15px;

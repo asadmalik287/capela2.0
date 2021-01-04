@@ -1164,6 +1164,11 @@
                     .title-17px {
                         font-size: 21px;
                     }
+                    .navbar-light .navbar-toggler {
+                        color: rgba(0,0,0,.5);
+                        border-color: rgba(0,0,0,.1);
+                        outline: none !important;
+                    }
                 }
                 
                 @media (max-width:1024px) {
