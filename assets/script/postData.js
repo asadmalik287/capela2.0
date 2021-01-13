@@ -455,6 +455,83 @@ let mainData = {
                 route: host + "/Dia-de-santo/Dia-December/Dia-31.html",
             },
         },
+        January: {
+            1: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/01_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "Dia de Reis (Epifania)",
+                details: "A solenidade da Epifania do Senhor, popularmente conhecida como Dia de Reis, relembra a visita dos reis magos ao Menino Jesus, pouco tempo depois de seu nascimento. Veja qual é o significado desta solenidade tão rica de imagens simbólicas.",
+                date: "1 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-1.html",
+            },
+            3: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/03_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "Dia de Reis (Epifania)",
+                details: "A solenidade da Epifania do Senhor, popularmente conhecida como Dia de Reis, relembra a visita dos reis magos ao Menino Jesus, pouco tempo depois de seu nascimento. Veja qual é o significado desta solenidade tão rica de imagens simbólicas.",
+                date: "3 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-3.html",
+            },
+            10: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/10_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "O Batismo do Senhor",
+                details: "Hoje a Igreja celebra o Batismo do Senhor, um dos momentos essenciais na vida de Jesus. No Jordão, o Pai unge o Filho com o Espírito Santo e lhe revela sua missão: “Este é meu Filho amado, no qual eu pus o meu agrado” (Mt 3,17; Mc 1,11; Lc 3,22). ",
+                date: "10 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-10.html",
+            },
+            15: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/15_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "Santo Arnaldo Janssen ",
+                details: "Fundador de três congregações religiosas e incentivador da imprensa, Santo Arnaldo Janssen teve sua vida marcada pela busca da vontade de Deus e trabalho incansável. Hoje, seus missionários e missionárias estão espalhados pelos cinco continentes.",
+                date: "15 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-15.html",
+            },
+            20: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/20_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "São Sebastião",
+                details: "Hoje celebramos  a memória do mártir São Sebastião. Ele testemunhou sua fé como cristão e esteve ao lado dos irmãos de fé, dando-lhes forças, cuidando dos enfraquecidos pelas torturas e, sem temer, enfrentando o poder. São Sebastião, intercedei por todos nós! ",
+                date: "20 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-20.html",
+            },
+            21: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/21_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "Santa Inês",
+                details: "Celebrando a memória de Santa Inês, jovem martirizada por dar seu testemunho de cristã, vítima de um sistema violento de um imperador. Que ela nos inspire a viver a fé num constante testemunho de fidelidade a Jesus hoje. Santa Inês, rogai por nós!  ",
+                date: "21 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-21.html",
+            },
+            28: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/28_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "Santo Tomás de Aquino",
+                details: "Celebramos hoje a memória de Santo Tomás de Aquino, presbítero e doutor da Igreja. Grande mestre, respeitava todos e por todos era amado. Sua obra, datada do século XIII, é a base de estudos filosóficos e teológicos até os dias de hoje.  ",
+                date: "28 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-28.html",
+            },
+            29: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/29_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "São José Freinademetz ",
+                details: "A Igreja celebra hoje São José Freinademetz. Enviado à China por Santo Arnaldo Janssen, fundou comunidades cristãs e, mesmo com muitos desafios, dedicou sua vida àquele povo. São José Freinademetz, rogai por nós e por todos os evangelizadores ",
+                date: "29 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-29.html",
+            },
+            31: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/31_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "São João Bosco",
+                details: "Em 31 de janeiro, a Igreja celebra a memória de São João Bosco, ou Dom Bosco, como é mais conhecido. Homem criativo e bondoso, dedicou sua vida à juventude. Criou uma pedagogia baseada no amor e fundou a Família Salesiana, uma das maiores da Igreja.  ",
+                date: "31 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-31.html",
+            },
+
+
+
+        },
     },
 
     oracoesMissionarias: {
@@ -721,6 +798,45 @@ let mainData = {
                 route: host + "/oracoes-missionarias/December/24.html",
             },
         },
+        January:{
+            7: {
+              img:host +"/assets/img/oracoes-missionarias/january/07_Janeiro_2021_Orações Missionárias.jpg",
+              title: "Oração ao Espírito Santo ",
+              details: `Aqui você encontra orações 
+              para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.
+              `,
+              date: "7 de Janeiro de 2021",
+              route: host + "/oracoes-missionarias/January/7.html",
+            },
+            14: {
+                img:host +"/assets/img/oracoes-missionarias/january/14_Janeiro_2021_ Orações Missionárias.jpg",
+                title: "Oração de Santo Arnaldo Janssen ",
+                details: `Aqui você encontra orações 
+                para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.
+                
+                `,
+                date: "14 de Janeiro de 2021",
+                route: host + "/oracoes-missionarias/January/14.html",
+              },
+              21: {
+                img:host +"/assets/img/oracoes-missionarias/january/21_Janeiro_2021_Orações Missionárias.JPG",
+                title: "Oração de Santo Arnaldo Janssen ",
+                details: `Aqui você encontra orações 
+                para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.      
+                `,
+                date: "21 de Janeiro de 2021",
+                route: host + "/oracoes-missionarias/January/21.html",
+              },
+              28: {
+                img:host +"/assets/img/oracoes-missionarias/january/28_Janeiro_2021_Orações Missionárias.JPG",
+                title: "Oração pela Paz",
+                details: `Aqui você encontra orações 
+                para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.                
+                `,
+                date: "28 de Janeiro de 2021",
+                route: host + "/oracoes-missionarias/January/28.html",
+              },
+              },
     },
     vocoesData: {
         September: {
@@ -861,6 +977,39 @@ let mainData = {
                 route: host + "/Vocaoes/December/26.html",
                 video: true,
             },
+        },
+
+        January: {
+            2: {
+                img: host + "/assets/img/Vocacoes/January/02 Janeiro_2021_Vocaçao e caminho de amor _A.jpg",
+                title: "Vocação é caminho de amor e serviço",
+                details: `Escutar o chamado de Deus e colocar a vida a serviço dos outros na vida religiosa e missionária é um caminho de muitos desafios, mas traz profunda alegria e ajuda a transformar a vida de muitas pessoas.`,
+                date: "02 Janeiro 2021",
+                route: host + "/Vocaoes/January/2.html",
+                video: false,
+            },
+            9: {
+                img: host + "/assets/img/Vocacoes/January/09_Janeiro_2021_Vocação_Foto_Para Vídeo.png",
+                title: "Missionárias contam como descobriram a vocação",
+                details: `Toda pessoa recebe de Deus uma vocação muito significativa. Três irmãs compartilham
+                sua vocação para uma Congregação internacional chamada Missionárias Servas do
+                Espírito Santo. Assista como cada uma fala sobre como está vivendo sua vocação para
+                a vida religiosa…`,
+                date: "09 Janeiro 2021",
+                route: host + "/Vocaoes/January/9.html",
+                video: true,
+            },
+            23: {
+                img: host + "/assets/img/Vocacoes/January/23_janeiro_2021_Vocação_Foto.jpg",
+                title: "Você já sentiu vontade de conversar com alguém sobre vocação",
+                details: `Você já sentiu vontade de conversar com alguém sobre vocação? De falar sobre suas
+                dúvidas, trocar ideias, dizer o que você pensa e conhecer experiências de outras
+                pessoas? Agora surgiu a oportunidade com a nova série de vídeos “Papo Vocacional”.`,
+                date: "23 Janeiro 2021",
+                route: host + "/Vocaoes/Janury/23.html",
+                video: true,
+            },
+            
         },
     },
     espirtualData: {
@@ -2003,7 +2152,300 @@ let mainData = {
                 route: host + "/leitura-orante/december/31a.html",
             },
         },
+
+        january: {
+            1: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/01_Janeiro_2021.jpg",
+                title: "Maria, Santa Mãe de Deus",
+                details: "Ó Deus, que pela virgindade fecunda de Maria destes à humanidade a salvação eterna, dai-nos contar sempre com a sua intercessão, pois ela nos trouxe o autor da vida. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
+                date: "01 de janeiro de 2021",
+                route: host + "/leitura-orante/january/1a.html",
+            },
+
+            2: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/02_Janeiro_2021.jpg",
+                title: "SANTOS BASÍLIO E GREGÓRIO Nazianzeno, bispos e doutores",
+                details: " Ó Deus, que iluminastes a vossa Igreja com o exemplo e a doutrina de São Basílio e São Gregório Nazianzeno, fazei-nos buscar humildemente a vossa verdade e segui-la com amor em nossa vida. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
+                date: "02 de janeiro de 2021",
+                route: host + "/leitura-orante/january/2a.html",
+            },
+
+            3: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/03_Janeiro_2021.jpg",
+                title: "Epifania do Senhor",
+                details: "Ó Deus, que hoje revelastes o vosso Filho às nações, guiando-as pela estrela,concedei aos vossos servos e servas, que já vos conhecem pela fé, contemplar-vos um dia face a face no céu. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
+                date: "03 de janeiro de 2021",
+                route: host + "/leitura-orante/january/3a.html",
+            },
+
+            4: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/04_Janeiro_2021.jpg",
+                title: "Semana da Epifania",
+                details: "Nós vos pedimos, ó Deus, que o esplendor da vossa glória ilumine os nossos corações para que, passando pelas trevas deste mundo, cheguemos à pátria da luz que não se extingue. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
+                date: "04 de janeiro de 2021",
+                route: host + "/leitura-orante/january/4a.html",
+            },
+
+            5: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/05_Janeiro_2021.jpg",
+                title: "Semana da Epifania",
+                details: "Ó Deus, cujo Filho Unigênito se manifestou na realidade da nossa carne, concedei que, reconhecendo sua humanidade semelhante à nossa, sejamos interiormente transformados por ele. Que conosco vive e reina, na unidade do Espírito Santo.",
+                date: "05 de janeiro de 2021",
+                route: host + "/leitura-orante/january/5a.html",
+            },
+
+            6: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/06_Janeiro_2021.jpg",
+                title: "Semana da Epifania",
+                details: "Ó Deus, luz de todas as nações, concedei aos povos da terra viver em perene paz, e fazei resplandecer em nossos corações aquela luz admirável que vimos despontar no povo da antiga aliança. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
+                date: "06 de janeiro de 2021",
+                route: host + "/leitura-orante/january/6a.html",
+            },
+
+            7: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/07_Janeiro_2021.jpg",
+                title: "Semana da Epifania",
+                details: " Nós vos pedimos, ó Deus, que o esplendor da vossa glória ilumine os nossos corações para que, passando pelas trevas deste mundo, cheguemos à pátria da luz que não se extingue. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
+                date: "07 de janeiro de 2021",
+                route: host + "/leitura-orante/january/7a.html",
+            },
+
+            8: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/08_Janeiro_2021.jpg",
+                title: "Semana da Epifania",
+                details: "Ó Deus, pelo nascimento do vosso Filho, a aurora do vosso dia eterno despontou sobre todas as nações. Concedei ao vosso povo conhecer a fulgurante glória do seu Redentor e por ele chegr à luz que não se extingue. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
+                date: "08 de janeiro de 2021",
+                route: host + "/leitura-orante/january/8a.html",
+            },
+
+            9: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/09_Janeiro_2021.jpg",
+                title: "Semana da Epifania",
+                details: " Deus eterno e todo-poderoso, pelo vosso Filho nos fizestes nova criatura para vós.Dai-nos, pela vossa graça, participar da divindade daquele que uniu a vós a nossa humanidade. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
+                date: "09 de janeiro de 2021",
+                route: host + "/leitura-orante/january/9a.html",
+            },
+
+            10: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/10_Janeiro_2021.jpg",
+                title: "Batismo do Senhor",
+                details: " Deus eterno e todo-poderoso, que, sendo o Cristo batizado no Jordão e pairando sobre ele o Espírito Santo,o declarastes solenemente vosso filho, concedei aos vossos filhos adotivos, renascidos da água e do Espírito Santo, perseverar constantemente em vosso amor. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+                date: "10 de janeiro de 2021",
+                route: host + "/leitura-orante/january/10a.html",
+            },
+
+            11: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/11_Janeiro_2021.jpg",
+                title: "1ª Semana do Tempo Comum",
+                details: " Ó Deus, atendei como pai às preces do vosso povo; dai-nos a compreensão dos nossos deveres e a força de cumpri-los. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+                date: "11 de janeiro de 2021",
+                route: host + "/leitura-orante/january/11a.html",
+            },
+
+            12: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/12_Janeiro_2021.jpg",
+                title: "1ª Semana do Tempo Comum",
+                details: " Ó Deus, atendei como pai às preces do vosso povo; dai-nos a compreensão dos nossos deveres e a força de cumpri-los. Por Nosso Senhor Jesus Cristo, vosso Filho, na  unidade do Espírito Santo.",
+                date: "12 de janeiro de 2021",
+                route: host + "/leitura-orante/january/12a.html",
+            },
+
+            13: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/13_Janeiro_2021.jpg",
+                title: "1ª Semana do Tempo Comum",
+                details: " Ó Deus, atendei como pai às preces do vosso povo; dai-nos a compreensão dos nossos deveres e a força de cumpri-los. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+                date: "13 de janeiro de 2021",
+                route: host + "/leitura-orante/january/13a.html",
+            },
+
+            14: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/14_Janeiro_2021.jpg",
+                title: "1ª Semana do Tempo Comum",
+                details: " Ó Deus, que constituístes o Cristo sumo e eterno sacerdote para vossa glória e salvação da humanidade, dai ao povo resgatado por seu sangue participar do memorial que nos deixou, obter a força de sua cruz e a glória da ressurreição. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+                date: "14 de janeiro de 2021",
+                route: host + "/leitura-orante/january/14a.html",
+            },
+
+            15: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/15_Janeiro_2021.jpg",
+                title: "1ª Semana do Tempo Comum",
+                details: " Ó Deus, atendei como pai às preces do vosso povo; dai-nos a compreensão dos nossos deveres e a força de cumpri-los. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+                date: "15 de janeiro de 2021",
+                route: host + "/leitura-orante/january/15a.html",
+            },
+
+            16: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/16_Janeiro_2021.jpg",
+                title: "1ª Semana do Tempo Comum",
+                details: " Ó Deus, atendei como pai às preces do vosso povo; dai-nos a compreensão dos nossos deveres e a força de cumpri-los. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+                date: "16 de janeiro de 2021",
+                route: host + "/leitura-orante/january/16a.html",
+            },
+
+            17: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/17_Janeiro_2021.jpg",
+                title: "2ª Semana do Tempo Comum",
+                details: "  Deus eterno e todo-poderoso, que governais o céu e a terra, escutai com bondade as preces do vosso povo e dai ao nosso tempo a vossa paz. Por Nosso Senhor Jesus Cristo, vosso filho, na unidade do Espírito Santo.",
+                date: "17 de janeiro de 2021",
+                route: host + "/leitura-orante/january/17a.html",
+            },
+
+            18: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/18_Janeiro_2021.jpg",
+                title: "2ª Semana do Tempo Comum",
+                details: "  Ó Deus, unidade suprema e caridade verdadeira, dai a vossos fiéis um só coração e uma só alma, para que vivam em plena concórdia, e a vossa Igreja enraizada na verdade, se firme na unidade perfeita. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+                date: "18 de janeiro de 2021",
+                route: host + "/leitura-orante/january/18a.html",
+            },
+
+            19: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/19_Janeiro_2021.jpg",
+                title: "2ª Semana do Tempo Comum",
+                details: "  Deus eterno e todo-poderoso, que governais o céu e a terra, escutai com bondade as preces do vosso povo e dai ao nosso tempo a vossa paz. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+                date: "19 de janeiro de 2021",
+                route: host + "/leitura-orante/january/19a.html",
+            },
+
+            20: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/20_Janeiro_2021.jpg",
+                title: "2ª Semana do Tempo Comum são Sebastião",
+                details: "  Dai-nos, ó Deus,o espírito de fortaleza para que, sustentados pelo exemplo de São Sebastião, vosso glorioso mártir, possamos aprender com ele a obedecer mais a vós do que aos homens. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+                date: "20 de janeiro de 2021",
+                route: host + "/leitura-orante/january/20a.html",
+            },
+
+            21: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/21_Janeiro_2021.jpg",
+                title: "SANTA INÊS, VIRGEM E MÁRTIR",
+                details: "  Deus eterno e todo-poderoso, que escolheis as criaturas mais frágeis para confundir os poderosos, dai-nos, ao celebrar o martírio de Santa Inês, a graça de imitar sua constância na fé. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+                date: "21 de janeiro de 2021",
+                route: host + "/leitura-orante/january/21a.html",
+            },
+
+            22: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/22_Janeiro_2021.jpg",
+                title: "2ª Semana do Tempo Comum",
+                details: "  Deus eterno e todo-poderoso, que governais o céu e a terra, escutai com bondade as preces do vosso povo e dai ao nosso tempo a vossa paz. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+                date: "22 de janeiro de 2021",
+                route: host + "/leitura-orante/january/22a.html",
+            },
+
+            23: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/23_Janeiro_2021.jpg",
+                title: "2ª Semana do Tempo Comum",
+                details: "  Ó Deus, que ensinastes aos ministros da vossa Igreja servir e não serem servidos, concedei-lhes solicitude em sua tarefa, mansidão no trabalho e constância na oração. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+                date: "23 de janeiro de 2021",
+                route: host + "/leitura-orante/january/23a.html",
+            },
+
+            24: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/24_Janeiro_2021.jpg",
+                title: "3ª Semana do Tempo Comum",
+                details: "  Deus eterno e todo-poderoso, dirigi a nossa vida segundo o vosso amor, para que possamos, em nome do vosso Filho, frutificar em boas obras. Por Nosso Senhor Jesus Cristo, vosso filho, na unidade do Espírito Santo.",
+                date: "24 de janeiro de 2021",
+                route: host + "/leitura-orante/january/24a.html",
+            },
+
+            25: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/25_Janeiro_2021.jpg",
+                title: "CONVERSÃO DE SÃO PAULO",
+                details: "  Ó Deus, que instruístes o mundo inteiro pela pregação do apóstolo São Paulo, dai-nos, ao celebrar hoje sua conversão, caminhar para vós seguindo seus exemplos, e ser no mundo testemunhas do evangelho. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+                date: "25 de janeiro de 2021",
+                route: host + "/leitura-orante/january/25a.html",
+            },
+
+            26: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/26_Janeiro_2021.jpg",
+                title: "SANTOS TIMÓTEO E TITO, BISPOS E DISCÍPULOS DE PAULO",
+                details: "  Ó Deus, que ornastes São Timóteo e São Tito com as virtudes dos apóstolos, concedei-nos pela intercessão de ambos, viver neste mundo com a piedade e justiça, para chegar ao céu, nossa pátria. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+                date: "26 de janeiro de 2021",
+                route: host + "/leitura-orante/january/26a.html",
+            },
+
+            27: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/27_Janeiro_2021.jpg",
+                title: "3ª Semana do Tempo Comum",
+                details: "  Deus eterno e todo-poderoso, dirigi a nossa vida segundo o vosso amor, para que possamos, em nome do vosso Filho, frutificar em boas obras. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+                date: "27 de janeiro de 2021",
+                route: host + "/leitura-orante/january/27a.html",
+            },
+
+            
+            28: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/28_Janeiro_2021.jpg",
+                title: "SANTO TOMÁS DE AQUINO, PRESBÍTERO E DOUTOR",
+                details: "  Ó Deus, que tornastes Santo Tomás de Aquino um modelo admirável pela procura da santidade e amor à ciência sagrada, dai-nos compreender seus ensinamentos e seguir seus exemplos. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+                date: "28 de janeiro de 2021",
+                route: host + "/leitura-orante/january/28a.html",
+            },
+
+            29: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/29_Janeiro_2021.jpg",
+                title: "3ª Semana do Tempo Comum",
+                details: "  Deus eterno e todo-poderoso, dirigi a nossa vida segundo o vosso amor, para que possamos, em nome do vosso Filho, frutificar em boas obras. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+                date: "29 de janeiro de 2021",
+                route: host + "/leitura-orante/january/29a.html",
+            },
+
+            30: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/30_Janeiro_2021.jpg",
+                title: "3ª Semana do Tempo Comum",
+                details: "  Ó Deus, que desejais a salvação de todos e que cheguem ao conhecimento da vossa messe e enviai operários, para que o Evangelho seja anunciado a toda criatura. E fazei que o vosso povo, reunido pela palavra da vida e sustentado pela força dos sacramentos, possa caminhar com alegria na estrada da salvação e do amor. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+                date: "30 de janeiro de 2021",
+                route: host + "/leitura-orante/january/30a.html",
+            },
+
+            31: {
+                img: host +
+                    "/assets/img/leitura/leitura-img-jan/31_Janeiro_2021.jpg",
+                title: "3ª Semana do Tempo Comum",
+                details: "  Concedei-nos, Senhor nosso Deus, adorar-vos de todo o coração a amar todas as pessoas com verdadeira caridade. Por Nosso Senhor Jesus Cristo, vosso filho, na unidade do Espírito Santo.",
+                date: "31 de janeiro de 2021",
+                route: host + "/leitura-orante/january/31a.html",
+            },
+
+
+
+
+         
+        },
     },
+
+
+
+
+
+
     missaoData: {
         September: {
             15: {
@@ -2645,3 +3087,34 @@ if (mainData.oracoesMissionarias.December[currentDate]) {
 } else {
     oracoes.setAttribute("href", host + "/oracoes-missionarias/multiple.html");
 }
+
+var http = new XMLHttpRequest();
+var http2 = new XMLHttpRequest();
+
+var leitura1 = document.getElementById("leitura1");
+var leitura = document.getElementById("leitura");
+// console.log(leitura);
+let url2 = "./leitura-orante/december/-orante-" + currentDate + ".html";
+http2.open("HEAD", url2, false);
+http2.send();
+// console.log(http2.status);
+
+if (http2.status === 200) {
+  console.log("Lutera file exists");
+  leitura.setAttribute(
+    "href",
+    "./leitura-orante/december/-orante" + currentDate + ".html"
+  );
+  leitura1.setAttribute(
+    "href",
+    "./leitura-orante/december/-orante" + currentDate + ".html"
+  );
+}
+if (http2.status === 404) {
+  console.log("Lutera file does not exists");
+  leitura.setAttribute("href", `${host}/leitura-orante/multiple.html`);
+  leitura1.setAttribute("href", `${host}/leitura-orante/multiple.html`);
+}
+
+
+

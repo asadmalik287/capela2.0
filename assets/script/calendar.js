@@ -134,7 +134,19 @@ function renderDate() {
                     cells += `<a class='a-date' style="color:#bbbbbb !important">` + i + `</a>`;
                 }
 
-            } else {
+            } 
+            else if (months[dt.getMonth()] == "Janeiro") {
+
+                if (mainData.santoData.January[i]) {
+                    cells += `<a class='a-date' href="${host}/Dia-de-santo/Dia-January/Dia-` + i + `.html">` + i + `</a>`;
+                } else {
+                    cells += `<a class='a-date' style="color:#bbbbbb !important">` + i + `</a>`;
+                }
+
+            }
+            // Copy the Latest Month of Calender As Above
+            // Repalce the Name Of Months With New One (At Three Places)
+            else {
                 cells += `<a class='a-date'>` + i + `</a>`;
             }
 

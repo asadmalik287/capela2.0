@@ -1,30 +1,63 @@
+
+let name = document.getElementById("name");
+let email = document.getElementById("email");
+let whatsapp = document.getElementById("whatsapp");
+let address = document.getElementById("address");
+let city = document.getElementById("city");
+let state = document.getElementById("state");
+let zip = document.getElementById("zip");
+let dob = document.getElementById("dob");
+let profession = document.getElementById("profession");
+let mainMsg = document.getElementById("mainMsg");
+
+
+if (window.innerWidth <= 768) {
+  name.placeholder = 'Name'
+  email.placeholder = 'Email'
+  whatsapp.placeholder = 'Whatsapp'
+  address.placeholder = 'Endereço'
+  city.placeholder = 'Cidade'
+  state.placeholder = 'Estado'
+  zip.placeholder = 'CEP'
+  profession.placeholder = 'Profissão'
+}
+function changePlaceholder() {
+
+  if (window.innerWidth <= 768) {
+    name.placeholder = 'Name'
+    email.placeholder = 'Email'
+    whatsapp.placeholder = 'Whatsapp'
+    address.placeholder = 'Endereço'
+    city.placeholder = 'Cidade'
+    state.placeholder = 'Estado'
+    zip.placeholder = 'CEP'
+    profession.placeholder = 'Profissão'
+  }
+  if (window.innerWidth > 768) {
+    name.placeholder = ''
+    email.placeholder = ''
+    whatsapp.placeholder = ''
+    address.placeholder = ''
+    city.placeholder = ''
+    state.placeholder = ''
+    zip.placeholder = ''
+    profession.placeholder = ''
+  }
+}
 form_Fields.onsubmit = async (e) => {
   e.preventDefault();
-
-  let name = document.getElementById("name").value;
-  let email = document.getElementById("email").value;
-  let whatsapp = document.getElementById("whatsapp").value;
-  let address = document.getElementById("address").value;
-  let city = document.getElementById("city").value;
-  let state = document.getElementById("state").value;
-  let zip = document.getElementById("zip").value;
-  let dob = document.getElementById("dob").value;
-  let profession = document.getElementById("profession").value;
-  let mainMsg = document.getElementById("mainMsg").value;
   let sendTo = "armelinda.col@gmail.com"
-
-
   let obj = {
-    html: ` <b> Name : </b> <span> ${name} </span>
-<br> <b> Email : </b> <span> ${email} </span>
-<br> <b> Whatsapp Number : </b> <span> ${whatsapp} </span>
-<br> <b> Address : </b> <span> ${address} </span>
-<br> <b> City : </b> <span> ${city} </span>
-<br> <b> State : </b> <span> ${state} </span>
-<br> <b> Zip Code : </b> <span> ${zip} </span>
-<br> <b> Date of Birth : </b> <span> ${dob} </span>
-<br> <b> Profession : </b> <span> ${profession} </span>
-<br> <b> Message : </b> <p>${mainMsg}</p>`,
+    html: ` <b> Name : </b> <span> ${name.value} </span>
+<br> <b> Email : </b> <span> ${email.value} </span>
+<br> <b> Whatsapp Number : </b> <span> ${whatsapp.value} </span>
+<br> <b> Address : </b> <span> ${address.value} </span>
+<br> <b> City : </b> <span> ${city.value} </span>
+<br> <b> State : </b> <span> ${state.value} </span>
+<br> <b> Zip Code : </b> <span> ${zip.value} </span>
+<br> <b> Date of Birth : </b> <span> ${dob.value} </span>
+<br> <b> Profession : </b> <span> ${profession.value} </span>
+<br> <b> Message : </b> <p>${mainMsg.value}</p>`,
     sendTo: sendTo,
   };
 
