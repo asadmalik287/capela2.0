@@ -2626,6 +2626,40 @@ let mainData = {
                 video: false,
             },
         },
+        Janurary: {
+            5: {
+                img: host + "/assets/img/Missao/Janurary/05_Janeiro_2021_TM_Irma Maurina.jpg",
+                title: "Testemunho Missionário - Ir. Maurina",
+                details: `Ir. Maurina Rodrigues de Souza é missionária brasileira e trabalha em Angola, na África. Religiosa há 37 anos, cuida da vida e da saúde especialmente das pessoas mais necessitadas.`,
+                date: "05 de Janeiro de 2021 ",
+                route: host + "/Missao/December/5.html",
+                video: true,
+            },
+            12: {
+                img: host + "/assets/img/Missao/Janurary/12_Janeiro _2021_Ir Hermezilda_CAPA.jpg",
+                title: "Fui migrante e refugiada",
+                details: `Os noticiários do mundo inteiro mostram imagens fortes de migrantes e refugiados que são obrigados a deixar tudo e buscar outro país para reconstruir suas vidas. As causas são as mais variadas, e, infelizmente, ainda hoje, as guerras continuam a provocar deslocamentos em massa.`,
+                date: "12 de Janeiro de 2021 ",
+                route: host + "/Missao/December/12.html",
+                video: false,
+            },
+            19: {
+                img: host + "/assets/img/Missao/Janurary/19_Janeiro_2021_TM_Mitilene_Chihambo_Foto.jpg",
+                title: "Testemunho Missionário - Ir. Mitilene",
+                details: `Ir. Mitilene é natural de Angola, veio ao Brasil para cross cultural experiência e estudou fisioterapia e atuou na pastoral paroquial e na Infância e Adolescência Missionária. Irmã Mitilene retornou ao seu país de origem em novembro de 2020.`,
+                date: "19 de Janeiro de 2021 ",
+                route: host + "/Missao/December/19.html",
+                video: true,
+            },
+            26: {
+                img: host + "/assets/img/Missao/Janurary/26_Janeiro_2021_Missão.jpg",
+                title: "Espiritualidade Missionária",
+                details: `A dimensão espiritual está profundamente vinculada à missão. Mas o que é missão? Deus é MISSÃO. E em Deus somos missão. O Papa Francisco afirma: "a vida é uma missão. Todo homem e toda mulher é uma missão, e esta é a razão pela qual se encontra a viver na terra. Ser atraídos e ser enviados são dois movimentos que o nosso coração sente..."Eu sou sempre uma missão; tu és sempre uma missão, cada batizada e batizado é uma missão". “Cada um de nós é chamado a refletir sobre esta realidade: 'eu sou uma missão nesta terra e para isto estou neste mundo.”`,
+                date: "26 de Janeiro de 2021 ",
+                route: host + "/Missao/December/26.html",
+                video: false,
+            },
+        },
     },
 };
 
