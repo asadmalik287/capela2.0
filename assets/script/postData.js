@@ -1137,6 +1137,61 @@ let mainData = {
                 route: host + "/Espiritualidade/December/27.html",
             },
         },
+
+        January: {
+            3: {
+                img: host +
+                    "/assets/img/Espiritualidade/January/03_Janeiro_2021Jesus, bom pastor.jpg",
+                title: "Jesus, o Bom Pastor",
+                details: `Jesus, como Deus, é o pastor que conduz seu povo para a vida. Quando, no Evangelho de
+                João (10,11-16), Jesus se define como o Bom Pastor, Ele lembratodas as imagens do
+                bom pastor que se encontram como modelo, adormecidas na alma humana.`,
+                date: "03 de Janeiro de 2021",
+                route: host + "/Espiritualidade/January/3.html",
+            },
+
+            10: {
+                img: host +
+                    "/assets/img/Espiritualidade/January/10_Janeiro_2021_Deus é amor.jpg",
+                title: "Deus em nós!",
+                details: `Desde criança, dentro de nossa fé cristã, aprendemos que, a partir de nosso batismo,
+                somos templo/morada do Espírito Santo. “Não sabeis que sois templos de Deus e que o
+                Espírito Santo habita em vocês?”(1Cor3,16; 1Cor 6,19-20).`,
+                date: "10 de Janeiro de 2021",
+                route: host + "/Espiritualidade/January/10.html",
+            },
+
+            17: {
+                img: host +
+                    "/assets/img/Espiritualidade/January/17_Janeiro_2021_Espiritualidade_CAPA.jpg",
+                title: "A fé que cura",
+                details: `Sempre ouvi dizer em minha caminhada de Igreja que “as palavras convencem, mas são os
+                testemunhos que arrastam”, por isso compartilho essa experiência de vida e fé com os
+                irmãos. Em julho de 2019, eu e meu esposo, Belchior, fizemos uma viagem a Portugal
+                para visitar alguns parentes. Durante todo tempo em que estivemos lá, diariamente,
+                entramos em contato com os filhos pra saber como estavam aqui no Brasil. Temos três
+                filhos, dois homens e uma mulher. Graças a Deus as notícias sempre foram positivas.
+                Isso nos tranquilizava.`,
+                date: "17 de Janeiro de 2021",
+                route: host + "/Espiritualidade/January/17.html",
+            },
+
+            24: {
+                img: host +
+                    "/assets/img/Espiritualidade/January/24_Janeiro_2021_Conversando com Deus.jpg",
+                title: "Conversando com Deus",
+                details: `Num desses dias, fui caminhando, como de costume, de nossa pequena comunidade no
+                bairro da Cohab Adventista até o metrô Capão Redondo, na Zona Sul da cidade de São
+                Paulo. O dia estava muito escuro e com nuvens pesadas de uma tempestade pronta para
+                desabar a qualquer momento.`,
+                date: "24 de Janeiro de 2021",
+                route: host + "/Espiritualidade/January/24.html",
+            },
+           
+        },
+
+
+
     },
     leituraData: {
         September: {
