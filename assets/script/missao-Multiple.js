@@ -28,6 +28,7 @@ Object.keys(mainData.missaoData).map((month) => {
                 mainData.missaoData[month][post].map((subPost) => {
                     if (subPost.date.split(" ")[0] <= new Date().getDate()) {
                         santoPostsArr.push(subPost);
+                        // console.log(subpost);
                     }
                 });
             } else {

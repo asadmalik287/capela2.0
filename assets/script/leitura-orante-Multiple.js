@@ -17,60 +17,65 @@ var d = new Date();
 var n = months[d.getMonth()];
 // console.log(mainData.leituraData);
 Object.keys(mainData.leituraData).map((month) => {
-    // console.log(month)
-    Object.keys(mainData.leituraData[month]).map((post) => {
+    console.log(month);
+    console.log(n);
+	
+	Object.keys(mainData.leituraData[month]).map((post) => {
         // console.log(mainData.leituraData[month][post])
-        if (month == n) {
-            // console.log("sadsada");
-            // mainData.leituraData[month][post].date.split(' ')[0] <= new Date().getDate()
+      
+		if (month == n) {
+			console.log("sadsada");
+			// mainData.leituraData[month][post].date.split(' ')[0] <= new Date().getDate()
 
-            if (Array.isArray(mainData.leituraData[month][post]) == true) {
-                mainData.leituraData[month][post].map((subPost) => {
-                    if (subPost.date.split(" ")[0] <= new Date().getDate()) {
-                        santoPostsArr.push(subPost);
-                    }
-                });
-            } else {
-                if (
-                    mainData.leituraData[month][post].date.split(" ")[0] <=
-                    new Date().getDate()
-                ) {
-                    // console.log(mainData.leituraData[month][post]);
-                    santoPostsArr.push(mainData.leituraData[month][post]);
-                }
-            }
-        } else {
-            if (Array.isArray(mainData.leituraData[month][post]) == true) {
-                mainData.leituraData[month][post].map((subPost) => {
-                    santoPostsArr.push(subPost);
-                });
-            } else {
-                santoPostsArr.push(mainData.leituraData[month][post]);
-            }
-        }
-    });
-    // console.log('--------------------------*****************************')
+			if (Array.isArray(mainData.leituraData[month][post]) == true) {
+				mainData.leituraData[month][post].map((subPost) => {
+					if (subPost.date.split(" ")[0] <= new Date().getDate()) {
+						santoPostsArr.push(subPost);
+					}
+				});
+			} else {
+				if (
+					mainData.leituraData[month][post].date.split(" ")[0] <=
+					new Date().getDate()
+				) {
+                    console.log(month)
+					console.log(mainData.leituraData[month][post]);
+					santoPostsArr.push(mainData.leituraData[month][post]);
+				}
+			}
+		} else {
+			if (Array.isArray(mainData.leituraData[month][post]) == true) {
+				mainData.leituraData[month][post].map((subPost) => {
+                    
+					santoPostsArr.push(subPost);
+				});
+			} else {
+                // console.log(mainData.leituraData[month][post])
+				santoPostsArr.push(mainData.leituraData[month][post]);
+			}
+		}
+	});
+	// console.log('--------------------------*****************************')
 });
 santoPostsArr.reverse();
 // console.log(santoPostsArr);
 
 $("#list").pagination({
-    // you call the plugin
-    dataSource: santoPostsArr, // pass all the data
-    pageSize: 7, // put how many items per page you want
-    callback: function(data, pagination) {
-        // data will be chunk of your data (json.Product) per page
-        // that you need to display
-        // let html = document.getElementsByTagName('html')
-        // console.log(html);
-        var wrapper = $("#list .postslist").empty();
-        let abc = Array.from(document.getElementsByClassName('paginationjs-page'));
-        abc.map((e) => {
-           
-            e.firstElementChild.setAttribute('href', '#top');
-        });
-        $.each(data, function(i, post) {
-            $("#list .postslist").append(`
+	// you call the plugin
+	dataSource: santoPostsArr, // pass all the data
+	pageSize: 7, // put how many items per page you want
+	callback: function (data, pagination) {
+		// data will be chunk of your data (json.Product) per page
+		// that you need to display
+		// let html = document.getElementsByTagName('html')
+		// console.log(html);
+		var wrapper = $("#list .postslist").empty();
+		let abc = Array.from(document.getElementsByClassName("paginationjs-page"));
+		abc.map((e) => {
+			e.firstElementChild.setAttribute("href", "#top");
+		});
+		$.each(data, function (i, post) {
+			$("#list .postslist").append(`
       <div>
 
                     <div class="row">
@@ -111,8 +116,8 @@ $("#list").pagination({
                     <div class="border-1 pt-3"></div>
                 </div>
     `);
-        });
-    },
+		});
+	},
 });
 
 // console.log(html);
