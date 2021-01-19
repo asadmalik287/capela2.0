@@ -87,9 +87,13 @@ for (var category in mainData["vocoesData"]) {
 	var specificCat = mainData["vocoesData"];
 	var objec = specificCat[category];
 	for (var getdays in objec) {
+		console.log(objec[getdays])
+		let d= objec[getdays].date.split(" ")
+		d=d[d.length-1]
+		console.log(d)
 		var dayname = getdays;
-		var postdateShow = getdays + "/" + months[category] + "/2020";
-		var postdateSort = "2020-" + months[category] + "-" + getdays;
+		var postdateShow = getdays + "/" + months[category] + "/"+d;
+		var postdateSort = d+"-" + months[category] + "-" + getdays;
 		const date1 = new Date(postdateSort).getTime();
 		const date2 = new Date().getTime();
 

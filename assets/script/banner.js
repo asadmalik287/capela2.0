@@ -410,6 +410,210 @@ let december = {
 
 }
 
+let february = {
+    1: {
+        heading: 'Pelos catecúmenos',
+        details: 'Oremos por todos os irmãos e irmãs que se preparam para receber o batismo nas comunidades cristãs africanas, para que deem testemunho de exemplares cristãos e cidadãos.',
+        image: 'BANNER_253_320px_AFRICA',
+        footer: 'ÁFRICA'
+    },
+
+    2: {
+        heading: 'Pelos consagrados e consagradas',
+        details: 'Oremos por todos os evangelizadores e evangelizadoras que consagram a vida ao seguimento de Jesus nas mais diversas realidades mundiais.',
+        image: 'BANNER_253_320px_MUNDO',
+        footer: 'MUNDO'
+    },
+
+    3: {
+        heading: 'Pelos cristãos perseguidos',
+        details: 'Que os cristãos perseguidos e desalojados na Ásia possam voltar em paz para seus lares e professarem livremente sua fé em Jesus.',
+        image: 'BANNER_253_320px_ASIA',
+        footer: 'ASIA'
+    },
+
+    4: {
+        heading: 'Pela fraternidade entre os povos',
+        details: 'Neste Dia da Fraternidade Humana, oremos por todas as nações da Oceania, para que possam ter uma convivência de paz e respeito mútuo.',
+        image: 'BANNER_253_320px_OCEANIA',
+        footer: 'OCEANIA'
+    },
+
+    5: {
+        heading: 'Pelos idosos',
+        details: 'Oremos pelos idosos e idosas da Europa. Que tenham a devida assistência das famílias e das autoridades, e possam viver em paz essa etapa da vida.',
+        image: 'BANNER_253_320px_EUROPA',
+        footer: 'EUROPA'
+    },
+
+    6: {
+        heading: 'Pelos que defendem o meio ambiente',
+        details: 'Rezemos por todos os que buscam preservar o tesouro ambiental da África. Que, animados, eles tenham o apoio das próprias nações e da comunidade internacional.',
+        image: 'BANNER_253_320px_AFRICA',
+        footer: 'ÁFRICA'
+    },
+
+    7: {
+        heading: 'Pelas vítimas dos desastres naturais',
+        details: 'Rezemos por todos os irmãos e irmãs do continente americano que sofrem devido aos desastres naturais. Que o Senhor os console e inspire as autoridades para que deem às vítimas uma assistência digna.',
+        image: 'BANNER_253_320px_AMERICA',
+        footer: 'AMÉRICA'
+    },
+
+    8: {
+        heading: 'Pelos que lutam contra o tráfico humano',
+        details: 'Neste dia de Santa Josefina Bakhita, oremos pelos irmãos e irmãs que lutam contra o tráfico de seres humanos. Que tenham força e apoio nessa difícil e importante missão.',
+        image: 'BANNER_253_320px_MUNDO',
+        footer: 'MUNDO'
+    },
+
+    9: {
+        heading: 'Pela Igreja no Iraque',
+        details: 'Oremos pelas comunidades cristãs do Iraque, para que possam ter restabelecidos seus bens expropriados pelos perseguidores e professarem em paz a própria fé.',
+        image: 'BANNER_253_320px_ASIA',
+        footer: 'ASIA'
+    },
+
+    10: {
+        heading: 'Pelos atletas',
+        details: 'Que todos aqueles, aquelas que se dedicam aos mais diversos esportes possam ser bons exemplos de dedicação e lealdade.',
+        image: 'BANNER_253_320px_MUNDO',
+        footer: 'MUNDO'
+    },
+
+    11: {
+        heading: 'Pelos que não têm acesso à saúde',
+        details: 'Oremos pelos irmãos e irmãs da Oceania que não têm acesso aos serviços de saúde. Que as nações possam oferecer assistência igualitária a todos.',
+        image: 'BANNER_253_320px_OCEANIA',
+        footer: 'OCEANIA'
+    },
+
+    12: {
+        heading: 'Pelos irmãos e irmãs autistas',
+        details: 'Oremos pelos irmãos e irmãs autistas, suas famílias e profissionais que se dedicam à missão de acompanhá-los nas mais diferentes realidades da América. Que todos tenham o devido apoio.',
+        image: 'BANNER_253_320px_AMERICA',
+        footer: 'AMÉRICA'
+    },
+
+    13: {
+        heading: 'Pelos comunicadores',
+        details: 'Que os comunicadores da Europa, sobretudo os cristãos, possam favorecer a verdade, o diálogo entre culturas e gerações, e a acolhida fraterna.',
+        image: 'BANNER_253_320px_EUROPA',
+        footer: 'EUROPA'
+    },
+
+    14: {
+        heading: 'Pelas vítimas da violência',
+        details: 'Rezemos para que as vítimas de grupos terroristas, sobretudo em Moçambique, possam ter a paz restabelecida e a assistência da comunidade internacional.',
+        image: 'BANNER_253_320px_AFRICA',
+        footer: 'ÁFRICA'
+    },
+
+    15: {
+        heading: 'Pelas crianças enfermas',
+        details: 'Oremos pelas crianças asiáticas que sofrem devido às mais diversas enfermidades. Que Cristo, o Senhor da Vida, abençoe cada uma e também os cuidadores e famílias.',
+        image: 'BANNER_253_320px_ASIA',
+        footer: 'ASIA'
+    },
+
+    16: {
+        heading: 'Pelas vocações cristãs',
+        details: 'Oremos para que o Senhor da Messe envie muitos operários e operárias para anunciar Jesus nos mais diversos contextos da Oceania.',
+        image: 'BANNER_253_320px_OCEANIA',
+        footer: 'OCEANIA'
+    },
+
+    17: {
+        heading: 'Por um frutuoso tempo de Quaresma',
+        details: 'Que todos os cristãos e cristãs possam viver plenamente esta Quaresma que se inicia. Acompanhai-nos, Senhor, no caminho da conversão, jejum, oração e caridade.',
+        image: 'BANNER_253_320px_MUNDO',
+        footer: 'MUNDO'
+    },
+
+    18: {
+        heading: 'Pelos migrantes e refugiados',
+        details: 'Oremos por nossos irmãos e irmãs migrantes que vivem uma situação dramática sobretudo nos Bálcãs. Que a comunidade internacional possa socorrê-los das intempéries, da fome e da injustiça.',
+        image: 'BANNER_253_320px_EUROPA',
+        footer: 'EUROPA'
+    },
+
+    19: {
+        heading: 'Pelas igrejas cristãs',
+        details: 'Que a Campanha da Fraternidade Ecumênica no Brasil possa ser sinal da rica diversidade e da unidade cristã em todo o continente americano.',
+        image: 'BANNER_253_320px_AMERICA',
+        footer: 'AMÉRICA'
+    },
+
+    20: {
+        heading: 'Pelos estudantes',
+        details: 'Rezemos para que todos os jovens da África possam ter acesso a sistemas eficientes de educação e, assim, contribuam para o engrandecimento de suas nações. ',
+        image: 'BANNER_253_320px_AFRICA',
+        footer: 'ÁFRICA'
+    },
+
+    
+    21: {
+        heading: 'Pelos afetados pelo novo coronavírus',
+        details: 'Oremos por todas as pessoas afetadas pelo novo coronavírus, entre elas os profissionais da saúde e os de outros serviços essenciais. Que o Senhor lhes conceda saúde, paz e proteção.',
+        image: 'BANNER_253_320px_MUNDO',
+        footer: 'MUNDO'
+    },
+
+    22: {
+        heading: 'Pelos mártires',
+        details: 'Rezemos pelos mártires de nosso tempo, sobretudo cristãos e cristãs perseguidos em várias regiões da Ásia. Que o testemunho deles seja luz para a Igreja em todo o mundo.',
+        image: 'BANNER_253_320px_ASIA',
+        footer: 'ASIA'
+    },
+
+    23: {
+        heading: 'Pelas famílias',
+        details: 'Oremos pelas famílias de todo o mundo, em especial da Oceania. Que Deus abençoe e proteja os lares, sobretudo os mais pobres.',
+        image: 'BANNER_253_320px_OCEANIA',
+        footer: 'OCEANIA'
+    },
+
+    24: {
+        heading: 'Pelos ministros ordenados, consagrados e leigos',
+        details: 'Oremos pelos bispos, padres, diáconos, religiosos, religiosas, leigos e leigas da Europa, muitas vezes sobrecarregados com o peso da missão num continente cada vez mais secularizado.',
+        image: 'BANNER_253_320px_EUROPA',
+        footer: 'EUROPA'
+    },
+
+    25: {
+        heading: 'Pelas mulheres',
+        details: 'Rezemos por todas as mulheres, para que tenham dignidade nas próprias famílias e acesso igualitário aos serviços de saúde, educação, segurança e no mundo do trabalho.',
+        image: 'BANNER_253_320px_MUNDO',
+        footer: 'MUNDO'
+    },
+
+    
+    26: {
+        heading: 'Pelos evangelizadores',
+        details: 'Oremos por todos os evangelizadores e evangelizadoras que dedicam a vida ao anúncio da Boa-Nova nas mais diversas realidades da América.',
+        image: 'BANNER_253_320px_AMERICA',
+        footer: 'AMÉRICA'
+    },
+
+    27: {
+        heading: 'Pelas vítimas do terrorismo',
+        details: 'Oremos pelas irmãos e irmãs africanos vítimas da violência, de modo especial na Nigéria, onde terroristas dominam diversas áreas e levam sofrimento a muitas famílias.',
+        image: 'BANNER_253_320px_AFRICA',
+        footer: 'ÁFRICA'
+    },
+
+    28: {
+        heading: 'Pelos operadores do Direito',
+        details: 'Rezemos para que os operadores do Direito tenham meios de responder, com dignidade, a quem clama por Justiça.',
+        image: 'BANNER_253_320px_MUNDO',
+        footer: 'MUNDO'
+    },
+
+    
+
+
+}
+
 
 
 
@@ -419,27 +623,27 @@ let december = {
 var date = new Date();
 let day = date.getDate()
 
-document.getElementById("banner").innerHTML += ` <div class="main-bannar main-img-border " style=" background-image: url(./assets/img/banner/${december[day].image}.jpg) !important;   background-size: cover;
+document.getElementById("banner").innerHTML += ` <div class="main-bannar main-img-border " style=" background-image: url(./assets/img/banner/${february[day].image}.jpg) !important;   background-size: cover;
     background-position: bottom;
     height: 28.3rem;">
-    <div class="img-content ${december[day].footer}">
+    <div class="img-content ${february[day].footer}">
         <div>
             <p class="h2 mt-4 NB font-weight mb-0">
                 Intenção Missionária
             </p>
             <p class="h4 NB font-weight"><i>
-            ${december[day].heading}
+            ${february[day].heading}
                 </i></p>
         </div>
         <div class=" queTodas NIL text-center">
             <p><i>
-            ${december[day].details}
+            ${february[day].details}
               </i></p>
         </div>
     </div>
     <div>
         <div class="europa ">
-            <p>${december[day].footer} </p>
+            <p>${february[day].footer} </p>
         </div>
     </div>
 </div>`

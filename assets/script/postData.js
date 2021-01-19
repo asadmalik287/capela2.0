@@ -1156,7 +1156,7 @@ let mainData = {
                 sua vocação para uma Congregação internacional chamada Missionárias Servas do
                 Espírito Santo. Assista como cada uma fala sobre como está vivendo sua vocação para
                 a vida religiosa…`,
-				date: "09 Janeiro 2021",
+				date: "09 de Janeiro de 2021",
 				route: host + "/Vocaoes/January/9.html",
 				video: true,
 			},
@@ -1168,8 +1168,8 @@ let mainData = {
 				details: `Você já sentiu vontade de conversar com alguém sobre vocação? De falar sobre suas
                 dúvidas, trocar ideias, dizer o que você pensa e conhecer experiências de outras
                 pessoas? Agora surgiu a oportunidade com a nova série de vídeos “Papo Vocacional”.`,
-				date: "23 Janeiro 2021",
-				route: host + "/Vocaoes/January/23.html",
+				date: "23 de Janeiro de 2021",
+				route: host + "/Vocaoes/Janury/23.html",
 				video: true,
 			},
 		},
@@ -1309,6 +1309,61 @@ let mainData = {
 				details: `Nesta pandemia, como estão nossa afetividade, nossas relações? Temos paciência com as crianças e os idosos? Somos humildes ao aprender um serviço que não era executado? É preciso serenidade e discernimento. Veja o artigo de Maria Terezinha Corrêa.`,
 				date: "27 de dezembro de 2020",
 				route: host + "/Espiritualidade/December/27.html",
+			},
+		},
+
+		January: {
+			3: {
+				img:
+					host +
+					"/assets/img/Espiritualidade/January/03_Janeiro_2021Jesus, bom pastor.jpg",
+				title: "Jesus, o Bom Pastor",
+				details: `Jesus, como Deus, é o pastor que conduz seu povo para a vida. Quando, no Evangelho de
+                João (10,11-16), Jesus se define como o Bom Pastor, Ele lembratodas as imagens do
+                bom pastor que se encontram como modelo, adormecidas na alma humana.`,
+				date: "03 de Janeiro de 2021",
+				route: host + "/Espiritualidade/January/3.html",
+			},
+
+			10: {
+				img:
+					host +
+					"/assets/img/Espiritualidade/January/10_Janeiro_2021_Deus é amor.jpg",
+				title: "Deus em nós!",
+				details: `Desde criança, dentro de nossa fé cristã, aprendemos que, a partir de nosso batismo,
+                somos templo/morada do Espírito Santo. “Não sabeis que sois templos de Deus e que o
+                Espírito Santo habita em vocês?”(1Cor3,16; 1Cor 6,19-20).`,
+				date: "10 de Janeiro de 2021",
+				route: host + "/Espiritualidade/January/10.html",
+			},
+
+			17: {
+				img:
+					host +
+					"/assets/img/Espiritualidade/January/17_Janeiro_2021_Espiritualidade_CAPA.jpg",
+				title: "A fé que cura",
+				details: `Sempre ouvi dizer em minha caminhada de Igreja que “as palavras convencem, mas são os
+                testemunhos que arrastam”, por isso compartilho essa experiência de vida e fé com os
+                irmãos. Em julho de 2019, eu e meu esposo, Belchior, fizemos uma viagem a Portugal
+                para visitar alguns parentes. Durante todo tempo em que estivemos lá, diariamente,
+                entramos em contato com os filhos pra saber como estavam aqui no Brasil. Temos três
+                filhos, dois homens e uma mulher. Graças a Deus as notícias sempre foram positivas.
+                Isso nos tranquilizava.`,
+				date: "17 de Janeiro de 2021",
+				route: host + "/Espiritualidade/January/17.html",
+			},
+
+			24: {
+				img:
+					host +
+					"/assets/img/Espiritualidade/January/24_Janeiro_2021_Conversando com Deus.jpg",
+				title: "Conversando com Deus",
+				details: `Num desses dias, fui caminhando, como de costume, de nossa pequena comunidade no
+                bairro da Cohab Adventista até o metrô Capão Redondo, na Zona Sul da cidade de São
+                Paulo. O dia estava muito escuro e com nuvens pesadas de uma tempestade pronta para
+                desabar a qualquer momento.`,
+				date: "24 de Janeiro de 2021",
+				route: host + "/Espiritualidade/January/24.html",
 			},
 		},
 	},
@@ -2907,7 +2962,7 @@ let mainData = {
 					"/assets/img/Missao/November/10_Nov_2020 SSpS abrem nova Comunidade na capital .jpg",
 				title: "SSpS abrem nova comunidade na capital paulista ",
 				details: `As missionárias servas do Espírito Santo abriram uma nova comunidade na capital paulista. As irmãs vão acompanhar mais de perto as famílias das crianças atendidas pelo Centro Educacional Madre Theresia. São José Freinademetz é o patrono da nova casa.`,
-				date: "10 de Novembro 20",
+				date: "10 de Novembro 2020",
 				route: host + "/Missao/November/10.html",
 			},
 			24: {
@@ -2963,6 +3018,45 @@ let mainData = {
 				details: `Sensível às necessidades das mulheres desamparadas, Henriette doa seu tempo e seus recursos para atender os fragilizados. Esse é o relato de um coração generoso que pratica um serviço de amor em favor dos mais necessitados.`,
 				date: "22 de dezembro de 2020",
 				route: host + "/Missao/December/22.html",
+				video: false,
+			},
+		},
+		January: {
+			5: {
+				img:
+					host +
+					"/assets/img/Missao/January/05_Janeiro_2021_TM_Irma Maurina.jpg",
+				title: "Testemunho Missionário - Ir. Maurina",
+				details: `Ir. Maurina Rodrigues de Souza é missionária brasileira e trabalha em Angola, na África. Religiosa há 37 anos, cuida da vida e da saúde especialmente das pessoas mais necessitadas.`,
+				date: "05 de Janeiro de 2021",
+				route: host + "/Missao/January/5.html",
+				video: true,
+			},
+			12: {
+				img:
+					host +
+					"/assets/img/Missao/January/12_Janeiro _2021_Ir Hermezilda_CAPA.jpg",
+				title: "Fui migrante e refugiada",
+				details: `Os noticiários do mundo inteiro mostram imagens fortes de migrantes e refugiados que são obrigados a deixar tudo e buscar outro país para reconstruir suas vidas. As causas são as mais variadas, e, infelizmente, ainda hoje, as guerras continuam a provocar deslocamentos em massa.`,
+				date: "12 de Janeiro de 2021",
+				route: host + "/Missao/January/12.html",
+				video: false,
+			},
+			19: {
+				img:
+					host + "/assets/img/Missao/January/19_Janeiro_2021_TM_Mitilene_Chihambo_Foto.jpg",
+				title: "Testemunho Missionário - Ir. Mitilene",
+				details: `Ir. Mitilene é natural de Angola, veio ao Brasil para cross cultural experiência e estudou fisioterapia e atuou na pastoral paroquial e na Infância e Adolescência Missionária. Irmã Mitilene retornou ao seu país de origem em novembro de 2020.`,
+				date: "19 de Janeiro de 2021",
+				route: host + "/Missao/January/19.html",
+				video: true,
+			},
+			26: {
+				img: host + "/assets/img/Missao/January/26_Janeiro_2021_Missão.jpg",
+				title: "Espiritualidade Missionária",
+				details: `A dimensão espiritual está profundamente vinculada à missão. Mas o que é missão? Deus é MISSÃO. E em Deus somos missão. O Papa Francisco afirma: "a vida é uma missão. Todo homem e toda mulher é uma missão, e esta é a razão pela qual se encontra a viver na terra. Ser atraídos e ser enviados são dois movimentos que o nosso coração sente..."Eu sou sempre uma missão; tu és sempre uma missão, cada batizada e batizado é uma missão". “Cada um de nós é chamado a refletir sobre esta realidade: 'eu sou uma missão nesta terra e para isto estou neste mundo.”`,
+				date: "26 de Janeiro de 2021",
+				route: host + "/Missao/January/26.html",
 				video: false,
 			},
 		},
@@ -3055,11 +3149,12 @@ let tercoHTML = `<div class="d-flex CV-Video-Link-Post forHover sortpost tercoDa
 
     <p class="add-mt-15-CV-Video mb-0">${tercoData[dayTerco].title}</p>
     <p class="date date-text"><span
-            class="cal-icon fa fa-calendar date-text"></span> ${tercoData[dayTerco].date} </p>
+            class="cal-icon fa fa-calendar date-text"></span> ${tercoDate} </p>
     </a>
 </div>
 
 </div>`;
+
 
 // let tercoHTML =
 //     '<div class="CV-Video-Link-Post sortpost tercoData ">\
@@ -3117,31 +3212,84 @@ let tercoHTML2 = `<div class="Video-Post tercoPost">
 </div>
 </div>`;
 
-// //Abdul Logic
+//Abdul Logic
 
-// // console.log(mainData[])
-// let currentDay = new Date().getDate();
-// for( var category in mainData){
-//   // console.log(mainData[category])
-//   let lenthOfCategory = Object.keys(mainData[category]).length -1;
-//   let lastMonthOfCategory = Object.keys(mainData[category])[lenthOfCategory]
+let currentDay2 = new Date().getDate();
+console.log(mainData);
+let testData = {
+	santoData: {},
+	oracoesMissionarias: {},
+	vocoesData: {},
+	missaoData: {},
+	espirtualData: {},
+	leituraData: {},
+};
+for (var category in mainData) {
+	let lenthOfCategory = Object.keys(mainData[category]).length - 1;
+	let lastMonthOfCategory = Object.keys(mainData[category])[lenthOfCategory];
 
-//   for(latestPost in mainData[category][lastMonthOfCategory]){
-//     if(mainData[category][lastMonthOfCategory][latestPost].date){
-//       let postObject=mainData[category][lastMonthOfCategory][latestPost]
-//       Array.prototype.reverse.call(postObject)
-//       // console.log( mainData[category][lastMonthOfCategory][latestPost])
-//       let postDate=postObject.date.split('/')[0] ;
-//       if(postDate <= currentDay ){
-//         console.log(mainData[category][lastMonthOfCategory][latestPost].date)
-//         console.log(mainData[category][lastMonthOfCategory][latestPost].title)
-//         console.log('-----------')
-//       }
+	//   let lenthOfCategoryMonth = Object.keys(mainData[category][lastMonthOfCategory]).length -1;
+	//   let lastMonthOfCategoryMonth = Object.keys(mainData[category][lastMonthOfCategory])[lenthOfCategoryMonth]
 
-//     }
+	//   console.log(lastMonthOfCategoryMonth)
+	let CD = new Date().getDate();
 
-//   }
+	for (latestPost in mainData[category][lastMonthOfCategory]) {
+		if (latestPost <= CD) {
+			if (mainData[category][lastMonthOfCategory][latestPost].date) {
+				let postObject = mainData[category][lastMonthOfCategory][latestPost];
+				// console.log(category)
+				// console.log(postObject)
+				// console.log(category)
+				testData[category] = postObject;
+				// Array.prototype.reverse.call(postObject);
+				// console.log( mainData[category][lastMonthOfCategory][latestPost])
+				let postDate = postObject.date.split("/")[0];
+				if (postDate <= currentDay2) {
+					//   console.log('-----------')
+					// console.log(mainData[category][lastMonthOfCategory][latestPost].date)
+					// console.log(mainData[category][lastMonthOfCategory][latestPost].title)
+					console.log("-----------");
+				}
+			}
+		}
+	}
+}var showhtml = "";
+var showhtml2 = "";
+// console.log(testData);
+// let CD = new Date().getDate();
+// let sortedArr = [];
+// let sortedData = testData;
+// let min = 01;
+// let lengthofObj = Object.keys(testData).length;
+// for (let i = CD; i >= 1; i--) {
+// 	Object.keys(testData).map((key) => {
+// 		let d = testData[key].date.split(" de")[0];
+// 		if (i == d) {
+// 			sortedArr.push(testData[key]);
+// 		}
+// 	});
 // }
+// console.log(sortedArr);
+
+// sortedArr.map((item)=>{
+//     showhtml += `<div class="d-flex CV-Video-Link-Post forHover sortpost categoryname" data-event-date="${item.date}">
+
+//     <div class="img_1">
+//         <a href="${item.route}"><img src="${item.img}" class="img-fluid" id="sideBarImage" alt="">
+//     </div>
+//     <div class="pl-2 ">
+
+//         <p class="add-mt-15-CV-Video mb-0">${item.title}</p>
+//         <p class="date date-text"><span
+//                 class="cal-icon fa fa-calendar date-text"></span> ${item.date} </p>
+//         </a>
+//     </div>
+
+//     </div>`;
+// })
+
+
 
 var months = {
 	January: "Janeiro",
@@ -3174,8 +3322,7 @@ var months = {
 };
 var categoryDate_title = {};
 
-var showhtml = "";
-var showhtml2 = "";
+
 for (var category in mainData) {
 	// category name
 	var cat = mainData[category];
@@ -3191,30 +3338,42 @@ for (var category in mainData) {
 		var bymonth = cat[getmonth];
 		var catarr = {};
 		var counter = 1;
-
+		// console.log(getmonth);
 		for (var getdays in bymonth) {
-			var dayname = getdays;
+            var dayname = getdays;
+            console.log(bymonth[getdays])
 			if (Array.isArray(bymonth[getdays])) {
 				for (var arrCat in bymonth[getdays]) {
+                    let d= bymonth[getdays].date.split(" ")
+                d=d[d.length-1]
 					var postTitle = bymonth[getdays][arrCat].title;
 					var postImage = bymonth[getdays][arrCat].img;
 					var postRoute = bymonth[getdays][arrCat].route;
 					var postDetails = bymonth[getdays][arrCat].details;
-					var makedate = dayname + "/" + months[monthname] + "/" + "2020";
+					var makedate = dayname + "/" + months[monthname] + "/" + d;
 					var postDate = bymonth[getdays][arrCat].date;
 					console.log("***********************");
 					console.log(bymonth[getdays][arrCat]);
 				}
 			} else {
+                let d= bymonth[getdays].date.split(" ")
+                d=d[d.length-1]
 				var postTitle = bymonth[getdays].title;
 				var postImage = bymonth[getdays].img;
 				var postRoute = bymonth[getdays].route;
 				var postDetails = bymonth[getdays].details;
-				var makedate = dayname + "/" + months[monthname] + "/" + "2020";
-				var postDate = bymonth[getdays].date;
-			}
+				var makedate = dayname + "/" + months[monthname] + "/" + d;
+                var postDate = bymonth[getdays].date;
+                
 
-			var chkdate = "2020-" + months[monthname] + "-" + dayname;
+              
+                // console.log(d.length)
+                // console.log("dara"+d)
+             
+			}
+            let d= bymonth[getdays].date.split(" ")
+            d=d[d.length-1]
+			var chkdate = d+"-" + months[monthname] + "-" + dayname;
 			var today = new Date();
 			var lastWeek = new Date(
 				today.getFullYear(),
@@ -3243,123 +3402,67 @@ for (var category in mainData) {
 				} else {
 					postTitleShort = postTitle;
 				}
-				var postdateSort = "2020-" + months[monthname] + "-" + dayname;
+				var postdateSort = d+"-" + months[monthname] + "-" + dayname;
 				// console.log(postTileShort);
 				// console.log(mypost)
-				showhtml +=
-					//           '<div class="CV-Video-Link-Post sortpost ' +
-					//           categoryname +
-					//           '" data-event-date="' +
-					//           postdateSort +
-					//           '">\
-					// <a href=' +
-					//           postRoute +
-					//           '>\
-					// <img src="' +
-					//           postImage +
-					//           '" alt="" class="thubmailVideo-Image" />\
-					// <p class="add-mt-15-CV-Video" style="font-size: 13px; font-family:">\
-					// ' +
-					//           postTitleShort +
-					//           '\
-					// </p>\
-					// <p class="date date-text" style="font-size: 11px; font-family:Gotham-BI">\
-					// <span class="cal-icon fa fa-calendar date-text"></span>  ' +
-					//           postDate +
-					//           " \
-					// </p>\
-					// </a>\
-					// </div>";
+				showhtml += `<div class="d-flex CV-Video-Link-Post forHover sortpost categoryname" data-event-date="${postdateSort}">
 
-					`<div class="d-flex CV-Video-Link-Post forHover sortpost categoryname" data-event-date="${postdateSort}">
+                <div class="img_1">
+                    <a href="${postRoute}"><img src="${postImage}" class="img-fluid" id="sideBarImage" alt="">
+                </div>
+                <div class="pl-2 ">
 
-<div class="img_1">
-    <a href="${postRoute}"><img src="${postImage}" class="img-fluid" id="sideBarImage" alt="">
-</div>
-<div class="pl-2 ">
+                    <p class="add-mt-15-CV-Video mb-0">${postTitleShort}</p>
+                    <p class="date date-text"><span
+                            class="cal-icon fa fa-calendar date-text"></span> ${postDate} </p>
+                    </a>
+                </div>
 
-    <p class="add-mt-15-CV-Video mb-0">${postTitleShort}</p>
-    <p class="date date-text"><span
-            class="cal-icon fa fa-calendar date-text"></span> ${postDate} </p>
-    </a>
-</div>
-
-</div>`;
+                </div>`;
 
 				//MAIN
 				// console.log(showhtml)
 
-				showhtml2 +=
-					//         `<div class="Video-Post ${categoryname}1 sortpost1 "  data-event-date="${postdateSort}">
-
-					// <div class="Video-Thumbnail">
-					//   <img src="${postImage}" alt="" class="Video-Image" />
-					// </div>
-					// <div class="Video-Description">
-					//   <a href="${postRoute}">
-					//     <h5 style="color: #666666; font-family: Gotham Medium;">${postTitle}</h5>
-					//     <p class="date-text" style="color: #666666; font-family: Gotham Book italic;">
-					//       <span class="cal-icon fa fa-calendar date-text"></span>
-					//       <i>
-					//         ${postDate}
-
-					//       </i>
-					//     </p>
-					//     <div class="bottom-line"></div>
-
-					//     <p class="description">
-					//       ${postDetails}
-					//     </p>
-					//     <button class="btn-leia-mais">
-					//       <span>LEIA MAIS </span>
-
-					//       <span class="right-arrow">
-					//         <i class="fa fa-angle-right"></i>
-					//   </a> </span>
-					//   </button>
-					// </div>
-					// </div>`;
-
-					`<div class="nVideo-Post ${categoryname}1 sortpost1 "  data-event-date="${postdateSort}">
+				showhtml2 += `<div class="nVideo-Post ${categoryname}1 sortpost1 "  data-event-date="${postdateSort}">
 
 
-<div class="row pt-2">
-    <div class="col-lg-4 col-md-4 col-sm-5 mt-3">
-        <img src="${postImage}" class="img-fluid post-img"
-            alt="">
-    </div>
+            <div class="row pt-2">
+                <div class="col-lg-4 col-md-4 col-sm-5 mt-3">
+                    <img src="${postImage}" class="img-fluid post-img"
+                        alt="">
+                </div>
 
-    <div class="col-lg-8 col-md-8 col-sm-12 mt-3" id="home-post-text">
+                <div class="col-lg-8 col-md-8 col-sm-12 mt-3" id="home-post-text">
 
-        
-            <div>
-                <h5 class="h5 title GM">${postTitle}</h5>
+                    
+                        <div>
+                            <h5 class="h5 title GM">${postTitle}</h5>
+                        </div>
+                        <div class="calender-div GBR pt-1">
+                            <p> <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;
+                                <i>  ${postDate}</i>
+                            </p>
+                        </div>
+                        <div class="border-1 "></div>
+                        <div class="mt-2">
+                            <p class="GB description">   ${postDetails} </p>
+                        </div>
+                        <div class="mb-3">
+                            <a href="${postRoute}">
+                                <button type="button" class="btn-leia-mais">
+                                    LEIA MAIS &nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right"
+                                        aria-hidden="true"></i>
+
+                                </button>
+                            </a>
+                        </div>
+
+                
+
+                </div>
             </div>
-            <div class="calender-div GBR pt-1">
-                <p> <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;
-                    <i>  ${postDate}</i>
-                </p>
-            </div>
-            <div class="border-1 "></div>
-            <div class="mt-2">
-                <p class="GB description">   ${postDetails} </p>
-            </div>
-            <div class="mb-3">
-                <a href="${postRoute}">
-                    <button type="button" class="btn-leia-mais">
-                        LEIA MAIS &nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right"
-                            aria-hidden="true"></i>
-
-                    </button>
-                </a>
-            </div>
-
-      
-
-    </div>
-</div>
-<div class="border-1 pt-2"></div>
-</div>`;
+            <div class="border-1 pt-2"></div>
+            </div>`;
 			}
 
 			counter++;
@@ -3438,6 +3541,7 @@ let santoLink = document.getElementById("sant");
 let oracoes = document.getElementById("oracoes");
 let espirtualLink = document.getElementById("espirual-link");
 
+let currentMonthIndex = new Date().getMonth();
 // console.log(Object.keys(mainData.espirtualData).length);
 let espirtualLatestMonth = "";
 for (month in mainData.espirtualData) {
@@ -3445,15 +3549,35 @@ for (month in mainData.espirtualData) {
 	// console.log("ACHHHAAAAAA",espirtualLatestMonth)
 }
 
-// console.log(".......................");
+console.log(".......................");
+var EnglishMonths = [
+	"January",
+	"February",
+	"March",
+	"April",
+	"May",
+	"June",
+	"July",
+	"August",
+	"September",
+	"October",
+	"November",
+	"December",
+];
+console.log(currentMonthIndex);
 // console.log(mainData.espirtualData[espirtualLatestMonth]);
+
 for (let i = currentDate; i > 0; i--) {
 	// console.log(mainData.espirtualData[espirtualLatestMonth][i])
-	if (mainData.espirtualData.December[i]) {
-		// console.log(mainData.espirtualData[espirtualLatestMonth][i]);
+	if (
+		mainData.espirtualData[EnglishMonths[currentMonthIndex]][i] &&
+		mainData.espirtualData[EnglishMonths[currentMonthIndex]][i] != undefined
+	) {
+		console.log("working");
+		console.log(mainData.espirtualData[EnglishMonths[currentMonthIndex]][i]);
 		espirtualLink.setAttribute(
 			"href",
-			host + "/Espiritualidade/December/" + i + ".html"
+			host + `/Espiritualidade/${EnglishMonths[currentMonthIndex]}/${i}.html`
 		);
 		// console.log("Espiritualidade Found ");
 		break;

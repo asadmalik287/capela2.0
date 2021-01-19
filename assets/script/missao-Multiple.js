@@ -90,6 +90,7 @@ $("#list").pagination({
                                 <div class="calender-div pt-2 calender-div">
                                     <p> <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;
                                         <i>${post.date}</i>
+                                       
                                     </p>
                                 </div>
                                 <div class="border-1 pt-1"></div>
