@@ -844,24 +844,24 @@ let day = date.getDate()
 document.getElementById("banner").innerHTML += ` <div class="main-bannar main-img-border " style=" background-image: url(./assets/img/banner/${february[day].image}.jpg) !important;   background-size: cover;
     background-position: bottom;
     height: 28.3rem;">
-    <div class="img-content ${february[day].footer}">
+    <div class="img-content ${january[day].footer}">
         <div>
             <p class="h2 mt-4 NB font-weight mb-0">
                 Intenção Missionária
             </p>
             <p class="h4 NB font-weight"><i>
-            ${february[day].heading}
+            ${january[day].heading}
                 </i></p>
         </div>
         <div class=" queTodas NIL text-center">
             <p><i>
-            ${february[day].details}
+            ${january[day].details}
               </i></p>
         </div>
     </div>
     <div>
         <div class="europa ">
-            <p>${february[day].footer} </p>
+            <p>${january[day].footer} </p>
         </div>
     </div>
 </div>`
