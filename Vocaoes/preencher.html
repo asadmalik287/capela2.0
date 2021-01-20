@@ -55,9 +55,9 @@
                         <div class="col-md-5 col-md-12 col-sm-12 col-lg-5">
                             <div class="row ">
                                 <label for="inputEmail3"
-                                    class="col-md-2 col-form-label blue GBOLD font-weigh FS-12 pt-1"> Whatsapp*</label>
+                                    class="col-md-2 col-form-label blue GBOLD font-weigh FS-12 pt-1"> Whatsapp</label>
                                 <div class="col-md-10 pl-5 col-sm-12 thirdInput height">
-                                    <input type="number" class="form-control inputHeight" id="whatsapp" required>
+                                    <input type="number" class="form-control inputHeight" id="whatsapp" >
                                 </div>
                             </div>
                         </div>
@@ -67,7 +67,7 @@
                         <div class="col-md-12 col-sm-12 col-lg-12">
                             <div class="row">
                                 <label for="inputEmail3"
-                                    class="col-md-1 col-form-label blue GBOLD font-weigh FS-12 pt-1 ">Endereço</label>
+                                    class="col-md-1 col-form-label blue GBOLD font-weigh FS-12 pt-1 ">Endereço*</label>
                                 <div class="col-md-11 col-sm-12 pl-4 fourthInput height">
                                     <input type="text" class="form-control inputHeight" id="address" required>
                                 </div>
@@ -78,7 +78,7 @@
                         <div class="col-md-7 col-md-12 col-lg-7">
                             <div class="row">
                                 <label for="inputEmail3"
-                                    class="col-md-1 col-form-label blue GBOLD font-weigh FS-12 pt-1"> Cidade</label>
+                                    class="col-md-1 col-form-label blue GBOLD font-weigh FS-12 pt-1"> Cidade*</label>
                                 <div class="col-md-11 col-sm-12  pr-1 pl-rem fithInput height">
                                     <input type="text" class="form-control inputHeight" id="city" required>
                                 </div>
@@ -88,7 +88,7 @@
                             <div class="row ">
                                 <label for="inputEmail3"
                                     class="col-md-4 col-sm-4 col-form-label blue GBOLD font-weigh FS-12 pt-1 pr-4 ">
-                                    Estado</label>
+                                    Estado*</label>
                                 <div class="col-sm-8 col-md-8 pl-4 pr-0 sixthInput height">
                                     <input type="text" class="form-control inputHeight" id="state" required>
                                 </div>
@@ -98,7 +98,7 @@
                             <div class="row ">
                                 <label for="inputEmail3"
                                     class="col-md-4 col-sm4 col-form-label blue GBOLD font-weigh FS-12 pt-1">
-                                    CEP</label>
+                                    CEP*</label>
                                 <div class="col-md-8 pl-4 col-sm-12 seventhInput height">
                                     <input type="text" class="form-control inputHeight" id="zip" required>
                                 </div>
@@ -121,7 +121,7 @@
                         <div class="col-md-5 col-md-12 col-lg-5 ">
                             <div class="row ">
                                 <label for="inputEmail3"
-                                    class="col-md-3 col-form-label blue GBOLD font-weigh FS-12 pt-1">Profissão</label>
+                                    class="col-md-3 col-form-label blue GBOLD font-weigh FS-12 pt-1">Profissão*</label>
                                 <div class="col-md-9 col-sm-12 ninth_input height ">
                                     <input type="text" class="form-control inputHeight " id="profession" required>
                                 </div>
@@ -144,7 +144,7 @@
                             enviar qualquer tipo de SPAM <br>* campo obrigatório</p>
                     </div>
                     <div class="row pl-4 pr-4 ">
-                        <div class="col-md-12 col-sm-12 justify-content-end text-end"> <button class=" submitButton GM "
+                        <div class="col-md-12 col-sm-12 justify-content-end text-end"> <button type="submit" class=" submitButton GM "
                                 name="submit " style="border-radius: 5px; "> ENVIAR</button></div>
                     </div>
 
@@ -180,6 +180,23 @@
     <!-- Footer Start -->
     <div id="footerCode"></div>
     <!-- Footer Ends -->
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    var elements = document.getElementsByTagName("INPUT");
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].oninvalid = function(e) {
+            e.target.setCustomValidity("");
+            if (!e.target.validity.valid) {
+                e.target.setCustomValidity("preencher campo vazio");
+            }
+        };
+        elements[i].oninput = function(e) {
+            e.target.setCustomValidity("");
+        };
+    }
+})
+    </script>
     <script src="../assets/script/header-footer.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js "
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj "

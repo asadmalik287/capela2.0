@@ -9,7 +9,8 @@ let zip = document.getElementById("zip");
 let dob = document.getElementById("dob");
 let profession = document.getElementById("profession");
 let mainMsg = document.getElementById("mainMsg");
-
+console.log(state);
+console.log('*****************');
 
 if (window.innerWidth <= 768) {
     name.placeholder = 'Name'
@@ -84,7 +85,8 @@ form_Fields.onsubmit = async (e) => {
         state.toUpperCase() == "RR" ||
         state.toUpperCase() == "AP"
     ) {
-        sendTo = "adrissps@hotmail.com";
+        sendTo = "tauqeermalik855@gmail.com";
+        // sendTo = "adrissps@hotmail.com";
     } else {
         alert("Escolha o estado correto e reenvie.");
         return false;
