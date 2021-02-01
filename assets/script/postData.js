@@ -1169,7 +1169,7 @@ let mainData = {
                 dúvidas, trocar ideias, dizer o que você pensa e conhecer experiências de outras
                 pessoas? Agora surgiu a oportunidade com a nova série de vídeos “Papo Vocacional”.`,
 				date: "23 de Janeiro de 2021",
-				route: host + "/Vocaoes/Janury/23.html",
+				route: host + "/Vocaoes/January/23.html",
 				video: true,
 			},
 		},
