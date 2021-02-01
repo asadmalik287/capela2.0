@@ -28,6 +28,7 @@ Object.keys(mainData.missaoData).map((month) => {
                 mainData.missaoData[month][post].map((subPost) => {
                     if (subPost.date.split(" ")[0] <= new Date().getDate()) {
                         santoPostsArr.push(subPost);
+                        // console.log(subpost);
                     }
                 });
             } else {
@@ -89,6 +90,7 @@ $("#list").pagination({
                                 <div class="calender-div pt-2 calender-div">
                                     <p> <i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;
                                         <i>${post.date}</i>
+                                       
                                     </p>
                                 </div>
                                 <div class="border-1 pt-1"></div>

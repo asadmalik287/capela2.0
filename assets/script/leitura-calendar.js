@@ -1,5 +1,5 @@
 "use strict";
-let dt = new Date("December 1, 2020 23:15:00");
+let dt = new Date("January 1, 2020 23:15:00");
 
 function renderDate() {
     let currentDate = "";
@@ -48,6 +48,7 @@ function renderDate() {
         "Dezembro",
     ];
 
+
     document.getElementById("icalendarMonth").innerHTML = months[dt.getMonth()];
     // document.getElementById("icalendarDateStr").innerHTML = dateString.toDateString();
 
@@ -60,9 +61,9 @@ function renderDate() {
     }
     for (let i = 1; i <= endDate; i++) {
         let i2 = i + "a";
-        console.log(months[dt.getMonth()])
-        console.log(i + '-----' + currentDate)
-        console.log(i2 + '-----' + currentDate2)
+        // console.log(months[dt.getMonth()])
+        // console.log(i + '-----' + currentDate)
+        // console.log(i2 + '-----' + currentDate2)
         if (
             (i == currentDate && months[dt.getMonth()] == "Dezembro") ||
             i2 == currentDate2
@@ -70,7 +71,7 @@ function renderDate() {
             cells += "<a class='icalendar__today'>" + i + "</a>";
         } else {
             if (months[dt.getMonth()] == "Dezembro") {
-                console.log(months[dt.getMonth()]);
+                // console.log(months[dt.getMonth()]);
                 cells +=
                     `<a class='a-date' href="../december/` +
                     i +
@@ -79,7 +80,7 @@ function renderDate() {
                     `</a>`;
                 // document.getElementsByClassName('a-date').setAttribute('href',`../Leitura-Orante/leitura-orante-`+i+`.html`)
             } else if (months[dt.getMonth()] == "Setembro") {
-                console.log(months[dt.getMonth()]);
+                // console.log(months[dt.getMonth()]);
                 cells +=
                     `<a class='a-date' href="../september/` +
                     i +
@@ -87,7 +88,7 @@ function renderDate() {
                     i +
                     `</a>`;
             } else if (months[dt.getMonth()] == "Outubro") {
-                console.log(months[dt.getMonth()]);
+                // console.log(months[dt.getMonth()]);
                 cells +=
                     `<a class='a-date' href="../october/` +
                     i +
@@ -95,7 +96,7 @@ function renderDate() {
                     i +
                     `</a>`;
             } else if (months[dt.getMonth()] == "Novembro") {
-                console.log(months[dt.getMonth()]);
+                // console.log(months[dt.getMonth()]);
                 cells +=
                     `<a class='a-date' href="../november/` +
                     i +
@@ -130,5 +131,5 @@ function moveDate(param) {
     renderDate();
 }
 const click = () => {
-    console.log("as");
+    // console.log("as");
 };

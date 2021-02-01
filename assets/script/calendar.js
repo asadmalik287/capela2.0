@@ -1,5 +1,8 @@
 'use strict';
-let dt = new Date('December 1, 2020 23:15:00');
+// let dt = new Date('December 1, 2020 23:15:00');
+let dt = new Date();
+let cd = new Date();
+console.log(dt.getMonth());
 // import {mainData} from '../post-data-json'
 // console.log(mainData)
 let check = 0;
@@ -46,7 +49,20 @@ function renderDate() {
     ).getDate();
 
     let today = new Date();
-
+    var EnglishMonths = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+    ];
     let months = [
         "Janeiro",
         "Fevereiro",
@@ -80,11 +96,33 @@ function renderDate() {
 
 
             })
-
-            if (months[dt.getMonth()] == 'Dezembro') {
+            if (months[dt.getMonth()] == 'Janeiro') {
+                console.log('From Calendar--------------')
+                console.log(months[dt.getMonth()]);
+                console.log('From Calendar--------------')
                 if (check == 0) {
                     setTimeout(() => {
-                        console.log('--------------')
+                        jQuery(".icalendar__prev").click();
+                        jQuery(".icalendar__next").click();
+
+                    }, 2000)
+                    check = 1;
+                }
+                if (mainData.santoData.January[i]) {
+                    cells += `<a class='a-date' href="${host}/Dia-de-santo/Dia-January/Dia-` + i + `.html">` + i + `</a>`;
+                } else {
+                    cells += `<a class='a-date' style="color:#bbbbbb !important">` + i + `</a>`;
+                }
+
+
+                // document.getElementsByClassName('a-date').setAttribute('href',`../Leitura-Orante/leitura-orante-`+i+`.html`)
+            }
+           else if (months[dt.getMonth()] == 'Dezembro') {
+                console.log('From Calendar--------------')
+                console.log(months[dt.getMonth()]);
+                console.log('From Calendar--------------')
+                if (check == 0) {
+                    setTimeout(() => {
                         jQuery(".icalendar__prev").click();
                         jQuery(".icalendar__next").click();
 

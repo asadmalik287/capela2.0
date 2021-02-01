@@ -65,7 +65,96 @@ function chat_order1() {
         });
 }
 
+// By Tauqeer
+// var showhtml = "";
+// var showdiv = "";
+// let missaoPostsArr = [];
+// var months = new Array();
+// months[0] = "January";
+// months[1] = "February";
+// months[2] = "March";
+// months[3] = "April";
+// months[4] = "May";
+// months[5] = "June";
+// months[6] = "July";
+// months[7] = "August";
+// months[8] = "September";
+// months[9] = "October";
+// months[10] = "November";
+// months[11] = "December";
 
+// var d = new Date();
+// var n = months[d.getMonth()];
+// console.log(mainData.missaoData);
+// Object.keys(mainData.missaoData).map((month) => {
+//     // console.log(month)
+//     Object.keys(mainData.missaoData[month]).map((post) => {
+//         // console.log(mainData.missaoData[month][post])
+//         if (month == n) {
+//             // console.log("sadsada");
+//             // mainData.missaoData[month][post].date.split(' ')[0] <= new Date().getDate()
+
+//             if (Array.isArray(mainData.missaoData[month][post]) == true) {
+//                 mainData.missaoData[month][post].map((subPost) => {
+//                     if (subPost.date.split(" ")[0] <= new Date().getDate()) {
+//                         missaoPostsArr.push(subPost);
+//                     }
+//                 });
+//             } else {
+//                 if (
+//                     mainData.missaoData[month][post].date.split(" ")[0] <=
+//                     new Date().getDate()
+//                 ) {
+//                     // console.log(mainData.missaoData[month][post]);
+//                     missaoPostsArr.push(mainData.missaoData[month][post]);
+//                 }
+//             }
+//         } else {
+//             if (Array.isArray(mainData.missaoData[month][post]) == true) {
+//                 mainData.missaoData[month][post].map((subPost) => {
+//                     // missaoPostsArr.push(subPost);
+//                 });
+//             } else {
+//                 missaoPostsArr.push(mainData.missaoData[month][post]);
+//             }
+//         }
+//     });
+//     // console.log('--------------------------*****************************')
+// });
+
+// missaoPostsArr.reverse();
+// console.log(missaoPostsArr)
+// let sortedMissao=[];
+// for(let i=0;i<=6;i++){
+//     sortedMissao.push(missaoPostsArr[i]);
+// }
+// console.log(sortedMissao)
+// sortedMissao.reverse()
+
+
+// sortedMissao.map((item,index)=>{
+
+//         console.log(index);
+//         showhtml += `<div class="d-flex CV-Video-Link-Post sortpost" data-event-date="${postdateSort}">
+
+//                 <div class="img_1">
+//                     <a href="${item.route}"><img src="${item.img}" class="img-fluid" id="sideBarImage" alt="">
+//                 </div>
+//                 <div class="pl-2 ">
+                
+//                     <p class="add-mt-15-CV-Video mb-0">${item.title.substr(0, 20) + '...'}</p>
+      
+//                     <p class="date date-text"><span
+//                             class="cal-icon fa fa-calendar date-text"></span> ${item.date} </p>
+//                     </a>
+//                 </div>
+                
+//                 </div>`; 
+    
+// })
+
+
+// End Here Tauqeer
 
 var categoryDate_title = {};
 var showhtml = "";
@@ -76,9 +165,15 @@ for (var category in mainData['missaoData']) {
     var specificCat = mainData['missaoData'];
     var objec = specificCat[category];
     for (var getdays in objec) {
+        let d= objec[getdays].date.split(" ")
+		d=d[d.length-1]
+        // console.log(d.length)
+		// console.log("dara"+d)
+		console.log(objec[getdays].date.split(" "))
+		console.log('------------------')
         var dayname = getdays;
-        var postdateShow = getdays + "/" + months[category] + "/2020";
-        var postdateSort = "2020-" + months[category] + "-" + getdays;
+        var postdateShow = getdays + "/" + months[category] + "/"+d;
+        var postdateSort = d+"-" + months[category] + "-" + getdays;
         const date1 = new Date(postdateSort).getTime();
         const date2 = new Date().getTime();
 
@@ -182,6 +277,8 @@ for (var category in mainData['missaoData']) {
 
             // for displaying Video
             if (objec[getdays].video == true) {
+                console.log('Console from Missao Main')
+                console.log(objec);
 
                 showVideo += `<div class="Video-Post myClassVideo1 sortpost2" data-event-date="${postdateSort} ">
                 <div class="row pt-2 mb-5">
