@@ -661,6 +661,134 @@ let mainData = {
 				route: host + "/Dia-de-santo/Dia-January/Dia-31.html",
 			},
 		},
+
+		February: {
+
+			2:[
+				{
+					img:
+						host +
+						"/assets/img/Dia-de-santo/February/02_Post_Dia_Santo_Fevereiro.jpg",
+					title: "Apresentação de Jesus no Templo",
+					details:
+						"A festa da Apresentação de Jesus no templo retoma uma passagem da vida de Jesus narrada no Evangelho de São Lucas (Lc 2,22-39). De acordo com o costume judaico daquela época, o primeiro filho deveria ser apresentado ao Senhor. Também a mulher, após dar à luz, passava por um período de purificação de quarenta dias e, depois   desse tempo, devia ir ao templo e oferecer um cordeiro em sacrifício. Maria e José cumpriram a lei, mas, como eram muito pobres, ofereceram um casal de pombos em vez de um cordeiro.",
+					date: "2 de Fevereiro de 2021",
+					route: host + "/Dia-de-santo/Dia-February/Dia-2.html",
+				},
+				{
+					img:
+						host +
+						"/assets/img/Dia-de-santo/February/02_Post_Dia_Santo_Fevereiro_B.jpg",
+					title: "Nossa Senhora dos Navegantes",
+					details:
+						"Nas épocas das Cruzadas, os portugueses e espanhóis que atravessavam o mar Mediterrâneo rumo à Palestina passavam por muitos lugares perigosos e onde havia culto a deuses pagãos. Por isso, como tradição e cultura, esses navegantes pediam a Nossa Senhora dos Navegantes, durante a santa missa que era realizada antes das travessias, a proteção e coragem para, com aqueles pequenos barcos, enfrentarem o mar e suas tempestades.",
+					date: "2 de Fevereiro de 2021",
+					route: host + "/Dia-de-santo/Dia-February/Dia-2a.html",
+				},
+			],
+
+			3: {
+				img:
+					host +
+					"/assets/img/Dia-de-santo/February/03_Post_Dia_Santo_Fevereiro.jpg",
+				title: "São Brás",
+				details:
+					"São Brás nasceu em Sebaste, na Armênia, por volta do ano 300. Era médico, mas queria servir a Deus e, por isso, abandonou tudo e foi viver como eremita, numa gruta, durante muitos anos. Como atendia todas as pessoas que o procuravam e muitas ficavam curadas dos males tanto do corpo como do espírito, ganhou fama de santidade.",
+				date: "3 de Fevereiro de 2021",
+				route: host + "/Dia-de-santo/Dia-February/Dia-3.html",
+			},
+
+			
+			5: {
+				img:
+					host +
+					"/assets/img/Dia-de-santo/February/05_Post_Dia_Santo_Fevereiro.jpg",
+				title: "Santa Águeda, virgem e mártir",
+				details:
+					"Santa Águeda teria sofrido o martírio durante a perseguição do imperador romano Décio. Seu culto propagou-se rapidamente por toda a Igreja, e seu nome foi inserido no Cânon Romano. Conta-se que Santa Águeda teria nascido em Catânia, na Sicília, ao sul da Itália, provavelmente no ano de 230. Como outras jovens de sua época, Águeda  decidiu consagrar sua virgindade a Cristo. Mas, quando o governador Quinciano lhe  propôs um relacionamento, ela se negou rotundamente. Quinciano, indignado, acusou-a de ser uma mulher má e a submeteu a cruéis torturas. Águeda, porém, manteve-se firme  em seu juramento de virgindade ao Senhor, em quem confiava fortemente. No dia 5 de fevereiro do ano 250 ou 251, vítima das torturas, Águeda veio a falecer. Que essa santa rogue a Deus por nós para que, com o exemplo de sua coragem e confiança em Deus, sejamos firmes no caminho da fé. Amém!",
+				date: "5 de Fevereiro de 2021",
+				route: host + "/Dia-de-santo/Dia-February/Dia-5.html",
+			},
+
+			6: {
+				img:
+					host +
+					"/assets/img/Dia-de-santo/February/06_Post_Dia_Santo_Fevereiro.jpg",
+				title: "São Paulo Miki e seus companheiros",
+				details:
+					"A história da evangelização no Japão foi marcada pelo entusiasmo dos que abraçaram a fé e regada pelo sangue de inúmeros mártires. Os santos que celebramos hoje, São Paulo Miki e seus 25 companheiros, deram testemunho de fé, coragem, amor a Jesus e até mesmo aos que os torturaram e executaram.",
+				date: "6 de Fevereiro de 2021",
+				route: host + "/Dia-de-santo/Dia-February/Dia-6.html",
+			},
+
+			
+			8: {
+				img:
+					host +
+					"/assets/img/Dia-de-santo/February/08_Post_Dia_Santo_Fevereiro.jpg",
+				title: "Santa Josefina Bakhita",
+				details:
+					"A história de Santa Josefina Bakhita revela como o amor de Deus é capaz de transformar o sofrimento em dádiva de amor. Ela nasceu no Sudão, em 1869. Raptada de sua família ainda menina, passou por inúmeras torturas e sofrimentos. Foi comprada e vendida várias vezes como escrava. Teve seu corpo marcado a navalha, com mais de 140 incisões nas costas, peito e barriga. Experimentou a morte de perto e, mesmo sem conhecer a Deus, sentia a sua proteção.",
+				date: "8 de Fevereiro de 2021",
+				route: host + "/Dia-de-santo/Dia-February/Dia-8.html",
+			},
+
+			10: {
+				img:
+					host +
+					"/assets/img/Dia-de-santo/February/10_Post_Dia_Santo_Fevereiro.jpg",
+				title: "Santa Escolástica",
+				details:
+					"Santa Escolástica é uma das sete padroeiras da Congregação das Missionárias Servas do Espírito Santo. Irmã gêmea de São Bento, nasceu de uma família rica e nobre em Núrsia, na região central da Itália, em 480. Conta-se que, ao nascer, Bento e Escolástica ficaram órfãos, pois sua mãe morreu durante o parto.",
+				date: "10 de Fevereiro de 2021",
+				route: host + "/Dia-de-santo/Dia-February/Dia-10.html",
+			},
+	
+			11: {
+				img:
+					host +
+					"/assets/img/Dia-de-santo/February/11_Post_Dia_Santo_Fevereiro.jpg",
+				title: "Nossa Senhora de Lourdes",
+				details:
+					"A Festa de Nossa Senhora de Lourdes foi estabelecida pelo Papa Leão XIII. Segundo uma piedosa tradição, em 1858, numa gruta de Massabielle, que se encontra em Lourdes, França, a Imaculada Virgem Maria apareceu a Bernadete Soubirous, uma jovem pastora. Por intermédio dessa humilde camponesa, a Virgem fez um chamado ao mundo, pedindo conversão e oração. A maravilhosa aparição reforçou na Igreja um fervor pela oração e a prática da caridade. Muitas pessoas dedicaram-se a orar e ajudar sobretudo os enfermos e os pobres.",
+				date: "11 de Fevereiro de 2021",
+				route: host + "/Dia-de-santo/Dia-February/Dia-11.html",
+			},
+
+			14: {
+				img:
+					host +
+					"/assets/img/Dia-de-santo/February/14_Post_Dia_Santo_Fevereiro.jpg",
+				title: "São Cirilo e São Metódio",
+				details:
+					"Conhecidos como apóstolos dos eslavos, os irmãos São Cirilo e São Metódio foram responsáveis pela evangelização de boa parte do Leste Europeu, contribuindo não apenas do ponto de vista religioso, mas também cultural. Nasceram no século IX, em Tessalônica, sob o Império Bizantino. Seus pais, Leôncio e Maria, eram pessoas muito cultas e deram uma educação aprimorada aos filhos Constantino e Miguel. Com o pai aprenderam o grego, a língua oficial; com a mãe, o eslavo, a língua falada pelo povo, o que depois viria a facilitar a missão. Quando entraram para a vida religiosa, Constantino trocou o nome para Cirilo, e Miguel, para Metódio.",
+				date: "14 de Fevereiro de 2021",
+				route: host + "/Dia-de-santo/Dia-February/Dia-14.html",
+			},
+
+			18: {
+				img:
+					host +
+					"/assets/img/Dia-de-santo/February/18_Post_Dia_Santo_Fevereiro.jpg",
+				title: "Bem-aventurado Fra Angélico",
+				details:
+					"Fra Angélico foi beatificado pelo Papa João Paulo II em 1982 e, dois anos depois, foi  declarado “Padroeiro Universal dos Artistas”. Mas quem foi Fra Angélico? Fra é a designação em italiano para frei. Portanto, além de artista, Fra Angélico era um religioso da Ordem Dominicana.",
+				date: "18 de Fevereiro de 2021",
+				route: host + "/Dia-de-santo/Dia-February/Dia-18.html",
+			},
+
+			22: {
+				img:
+					host +
+					"/assets/img/Dia-de-santo/February/22_Post_Dia_Santo_Fevereiro.jpg",
+				title: "Festa da Cátedra de São Pedro",
+				details:
+					"Hoje a Igreja celebra a festa da Cátedra de São Pedro. É uma comemoração que remonta ao século IV recordando o primado e a autoridade de São Pedro, primeiro Papa da Igreja Católica.",
+				date: "22 de Fevereiro de 2021",
+				route: host + "/Dia-de-santo/Dia-February/Dia-22.html",
+			},
+	
+		},
 	},
 
 	oracoesMissionarias: {
@@ -1129,7 +1257,7 @@ let mainData = {
 			26: {
 				img: host + "/assets/img/Vocacoes/December/video-thumbnil.jpg",
 				title: "Natural de Angola ",
-				details: `Natural de Angola, veio ao Brasil para cross cultural experiência e estudou fisioterapia e atuou na pastoral paroquial e na Infância e Adolescência Missionária. Irmã Mitilene retorna ao seu país de origem em 2021.  `,
+				details: `Natural de Angola, veio ao Brasil para cross cultural experiência e estudou fisioterapia e atuou na pastoral paroquial e na Infância e Adolescência Missionária. Irmã Mitilene retorna ao seu país de origem em 2021.`,
 				date: "26 de dezembro de 2020",
 				route: host + "/Vocaoes/December/26.html",
 				video: true,
@@ -3088,7 +3216,7 @@ let mainData = {
 		},
 		February: {
 			2: {
-				img:host +"/assets/img/Missao/January/05_Janeiro_2021_TM_Irma Maurina.jpg",
+				img:host +"/assets/img/Missao/February/02_Fevreiro_Theresia mesner.jpg",
 				title: "Madre Theresia Messner - Primeira Coordenadora Geral das SSpS",
 				details: `Theresia Messner foi uma mulher excepcionalmente dotada, para quem o chamado à vida missionária transformou-se em motivação decisiva para sua vida e suas atividades. Theresia, percebeu desde muito cedo, sua vida como uma graça, tendo renascida da Água e do Espírito Santo.`,
 				date: "02 de Fevereiro de 2021",
