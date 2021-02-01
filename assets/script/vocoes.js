@@ -33,6 +33,8 @@ function changePlaceholder() {
         state.placeholder = 'Estado'
         zip.placeholder = 'CEP'
         profession.placeholder = 'Profissão'
+        console.log(state);
+console.log('*****************');
     }
     if (window.innerWidth > 768) {
         name.placeholder = ''
@@ -53,41 +55,47 @@ form_Fields.onsubmit = async (e) => {
     let sendTo;
 
     if (
-        state.toUpperCase() == "SP" ||
-        state.toUpperCase() == "MG" ||
-        state.toUpperCase() == "RJ" ||
-        state.toUpperCase() == "ES" ||
-        state.toUpperCase() == "GO" ||
-        state.toUpperCase() == "DF" ||
-        state.toUpperCase() == "TO" ||
-        state.toUpperCase() == "BA" ||
-        state.toUpperCase() == "SE" ||
-        state.toUpperCase() == "AL" ||
-        state.toUpperCase() == "PE" ||
-        state.toUpperCase() == "PB" ||
-        state.toUpperCase() == "RN" ||
-        state.toUpperCase() == "CE" ||
-        state.toUpperCase() == "PI" ||
-        state.toUpperCase() == "MA"
+        state.value.toUpperCase() == "SP" ||
+        state.value.toUpperCase() == "MG" ||
+        state.value.toUpperCase() == "RJ" ||
+        state.value.toUpperCase() == "ES" ||
+        state.value.toUpperCase() == "GO" ||
+        state.value.toUpperCase() == "DF" ||
+        state.value.toUpperCase() == "TO" ||
+        state.value.toUpperCase() == "BA" ||
+        state.value.toUpperCase() == "SE" ||
+        state.value.toUpperCase() == "AL" ||
+        state.value.toUpperCase() == "PE" ||
+        state.value.toUpperCase() == "PB" ||
+        state.value.toUpperCase() == "RN" ||
+        state.value.toUpperCase() == "CE" ||
+        state.value.toUpperCase() == "PI" ||
+        state.value.toUpperCase() == "MA"
     ) {
         sendTo = "jussps@gmail.com";
     }
     else if (
-        state.toUpperCase() == "RS" ||
-        state.toUpperCase() == "SC" ||
-        state.toUpperCase() == "PR" ||
-        state.toUpperCase() == "MS" ||
-        state.toUpperCase() == "MT" ||
-        state.toUpperCase() == "RO" ||
-        state.toUpperCase() == "AC" ||
-        state.toUpperCase() == "AM" ||
-        state.toUpperCase() == "PA" ||
-        state.toUpperCase() == "RR" ||
-        state.toUpperCase() == "AP"
+        state.value.toUpperCase() == "RS" ||
+        state.value.toUpperCase() == "SC" ||
+        state.value.toUpperCase() == "PR" ||
+        state.value.toUpperCase() == "MS" ||
+        state.value.toUpperCase() == "MT" ||
+        state.value.toUpperCase() == "RO" ||
+        state.value.toUpperCase() == "AC" ||
+        state.value.toUpperCase() == "AM" ||
+        state.value.toUpperCase() == "PA" ||
+        state.value.toUpperCase() == "RR" ||
+        state.value.toUpperCase() == "AP"
     ) {
-        sendTo = "tauqeermalik855@gmail.com";
-        // sendTo = "adrissps@hotmail.com";
+        // sendTo = "tauqeermalik855@gmail.com";
+        sendTo = "adrissps@hotmail.com";
     } else {
+        $(document).ready(function(){
+            $("#form_Fields").on("submit", function(){
+                // $("#pageloader").css('display', 'none');
+                  $("#pageloader").fadeOut();
+            });//submit
+        });//document ready
         alert("Escolha o estado correto e reenvie.");
         return false;
     }
@@ -122,13 +130,17 @@ form_Fields.onsubmit = async (e) => {
     let result = await response.json();
 
     if (result == "Mail Sent.") {
+        alert('mensagem enviada com sucesso')
         form_Fields.style.display = "none";
         formHeading.style.display = "none";
         line.style.display = "none";
         let element = document.createElement("h3");
-        let textNode = document.createTextNode("O correio foi enviado.");
+        let textNode = document.createTextNode("mensagem enviada com sucesso");
         element.appendChild(textNode);
         element.classList.add("mail_sent");
         form_outer.append(element);
     }
+
 };
+
+

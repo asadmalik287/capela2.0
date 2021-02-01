@@ -81,10 +81,11 @@ form_Fields.onsubmit = async (e) => {
         formHeading.style.display = "none";
         line.style.display = "none";
         let element = document.createElement("h3");
-        let textNode = document.createTextNode("O correio foi enviado.");
+        let textNode = document.createTextNode("mensagem enviada com sucesso.");
         element.appendChild(textNode);
         element.classList.add("mail_sent");
         form_outer.append(element);
+        alert('mensagem enviada com sucesso')
     }
 };
 

@@ -47,6 +47,7 @@ function changePlaceholder() {
 form_Fields.onsubmit = async (e) => {
   e.preventDefault();
   let sendTo = "martarnhold@gmail.com"
+  // let sendTo = "tauqeermalik855@gmail.com"
   let obj = {
     html: ` <b> Name : </b> <span> ${name.value} </span>
 <br> <b> Email : </b> <span> ${email.value} </span>
@@ -78,13 +79,13 @@ form_Fields.onsubmit = async (e) => {
 
   if (result == "Mail Sent.") {
     form_Fields.style.display = "none";
-    formHeading.style.display = "none";
-    line.style.display = "none";
-    let element = document.createElement("h3");
-    let textNode = document.createTextNode("O correio foi enviado.");
-    element.appendChild(textNode);
-    element.classList.add("mail_sent");
-    form_outer.append(element);
+        formHeading.style.display = "none";
+        let element = document.createElement("h3");
+        let textNode = document.createTextNode("mensagem enviada com sucesso");
+        element.appendChild(textNode);
+        element.classList.add("mail_sent");
+        form_outer.append(element);
+        alert('mensagem enviada com sucesso')
   }
 };
 

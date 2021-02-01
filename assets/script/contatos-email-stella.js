@@ -41,6 +41,7 @@ form_Fields.onsubmit = async (e) => {
     let formHeading = document.getElementById("formHeading");
     // let sendTo = "galante@thunderbees.com";
     let sendTo = "mailto:mkt.sede@ssps.org.br";
+    // let sendTo = "tauqeermalik855@gmail.com";
     // let sendTo = "saadee7223@gmail.com";
 
 
@@ -73,9 +74,10 @@ form_Fields.onsubmit = async (e) => {
         form_Fields.style.display = "none";
         formHeading.style.display = "none";
         let element = document.createElement("h3");
-        let textNode = document.createTextNode("O correio foi enviado.");
+        let textNode = document.createTextNode("mensagem enviada com sucesso");
         element.appendChild(textNode);
         element.classList.add("mail_sent");
         form_outer.append(element);
+        alert('mensagem enviada com sucesso')
     }
 };

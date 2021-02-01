@@ -47,6 +47,7 @@ function changePlaceholder() {
 form_Fields.onsubmit = async (e) => {
   e.preventDefault();
   let sendTo = "armelinda.col@gmail.com"
+  // let sendTo = "Tauqeermalik855@gmail.com"
   let obj = {
     html: ` <b> Name : </b> <span> ${name.value} </span>
 <br> <b> Email : </b> <span> ${email.value} </span>
@@ -81,9 +82,10 @@ form_Fields.onsubmit = async (e) => {
     formHeading.style.display = "none";
     line.style.display = "none";
     let element = document.createElement("h3");
-    let textNode = document.createTextNode("O correio foi enviado.");
+    let textNode = document.createTextNode("mensagem enviada com sucesso.");
     element.appendChild(textNode);
     element.classList.add("mail_sent");
     form_outer.append(element);
+    alert('mensagem enviada com sucesso')
   }
 };

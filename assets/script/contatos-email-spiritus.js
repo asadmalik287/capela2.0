@@ -42,6 +42,7 @@ form_Fields.onsubmit = async (e) => {
     // let sendTo = "galante@thunderbees.com";
     let sendTo = "sebprovusul@gmail.com";
     // let sendTo = "saadee7223@gmail.com";
+    // let sendTo = "tauqeermalik855@gmail.com";
 
 
 
@@ -70,10 +71,11 @@ form_Fields.onsubmit = async (e) => {
     let result = await response.json();
 
     if (result == "Mail Sent.") {
+        alert('mensagem enviada com sucesso')
         form_Fields.style.display = "none";
         formHeading.style.display = "none";
         let element = document.createElement("h3");
-        let textNode = document.createTextNode("O correio foi enviado.");
+        let textNode = document.createTextNode("mensagem enviada com sucesso");
         element.appendChild(textNode);
         element.classList.add("mail_sent");
         form_outer.append(element);

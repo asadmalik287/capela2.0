@@ -35,12 +35,12 @@ header.innerHTML = `<div class="main-header">
             </div>
             <div>
                 <li class="nav-item">
-                    <a class="nav-link"  id="oracoes">Orações Missionárias</a>
+                    <a class="nav-link" href="${host}/oracoes-missionarias/multiple.html" id="oracoes">Orações Missionárias</a>
                 </li>
             </div>
             <div>
                 <li class="nav-item">
-                    <a class="nav-link" id="sant">Dia de Santo</a>
+                    <a class="nav-link" href="${host}/Dia-de-santo/Dia-Multiple.html" id="sant">Dia de Santo</a>
                 </li>
             </div>
             <div>
@@ -55,7 +55,7 @@ header.innerHTML = `<div class="main-header">
             </div>
             <div>
                 <li class="nav-item">
-                    <a class="nav-link" id="espirual-link">Espiritualidade</a>
+                    <a class="nav-link" href="${host}/Espiritualidade/Espiritualidade-Multiple.html" id="espirual-link">Espiritualidade</a>
                 </li>
             </div>
 
