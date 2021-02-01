@@ -1173,6 +1173,32 @@ let mainData = {
 				video: true,
 			},
 		},
+		February: {
+			6: {
+				img:host +"/assets/img/Vocacoes/February/06_Fevereiro_História Vocacional_Irmã Roselene.jpg",
+				title: " Minha História Vocacional",
+				details: `Sou a Irmã Roselene, da Congregação Missionária das Servas do Espírito Santo, e neste tempo especial de preparação para os meus votos perpétuos gostaria de partilhar com vocês um pouquinho da minha história vocacional.`,
+				date: "06 de Fevereiro de 2021",
+				route: host + "/Vocaoes/February/6.html",
+				video: false,
+			},
+			20: {
+				img:host +"/assets/img/Vocacoes/February/20_Fevereiro_2021_Foto da Capa_Vocacional.jpg",
+				title: " Irmã Maria Raquel: missão entre os enfermos e o povo humilde",
+				details: `A irmã Maria Raquel, Maria de Lourdes Souza, tem uma grande experiência na vida missionária. Desde cedo, ela sentiu o chamado de Deus para a vida religiosa. Ganhou a missão de servir sobretudo os enfermos e o povo mais humilde. Neste testemunho, ela partilha sua história familiar e missionária. Após atuar em diversos campos, hoje ela vive no Convento Santíssima Trindade, onde se dedica à oração pelas necessidades da Igreja e do mundo. Veja a seguir.`,
+				date: "20 de Fevereiro de 2021",
+				route: host + "/Vocaoes/February/20.html",
+				video: false,
+			},
+			27: {
+				img:host +"/assets/img/Vocacoes/February/27_Fevereiro_2021_Foto da Capa_Vocacional.jpg",
+				title: "",
+				details: ``,
+				date: "27 de Fevereiro de 2021",
+				route: host + "/Vocaoes/February/27.html",
+				video: true,
+			},
+		},
 	},
 	espirtualData: {
 		September: {
@@ -3059,6 +3085,33 @@ let mainData = {
 				route: host + "/Missao/January/26.html",
 				video: false,
 			},
+		},
+		February: {
+			2: {
+				img:host +"/assets/img/Missao/January/05_Janeiro_2021_TM_Irma Maurina.jpg",
+				title: "Madre Theresia Messner - Primeira Coordenadora Geral das SSpS",
+				details: `Theresia Messner foi uma mulher excepcionalmente dotada, para quem o chamado à vida missionária transformou-se em motivação decisiva para sua vida e suas atividades. Theresia, percebeu desde muito cedo, sua vida como uma graça, tendo renascida da Água e do Espírito Santo.`,
+				date: "02 de Fevereiro de 2021",
+				route: host + "/Missao/February/2.html",
+				video: false,
+			},
+			16: {
+				img:host +"/assets/img/Missao/February/16_Fevereiro_2021_foto_Missão.jpg",
+				title: "",
+				details: ``,
+				date: "16 de Fevereiro de 2021",
+				route: host + "/Missao/February/16.html",
+				video: true,
+			},
+			23: {
+				img:host + "/assets/img/Missao/February/23_Fevereiro_2021_Foto_CAPA.jpg",
+				title: " CIM celebra o Dia Internacional do Migrante e apresenta novidades",
+				details: ` Em 18 de dezembro, o Centro de Integração do Migrante (CIM), localizado em São Paulo-SP, celebra o quinto aniversário e o Dia Internacional do Migrante. A data foi proclamada em 4 de dezembro de 2000, com a Resolução 55/93 da Assembleia-Geral da ONU (Organização das Nações Unidas), diante do aumento do fluxo migratório no mundo. Há dez anos, em 18 de dezembro de 1990, a Assembleia adotou a Convenção Internacional sobre a Proteção dos Direitos de Todos os Trabalhadores Migratórios e de suas Famílias.`,
+				date: "23 de Fevereiro de 2021",
+				route: host + "/Missao/February/23.html",
+				video: true,
+			},
+			
 		},
 	},
 };
