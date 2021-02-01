@@ -149,7 +149,7 @@ function renderDate() {
 
 
                 if (mainData.santoData.October[i]) {
-                    cells += `<a class='a-date' href="../Dia-October/Dia-` + i + `.html">` + i + `</a>`;
+                    cells += `<a class='a-date' href="${host}/Dia-de-santo/Dia-October/Dia-` + i + `.html">` + i + `</a>`;
 
                 } else {
                     cells += `<a class='a-date' style="color:#bbbbbb !important">` + i + `</a>`;
