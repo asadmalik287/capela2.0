@@ -103,7 +103,25 @@ function renderDate() {
                     `.html">` +
                     i +
                     `</a>`;
-            } else {
+            }else if (months[dt.getMonth()] == "Janeiro") {
+                // console.log(months[dt.getMonth()]);
+                cells +=
+                    `<a class='a-date' href="../january/` +
+                    i +
+                    `.html">` +
+                    i +
+                    `</a>`;
+            }
+            // else if (months[dt.getMonth()] == "Fevereiro") {
+            //     // console.log(months[dt.getMonth()]);
+            //     cells +=
+            //         `<a class='a-date' href="../february/` +
+            //         i +
+            //         `.html">` +
+            //         i +
+            //         `</a>`;
+            // }
+             else {
                 cells += `<a class='a-date'>` + i + `</a>`;
             }
         }

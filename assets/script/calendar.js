@@ -96,7 +96,7 @@ function renderDate() {
 
 
             })
-            if (months[dt.getMonth()] == 'Janeiro') {
+            if (months[dt.getMonth()] == 'Fevereiro') {
                 console.log('From Calendar--------------')
                 console.log(months[dt.getMonth()]);
                 console.log('From Calendar--------------')
@@ -108,8 +108,8 @@ function renderDate() {
                     }, 2000)
                     check = 1;
                 }
-                if (mainData.santoData.January[i]) {
-                    cells += `<a class='a-date' href="${host}/Dia-de-santo/Dia-January/Dia-` + i + `.html">` + i + `</a>`;
+                if (mainData.santoData.February[i]) {
+                    cells += `<a class='a-date' href="${host}/Dia-de-santo/Dia-February/Dia-` + i + `.html">` + i + `</a>`;
                 } else {
                     cells += `<a class='a-date' style="color:#bbbbbb !important">` + i + `</a>`;
                 }
