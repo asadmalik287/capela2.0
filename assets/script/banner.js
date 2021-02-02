@@ -1050,6 +1050,228 @@ let february = {
 
 
 }
+let march = {
+    1:{
+        heading: 'Pela Paz no mundo',
+        details: 'Senhor, Deus da paz, da justiça e do amor, limpe dos nossos corações a indiferença, ódio e a guerra. Ensina-nos a amar e promover a paz na família, no trabalho, nos ambientes de lazer.',
+        image: 'BANNER_253_320px_MUNDO',
+        footer: 'MUNDO'
+    },
+
+    2: {
+        heading: 'Pelo fim da violência',
+        details: 'Que o lar seja um ambiente de segurança e conforto onde cada membro é respeitado como criatura de Deus. Oremos pelo fim da violência doméstica e a libertação dos traumas emocionais.',
+        image: 'BANNER_253_320px_AMERICA',
+        footer: 'AMÉRICA'
+    },
+
+    3: {
+        heading: 'Para que Jesus seja manifestado a todos os povos',
+        details: 'Senhor, faça de nós missionários, começando em nossos lares e onde estivermos. Que o Senhor Jesus seja cada vez mais conhecido, amado e glorificado por todos os povos.',
+        image: 'BANNER_253_320px_ASIA',
+        footer: 'ASIA'
+    },
+
+    4: {
+        heading: 'Pelo Cuidado da nossa Casa Comum',
+        details: 'Supremo criador dos céus e da Terra, pedimos, ensinai-nos a descobrir o valor de cada coisa e a contemplar as obras de suas mãos comprometendo-nos a cuidar do nosso planeta.',
+        image: 'BANNER_253_320px_OCEANIA',
+        footer: 'OCEANIA'
+    },
+
+    5: {
+        heading: 'Pelo fim da pandemia',
+        details: 'Senhor, ajuda-nos a recuperar a paixão compartilhada por uma comunidade de pertença e solidariedade, à qual saibamos destinar tempo, esforço e bens para o cuidado de todo ser humano.',
+        image: 'BANNER_253_320px_AFRICA',
+        footer: 'ÁFRICA'
+    },
+
+    6: {
+        heading: 'Pela Amazônia',
+        details: 'Que haja empenho nos cuidados das nossas florestas, políticas que protejam a vida dos povos indígenas, ribeirinhos e todo o povo que depende das águas e das matas.',
+        image: 'BANNER_253_320px_AMERICA',
+        footer: 'AMÉRICA'
+    },
+
+    7: {
+        heading: 'Líderes de Governo',
+        details: 'Conscientes do chamado de Deus e da confiança do povo, que os governantes exerçam  a missão com o compromisso e honestidade, atendendo os mais fragilizados.',
+        image: 'BANNER_253_320px_MUNDO',
+        footer: 'MUNDO'
+    },
+
+    8:{
+        heading: 'Pela Mulher',
+        details: 'Que as mulheres do mundo sejam amadas, valorizadas e reconhecidas por seu impotante papel social. Que cada mulher encontre a verdadeira alegria e a paz de serem filhas do Rei.',
+        image: 'BANNER_253_320px_ASIA',
+        footer: 'ASIA'
+    },
+
+    9: {
+        heading: 'Pelo Brasil',
+        details: 'Que Deus ilumine e abençoe todo o nosso país, sobretudo nesse momento difícil de apreensão na econômia, política, ética acompanhada de violência e desesperança.',
+        image: 'BANNER_253_320px_AMERICA',
+        footer: 'AMÉRICA'
+    },
+
+    10: {
+        heading: 'Pelos Profissionais da Saúde',
+        details: 'Agradecemos pelos profissionais que se esmeram nos cuidados das pessoas acometidas pelo Covid19. Pedimos que o Senhor os retribua com as mais ricas bençãos: Sua graça e Seu amor!',
+        image: 'BANNER_253_320px_MUNDO',
+        footer: 'MUNDO'
+    },
+
+    11: {
+        heading: 'Pela Preservação do meio ambiente',
+        details: 'Que os povos saibam cuidar do meio ambiente, economizar água e energia, reciclar lixo, descartar materiais não biodegradáveis e tudo o que possa  prejudicar a vida na Terra.',
+        image: 'BANNER_253_320px_EUROPA',
+        footer: 'EUROPA'
+    },
+
+    12: {
+        heading: 'Pelas pessoas que se recomendaram às nossas orações',
+        details: 'Apresentamos ao Senhor todas as pessoas que se recomendaram às nossas orações, para que sejam acolhidas em suas necessidades, anseios e encontrem respostas para suas dúvidas e buscas.',
+        image: 'BANNER_253_320px_AMERICA',
+        footer: 'AMÉRICA'
+    },
+
+    13: {
+        heading: 'Pela Igreja',
+        details: 'Os cristãos, nos diversos países, se reconheçam irmãos e irmãs, dispostos a acolher outros povos, construir paz e concórdia, irradiar alegria e esperança no convívio intercultural.',
+        image: 'BANNER_253_320px_MUNDO',
+        footer: 'MUNDO'
+    },
+
+    14: {
+        heading: 'Pela Solidariedade',
+        details: 'Deus Pai, ajude o povo da Ásia a ser disponível e acolhedor, capazes de firmar laços de solidariedade mundial, buscando o interesse mútuo com justiça e faternidade.',
+        image: 'BANNER_253_320px_ASIA',
+        footer: 'ASIA'
+    },
+
+    15: {
+        heading: 'Pelas Congregações fundadas por Santo Arnaldo Janssen',
+        details: 'Rezemos nas intenções das três Congregações Missionárias (MSSpS, SVD e MSSpSAP) da família Arnaldina que celebram, hoje, o dia do seu fundador, Santo Arnaldo Janssen.',
+        image: 'BANNER_253_320px_OCEANIA',
+        footer: 'OCEANIA'
+    },
+
+    16: {
+        heading: 'Pela vida consagrada',
+        details: 'Agradeçamos a Deus pela missão profética de tantas religiosas e religiosos que dedicam suas vidas a Deus servindo os mais necessitados. Que haja sempre mais vocações à vida consagrada.',
+        image: 'BANNER_253_320px_MUNDO',
+        footer: 'MUNDO'
+    },
+
+    17: {
+        heading: 'Pela Paz',
+        details: 'Para os povos do mundo inteiro, em particular os que vivem nas regiões de conflito e violência. Venha conduzir-nos nos caminhos de tolerância, diálogo e paz.',
+        image: 'BANNER_253_320px_AMERICA',
+        footer: 'AMÉRICA'
+    },
+
+    18: {
+        heading: 'Pelas Crianças',
+        details: 'Abençoai Senhor, as crianças do Brasil e do mundo inteiro, para que, protegidas de toda espécie de mal, sejam respeitadas e amadas como Jesus as amou.',
+        image: 'BANNER_253_320px_AFRICA',
+        footer: 'ÁFRICA'
+    },
+
+    19: {
+        heading: 'Pela Solidariedade',
+        details: 'Que o sentimento de gratidão e o altruísmo, estejam nos corações das pessoas, contribuindo para a eliminação dos males sociais: doença, pobreza e conflito.',
+        image: 'BANNER_253_320px_MUNDO',
+        footer: 'MUNDO'
+    },
+    20: {
+        heading: 'Pelos Jovens',
+        details: 'Em favor dos jovens africanos para que tenham acesso à educação e ao trabalho no seu próprio país, conseguindo desenvolver sua autonomia e viver com dignidade.',
+        image: 'BANNER_253_320px_AMERICA',
+        footer: 'AMÉRICA'
+    },
+
+    21:{
+        heading: 'Pelos pobres e marginalizados',
+        details: 'Por todos os que vivem em sofrimento e provação, especialmente os pobres e marginalizados, para que encontrem acolhimento e conforto nas comunidades.',
+        image: 'BANNER_253_320px_ASIA',
+        footer: 'ASIA'
+    },
+
+    
+    21: {
+        heading: 'Pelos afetados pelo novo coronavírus',
+        details: 'Oremos por todas as pessoas afetadas pelo novo coronavírus, entre elas os profissionais da saúde e os de outros serviços essenciais. Que o Senhor lhes conceda saúde, paz e proteção.',
+        image: 'BANNER_253_320px_MUNDO',
+        footer: 'MUNDO'
+    },
+
+    22:{
+        heading: 'Pelo acesso ao conhecimento',
+        details: 'A falta de informação e conhecimento é uma forma de injustiça social. Rezemos para que, todos tenham acesso a educação e possa se desenvolver física, mental e espiritualmente.',
+        image: 'BANNER_253_320px_AFRICA',
+        footer: 'ÁFRICA'
+    },
+
+    23: {
+        heading: 'Violência doméstica',
+        details: 'Que o lar seja sinônimo de conforto e segurança e conforto, onde não há medo, incerteza e hostilidade. Abençoe, Senhor às famílias e que em cada lar reine o amor!',
+        image: 'BANNER_253_320px_EUROPA',
+        footer: 'EUROPA'
+    },
+
+    24: {
+        heading: 'Por justiça e paz',
+        details: 'Senhor, nosso Justo Juiz, olhai para  os injustiçados, e atendei seus filhos nos momentos de angústia e de falta de compreensão. Conceda-nos a Tua paz!',
+        image: 'BANNER_253_320px_MUNDO',
+        footer: 'MUNDO'
+    },
+
+    25: {
+        heading: 'Saude Mental',
+        details: 'Visite, Senhor, aqueles que sofrem no silêncio: depressão, ansiedade e estresse e acham que a vida não tem mais valor. Busquemos a cura físca e mental que o Senhor pode nos oferecer.',
+        image: 'BANNER_253_320px_OCEANIA',
+        footer: 'OCEANIA'
+    },
+    
+    26: {
+        heading: 'Pelos desabrigados',
+        details: 'Rezemos pelos desabrigados, moradores de rua, para que essa condição de vida seja temporária e passageira. Usa-nos como instrumentos para servir o nosso o próximo em suas necessidades.',
+        image: 'BANNER_253_320px_AMERICA',
+        footer: 'AMÉRICA'
+    },
+
+    27:{
+        heading: 'Vida sustentável',
+        details: 'Oremos pela conscientização dos problemas ambientais, pelas iciciativas e projetos em favor do meio ambiente, pela busca de uma vida  sustentável em harmonia com o bem estar do planeta.',
+        image: 'BANNER_253_320px_EUROPA',
+        footer: 'EUROPA'
+    },
+    28: {
+        heading: 'Fim da fome',
+        details: 'A falta de emprego e falta de auxílio compõem a fórmula que leva à situação de extrema pobreza. Lembremo-nos das milhares de pessoas que perecem pela falta de alimento.',
+        image: 'BANNER_253_320px_AFRICA',
+        footer: 'ÁFRICA'
+    },
+    29: {
+        heading: 'Luto',
+        details: 'Pessoas perdem a vida todos os dias deixando amigos, amores e familiares. Rezemos por estes, que sofrem pelo luto, para que sejam consolados pelo Santo Espírito.',
+        image: 'BANNER_253_320px_ASIA',
+        footer: 'ASIA'
+    },
+
+    30: {
+        heading: 'Pelo fim da crise mundial',
+        details: 'Pela crise política, social e ambiental que se alastra pelo mundo resultando em grande número de pessoas em situação de vulnerabilidade pela falta falta de oportunidade de emprego.',
+        image: 'BANNER_253_320px_MUNDO',
+        footer: 'MUNDO'
+    },
+    31: {
+        heading: 'Por aqueles que sofrem com vícios.',
+        details: 'O álcool, as drogas, os jogos de azar e a pornografia corrompem o equilíbrio da vida. Rezemos por todos os que sofrem desse mal, para que encontrem a libertação.',
+        image: 'BANNER_253_320px_AMERICA',
+        footer: 'AMÉRICA'
+    },
+}
 
 
 
