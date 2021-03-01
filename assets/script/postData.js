@@ -1111,6 +1111,44 @@ let mainData = {
 				route: host + "/oracoes-missionarias/January/28.html",
 			},
 		},
+		March: {
+			4: {
+				img:
+					host +
+					"/assets/img/oracoes-missionarias/March/04_Março_2021__Rasgar o coraçõ__ img_Orações Miss.jpg",
+				title: "RASGAR O CORAÇÃO",
+				details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
+				date: "04 de Março de 2021",
+				route: host + "/oracoes-missionarias/March/4.html",
+			},
+			11: {
+				img:
+					host +
+					"/assets/img/oracoes-missionarias/March/11_Março_2021_Img_Oração antes de uma atividade missionária_Orações Missionária_.jpg",
+				title: "Oração antes de uma atividade missionária",
+				details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
+				date: "11 de Março de 2021",
+				route: host + "/oracoes-missionarias/March/11.html",
+			},
+			18: {
+				img:
+					host +
+					"/assets/img/oracoes-missionarias/March/18_Março_2021_São José_Img_Orações Mis.jpg",
+				title: "Oração a São José",
+				details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
+				date: "18 de Março de 2021",
+				route: host + "/oracoes-missionarias/March/18.html",
+			},
+			25: {
+				img:
+					host +
+					"/assets/img/oracoes-missionarias/March/25_Março_2021_Capela Missionária_Orações Missionárias.jpg",
+				title: "Oração para a Quaresma",
+				details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
+				date: "25 de Março de 2021",
+				route: host + "/oracoes-missionarias/March/25.html",
+			},
+		},
 	},
 	vocoesData: {
 		September: {
@@ -1327,6 +1365,16 @@ let mainData = {
 				video: true,
 			},
 		},
+		March: {
+			6: {
+				img:host +"/assets/img/Vocacoes/March/06_Março_2021_Nilva Moro.jpeg",
+				title: "Margareta Messner - Madre Theresia Messner, SSpS",
+				details: `                                    Margareta esperou ansiosamente pelo dia em que seria admitida ao Noviciado. A admissão ao noviciado foi celebrada em 17 de janeiro de 1892. Nesse dia Margareta Messner recebeu o nome de Irmã Theresia, como seria chamada a partir de agora.`,
+				date: "06 de Março de 2021",
+				route: host + "/Vocaoes/March/6.html",
+				video: false,
+			},
+		},
 	},
 	espirtualData: {
 		September: {
@@ -1518,6 +1566,51 @@ let mainData = {
                 desabar a qualquer momento.`,
 				date: "24 de Janeiro de 2021",
 				route: host + "/Espiritualidade/January/24.html",
+			},
+		},
+		March: {
+			7: {
+				img:host +"/assets/img/Espiritualidade/March/07_Março_Espiritualidade Missionária-foto.jpg",
+				title: "Papa Francisco afirma",
+				details: `A dimensão espiritual está profundamente vinculada à missão. Mas o que é missão? Deus
+				é MISSÃO. E em Deus somos missão. O Papa Francisco afirma: "a vida é uma missão.
+				Todo homem e toda mulher é uma missão, e esta é a razão pela qual se encontra a
+				viver na terra. Ser atraídos e ser enviados são dois movimentos que o nosso coração
+				sente..."Eu sou sempre uma missão; tu és sempre uma missão, cada batizada e batizado
+				é uma missão". “Cada um de nós é chamado a refletir sobre esta realidade: 'eu sou
+				uma missão nesta terra e para isto estou neste mundo.”`,
+				date: "07 de Março de 2021",
+				route: host + "/Espiritualidade/March/7.html",
+			},
+
+			14: {
+				img:
+					host +
+					"/assets/img/Espiritualidade/March/14_Março_Centro de Irradiação Missionária_foto.jpg",
+				title: "Centro de Irradiação Missionária",
+				details: `Muitas pessoas conhecem apenas o nome do Convento Espírito Santo, no Bairro Uvaranas, e sabem onde se localiza. Sabem ou vêem que é um casarão rodeado de um bonito jardim, e um terreno cultivado com hortaliças, frutas, etc.`,
+				date: "14 de Março de 2021",
+				route: host + "/Espiritualidade/March/14.html",
+			},
+
+			21: {
+				img:
+					host +
+					"/assets/img/Espiritualidade/March/21_Março_2021_Espiritualidade Missionária_foto.png",
+				title: "Quaresma: convocados a sermos melhores",
+				details: `Entramos no chamado ciclo litúrgico da Páscoa, que começa com o Tempo da Quaresma. É um período muito importante para nossa caminhada cristã, pois essa espécie de retiro favorece, em última instância, uma profícua celebração da ressurreição de Jesus.`,
+				date: "21 de Março de 2021",
+				route: host + "/Espiritualidade/March/21.html",
+			},
+
+			28: {
+				img:
+					host +
+					"/assets/img/Espiritualidade/March/28_Marco_2021_ Img Capa _Espiritualidade Missionária.jpg",
+				title: "Campanha da Fraternidade Ecumênica: um convite ao diálogo",
+				details: `No dia 17 de fevereiro, Quarta-Feira de Cinzas, teremos o início da quinta Campanha da Fraternidade Ecumênica (CFE) no Brasil. Em 2021, o tema é “Fraternidade e diálogo: compromisso de amor”, e o lema, “Cristo é nossa paz: do que era dividido, fez unidade” (Ef 2,14a). A própria organização desta campanha já é um testemunho daquilo a que ela se propõe, uma vez que foi realizada por seis igrejas cristãs, membros do Conselho Nacional de Igrejas Cristãs do Brasil, além da Igreja Betesda de São Paulo e o Ceseep (Centro Ecumênico de Serviços à Evangelização e à Educação Popular).`,
+				date: "28 de Março de 2021",
+				route: host + "/Espiritualidade/March/28.html",
 			},
 		},
 	},
@@ -3044,6 +3137,65 @@ let mainData = {
 				route: host + "/leitura-orante/january/31a.html",
 			},
 		},
+		March: {
+			1: {
+				img: host + "/assets/img/leitura/leitura-img-march/01_Março_2021_Leitura Orante.jpg",
+				title: "Segunda-feira 2ª Semana da Quaresma",
+				details:"Deus, que, para remédio e salvação nossa, nos ordenais a prática da mortificação, concedei-nos que possamos evitar todo pecado e cumprir de coração os mandamentos do vosso amor. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "01 de Março de 2021",
+				route: host + "/leitura-orante/march/1a.html",
+			},
+
+			2: {
+				img: host + "/assets/img/leitura/leitura-img-march/02_Março_2021_Leitura Orante.jpg",
+				title: "Terça-feira 2ª Semana da Quaresma",
+				details:"Guardai, Senhor Deus, a vossa Igreja com a vossa constante proteção e, como a fraqueza humana desfalece sem o vosso auxílio, livrai-nos constantemente do mal e conduzi-nos pelos caminhos da salvação. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "02 de Março de 2021",
+				route: host + "/leitura-orante/march/2a.html",
+			},
+
+			3: {
+				img: host + "/assets/img/leitura/leitura-img-march/03_Março_2021_Leitura Orante.jpg",
+				title: "Quarta-feira 2ª Semana da Quaresma",
+				details:"Ó Deus, conservai constantemente vossa família na prática das boas obras e, assim como nos confortais agora  com vossos auxílios, conduzi-nos aos bens eternos. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "03 de Março de 2021",
+				route: host + "/leitura-orante/march/3a.html",
+			},
+
+			4: {
+				img: host + "/assets/img/leitura/leitura-img-march/04_Março_2021_Leitura Orante.jpg",
+				title: "Quinta-feira 2ª Semana da Quaresma",
+				details:"Ó Deus, que amais e restaurais a inocência, orientais para vós os corações dos vossos filhos e filhas, para que, renovados pelo vosso Espírito, sejamos firmes na fé e eficientes nas obras. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "04 de Março de 2021",
+				route: host + "/leitura-orante/march/4a.html",
+			},
+
+			5: {
+				img: host + "/assets/img/leitura/leitura-img-march/05_Março_2021_Leitura Orante.jpg",
+				title: "Sexta-feira  2ª Semana da Quaresma",
+				details:"Concedei-nos, ó Deus, todo-poderoso, que, purificados pelo esforço da penitência, cheguemos de coração sincero às festas da Páscoa, que se aproximam. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.					",
+				date: "05 de Março de 2021",
+				route: host + "/leitura-orante/march/5a.html",
+			},
+
+			6: {
+				img: host + "/assets/img/leitura/leitura-img-march/06_Março_2021_Leitura Orante.jpg",
+				title: "Sábado 2ª Semana da Quaresma",
+				details:"Ó Deus, que, pelos exercícios da Quaresma, já nos dais na terra participar dos bens do céu, guiai-nos de tal modo nesta vida, que possamos chegar à luz em que habitais. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "06 de Março de 2021",
+				route: host + "/leitura-orante/march/6a.html",
+			},
+
+			7: {
+				img: host + "/assets/img/leitura/leitura-img-march/07_Março_2021_Leitura Orante.jpg",
+				title: "Domingo 3º Domingo da Quaresma",
+				details:"                                    Ó Deus, fonte de toda misericórdia e de toda bondade, vós nos indicastes o jejum, a esmola e a oração como remédio contra o pecado. Acolhei esta confissão da nossa fraqueza para que, humilhados pela consciência de nossas faltas, sejamos confortados pela vossa misericórdia. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "07 de Março de 2021",
+				route: host + "/leitura-orante/march/7a.html",
+			},
+
+
+		},
 	},
 
 	missaoData: {
@@ -3239,6 +3391,26 @@ let mainData = {
 				route: host + "/Missao/February/23.html",
 				video: true,
 			},
+			
+		},
+		February: {
+			2: {
+				img:host +"/assets/img/Missao/March/02_Março_2021_Foto_Vídeo_Missão.png",
+				title: "Centro de Integração do Migrante ",
+				details: `O nono episódio da websérie das Missionárias mostra a realidade da vida dos migrantes que chegam ao Brasil e como o Centro de Integração do Migrante tem ajudado esses migrantes a se reintegrarem na sociedade de forma digna.`,
+				date: "02 de Março de 2021",
+				route: host + "/Missao/March/2.html",
+				video: false,
+			},
+			9: {
+				img:host +"/assets/img/Missao/March/09_Março_2021_foto Capa _Missão_png.png",
+				title: "A pandemia na perspectiva de uma comunidade de idosas",
+				details: `                                                        Vivendo nesta época da pandemia, cada pessoa tem uma história para contar às gerações futuras sobre a pandemia causada pelo novo coronavírus, que transformou a vida comum em um “novo normal”. Santana é uma comunidade de missionárias servas do Espírito Santo já idosas. São vinte irmãs, algumas acamadas, outras na cadeira de rodas, outras andando com a ajuda de bengala. Todas têm muito para contar.`,
+				date: "09 de Março de 2021",
+				route: host + "/Missao/March/9.html",
+				video: true,
+			},
+		
 			
 		},
 	},
