@@ -1111,6 +1111,44 @@ let mainData = {
 				route: host + "/oracoes-missionarias/January/28.html",
 			},
 		},
+		February: {
+			4: {
+				img:
+					host +
+					"/assets/img/oracoes-missionarias/February/04_Fevereiro_2021_Capela_Orações Miss.jpg",
+				title: "CompaixãoPorManaus",
+				details: `Algumas estações da Via Sacra em Solidariedade ao Povo de Manaus e todos os que sofrem pela pandemia de Covid 19.`,
+				date: "04 de Fevereiro de 2021",
+				route: host + "/oracoes-missionarias/February/4.html",
+			},
+			11: {
+				img:
+					host +
+					"/assets/img/oracoes-missionarias/February/11_Fevereiro_2021_Capela_  Orações Miss_.jpg",
+				title: "ORAÇÃO DA FRATERNIDADE",
+				details: ` Senhor, eu te peço que nos conheçamos sempre melhor em nossas aspirações e nos compreendamos mais em nossas limitações. `,
+				date: "11 de Fevereiro de 2021",
+				route: host + "/oracoes-missionarias/February/11.html",
+			},
+			18: {
+				img:
+					host +
+					"/assets/img/oracoes-missionarias/February/18_Fevereiro_2021_Capela_Orações Mis.jpg",
+				title: "Oração aos nossos Santos e Santas",
+				details: `   Deus, Pai de amor, Vós chamastes Arnaldo e José a seguir o vosso Filho, o Verbo Divino, para proclamar o Evangelho a todos os povos. `,
+				date: "18 de Fevereiro de 2021",
+				route: host + "/oracoes-missionarias/February/18.html",
+			},
+			25: {
+				img:
+					host +
+					"/assets/img/oracoes-missionarias/February/25_Fevereiro_2021_Capela Missionária_Orações Missionárias.jpg",
+				title: "Oração para a Quaresma",
+				details: `Senhor, neste sagrado itinerário quaresmal, concedei-nos o dom da oração no Espírito, que, em nossa limitação, sabe corretamente como vos louvar.`,
+				date: "25 de Fevereiro de 2021",
+				route: host + "/oracoes-missionarias/February/25.html",
+			},
+		},
 		March: {
 			4: {
 				img:
@@ -1301,7 +1339,6 @@ let mainData = {
 				video: true,
 			},
 		},
-
 		January: {
 			2: {
 				img:
@@ -1347,6 +1384,14 @@ let mainData = {
 				date: "06 de Fevereiro de 2021",
 				route: host + "/Vocaoes/February/6.html",
 				video: false,
+			},
+			13: {
+				img:host +"/assets/img/Vocacoes/February/13_Fevereiro_2021_Video_Vocacional.jpg",
+				title: "Irmã Roselene Ventura natural de Urupá – Rondônia, celebrou sua profissão perpétua em dezembro de 2020 nos fala de sua experiência vocacional e missionária.",
+				details: ``,
+				date: "13 de Fevereiro de 2021",
+				route: host + "/Vocaoes/February/13.html",
+				video: true,
 			},
 			20: {
 				img:host +"/assets/img/Vocacoes/February/20_Fevereiro_2021_Foto da Capa_Vocacional.jpg",
@@ -1590,6 +1635,37 @@ let mainData = {
                 desabar a qualquer momento.`,
 				date: "24 de Janeiro de 2021",
 				route: host + "/Espiritualidade/January/24.html",
+			},
+		},
+		February: {
+			14: {
+				img:
+					host +
+					"/assets/img/Espiritualidade/February/14_Fevereiro_2021_Espiritualidade_foto.jpg",
+				title: "",
+				details: `ESPIRITUALIDADE, o que significa? A palavra ESPIRITUALIDADE é recente. É uma palavra nova. Surgiu no séc. XVII, escrita em francês: “SPIRITUALITÊ”. Na língua portuguesa foi usada a partir do séc. XVIII. São Francisco, Santo Inácio de Loyola , Santa Teresa D´Avila e tantas/os santas/os e, mesmo Jesus nunca a pronunciaram.  Foi introduzida nas Faculdades de Teologia somente em 1938. O Papa Pio XI  a inseriu nos currículos. O termo espiritualidade é um dos termos mais novos da língua latina. Se a palavra ESPIRITUALIDADE é nova, sua raiz “SPIRITUS” é antiga, existia há 500 a.C. “Spiritus” se traduz para o português Espírito. A palavra SPIRITUS (latim) quer traduzir o termo PNEUMA (grego) que, se propõe a traduzir os termos “NEFESH/RUAH” (em aramaico/hebraico). “O termo NEFESH significa pescoço e RUAH sopro, ar, inspiração ”. `,
+				date: "14 de Fevereiro de 2021",
+				route: host + "/Espiritualidade/February/14.html",
+			},
+
+			21: {
+				img:
+					host +
+					"/assets/img/Espiritualidade/February/21_Fevereiro_2021__Espiritualidade_Foto_.jpg",
+				title: "Carlo Acutis: a surpresa de Deus para nosso tempo",
+				details: `Deus é especialista em surpreender e desatar as “certezas” de nossa lógica humana. Um adolescente cristão tornou-se mais um farol a iluminar este difícil início de milênio. No dia 10 de outubro, foi beatificado, na emblemática Basílica de São Francisco, em Assis, Itália, Carlo Acutis.`,
+				date: "21 de Fevereiro de 2021",
+				route: host + "/Espiritualidade/February/21.html",
+			},
+
+			28: {
+				img:
+					host +
+					"/assets/img/Espiritualidade/February/28_Fevereiro_2021_Espiritualidade_Foto.jpg",
+				title: "O silêncio na espiritualidade cristã e o tempo da Quaresma ",
+				details: `Na Quaresma, a Igreja convida a um mergulho no mistério de nossa vida, fé, vocação e missão. As celebrações quaresmais nos motivam a uma sincera conversão. Jesus Cristo costumava retirar-se para rezar e propunha, com palavras e exemplo, o exercício do silêncio. Cultivou e ensinou aos discípulos a experiência do silêncio na vida pessoal e pastoral.`,
+				date: "28 de Fevereiro de 2021",
+				route: host + "/Espiritualidade/February/28.html",
 			},
 		},
 		March: {
@@ -3452,7 +3528,7 @@ let mainData = {
 			},
 			
 		},
-		February: {
+		March: {
 			2: {
 				img:host +"/assets/img/Missao/March/02_Março_2021_Foto_Vídeo_Missão.png",
 				title: "Centro de Integração do Migrante ",
