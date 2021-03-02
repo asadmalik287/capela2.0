@@ -3239,7 +3239,7 @@ let mainData = {
 		},
 		February: {
 			1: {
-				img: host + "/assets/img/leitura/feb/01_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/01_Fevereiro_2021_Leitura orante .jpg",
 				title: "Segunda-feira",
 				details:
 					"Concedei-nos, Senhor nosso Deus, adorar-vos de todo coração e amar todas as pessoas com verdadeira caridade. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
@@ -3248,7 +3248,7 @@ let mainData = {
 			},
 
 			2: {
-				img: host + "/assets/img/leitura/feb/02_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/02_Fevereiro_2021_Leitura orante .jpg",
 				title: "Terça-feira",
 				details:
 					" Deus eterno e todo-poderoso, ouvi as nossas súplicas. Assim como o vosso Filho único, revestido da nossa humanidade, foi hoje apresentado no templo, fazei que nos apresentemos diante de vós com os corações purificados. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
@@ -3257,7 +3257,7 @@ let mainData = {
 			},
 
 			3: {
-				img: host + "/assets/img/leitura/feb/03_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/03_Fevereiro_2021_Leitura orante .jpg",
 				title: "Quarta-feira",
 				details:
 					"Ouvi, Ó Deus, as preces do vosso povo, confiado no patrocínio de São Brás; conceda - nos a paz neste mundo e a graças de chegar à vida eterna. Por nosso senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
@@ -3266,7 +3266,7 @@ let mainData = {
 			},
 
 			4: {
-				img: host + "/assets/img/leitura/feb/04_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/04_Fevereiro_2021_Leitura orante .jpg",
 				title: "Quinta-feira",
 				details:
 					"Concedei-nos, Senhor nosso Deus, adorar-vos de todo coração e amar todas as pessoas com verdadeira caridade. Por  Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
@@ -3275,7 +3275,7 @@ let mainData = {
 			},
 
 			5: {
-				img: host + "/assets/img/leitura/feb/05_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/05_Fevereiro_2021_Leitura orante .jpg",
 				title: "Sexta-feira",
 				details:
 					"Ó Deus, que Santa Águeda, virgem e mártir, agradável ao vosso coração pelo mérito da castidade e pela força do martírio, implore vosso perdão em nosso favor. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
@@ -3284,7 +3284,7 @@ let mainData = {
 			},
 
 			6: {
-				img: host + "/assets/img/leitura/feb/06_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/06_Fevereiro_2021_Leitura orante .jpg",
 				title: "Sábado",
 				details:
 					"Ó Deus, força dos santos, que em Nagasaki chamastes à verdadeira vida São Paulo Miki e seus companheiros pelo martírio da cruz, concedei-nos, por sua intercessão, perseverar até a morte na fé que professamos. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
@@ -3293,7 +3293,7 @@ let mainData = {
 			},
 
 			7: {
-				img: host + "/assets/img/leitura/feb/07_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/07_Fevereiro_2021_Leitura orante .jpg",
 				title: "Domingo",
 				details:
 					" Velai, ó Deus, sobre a vossa família com incansável amor; e como só confiamos na vossa graça, guardai-nos sob a vossa proteção. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -3302,7 +3302,7 @@ let mainData = {
 			},
 
 			8: {
-				img: host + "/assets/img/leitura/feb/08_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/08_Fevereiro_2021_Leitura orante .jpg",
 				title: "Segunda-feira",
 				details:
 					"Velai, ó Deus, sobre a vossa família com incansável amor; e como só confiamos na vossa graça, guardai-nos sob a vossa proteção. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -3311,7 +3311,7 @@ let mainData = {
 			},
 
 			9: {
-				img: host + "/assets/img/leitura/feb/09_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/09_Fevereiro_2021_Leitura orante .jpg",
 				title: "Terça-feira",
 				details:
 					" Velai, ó Deus, sobre a vossa família com incansável amor; e como só confiamos na vossa graça, guardai-nos sob a vossa proteção. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -3320,7 +3320,7 @@ let mainData = {
 			},
 
 			10: {
-				img: host + "/assets/img/leitura/feb/10_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/10_Fevereiro_2021_Leitura orante .jpg",
 				title: "Quarta-feira",
 				details:
 					" Celebrando a festa de Santa Escolástica, nós vos pedimos, ó Deus, a graça de imitá-la, servindo-vos com caridade perfeita e alegrando-nos com os sinais do vosso amor. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
@@ -3329,7 +3329,7 @@ let mainData = {
 			},
 
 			11: {
-				img: host + "/assets/img/leitura/feb/11_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/11_Fevereiro_2021_Leitura orante .jpg",
 				title: "Quinta-feira",
 				details:
 					"Velai, ó Deus, sobre a vossa família com incansável amor; e como só confiamos na vossa graça, guardai-nos sob a vossa proteção. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -3338,7 +3338,7 @@ let mainData = {
 			},
 
 			12: {
-				img: host + "/assets/img/leitura/feb/12_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/12_Fevereiro_2021_Leitura orante .jpg",
 				title: "Sexta-feira",
 				details:
 					" Velai, ó Deus, sobre a vossa família com incansável amor; e como só confiamos na vossa graça, guardai-nos sob a vossa proteção. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -3347,7 +3347,7 @@ let mainData = {
 			},
 
 			13: {
-				img: host + "/assets/img/leitura/feb/13_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/13_Fevereiro_2021_Leitura orante .jpg",
 				title: "Sábado",
 				details:
 					" Velai, ó Deus, sobre a vossa família com incansável amor; e como só confiamos na vossa graça, guardai-nos sob a vossa proteção. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -3356,7 +3356,7 @@ let mainData = {
 			},
 
 			14: {
-				img: host + "/assets/img/leitura/feb/14_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/14_Fevereiro_2021_Leitura orante .jpg",
 				title: "Domingo",
 				details:
 					" Ó Deus, que constituístes o Cristo sumo e eterno sacerdote para vossa glória e salvação da humanidade, dai ao povo resgatado por seu sangue participar do memorial que nos deixou, obter a força de sua cruz e a glória da ressurreição. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
@@ -3365,7 +3365,7 @@ let mainData = {
 			},
 
 			15: {
-				img: host + "/assets/img/leitura/feb/15_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/15_Fevereiro_2021_Leitura orante .jpg",
 				title: "Segunda-feira",
 				details:
 					"Ó Deus, que prometestes permanecer nos corações sinceros e retos, dai-nos, por vossa graça, viver de tal modo, que possais habitar em nós. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -3374,7 +3374,7 @@ let mainData = {
 			},
 
 			16: {
-				img: host + "/assets/img/leitura/feb/16_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/16_Fevereiro_2021_Leitura orante .jpg",
 				title: "Terça-feira",
 				details:
 					"Ó Deus, que prometestes permanecer nos corações sinceros e retos, dai-nos, por vossa graça, viver de tal modo, que possais habitar em nós. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -3383,7 +3383,7 @@ let mainData = {
 			},
 
 			17: {
-				img: host + "/assets/img/leitura/feb/17_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/17_Fevereiro_2021_Leitura orante .jpg",
 				title: "Quarta-feira",
 				details:
 					"Concedei-nos, ó Deus todo-poderoso, iniciar com este dia de jejum o tempo da Quaresma, para que a penitência nos fortaleça no combate contra o espírito do mal.  Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -3392,7 +3392,7 @@ let mainData = {
 			},
 
 			18: {
-				img: host + "/assets/img/leitura/feb/18_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/18_Fevereiro_2021_Leitura orante .jpg",
 				title: "Quinta-feira",
 				details:
 					"Inspirai, ó Deus, as nossas ações e ajudai-nos a realizá-las, para que em vós comece e termine tudo aquilo que fizemos. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo",
@@ -3401,7 +3401,7 @@ let mainData = {
 			},
 
 			19: {
-				img: host + "/assets/img/leitura/feb/19_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/19_Fevereiro_2021_Leitura orante .jpg",
 				title: "Sexta-feira",
 				details:
 					"Ó Deus, Assisti com vossa bondade a penitência que iniciamos, para que vivamos interiormente as práticas externas da Quaresma. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -3410,7 +3410,7 @@ let mainData = {
 			},
 
 			20: {
-				img: host + "/assets/img/leitura/feb/20_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/20_Fevereiro_2021_Leitura orante .jpg",
 				title: "Sábado",
 				details:
 					"Ó Deus eterno e todo-poderoso, olhai com bondade a nossa fraqueza e estendei, para proteger-nos, a vossa mão poderosa. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -3419,7 +3419,7 @@ let mainData = {
 			},
 
 			21: {
-				img: host + "/assets/img/leitura/feb/21_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/21_Fevereiro_2021_Leitura orante .jpg",
 				title: "Domingo",
 				details:
 					" Concedei-nos, ó Deus onipotente, que, ao longo desta Quaresma, possamos progredir no conhecimento de Jesus Cristo e corresponder a seu amor por uma vida santa. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -3428,7 +3428,7 @@ let mainData = {
 			},
 
 			22: {
-				img: host + "/assets/img/leitura/feb/22_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/22_Fevereiro_2021_Leitura orante .jpg",
 				title: "Segunda-feira",
 				details:
 					"  Deus eterno e todo-poderoso, que governais o céu e a terra, escutai com bondade as preces do vosso povo e dai ao nosso tempo a vossa paz. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
@@ -3437,7 +3437,7 @@ let mainData = {
 			},
 
 			23: {
-				img: host + "/assets/img/leitura/feb/23_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/23_Fevereiro_2021_Leitura orante .jpg",
 				title: "Terça-feira",
 				details:
 					"Olhai, ó Deus, vossa família e fazei crescer no vosso amor aqueles que agora se mortificam pela penitência corporal. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -3446,7 +3446,7 @@ let mainData = {
 			},
 
 			24: {
-				img: host + "/assets/img/leitura/feb/24_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/24_Fevereiro_2021_Leitura orante .jpg",
 				title: "3ª Semana do Tempo Comum",
 				details:
 					"  Deus eterno e todo-poderoso, dirigi a nossa vida segundo o vosso amor, para que possamos, em nome do vosso Filho, frutificar em boas obras. Por Nosso Senhor Jesus Cristo, vosso filho, na unidade do Espírito Santo.",
@@ -3455,7 +3455,7 @@ let mainData = {
 			},
 
 			25: {
-				img: host + "/assets/img/leitura/feb/25_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/25_Fevereiro_2021_Leitura orante .jpg",
 				title: "Quarta-feira",
 				details:
 					" Dai-nos, ó Deus, pensar sempre o que é reto e realizá-lo com solicitude. E como só podemos existir em vós, fazei-nos viver segundo a vossa vontade. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -3464,7 +3464,7 @@ let mainData = {
 			},
 
 			26: {
-				img: host + "/assets/img/leitura/feb/26_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/26_Fevereiro_2021_Leitura orante .jpg",
 				title: "Sexta-feira",
 				details:
 					"Concedei, ó Deus, que vossos filhos e filhas se preparem dignamente para a festa da Páscoa, de modo que a mortificação desta Quaresma frutifique em todos nós. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -3473,7 +3473,7 @@ let mainData = {
 			},
 
 			27: {
-				img: host + "/assets/img/leitura/feb/27_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/27_Fevereiro_2021_Leitura orante .jpg",
 				title: "Sábado",
 				details:
 					"Convertei para vós, ó Pai, nossos corações, a fim de que, buscando sempre o único necessário e praticando as obras de caridade, nos dediquemos ao vosso culto. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
@@ -3482,7 +3482,7 @@ let mainData = {
 			},
 
 			28: {
-				img: host + "/assets/img/leitura/feb/28_Fevereiro_2021_Leitura Orante.jpg",
+				img: host + "/assets/img/leitura/feb/28_Fevereiro_2021_Leitura orante .jpg",
 				title: "Domingo",
 				details:
 					" Ó Deus, que nos mandastes ouvir o vosso Filho amado, alimentai nosso espírito com a vossa palavra, para que, purificado o olhar de nossa fé, nos alegremos com a visão da vossa glória. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
