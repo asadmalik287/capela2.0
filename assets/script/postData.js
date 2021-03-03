@@ -1111,6 +1111,82 @@ let mainData = {
 				route: host + "/oracoes-missionarias/January/28.html",
 			},
 		},
+		February: {
+			4: {
+				img:
+					host +
+					"/assets/img/oracoes-missionarias/February/04_Fevereiro_2021_Capela_Orações Miss.jpg",
+				title: "CompaixãoPorManaus",
+				details: `Algumas estações da Via Sacra em Solidariedade ao Povo de Manaus e todos os que sofrem pela pandemia de Covid 19.`,
+				date: "04 de Fevereiro de 2021",
+				route: host + "/oracoes-missionarias/February/4.html",
+			},
+			11: {
+				img:
+					host +
+					"/assets/img/oracoes-missionarias/February/11_Fevereiro_2021_Capela_  Orações Miss_.jpg",
+				title: "ORAÇÃO DA FRATERNIDADE",
+				details: ` Senhor, eu te peço que nos conheçamos sempre melhor em nossas aspirações e nos compreendamos mais em nossas limitações. `,
+				date: "11 de Fevereiro de 2021",
+				route: host + "/oracoes-missionarias/February/11.html",
+			},
+			18: {
+				img:
+					host +
+					"/assets/img/oracoes-missionarias/February/18_Fevereiro_2021_Capela_Orações Mis.jpg",
+				title: "Oração aos nossos Santos e Santas",
+				details: `   Deus, Pai de amor, Vós chamastes Arnaldo e José a seguir o vosso Filho, o Verbo Divino, para proclamar o Evangelho a todos os povos. `,
+				date: "18 de Fevereiro de 2021",
+				route: host + "/oracoes-missionarias/February/18.html",
+			},
+			25: {
+				img:
+					host +
+					"/assets/img/oracoes-missionarias/February/25_Fevereiro_2021_Capela Missionária_Orações Missionárias.jpg",
+				title: "Oração para a Quaresma",
+				details: `Senhor, neste sagrado itinerário quaresmal, concedei-nos o dom da oração no Espírito, que, em nossa limitação, sabe corretamente como vos louvar.`,
+				date: "25 de Fevereiro de 2021",
+				route: host + "/oracoes-missionarias/February/25.html",
+			},
+		},
+		March: {
+			4: {
+				img:
+					host +
+					"/assets/img/oracoes-missionarias/March/04_Março_2021__Rasgar o coraçõ__ img_Orações Miss.jpg",
+				title: "RASGAR O CORAÇÃO",
+				details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
+				date: "04 de Março de 2021",
+				route: host + "/oracoes-missionarias/March/4.html",
+			},
+			11: {
+				img:
+					host +
+					"/assets/img/oracoes-missionarias/March/11_Março_2021_Img_Oração antes de uma atividade missionária_Orações Missionária_.jpg",
+				title: "Oração antes de uma atividade missionária",
+				details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
+				date: "11 de Março de 2021",
+				route: host + "/oracoes-missionarias/March/11.html",
+			},
+			18: {
+				img:
+					host +
+					"/assets/img/oracoes-missionarias/March/18_Março_2021_São José_Img_Orações Mis.jpg",
+				title: "Oração a São José",
+				details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
+				date: "18 de Março de 2021",
+				route: host + "/oracoes-missionarias/March/18.html",
+			},
+			25: {
+				img:
+					host +
+					"/assets/img/oracoes-missionarias/March/25_Março_2021_Capela Missionária_Orações Missionárias.jpg",
+				title: "Oração para a Quaresma",
+				details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
+				date: "25 de Março de 2021",
+				route: host + "/oracoes-missionarias/March/25.html",
+			},
+		},
 	},
 	vocoesData: {
 		September: {
@@ -1263,7 +1339,6 @@ let mainData = {
 				video: true,
 			},
 		},
-
 		January: {
 			2: {
 				img:
@@ -1310,6 +1385,14 @@ let mainData = {
 				route: host + "/Vocaoes/February/6.html",
 				video: false,
 			},
+			13: {
+				img:host +"/assets/img/Vocacoes/February/13_Fevereiro_2021_Video_Vocacional.jpg",
+				title: "Irmã Roselene Ventura natural de Urupá – Rondônia, celebrou sua profissão perpétua em dezembro de 2020 nos fala de sua experiência vocacional e missionária.",
+				details: ``,
+				date: "13 de Fevereiro de 2021",
+				route: host + "/Vocaoes/February/13.html",
+				video: true,
+			},
 			20: {
 				img:host +"/assets/img/Vocacoes/February/20_Fevereiro_2021_Foto da Capa_Vocacional.jpg",
 				title: " Irmã Maria Raquel: missão entre os enfermos e o povo humilde",
@@ -1324,6 +1407,40 @@ let mainData = {
 				details: ``,
 				date: "27 de Fevereiro de 2021",
 				route: host + "/Vocaoes/February/27.html",
+				video: true,
+			},
+		},
+		March: {
+			6: {
+				img:host +"/assets/img/Vocacoes/March/06_Março_2021_Nilva Moro.jpeg",
+				title: "Margareta Messner - Madre Theresia Messner, SSpS",
+				details: `Margareta esperou ansiosamente pelo dia em que seria admitida ao Noviciado. A admissão ao noviciado foi celebrada em 17 de janeiro de 1892. Nesse dia Margareta Messner recebeu o nome de Irmã Theresia, como seria chamada a partir de agora.`,
+				date: "06 de Março de 2021",
+				route: host + "/Vocaoes/March/6.html",
+				video: false,
+			},
+			13: {
+				img:host +"/assets/img/Vocacoes/March/13_Março_2021_Theresia mesner.jpg",
+				title: "Madre Theresia Messner - Primeira Coordenadora Geral das SSpS",
+				details: `Theresia Messner foi uma mulher excepcionalmente dotada, para quem o chamado à vida missionária transformou-se em motivação decisiva para sua vida e suas atividades. Theresia, percebeu desde muito cedo, sua vida como uma graça, tendo renascida da Água e do Espírito Santo.`,
+				date: "13 de Março de 2021",
+				route: host + "/Vocaoes/March/13.html",
+				video: false,
+			},
+			20: {
+				img:host +"/assets/img/Vocacoes/March/20_Março_2021_ a foto .jpg",
+				title: "Irmã Crislaine: “Aqui estou, Senhor! Envia-me!”",
+				details: `Deus nos chama à vida e a viver com total plenitude esse dom maravilhoso que Ele nos deu. Poder doar essa vida para os demais, em comunhão com esse Pai cheio de amor, pela vocação religiosa, é um privilégio e uma graça. E é a respeito dessa vocação religiosa que venho contar-lhes um pouco.`,
+				date: "20 de Março de 2021",
+				route: host + "/Vocaoes/March/20.html",
+				video: false,
+			},
+			27: {
+				img:host +"/assets/img/Vocacoes/March/27_Março_2021_Foto Capa_Vocação.png",
+				title: "Comunidade Madre Maria - Belo Horizonte",
+				details: `Neste vídeo, conheça a Comunidade Madre Maria, em Belo Horizonte. Veja como esse grupo de irmãs, a maioria com mais de 80 anos, consegue viver a missão nas pequenas coisas de cada dia. Com alegria, elas testemunham que ser missionária não tem idade.`,
+				date: "27 de Março de 2021",
+				route: host + "/Vocaoes/March/27.html",
 				video: true,
 			},
 		},
@@ -1518,6 +1635,82 @@ let mainData = {
                 desabar a qualquer momento.`,
 				date: "24 de Janeiro de 2021",
 				route: host + "/Espiritualidade/January/24.html",
+			},
+		},
+		February: {
+			14: {
+				img:
+					host +
+					"/assets/img/Espiritualidade/February/14_Fevereiro_2021_Espiritualidade_foto.jpg",
+				title: "",
+				details: `ESPIRITUALIDADE, o que significa? A palavra ESPIRITUALIDADE é recente. É uma palavra nova. Surgiu no séc. XVII, escrita em francês: “SPIRITUALITÊ”. Na língua portuguesa foi usada a partir do séc. XVIII. São Francisco, Santo Inácio de Loyola , Santa Teresa D´Avila e tantas/os santas/os e, mesmo Jesus nunca a pronunciaram.  Foi introduzida nas Faculdades de Teologia somente em 1938. O Papa Pio XI  a inseriu nos currículos. O termo espiritualidade é um dos termos mais novos da língua latina. Se a palavra ESPIRITUALIDADE é nova, sua raiz “SPIRITUS” é antiga, existia há 500 a.C. “Spiritus” se traduz para o português Espírito. A palavra SPIRITUS (latim) quer traduzir o termo PNEUMA (grego) que, se propõe a traduzir os termos “NEFESH/RUAH” (em aramaico/hebraico). “O termo NEFESH significa pescoço e RUAH sopro, ar, inspiração ”. `,
+				date: "14 de Fevereiro de 2021",
+				route: host + "/Espiritualidade/February/14.html",
+			},
+
+			21: {
+				img:
+					host +
+					"/assets/img/Espiritualidade/February/21_Fevereiro_2021__Espiritualidade_Foto_.jpg",
+				title: "Carlo Acutis: a surpresa de Deus para nosso tempo",
+				details: `Deus é especialista em surpreender e desatar as “certezas” de nossa lógica humana. Um adolescente cristão tornou-se mais um farol a iluminar este difícil início de milênio. No dia 10 de outubro, foi beatificado, na emblemática Basílica de São Francisco, em Assis, Itália, Carlo Acutis.`,
+				date: "21 de Fevereiro de 2021",
+				route: host + "/Espiritualidade/February/21.html",
+			},
+
+			28: {
+				img:
+					host +
+					"/assets/img/Espiritualidade/February/28_Fevereiro_2021_Espiritualidade_Foto.jpg",
+				title: "O silêncio na espiritualidade cristã e o tempo da Quaresma ",
+				details: `Na Quaresma, a Igreja convida a um mergulho no mistério de nossa vida, fé, vocação e missão. As celebrações quaresmais nos motivam a uma sincera conversão. Jesus Cristo costumava retirar-se para rezar e propunha, com palavras e exemplo, o exercício do silêncio. Cultivou e ensinou aos discípulos a experiência do silêncio na vida pessoal e pastoral.`,
+				date: "28 de Fevereiro de 2021",
+				route: host + "/Espiritualidade/February/28.html",
+			},
+		},
+		March: {
+			7: {
+				img:host +"/assets/img/Espiritualidade/March/07_Março_Espiritualidade Missionária-foto.jpg",
+				title: "Papa Francisco afirma",
+				details: `A dimensão espiritual está profundamente vinculada à missão. Mas o que é missão? Deus
+				é MISSÃO. E em Deus somos missão. O Papa Francisco afirma: "a vida é uma missão.
+				Todo homem e toda mulher é uma missão, e esta é a razão pela qual se encontra a
+				viver na terra. Ser atraídos e ser enviados são dois movimentos que o nosso coração
+				sente..."Eu sou sempre uma missão; tu és sempre uma missão, cada batizada e batizado
+				é uma missão". “Cada um de nós é chamado a refletir sobre esta realidade: 'eu sou
+				uma missão nesta terra e para isto estou neste mundo.”`,
+				date: "07 de Março de 2021",
+				route: host + "/Espiritualidade/March/7.html",
+			},
+
+			14: {
+				img:
+					host +
+					"/assets/img/Espiritualidade/March/14_Março_Centro de Irradiação Missionária_foto.jpg",
+				title: "Centro de Irradiação Missionária",
+				details: `Muitas pessoas conhecem apenas o nome do Convento Espírito Santo, no Bairro Uvaranas, e sabem onde se localiza. Sabem ou vêem que é um casarão rodeado de um bonito jardim, e um terreno cultivado com hortaliças, frutas, etc.`,
+				date: "14 de Março de 2021",
+				route: host + "/Espiritualidade/March/14.html",
+			},
+
+			21: {
+				img:
+					host +
+					"/assets/img/Espiritualidade/March/21_Março_2021_Espiritualidade Missionária_foto.png",
+				title: "Quaresma: convocados a sermos melhores",
+				details: `Entramos no chamado ciclo litúrgico da Páscoa, que começa com o Tempo da Quaresma. É um período muito importante para nossa caminhada cristã, pois essa espécie de retiro favorece, em última instância, uma profícua celebração da ressurreição de Jesus.`,
+				date: "21 de Março de 2021",
+				route: host + "/Espiritualidade/March/21.html",
+			},
+
+			28: {
+				img:
+					host +
+					"/assets/img/Espiritualidade/March/28_Marco_2021_ Img Capa _Espiritualidade Missionária.jpg",
+				title: "Campanha da Fraternidade Ecumênica: um convite ao diálogo",
+				details: `No dia 17 de fevereiro, Quarta-Feira de Cinzas, teremos o início da quinta Campanha da Fraternidade Ecumênica (CFE) no Brasil. Em 2021, o tema é “Fraternidade e diálogo: compromisso de amor”, e o lema, “Cristo é nossa paz: do que era dividido, fez unidade” (Ef 2,14a). A própria organização desta campanha já é um testemunho daquilo a que ela se propõe, uma vez que foi realizada por seis igrejas cristãs, membros do Conselho Nacional de Igrejas Cristãs do Brasil, além da Igreja Betesda de São Paulo e o Ceseep (Centro Ecumênico de Serviços à Evangelização e à Educação Popular).`,
+				date: "28 de Março de 2021",
+				route: host + "/Espiritualidade/March/28.html",
 			},
 		},
 	},
@@ -2770,7 +2963,7 @@ let mainData = {
 				title: "Maria, Santa Mãe de Deus",
 				details:
 					"Ó Deus, que pela virgindade fecunda de Maria destes à humanidade a salvação eterna, dai-nos contar sempre com a sua intercessão, pois ela nos trouxe o autor da vida. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
-				date: "01 de janeiro de 2021",
+				date: "01 de Fevereiro de 2021",
 				route: host + "/leitura-orante/january/1a.html",
 			},
 
@@ -2779,7 +2972,7 @@ let mainData = {
 				title: "SANTOS BASÍLIO E GREGÓRIO Nazianzeno, bispos e doutores",
 				details:
 					" Ó Deus, que iluminastes a vossa Igreja com o exemplo e a doutrina de São Basílio e São Gregório Nazianzeno, fazei-nos buscar humildemente a vossa verdade e segui-la com amor em nossa vida. Por Nosso Senhor Jesus Cristo, na unidade do Espírito Santo.",
-				date: "02 de janeiro de 2021",
+				date: "02 de Fevereiro de 2021",
 				route: host + "/leitura-orante/january/2a.html",
 			},
 
@@ -3044,6 +3237,355 @@ let mainData = {
 				route: host + "/leitura-orante/january/31a.html",
 			},
 		},
+		February: {
+			1: {
+				img: host + "/assets/img/leitura/feb/01_Fevereiro_2021_Leitura orante .jpg",
+				title: "4ª Semana do Tempo Comum",
+				details:
+					"Concedei-nos, Senhor nosso Deus, adorar-vos de todo coração e amar todas as pessoas com verdadeira caridade. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+				date: "01 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/1a.html",
+			},
+
+			2: {
+				img: host + "/assets/img/leitura/feb/02_Fevereiro_2021_Leitura orante .jpg",
+				title: "APRESENTAÇÃO DO SENHOR",
+				details:
+					" Deus eterno e todo-poderoso, ouvi as nossas súplicas. Assim como o vosso Filho único, revestido da nossa humanidade, foi hoje apresentado no templo, fazei que nos apresentemos diante de vós com os corações purificados. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+				date: "02 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/2a.html",
+			},
+
+			3: {
+				img: host + "/assets/img/leitura/feb/03_Fevereiro_2021_Leitura orante .jpg",
+				title: "4ª Semana do Tempo Comum",
+				details:
+					"Ouvi, Ó Deus, as preces do vosso povo, confiado no patrocínio de São Brás; conceda - nos a paz neste mundo e a graças de chegar à vida eterna. Por nosso senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+				date: "03 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/3a.html",
+			},
+
+			4: {
+				img: host + "/assets/img/leitura/feb/04_Fevereiro_2021_Leitura orante .jpg",
+				title: "4ª Semana do Tempo Comum",
+				details:
+					"Concedei-nos, Senhor nosso Deus, adorar-vos de todo coração e amar todas as pessoas com verdadeira caridade. Por  Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+				date: "04 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/4a.html",
+			},
+
+			5: {
+				img: host + "/assets/img/leitura/feb/05_Fevereiro_2021_Leitura orante .jpg",
+				title: "SANTA ÁGUEDA - VIRGEM E MÁRTIR",
+				details:
+					"Ó Deus, que Santa Águeda, virgem e mártir, agradável ao vosso coração pelo mérito da castidade e pela força do martírio, implore vosso perdão em nosso favor. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+				date: "05 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/5a.html",
+			},
+
+			6: {
+				img: host + "/assets/img/leitura/feb/06_Fevereiro_2021_Leitura orante .jpg",
+				title: "SÃO PAULO MIKI e COMPANHEIROS",
+				details:
+					"Ó Deus, força dos santos, que em Nagasaki chamastes à verdadeira vida São Paulo Miki e seus companheiros pelo martírio da cruz, concedei-nos, por sua intercessão, perseverar até a morte na fé que professamos. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+				date: "06 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/6a.html",
+			},
+
+			7: {
+				img: host + "/assets/img/leitura/feb/07_Fevereiro_2021_Leitura orante .jpg",
+				title: "5ª Semana do Tempo Comum",
+				details:
+					" Velai, ó Deus, sobre a vossa família com incansável amor; e como só confiamos na vossa graça, guardai-nos sob a vossa proteção. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "07 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/7a.html",
+			},
+
+			8: {
+				img: host + "/assets/img/leitura/feb/08_Fevereiro_2021_Leitura orante .jpg",
+				title: "5ª Semana do Tempo Comum",
+				details:
+					"Velai, ó Deus, sobre a vossa família com incansável amor; e como só confiamos na vossa graça, guardai-nos sob a vossa proteção. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "08 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/8a.html",
+			},
+
+			9: {
+				img: host + "/assets/img/leitura/feb/09_Fevereiro_2021_Leitura orante .jpg",
+				title: "4ª Semana do Tempo Comum",
+				details:
+					" Velai, ó Deus, sobre a vossa família com incansável amor; e como só confiamos na vossa graça, guardai-nos sob a vossa proteção. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "09 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/9a.html",
+			},
+
+			10: {
+				img: host + "/assets/img/leitura/feb/10_Fevereiro_2021_Leitura orante .jpg",
+				title: "SANTA ESCOLÁSTICA, VIRGEM",
+				details:
+					" Celebrando a festa de Santa Escolástica, nós vos pedimos, ó Deus, a graça de imitá-la, servindo-vos com caridade perfeita e alegrando-nos com os sinais do vosso amor. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+				date: "10 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/10a.html",
+			},
+
+			11: {
+				img: host + "/assets/img/leitura/feb/11_Fevereiro_2021_Leitura orante .jpg",
+				title: "5ª Semana do Tempo Comum",
+				details:
+					"Velai, ó Deus, sobre a vossa família com incansável amor; e como só confiamos na vossa graça, guardai-nos sob a vossa proteção. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "11 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/11a.html",
+			},
+
+			12: {
+				img: host + "/assets/img/leitura/feb/12_Fevereiro_2021_Leitura orante .jpg",
+				title: "5ª Semana do Tempo Comum",
+				details:
+					" Velai, ó Deus, sobre a vossa família com incansável amor; e como só confiamos na vossa graça, guardai-nos sob a vossa proteção. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "12 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/12a.html",
+			},
+
+			13: {
+				img: host + "/assets/img/leitura/feb/13_Fevereiro_2021_Leitura orante .jpg",
+				title: "5ª Semana do Tempo Comum",
+				details:
+					" Velai, ó Deus, sobre a vossa família com incansável amor; e como só confiamos na vossa graça, guardai-nos sob a vossa proteção. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "13 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/13a.html",
+			},
+
+			14: {
+				img: host + "/assets/img/leitura/feb/14_Fevereiro_2021_Leitura orante .jpg",
+				title: "6ª Semana do Tempo Comum",
+				details:
+					" Ó Deus, que constituístes o Cristo sumo e eterno sacerdote para vossa glória e salvação da humanidade, dai ao povo resgatado por seu sangue participar do memorial que nos deixou, obter a força de sua cruz e a glória da ressurreição. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+				date: "14 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/14a.html",
+			},
+
+			15: {
+				img: host + "/assets/img/leitura/feb/15_Fevereiro_2021_Leitura orante .jpg",
+				title: "6ª Semana do Tempo Comum",
+				details:
+					"Ó Deus, que prometestes permanecer nos corações sinceros e retos, dai-nos, por vossa graça, viver de tal modo, que possais habitar em nós. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "15 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/15a.html",
+			},
+
+			16: {
+				img: host + "/assets/img/leitura/feb/16_Fevereiro_2021_Leitura orante .jpg",
+				title: "6ª Semana do Tempo Comum",
+				details:
+					"Ó Deus, que prometestes permanecer nos corações sinceros e retos, dai-nos, por vossa graça, viver de tal modo, que possais habitar em nós. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "16 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/16a.html",
+			},
+
+			17: {
+				img: host + "/assets/img/leitura/feb/17_Fevereiro_2021_Leitura orante .jpg",
+				title: "CINZAS - Dia de Jejum e Abstinência",
+				details:
+					"Concedei-nos, ó Deus todo-poderoso, iniciar com este dia de jejum o tempo da Quaresma, para que a penitência nos fortaleça no combate contra o espírito do mal.  Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "17 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/17a.html",
+			},
+
+			18: {
+				img: host + "/assets/img/leitura/feb/18_Fevereiro_2021_Leitura orante .jpg",
+				title: "DEPOIS DAS CINZAS",
+				details:
+					"Inspirai, ó Deus, as nossas ações e ajudai-nos a realizá-las, para que em vós comece e termine tudo aquilo que fizemos. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo",
+				date: "18 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/18a.html",
+			},
+
+			19: {
+				img: host + "/assets/img/leitura/feb/19_Fevereiro_2021_Leitura orante .jpg",
+				title: "Depois das Cinzas",
+				details:
+					"Ó Deus, Assisti com vossa bondade a penitência que iniciamos, para que vivamos interiormente as práticas externas da Quaresma. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "19 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/19a.html",
+			},
+
+			20: {
+				img: host + "/assets/img/leitura/feb/20_Fevereiro_2021_Leitura orante .jpg",
+				title: "Depois das Cinzas",
+				details:
+					"Ó Deus eterno e todo-poderoso, olhai com bondade a nossa fraqueza e estendei, para proteger-nos, a vossa mão poderosa. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "20 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/20a.html",
+			},
+
+			21: {
+				img: host + "/assets/img/leitura/feb/21_Fevereiro_2021_Leitura orante .jpg",
+				title: "1º Domingo da Quaresma",
+				details:
+					" Concedei-nos, ó Deus onipotente, que, ao longo desta Quaresma, possamos progredir no conhecimento de Jesus Cristo e corresponder a seu amor por uma vida santa. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "21 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/21a.html",
+			},
+
+			22: {
+				img: host + "/assets/img/leitura/feb/22_Fevereiro_2021_Leitura orante .jpg",
+				title: "CÁTEDRA DE SÃO PEDRO",
+				details:
+					"  Deus eterno e todo-poderoso, que governais o céu e a terra, escutai com bondade as preces do vosso povo e dai ao nosso tempo a vossa paz. Por Nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+				date: "22 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/22a.html",
+			},
+
+			23: {
+				img: host + "/assets/img/leitura/feb/23_Fevereiro_2021_Leitura orante .jpg",
+				title: "1ª Semana da Quaresma",
+				details:
+					"Olhai, ó Deus, vossa família e fazei crescer no vosso amor aqueles que agora se mortificam pela penitência corporal. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "23 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/23a.html",
+			},
+
+			24: {
+				img: host + "/assets/img/leitura/feb/24_Fevereiro_2021_Leitura orante .jpg",
+				title: "1ª Semana da Quaresma",
+				details:
+					"  Deus eterno e todo-poderoso, dirigi a nossa vida segundo o vosso amor, para que possamos, em nome do vosso Filho, frutificar em boas obras. Por Nosso Senhor Jesus Cristo, vosso filho, na unidade do Espírito Santo.",
+				date: "24 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/24a.html",
+			},
+
+			25: {
+				img: host + "/assets/img/leitura/feb/25_Fevereiro_2021_Leitura orante .jpg",
+				title: "1ª Semana da Quaresma",
+				details:
+					" Dai-nos, ó Deus, pensar sempre o que é reto e realizá-lo com solicitude. E como só podemos existir em vós, fazei-nos viver segundo a vossa vontade. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "25 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/25a.html",
+			},
+
+			26: {
+				img: host + "/assets/img/leitura/feb/26_Fevereiro_2021_Leitura orante .jpg",
+				title: "Sexta-feira",
+				details:
+					"Concedei, ó Deus, que vossos filhos e filhas se preparem dignamente para a festa da Páscoa, de modo que a mortificação desta Quaresma frutifique em todos nós. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "1ª Semana da Quaresma",
+				route: host + "/leitura-orante/february/26a.html",
+			},
+
+			27: {
+				img: host + "/assets/img/leitura/feb/27_Fevereiro_2021_Leitura orante .jpg",
+				title: "1ª Semana da Quaresma",
+				details:
+					"Convertei para vós, ó Pai, nossos corações, a fim de que, buscando sempre o único necessário e praticando as obras de caridade, nos dediquemos ao vosso culto. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "27 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/27a.html",
+			},
+
+			28: {
+				img: host + "/assets/img/leitura/feb/28_Fevereiro_2021_Leitura orante .jpg",
+				title: "2º Domingo da Quaresma",
+				details:
+					" Ó Deus, que nos mandastes ouvir o vosso Filho amado, alimentai nosso espírito com a vossa palavra, para que, purificado o olhar de nossa fé, nos alegremos com a visão da vossa glória. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "28 de Fevereiro de 2021",
+				route: host + "/leitura-orante/february/28a.html",
+			},
+
+			
+		},
+		March: {
+			1: {
+				img: host + "/assets/img/leitura/leitura-img-march/01_Março_2021_Leitura Orante.jpg",
+				title: "Segunda-feira 2ª Semana da Quaresma",
+				details:"Deus, que, para remédio e salvação nossa, nos ordenais a prática da mortificação, concedei-nos que possamos evitar todo pecado e cumprir de coração os mandamentos do vosso amor. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "01 de Março de 2021",
+				route: host + "/leitura-orante/march/1a.html",
+			},
+
+			2: {
+				img: host + "/assets/img/leitura/leitura-img-march/02_Março_2021_Leitura Orante.jpg",
+				title: "Terça-feira 2ª Semana da Quaresma",
+				details:"Guardai, Senhor Deus, a vossa Igreja com a vossa constante proteção e, como a fraqueza humana desfalece sem o vosso auxílio, livrai-nos constantemente do mal e conduzi-nos pelos caminhos da salvação. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "02 de Março de 2021",
+				route: host + "/leitura-orante/march/2a.html",
+			},
+
+			3: {
+				img: host + "/assets/img/leitura/leitura-img-march/03_Março_2021_Leitura Orante.jpg",
+				title: "Quarta-feira 2ª Semana da Quaresma",
+				details:"Ó Deus, conservai constantemente vossa família na prática das boas obras e, assim como nos confortais agora  com vossos auxílios, conduzi-nos aos bens eternos. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "03 de Março de 2021",
+				route: host + "/leitura-orante/march/3a.html",
+			},
+
+			4: {
+				img: host + "/assets/img/leitura/leitura-img-march/04_Março_2021_Leitura Orante.jpg",
+				title: "Quinta-feira 2ª Semana da Quaresma",
+				details:"Ó Deus, que amais e restaurais a inocência, orientais para vós os corações dos vossos filhos e filhas, para que, renovados pelo vosso Espírito, sejamos firmes na fé e eficientes nas obras. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "04 de Março de 2021",
+				route: host + "/leitura-orante/march/4a.html",
+			},
+
+			5: {
+				img: host + "/assets/img/leitura/leitura-img-march/05_Março_2021_Leitura Orante.jpg",
+				title: "Sexta-feira  2ª Semana da Quaresma",
+				details:"Concedei-nos, ó Deus, todo-poderoso, que, purificados pelo esforço da penitência, cheguemos de coração sincero às festas da Páscoa, que se aproximam. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.					",
+				date: "05 de Março de 2021",
+				route: host + "/leitura-orante/march/5a.html",
+			},
+
+			6: {
+				img: host + "/assets/img/leitura/leitura-img-march/06_Março_2021_Leitura Orante.jpg",
+				title: "Sábado 2ª Semana da Quaresma",
+				details:"Ó Deus, que, pelos exercícios da Quaresma, já nos dais na terra participar dos bens do céu, guiai-nos de tal modo nesta vida, que possamos chegar à luz em que habitais. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "06 de Março de 2021",
+				route: host + "/leitura-orante/march/6a.html",
+			},
+
+			7: {
+				img: host + "/assets/img/leitura/leitura-img-march/07_Março_2021_Leitura Orante.jpg",
+				title: "Domingo 3º Domingo da Quaresma",
+				details:"Ó Deus, fonte de toda misericórdia e de toda bondade, vós nos indicastes o jejum, a esmola e a oração como remédio contra o pecado. Acolhei esta confissão da nossa fraqueza para que, humilhados pela consciência de nossas faltas, sejamos confortados pela vossa misericórdia. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "07 de Março de 2021",
+				route: host + "/leitura-orante/march/7a.html",
+			},
+			8: {
+				img: host + "/assets/img/leitura/leitura-img-march/08_Março_2021_Leitura Orante.jpg",
+				title: "Segunda-feira3ª Semana da Quaresma",
+				details:"Ó Deus, na vossa incansável misericórdia, purificai e protegei a vossa Igreja, governando-a constantemente, pois sem vosso auxílio ela não pode salvar-nos. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "08 de Março de 2021",
+				route: host + "/leitura-orante/march/8a.html",
+			},
+			9: {
+				img: host + "/assets/img/leitura/leitura-img-march/09_Março_2021_Leitura Orante.jpg",
+				title: "Terça-feira 3ª Semana da Quaresma",
+				details:"Ó Deus, que vossa graça não nos abandone, mas nos faça dedicados ao vosso serviço e aumente sempre em nós os vossos dons. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "09 de Março de 2021",
+				route: host + "/leitura-orante/march/9a.html",
+			},
+			10: {
+				img: host + "/assets/img/leitura//leitura-img-march/10_Março_2021_Leitura Orante.jpg",
+				title: "Quarta-feira 3ª Semana da Quaresma",
+				details:"Ó Deus de bondade, concedei que, formados pela observância da Quaresma e nutridos por vossa Palavra, saibamos mortificar-nos para vos servir com fervor, sempre unânimes na oração. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "10 de Março de 2021",
+				route: host + "/leitura-orante/march/10a.html",
+			},
+			11: {
+				img: host + "/assets/img/leitura/leitura-img-march/11_Março_2021_Leitura Orante.jpg",
+				title: "Quinta-feira 3ª Semana da Quaresma",
+				details:"À medida que se aproxima a festa da salvação, nós vos pedimos, ó Deus, que nos preparemos com maior empenho para celebrar o mistério da Páscoa. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "11 de Março de 2021",
+				route: host + "/leitura-orante/march/11a.html",
+			},
+			12: {
+				img: host + "/assets/img/leitura/leitura-img-march/12_Março_2021_Leitura Orante.jpg",
+				title: "Sexta-feira 3ª Semana da Quaresma",
+				details:"Infundi, ó Deus, vossa graça em nossos corações, para que, fugindo aos excessos humanos, possamos, com vosso auxílio, abraçar os vossos preceitos. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
+				date: "12 de Março de 2021",
+				route: host + "/leitura-orante/march/12a.html",
+			},
+
+
+		},
 	},
 
 	missaoData: {
@@ -3239,6 +3781,26 @@ let mainData = {
 				route: host + "/Missao/February/23.html",
 				video: true,
 			},
+			
+		},
+		March: {
+			2: {
+				img:host +"/assets/img/Missao/March/02_Março_2021_Foto_Vídeo_Missão.png",
+				title: "Centro de Integração do Migrante ",
+				details: `O nono episódio da websérie das Missionárias mostra a realidade da vida dos migrantes que chegam ao Brasil e como o Centro de Integração do Migrante tem ajudado esses migrantes a se reintegrarem na sociedade de forma digna.`,
+				date: "02 de Março de 2021",
+				route: host + "/Missao/March/2.html",
+				video: false,
+			},
+			9: {
+				img:host +"/assets/img/Missao/March/09_Março_2021_foto Capa _Missão_png.png",
+				title: "A pandemia na perspectiva de uma comunidade de idosas",
+				details: `                                                        Vivendo nesta época da pandemia, cada pessoa tem uma história para contar às gerações futuras sobre a pandemia causada pelo novo coronavírus, que transformou a vida comum em um “novo normal”. Santana é uma comunidade de missionárias servas do Espírito Santo já idosas. São vinte irmãs, algumas acamadas, outras na cadeira de rodas, outras andando com a ajuda de bengala. Todas têm muito para contar.`,
+				date: "09 de Março de 2021",
+				route: host + "/Missao/March/9.html",
+				video: true,
+			},
+		
 			
 		},
 	},
