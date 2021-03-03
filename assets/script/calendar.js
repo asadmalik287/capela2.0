@@ -2,6 +2,7 @@
 // let dt = new Date('December 1, 2020 23:15:00');
 let dt = new Date();
 let cd = new Date();
+let mn =dt.getMonth
 console.log(dt.getMonth());
 // import {mainData} from '../post-data-json'
 // console.log(mainData)
@@ -182,6 +183,15 @@ function renderDate() {
                 }
 
             }
+            // else if (months[dt.getMonth()] == "Março") {
+
+            //     if (mainData.santoData.March[i]) {
+            //         cells += `<a class='a-date' href="${host}/Dia-de-santo/Dia-March/Dia-` + i + `.html">` + i + `</a>`;
+            //     } else {
+            //         cells += `<a class='a-date' style="color:#bbbbbb !important">` + i + `</a>`;
+            //     }
+
+            // }
             // Copy the Latest Month of Calender As Above
             // Repalce the Name Of Months With New One (At Three Places)
             else {

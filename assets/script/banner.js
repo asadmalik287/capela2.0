@@ -1272,37 +1272,57 @@ let march = {
         footer: 'AMÉRICA'
     },
 }
+let april={
+    
+}
+let may={
+
+}
+let june={
+
+}
+let july={
+
+}
 
 
 
 
 
-
-
+var months = [
+    january,
+    february,
+    march,
+    april,
+    may,
+    june,
+    july,
+]
 var date = new Date();
 let day = date.getDate()
+console.log(months[date.getMonth()][day]);
 
-document.getElementById("banner").innerHTML += ` <div class="main-bannar main-img-border " style=" background-image: url(./assets/img/banner/${february[day].image}.jpg) !important;   background-size: cover;
+document.getElementById("banner").innerHTML += ` <div class="main-bannar main-img-border " style=" background-image: url(./assets/img/banner/${months[date.getMonth()][day].image}.jpg) !important;   background-size: cover;
     background-position: bottom;
     height: 28.3rem;">
-    <div class="img-content ${february[day].footer}">
+    <div class="img-content ${months[date.getMonth()][day].footer}">
         <div>
             <p class="h2 mt-4 NB font-weight mb-0">
                 Intenção Missionária
             </p>
             <p class="h4 NB font-weight"><i>
-            ${february[day].heading}
+            ${months[date.getMonth()][day].heading}
                 </i></p>
         </div>
         <div class=" queTodas NIL text-center">
             <p><i>
-            ${february[day].details}
+            ${months[date.getMonth()][day].details}
               </i></p>
         </div>
     </div>
     <div>
         <div class="europa ">
-            <p>${february[day].footer} </p>
+            <p>${months[date.getMonth()][day].footer} </p>
         </div>
     </div>
 </div>`
