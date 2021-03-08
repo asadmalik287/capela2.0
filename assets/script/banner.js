@@ -1,3 +1,222 @@
+// let january = {
+//     1: {
+//         heading: 'Pela Paz no mundo',
+//         details: 'Rezemos pela paz no mundo, de modo especial pelos países em guerra e conflitos. Santa Mãe Maria, Mãe de Deus, interceda por nós junto do seu Filho Jesus.',
+//         image: 'BANNER_253_320px_MUNDO',
+//         footer: 'MUNDO'
+//     },
+
+//     2: {
+//         heading: 'Pelo fim da violência',
+//         details: 'Que todos os povos se empenhem pela prática da não violência e sejam capazes de promover a Cultura da Paz na família, no trabalho, nos ambientes de lazer.',
+//         image: 'BANNER_253_320px_AMERICA',
+//         footer: 'AMÉRICA'
+//     },
+
+//     3: {
+//         heading: 'Para que Jesus seja manifestado a todos os povos',
+//         details: 'Rezemos para que Jesus seja cada vez mais conhecido, amado e glorificado por todas as pessoas. Espírito Santo ajude-nos a vivenciar a alegria do nascimento do Salvador, que é o Cristo Senhor.',
+//         image: 'BANNER_253_320px_ASIA',
+//         footer: 'ASIA'
+//     },
+
+//     4: {
+//         heading: 'Pelo Cuidado da nossa Casa Comum',
+//         details: 'Pai, nós vos louvamos com todas as vossas criaturas. Ensinai-nos a descobrir o valor de cada coisa e a contemplar todas as criaturas',
+//         image: 'BANNER_253_320px_OCEANIA',
+//         footer: 'OCEANIA'
+//     },
+
+//     5: {
+//         heading: 'Pelo fim da pandemia ',
+//         details: 'Senhor ajuda-nos a recuperar a paixão compartilhada por uma comunidade de pertença e solidariedade, à qual saibamos destinar tempo, esforço e bens para o cuidado de todo ser humano',
+//         image: 'BANNER_253_320px_AFRICA',
+//         footer: 'ÁFRICA'
+//     },
+
+//     6: {
+//         heading: 'Pela Amazônia',
+//         details: 'Para que os governantes se empenhem pelos cuidados das nossas florestas, cultivem políticas que protejam a vida dos povos indígenas, ribeirinhos e todo o povo que depende das águas e das matas.',
+//         image: 'BANNER_253_320px_AMERICA',
+//         footer: 'AMÉRICA'
+//     },
+
+//     7: {
+//         heading: 'Líderes de Governo',
+//         details: 'Conscientes do chamado de Deus e da confiança do povo, que os Governantes exerçam a Missão com  o compromisso de assumir, junto aos mais fragilizados,  suas necessidades,  dores e carências.',
+//         image: 'BANNER_253_320px_MUNDO',
+//         footer: 'MUNDO'
+//     },
+
+//     8: {
+//         heading: 'Pela Igreja',
+//         details: 'Pelo Papa Francisco, o Espírito Santo o ilumine e sustente na missão de animar e  proclamar o Evangelho de  Cristo em palavras e atitudes proféticas, a maneira de Jesus',
+//         image: 'BANNER_253_320px_ASIA',
+//         footer: 'ASIA'
+//     },
+
+//     9: {
+//         heading: 'Pelo Brasil',
+//         details: 'Maria Missionária, Mãe Aparecida, intercedei pelos filhos que sofrem doenças, sem casa onde morar, fragilizados pela desnutrição, por faltar tudo, porque não têm emprego.',
+//         image: 'BANNER_253_320px_AMERICA',
+//         footer: 'AMÉRICA'
+//     },
+
+//     10: {
+//         heading: 'Pelos Profissionais da Saúde',
+//         details: 'Somos imensamente agradecidas/os a Deus pelos profissionais da saúde que se esmeram nos cuidados e tratamentos das pessoas acometidas pelo coronavírus. Pedimos luzes e bênçãos para eles.',
+//         image: 'BANNER_253_320px_MUNDO',
+//         footer: 'MUNDO'
+//     },
+
+//     11: {
+//         heading: 'Pela Preservação do meio ambiente',
+//         details: 'Que os povos saibam cuidar do meio ambiente, economizar água e energia, reciclar lixo, descartar  materiais não biodegradáveis e tudo o que possa  prejudicar a Vida na terra.',
+//         image: 'BANNER_253_320px_EUROPA',
+//         footer: 'EUROPA'
+//     },
+
+//     12: {
+//         heading: 'Pelas pessoas que se recomendaram as nossas orações',
+//         details: 'Apresentamos ao Senhor todas as pessoas que se recomendaram as nossas orações, para que sejam acolhidas em suas necessidades, anseios e encontrem respostas para suas dúvidas e buscas.',
+//         image: 'BANNER_253_320px_AMERICA',
+//         footer: 'AMÉRICA'
+//     },
+
+//     13: {
+//         heading: 'Pela Igreja',
+//         details: 'Os cristãos, nos diversos países, se reconheçam irmãos e irmãs, dispostos a acolher outros povos, construir paz e concórdia, irradiar alegria e esperança no convívio intercultural.',
+//         image: 'BANNER_253_320px_MUNDO',
+//         footer: 'MUNDO'
+//     },
+
+//     14: {
+//         heading: 'Pela Saúde Mental',
+//         details: 'Deus Pai ajuda o  povo da Ásia a ser disponível e acolhedor, capazes de laços de solidariedade mundial, para que não busquem somente o lucro, privilégios e o poder econômico, mas a solidariedade.',
+//         image: 'BANNER_253_320px_ASIA',
+//         footer: 'ASIA'
+//     },
+
+//     15: {
+//         heading: 'Pelas Congregações fundadas por Santo Arnaldo Janssen',
+//         details: 'Rezemos nas intenções das três Congregações Missionárias (MSSpS, SVD e MSSpSAP) da família Arnaldina que celebram, hoje, o dia do seu fundador, Santo Arnaldo Janssen.',
+//         image: 'BANNER_253_320px_OCEANIA',
+//         footer: 'OCEANIA'
+//     },
+
+//     16: {
+//         heading: 'Pela vida consagrada',
+//         details: 'Agradeçamos a Deus pela missão profética de tantas religiosas e religiosos que dedicam suas vidas a Deus servindo os mais necessitados. Que haja sempre mais vocações à vida consagrada',
+//         image: 'BANNER_253_320px_MUNDO',
+//         footer: 'MUNDO'
+//     },
+
+//     17: {
+//         heading: 'Pela Paz',
+//         details: 'Para os povos do mundo inteiro, em particular os que vivem nas regiões de conflito e violência, e inspirai caminhos de tolerância, diálogo e paz.',
+//         image: 'BANNER_253_320px_AMERICA',
+//         footer: 'AMÉRICA'
+//     },
+
+//     18: {
+//         heading: 'Pelas Crianças',
+//         details: 'Abençoai Senhor, as crianças do Brasil e do mundo inteiro, para que, protegidas de toda espécie de mal, sejam respeitadas e amadas como Jesus as amou.',
+//         image: 'BANNER_253_320px_AFRICA',
+//         footer: 'ÁFRICA'
+//     },
+
+//     19: {
+//         heading: 'Pela Solidariedades',
+//         details: 'Que o sentimento de gratidão e altruísmo, esteja nos corações das pessoas, contribuindo para a eliminação dos males sociais: doença, pobreza e conflito.',
+//         image: 'BANNER_253_320px_MUNDO',
+//         footer: 'MUNDO'
+//     },
+
+//     20: {
+//         heading: 'Pelos Jovens',
+//         details: 'Rezemos para que os jovens africanos tenham acesso à educação e ao trabalho no seu próprio país, conseguindo desenvolver sua autonomia e garantir um futuro melhor.',
+//         image: 'BANNER_253_320px_AMERICA',
+//         footer: 'AMÉRICA'
+//     },
+
+//     21: {
+//         heading: 'Pelo Papa Francisco e os ministros ordenados',
+//         details: 'Iluminai Senhor, com vossa graça o Papa Francisco e todos os ministros ordenados, em sua missão de animar, orientar a Igreja e manter viva a esperança e o ardor missionário.',
+//         image: 'BANNER_253_320px_ASIA',
+//         footer: 'ASIA'
+//     },
+
+//     22: {
+//         heading: 'Pela Paz',
+//         details: 'Para que nos empenhemos, sempre mais, na construção da paz em todos os sentidos e busquemos estabelecer possibilidades de diálogo e aproximação entre as pessoas, comunidades e povos',
+//         image: 'BANNER_253_320px_AFRICA',
+//         footer: 'ÁFRICA'
+//     },
+
+//     23: {
+//         heading: 'Pelos adolescentes',
+//         details: 'Olhai Senhor Deus, os adolescentes do mundo inteiro. Protegei-os do consumismo, das drogas, do mau uso dos meios de comunicação social e de todos os perigos',
+//         image: 'BANNER_253_320px_EUROPA',
+//         footer: 'EUROPA'
+//     },
+
+//     24: {
+//         heading: 'Pela Igreja Católica',
+//         details: 'Senhor, que tenhamos a sabedoria necessária, para reconhecer a nossa vida como um dom, colocando-a serviço da missionariedade, com alegria e esperança.',
+//         image: 'BANNER_253_320px_MUNDO',
+//         footer: 'MUNDO'
+//     },
+
+//     25: {
+//         heading: 'Pela superação de tempos desafiantes',
+//         details: 'A pandemia da Covid-19 assolou a humanidade e desencadeou crises profundas em todos os âmbitos. Pedimos à Santíssima Trindade que nos fortaleça na superação desse momento desafiante.',
+//         image: 'BANNER_253_320px_OCEANIA',
+//         footer: 'OCEANIA'
+//     },
+
+//     26: {
+//         heading: 'Pelos ameríndios',
+//         details: 'Que os povos indígenas, ameaçados em sua identidade e existência, sejam respeitados e valorizados como pessoas, e possam viver em paz em seus territórios ancestrais.',
+//         image: 'BANNER_253_320px_AMERICA',
+//         footer: 'AMÉRICA'
+//     },
+
+//     27: {
+//         heading: 'Pela família',
+//         details: 'Para que, a partir da experiência de Igreja doméstica, os pais eduquem os filhos na fé, no amor, e assim, a família se torne Igreja missionária em saída, pela oração e nação.',
+//         image: 'BANNER_253_320px_EUROPA',
+//         footer: 'EUROPA'
+//     },
+
+//     28: {
+//         heading: 'Pelos povos africanos',
+//         details: 'Pelos povos africanos que sofrem as consequências da pobreza e da exclusão para que alcancem um desenvolvimento sustentável que proteja a vida em todas as suas expressões.',
+//         image: 'BANNER_253_320px_AFRICA',
+//         footer: 'ÁFRICA'
+//     },
+
+//     29: {
+//         heading: 'Pelas Famílias',
+//         details: 'Concedei às famílias cristãs do mundo inteiro e a cada um de nós, a graça da generosidade e da solidariedade para servir aos abandonados e excluídos de todas as periferias.',
+//         image: 'BANNER_253_320px_ASIA',
+//         footer: 'ASIA'
+//     },
+
+//     30: {
+//         heading: 'Pela Humanidade',
+//         details: 'Pela grande Família humana, para que as religiões, nas suas diferenças, se unam no empenho de tornar realidade vivencial, a proposta do Papa Francisco: “TODOS IRMÃOS.”',
+//         image: 'BANNER_253_320px_MUNDO',
+//         footer: 'MUNDO'
+//     },
+
+//     31: {
+//         heading: 'Pela Criação',
+//         details: 'As pessoas tomem consciência da necessidade de cuidar e aprender  nova maneira de viver e se relacionar com os seres viventes e superar toda exploração e consumismo.',
+//         image: 'BANNER_253_320px_AMERICA',
+//         footer: 'AMÉRICA'
+//     },
+// }
+
 let october = {
     1: {
         heading: 'Pelo Mês Missionário',
@@ -1053,37 +1272,57 @@ let march = {
         footer: 'AMÉRICA'
     },
 }
+let april={
+    
+}
+let may={
+
+}
+let june={
+
+}
+let july={
+
+}
 
 
 
 
 
-
-
+var months = [
+    january,
+    february,
+    march,
+    april,
+    may,
+    june,
+    july,
+]
 var date = new Date();
 let day = date.getDate()
+console.log(months[date.getMonth()][day]);
 
-document.getElementById("banner").innerHTML += ` <div class="main-bannar main-img-border " style=" background-image: url(./assets/img/banner/${february[day].image}.jpg) !important;   background-size: cover;
+document.getElementById("banner").innerHTML += ` <div class="main-bannar main-img-border " style=" background-image: url(./assets/img/banner/${months[date.getMonth()][day].image}.jpg) !important;   background-size: cover;
     background-position: bottom;
     height: 28.3rem;">
-    <div class="img-content ${january[day].footer}">
+    <div class="img-content ${months[date.getMonth()][day].footer}">
         <div>
             <p class="h2 mt-4 NB font-weight mb-0">
                 Intenção Missionária
             </p>
             <p class="h4 NB font-weight"><i>
-            ${january[day].heading}
+            ${months[date.getMonth()][day].heading}
                 </i></p>
         </div>
         <div class=" queTodas NIL text-center">
             <p><i>
-            ${january[day].details}
+            ${months[date.getMonth()][day].details}
               </i></p>
         </div>
     </div>
     <div>
         <div class="europa ">
-            <p>${january[day].footer} </p>
+            <p>${months[date.getMonth()][day].footer} </p>
         </div>
     </div>
 </div>`
