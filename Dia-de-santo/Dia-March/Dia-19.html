@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dia de Santo</title>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../assets/css/headerfooter.css" />
+    <link rel="stylesheet" href="../../assets/css/Dia-de-Santo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../assets/css/calender.css">
+</head>
+
+<body>
+
+    <section class="sky-background">
+
+        <div id="headerCode"></div>
+
+
+
+        <!-- quem-somos-heading-start -->
+        <div class="container pl-3 pr-3 bg-white pb-5">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 pl-3 ">
+                    <h2 class="main-heading CL GM">Dia de Santo</h2>
+                    <div class="border-1 pt-3"></div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 pl-3">
+
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="mainHeading">
+                                <h4 class="pt-4 GM">
+                                    São José, Padroeiro da Igreja Católica
+                                    </h4>
+                                <p class="GBI Date-F"><span class="cal-icon fa fa-calendar "></span> 19 de Março de
+                                    2021
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="img-2 mainImage-2"><img
+                                    src="../../assets/img/Dia-de-santo/March/19_Post_Dia_Santo_Marco_2020.jpg"
+                                    class="img-fluid " alt=""></div>
+
+
+                            <div class="GB text-justify">
+                             <p>As referências que temos de São José são poucas, mas estas se encontram nas Sagradas Escrituras, nos apócrifos e na tradição da Igreja. A história de São José, como a de muitos personagens da história da Salvação, está inserida na vida concreta do povo de Deus. Assim, sua vocação e missão estão intimamente ligadas à missão de Jesus Cristo. O nome José era bastante comum em Israel e significa “Deus Acrescente”. Sabemos que José era descendente de Davi (Mt 1,20) e, estando comprometido com Maria, esta engravidou sem conhecimento dele. A lei mandava que as adúlteras fossem apedrejadas. José, embora fosse fiel à lei, pensou apenas em repudiar Maria, em segredo. Mas, no sonho, escutou a voz do anjo do Senhor que lhe disse: “Não tenha receio em receber Maria… O que nela foi gerado vem do Espírito Santo”. Essa experiência mostra que José era dócil às inspirações de Deus, ou seja, pela fé, José compreendeu, em sua amplitude, o espírito de justiça e misericórdia (Mt 1,19-21). E o Carpinteiro seguiu os apelos do Senhor na missão de ser esposo de Maria e pai de Jesus Cristo. Os textos nos relatam mais um sonho no qual o anjo avisa José a fugir de Herodes. Junto com Maria, José acolheu e custodiou Jesus, fugindo com eles para o Egito, até que o perigo passasse (Mt 2,13-23). A vida de São José se mergulha no silêncio e na contemplação do mistério de Deus em disponibilidade total à vontade do Senhor. Pela intercessão de São José, peçamos a graça de nos colocar, sem medo, a serviço de Jesus, o Verbo Divino, como ele o fez! </p>
+                               
+                              
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+                <!-- SIDE BAR CONTENT START -->
+
+
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="search-block">
+                        <form class="search-form d-flex" action="">
+                            <input type="text" class="search w-100">
+                            <button type="submit" class="search-button">
+                                <img class="LUPA_IMG" src="../../assets/img/header-footer/LUPA.png"></button>
+                        </form>
+                    </div>
+                    <div>
+                        <div class="icalendar">
+                            <div class="icalendar__month">
+                                <div class="icalendar__prev" onclick="moveDate('prev')">
+                                    <span>&#10094</span>
+                                </div>
+                                <div class="icalendar__current-date">
+                                    <h2 id="icalendarMonth"></h2>
+                                    <div>
+                                        <div id="icalendarDateStr"></div>
+                                    </div>
+
+                                </div>
+                                <div class="icalendar__next" onclick="moveDate('next')">
+                                    <span>&#10095</span>
+                                </div>
+                            </div>
+                            <div class="icalendar__week-days">
+                                <div>D</div>
+                                <div>S</div>
+                                <div>T</div>
+                                <div>Q</div>
+                                <div>Q</div>
+                                <div>S</div>
+                                <div>S</div>
+                            </div>
+                            <div class="icalendar__days"></div>
+
+
+                        </div>
+                    </div>
+                    <!-- BLOG HEADING -->
+                    <a href="../Dia-Multiple.html">
+                        <p class="blog-heading pt-3 ">
+                            Santos Anteriores
+                        </p>
+                    </a>
+                    <!-- B_LOG HEADING 1-->
+                    <div id="postdiv"></div>
+
+                    <div class="tagDiv">
+                        <h class="blue tags GM pb-1">Tags</h5>
+                    </div>
+                    <div class="GM">
+                        <div class="btnclass GM">
+                            <button class="adjbtn">missão</button>
+                            <button class="adjbtn">Amazônia</button>
+                            <button class="adjbtn">evengel</button>
+                        </div>
+                        <div class="btnclass GM">
+                            <button class="adjbtn">covid-19</button>
+                            <button class="adjbtn">indigenas</button>
+                            <button class="adjbtn">noviça</button>
+                        </div>
+                        <div class="btnclass">
+
+
+
+                            <button class="adjbtn">papa francisco</button>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </div>
+                <!-- SIDE BAR CONTENT END -->
+
+
+
+
+
+
+
+
+
+            </div>
+    </section>
+    <!-- quem-somos-heading-end -->
+
+
+    <div id="footerCode"></div>
+    <script src="../../assets/script/calendar.js"></script>
+    <script src="../../assets/script/header-footer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
+<script src="../../assets/script/postData.js"></script>
+<script src="../../assets/script/santo-single-page.js"></script>
