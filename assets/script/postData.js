@@ -837,23 +837,23 @@ let mainData = {
 			9:[
 				{
 					img:
-						host +
-						"/assets/img/Dia-de-santo/March/09_Post_Dia_Santo_Marco_2020.jpg",
-					title: "Santa Francisca Romana",
+					host +
+					"/assets/img/Dia-de-santo/March/09_Post_Dia_Santo_Marco_2020.jpg",
+					title: "São Gregório de Nissa, bispo",
 					details:
-						"Hoje a Igreja celebra Santa Francisca Romana, uma admirável mulher que se dedicou ao serviço dos doentes e, com os próprios bens, ajudou os pobres. Modelo de vida conjugal e vida religiosa, Francisca tem muito a nos ensinar sobre a entrega a Cristo.",
-					date: "9 de Março  de 2021",
-					route: host + "/Dia-de-santo/Dia-March/Dia-9.html",
+					"São Gregório de Nissa foi teólogo e místico. Formulou a doutrina trinitária. Pelas influências recebidas de Orígenes e do platonismo, não recebeu o título de Doutor da Igreja, mas sua figura como orador, pensador e poeta brilha até nossos dias.",
+					date: "9 de Março de 2021",
+					route: host + "/Dia-de-santo/Dia-March/Dia-9a.html",
 				},
 				{
 					img:
 						host +
 						"/assets/img/Dia-de-santo/March/09_Post_Dia_Santo_Marco_2020_B.jpg",
-					title: "São Gregório de Nissa, bispo",
-					details:
-						"São Gregório de Nissa foi teólogo e místico. Formulou a doutrina trinitária. Pelas influências recebidas de Orígenes e do platonismo, não recebeu o título de Doutor da Igreja, mas sua figura como orador, pensador e poeta brilha até nossos dias.",
-					date: "9 de Março de 2021",
-					route: host + "/Dia-de-santo/Dia-March/Dia-9a.html",
+						title: "Santa Francisca Romana",
+						details:
+						"Hoje a Igreja celebra Santa Francisca Romana, uma admirável mulher que se dedicou ao serviço dos doentes e, com os próprios bens, ajudou os pobres. Modelo de vida conjugal e vida religiosa, Francisca tem muito a nos ensinar sobre a entrega a Cristo.",
+						date: "9 de Março  de 2021",
+						route: host + "/Dia-de-santo/Dia-March/Dia-9.html",
 				},
 			],
 			15: {
@@ -1815,14 +1815,8 @@ let mainData = {
 		March: {
 			7: {
 				img:host +"/assets/img/Espiritualidade/March/07_Março_Espiritualidade Missionária-foto.jpg",
-				title: "Papa Francisco afirma",
-				details: `A dimensão espiritual está profundamente vinculada à missão. Mas o que é missão? Deus
-				é MISSÃO. E em Deus somos missão. O Papa Francisco afirma: "a vida é uma missão.
-				Todo homem e toda mulher é uma missão, e esta é a razão pela qual se encontra a
-				viver na terra. Ser atraídos e ser enviados são dois movimentos que o nosso coração
-				sente..."Eu sou sempre uma missão; tu és sempre uma missão, cada batizada e batizado
-				é uma missão". “Cada um de nós é chamado a refletir sobre esta realidade: 'eu sou
-				uma missão nesta terra e para isto estou neste mundo.”`,
+				title: "Espiritualidade Missionária",
+				details: `Este artigo nos convida a tomar consciência da interligação entre espírito e corpo. Somos feitos à imagem e semelhança de Deus; terra fértil, vivificada pelo sopro divino. Tudo o que buscamos está em nosso interior, onde habita Deus Uno e Trino.`,
 				date: "07 de Março de 2021",
 				route: host + "/Espiritualidade/March/7.html",
 			},
