@@ -1816,13 +1816,9 @@ let mainData = {
 			7: {
 				img:host +"/assets/img/Espiritualidade/March/07_Março_Espiritualidade Missionária-foto.jpg",
 				title: "Papa Francisco afirma",
-				details: `A dimensão espiritual está profundamente vinculada à missão. Mas o que é missão? Deus
-				é MISSÃO. E em Deus somos missão. O Papa Francisco afirma: "a vida é uma missão.
-				Todo homem e toda mulher é uma missão, e esta é a razão pela qual se encontra a
-				viver na terra. Ser atraídos e ser enviados são dois movimentos que o nosso coração
-				sente..."Eu sou sempre uma missão; tu és sempre uma missão, cada batizada e batizado
-				é uma missão". “Cada um de nós é chamado a refletir sobre esta realidade: 'eu sou
-				uma missão nesta terra e para isto estou neste mundo.”`,
+				details: `Este artigo nos convida a tomar consciência da interligação entre espírito e corpo.
+				 Somos feitos à imagem e semelhança de Deus; terra fértil, vivificada pelo sopro divino. 
+				 Tudo o que buscamos está em nosso interior, onde habita Deus Uno e Trino.  `,
 				date: "07 de Março de 2021",
 				route: host + "/Espiritualidade/March/7.html",
 			},
@@ -4451,7 +4447,7 @@ var EnglishMonths = [
 	"November",
 	"December",
 ];
-console.log(currentMonthIndex);
+console.log(currentDate);
 // console.log(mainData.espirtualData[espirtualLatestMonth]);
 
 for (let i = currentDate; i > 0; i--) {
@@ -4478,10 +4474,10 @@ for (let i = currentDate; i > 0; i--) {
 	}
 }
 
-if (mainData.santoData.December[currentDate]) {
+if (mainData.santoData.EnglishMonths[currentMonthIndex][currentDate]) {
 	santoLink.setAttribute(
 		"href",
-		host + "/Dia-de-santo/Dia-December/Dia-" + currentDate + ".html"
+		host + `/Dia-de-santo/Dia-${EnglishMonths[currentMonthIndex]}/Dia-` + currentDate + ".html"
 	);
 } else {
 	santoLink.setAttribute("href", host + "/Dia-de-santo/Dia-Multiple.html");
