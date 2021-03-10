@@ -837,23 +837,23 @@ let mainData = {
 			9:[
 				{
 					img:
-						host +
-						"/assets/img/Dia-de-santo/March/09_Post_Dia_Santo_Marco_2020.jpg",
-					title: "Santa Francisca Romana",
+					host +
+					"/assets/img/Dia-de-santo/March/09_Post_Dia_Santo_Marco_2020.jpg",
+					title: "São Gregório de Nissa, bispo",
 					details:
-						"Hoje a Igreja celebra Santa Francisca Romana, uma admirável mulher que se dedicou ao serviço dos doentes e, com os próprios bens, ajudou os pobres. Modelo de vida conjugal e vida religiosa, Francisca tem muito a nos ensinar sobre a entrega a Cristo.",
-					date: "9 de Março  de 2021",
+					"São Gregório de Nissa foi teólogo e místico. Formulou a doutrina trinitária. Pelas influências recebidas de Orígenes e do platonismo, não recebeu o título de Doutor da Igreja, mas sua figura como orador, pensador e poeta brilha até nossos dias.",
+					date: "9 de Março de 2021",
 					route: host + "/Dia-de-santo/Dia-March/Dia-9.html",
 				},
 				{
 					img:
 						host +
 						"/assets/img/Dia-de-santo/March/09_Post_Dia_Santo_Marco_2020_B.jpg",
-					title: "São Gregório de Nissa, bispo",
-					details:
-						"São Gregório de Nissa foi teólogo e místico. Formulou a doutrina trinitária. Pelas influências recebidas de Orígenes e do platonismo, não recebeu o título de Doutor da Igreja, mas sua figura como orador, pensador e poeta brilha até nossos dias.",
-					date: "9 de Março de 2021",
-					route: host + "/Dia-de-santo/Dia-March/Dia-9a.html",
+						title: "Santa Francisca Romana",
+						details:
+						"Hoje a Igreja celebra Santa Francisca Romana, uma admirável mulher que se dedicou ao serviço dos doentes e, com os próprios bens, ajudou os pobres. Modelo de vida conjugal e vida religiosa, Francisca tem muito a nos ensinar sobre a entrega a Cristo.",
+						date: "9 de Março  de 2021",
+						route: host + "/Dia-de-santo/Dia-March/Dia-9a.html",
 				},
 			],
 			15: {
