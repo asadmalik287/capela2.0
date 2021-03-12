@@ -1556,9 +1556,9 @@ let mainData = {
 		},
 		March: {
 			6: {
-				img:host +"/assets/img/Vocacoes/March/06_Março_2021_Nilva Moro.jpeg",
+				img:host +"/assets/img/Vocacoes/March/06_Março_2021- Foto_Theresia Mesner.jpg",
 				title: "Margareta Messner - Madre Theresia Messner, SSpS",
-				details: `Margareta esperou ansiosamente pelo dia em que seria admitida ao Noviciado. A admissão ao noviciado foi celebrada em 17 de janeiro de 1892. Nesse dia Margareta Messner recebeu o nome de Irmã Theresia, como seria chamada a partir de agora.`,
+				details: `Ainda criança, Madre Teresia Messner já sabia que tinha um chamado especial a cumprir. Entretanto, seguir a vocação missionária não seria uma tarefa fácil. Fortalecida por Deus, ela colocou seu dom e liderança à serviço de Cristo.`,
 				date: "06 de Março de 2021",
 				route: host + "/Vocaoes/March/6.html",
 				video: false,
@@ -1815,7 +1815,7 @@ let mainData = {
 		March: {
 			7: {
 				img:host +"/assets/img/Espiritualidade/March/07_Março_Espiritualidade Missionária-foto.jpg",
-				title: "Papa Francisco afirma",
+				title: "Espiritualidade	Missionária",
 				details: `Este artigo nos convida a tomar consciência da interligação entre espírito e corpo.
 				 Somos feitos à imagem e semelhança de Deus; terra fértil, vivificada pelo sopro divino. 
 				 Tudo o que buscamos está em nosso interior, onde habita Deus Uno e Trino.  `,
