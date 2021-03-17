@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEITURA ORANTE</title>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../assets/css/headerfooter.css">
+    <link rel="stylesheet" href="../../assets/css/leitura-orante-sub.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../assets/css/calender.css">
+</head>
+
+<body>
+
+    <section class="sky-background">
+        <div id="headerCode"></div>
+
+
+        <!-- quem-somos-heading-start -->
+        <div class="container bg-white pl-3 pr-3 pb-5">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 pl-3">
+                    <h2 class="main-heading ">Leitura Orante </h2>
+                    <div class="border-1 pt-3"></div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12">
+
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="mainHeading">
+                                <div>
+                                    <h4 class="pt-4">Leituras do Dia</h4>
+                                </div>
+                                <p class="GBI Date-F"><span class="cal-icon fa fa-calendar "></span> 24 de Março de 2021
+                                </p>
+                                <div>
+                                    <h5 class="GM CL">
+
+                                        5ª Semana da Quaresma
+                                        
+                                        </h5>
+                                </div>
+                                <div>
+                                    <p class="GB CL">(Roxo, Ofício do dia)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="img-2 mainImage-2"><img
+                                    src="../../assets/img/leitura/leitura-img-march/24_Março_2021_Leitura Orante.jpg" class="img-fluid"
+                                    alt="">
+                                <div class="img-content">
+                                    <p class="GM mb-0 text-end pt-2">Leitura Orante do Evangelho
+                                    </p>
+                                    <p class="GL mb-0">
+                                        Ouca o audio com oracao e reflexao do
+
+                                    </p>
+                                    <p class="text-end">
+                                        padre Fransico das Chages
+                                    </p>
+                                    <div class="webkit-right">
+                                        <audio id="audio_play">
+                                            <source
+                                                src="../../assets/audio/leitura-orante-jan/24_01_2021_Leitura_Orante.mp4"
+                                                type="audio/ogg">
+                                        </audio>
+                                        <img src="../../assets/img/leitura/Leitura-orante-img-dec/LISTEN.png"
+                                            class="img-fluid  listen_pause_web" alt="" onclick="play()" id="play">
+                                        <img src="../../assets/img/leitura/Leitura-orante-img-dec/PAUSE.png"
+                                            class="img-fluid listen_play_web" alt="" onclick="pause()" id="pause">
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div>
+                                <h5 class="GM CL pt-3">Oração do dia</h5>
+
+                                <p class="GB CL" id="para_content">
+                                    Ó Deus de misericórdia, iluminai nossos corações purificados pela penitência. E ouvi com paternal bondade aqueles a quem dais o afeto filial. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.
+                                                                </p>
+
+                            </div>
+
+
+                            <div>
+                                <h5 class="GM CL pt-3">
+                                    Leitura: Daniel 3,14-20.24.49.91-92.95
+
+                                </h5>
+                            </div>
+
+                            <div>
+                                <p class="GB CL text-justify">
+                                  Naqueles dias, 14 o rei Nabucodonosor tomou a palavra e disse: “É verdade, Sidrac, Misac e Abdênago, que não prestais culto a meus deuses e não adorais a estátua de ouro que mandei erguer? 15E agora, quando ouvirdes tocar trombeta, flauta, cítara, harpa, saltério e gaitas, e toda espécie de instrumentos, estais prontos a prostrar-vos e adorar a estátua que mandei fazer? Mas, se não fizerdes adoração, no mesmo instante sereis atirados na fornalha de fogo ardente; e qual é o deus que poderá libertar-vos de minhas mãos?” 16 Sidrac, Misac e Abdênago responderam ao rei Nabucodonosor: “Não há necessidade de te respondermos sobre isso; 17 se o nosso Deus, a quem rendemos culto, pode livrar-nos da fornalha de fogo ardente, ele também poderá libertar-nos de tuas mãos, ó rei. 18 Mas, se ele não quiser libertar-nos, fica sabendo, ó rei, que nós não prestaremos culto a teus deuses e tampouco adoraremos a estátua de ouro que mandaste fazer”. 19A estas palavras, Nabucodonosor encheu-se de cólera contra Sidrac, Misac e Abdênago, a ponto de se alterar a expressão do rosto; deu ordem para acender a fornalha com sete vezes mais fogo que de costume 20e encarregou os soldados mais fortes do exército para amarrarem Sidrac, Misac e Abdênago e os lançarem na fornalha de fogo ardente. 24 Os três jovens andavam de cá para lá no meio das chamas, entoando hinos a Deus e bendizendo ao Senhor. 49 Mas o anjo do Senhor tinha descido simultaneamente na fornalha para junto de Azarias e seus companheiros. 91 O rei Nabucodonosor, tomado de pasmo, levantou-se apressadamente e perguntou a seus ministros: “Porventura, não lançamos três homens bem amarrados no meio do fogo?” Responderam ao rei: “É verdade, ó rei”. 92 Disse este: “Mas eu estou vendo quatro homens andando livremente no meio do fogo, sem sofrerem nenhum mal, e o aspecto do quarto homem é semelhante ao de um filho de Deus”. 95 Exclamou Nabucodonosor: “Bendito seja o Deus de Sidrac, Misac e Abdênago, que enviou seu anjo e libertou seus servos, que puseram nele sua confiança e transgrediram o decreto do rei, preferindo entregar suas vidas a servir e adorar qualquer outro deus que não fosse o seu Deus”.
+                                  <span class="GM">
+
+                                      – Palavra do Senhor.
+                                    </span>
+                                 </p>
+                                
+                            </div>
+
+                            <div>
+                                <h5 class="GM CL pt-3">Salmo Responsorial: Dn 3</h5>
+                            </div>
+
+                            <div>
+                                <h6 class="GM CL"><i>
+                                    A vós louvor, honra e glória eternamente!
+                                    </i>
+                                </h6>
+                            </div>
+
+                            <p class="GB CL text-justify mb-0 ">
+                                Sede bendito, Senhor Deus de nossos pais. / A vós louvor, honra e glória eternamente! / Sede bendito, nome santo e glorioso. / A vós louvor, honra e glória eternamente!  
+                                
+
+                                
+                            </p>
+                            <div>
+                                <h6 class="GM CL pt-3"><i>
+                                    A vós louvor, honra e glória eternamente!
+                                                                    </i>
+                                </h6>
+                            </div>
+
+                            <p class="GB CL text-justify mb-0">
+                                No templo santo onde refulge a vossa glória. / A vós louvor, honra e glória eternamente! / E em vosso trono de poder vitorioso. / A vós louvor, honra e glória eternamente! 
+
+
+
+                            </p>
+                            <div>
+                                <h6 class="GM CL pt-3"><i>
+                                    A vós louvor, honra e glória eternamente!
+
+                                    </i>
+                                </h6>
+                            </div>
+                            <p class="GB CL text-justify mb-0">
+                                Sede bendito, que sondais as profundezas. / A vós louvor, honra e glória eternamente! / E superior aos querubins vos assentais. / A vós louvor, honra e glória eternamente!  
+
+                                
+                              
+                            </p>
+                            <div>
+                                <h6 class="GM CL pt-3"><i>
+                                    A vós louvor, honra e glória eternamente!
+                                </i>
+                                </h6>
+                            </div>
+                            <!-- <div>
+                                <h5 class="GM CL pt-3">
+                                    Evangelho: João 8,21-30
+                                </h5>
+                            </div> -->
+                           
+
+                            <div>
+                                <p class="GB CL text-justify">
+                                    Sede bendito no celeste firmamento. / A vós louvor, honra e glória eternamente!
+                                    
+                                </p>
+                            </div>
+                            <!--  -->
+
+                            <div>
+                                <h6 class="GM CL pt-3"><i>
+                                    A vós louvor, honra e glória eternamente!
+                                </i>
+                                </h6>
+                            </div>
+                            
+                            <div>
+                                <p class="GB CL text-justify">
+                                    Obras todas do Senhor, glorificai-o. / A ele louvor, honra e glória eternamente!
+                                    
+                                </p>
+                            </div>
+
+                            <div>
+                                <h6 class="GM CL pt-3"><i>
+                                    A vós louvor, honra e glória eternamente!
+                                </i>
+                                </h6>
+                            </div>
+                            <div>
+                                <h5 class="GM CL pt-3">
+                                    Evangelho: João 8,31-42
+                                </h5>
+                            </div>
+                           
+
+                            <div>
+                                <p class="GB CL text-justify">
+                                    Naquele tempo, 31 Jesus disse aos judeus que nele tinham acreditado: “Se permanecerdes na minha palavra, sereis verdadeiramente meus discípulos, 32 e conhecereis a verdade, e a verdade vos libertará”. 33 Responderam eles: “Somos descendentes de Abraão e nunca fomos escravos de ninguém. Como podes dizer: ‘Vós vos tornareis livres’?” 34 Jesus respondeu: “Em verdade, em verdade vos digo, todo aquele que comete pecado é escravo do pecado. 35 O escravo não permanece para sempre numa família, mas o filho permanece nela para sempre. 36 Se, pois, o Filho vos libertar, sereis verdadeiramente livres. 37 Bem sei que sois descendentes de Abraão; no entanto, procurais matar-me, porque a minha palavra não é acolhida por vós. 38 Eu falo o que vi junto do Pai; e vós fazeis o que ouvistes do vosso pai”. 39 Eles responderam então: “O nosso pai é Abraão”. Disse-lhes Jesus: “Se sois filhos de Abraão, praticai as obras de Abraão! 40 Mas agora vós procurais matar-me, a mim, que vos falei a verdade que ouvi de Deus. Isto, Abraão não o fez. 41 Vós fazeis as obras do vosso pai”. Disseram-lhe, então: “Nós não nascemos do adultério, temos um só pai: Deus”. 42 Respondeu-lhes Jesus: “Se Deus fosse vosso Pai, vós certamente me amaríeis, porque de Deus é que eu saí e vim. Não vim por mim mesmo, mas foi ele que me enviou”. 
+                                    <span class="GM">
+
+                                        – Palavra da Salvação.
+                                    </span>
+
+                                </p>
+                            </div>
+                            <!--  -->
+                          
+
+                           
+
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+                <!-- SIDE BAR CONTENT START -->
+
+
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="search-block">
+                        <form class="search-form d-flex" action="">
+                            <input type="text" class="search w-100">
+                            <button type="submit" class="search-button">
+                                <img class="LUPA_IMG" src="../../assets/img/header-footer/LUPA.png"></button>
+                        </form>
+                    </div>
+                    <div>
+                        <!-- BLOG HEADING -->
+                        <p class="blog-heading pt-3">
+                            Leituras do mês
+
+
+                        </p>
+                        <div>
+                            <div class="calendar">
+
+                                <!-- CAlendar -->
+
+                                <div class="icalendar">
+                                    <div class="icalendar__month">
+                                        <div class="icalendar__prev" onclick="moveDate('prev')">
+                                            <span>&#10094</span>
+                                        </div>
+                                        <div class="icalendar__current-date">
+                                            <h2 id="icalendarMonth"></h2>
+                                            <div>
+                                                <div id="icalendarDateStr"></div>
+                                            </div>
+
+                                        </div>
+                                        <div class="icalendar__next" onclick="moveDate('next')">
+                                            <span>&#10095</span>
+                                        </div>
+                                    </div>
+                                    <div class="icalendar__week-days">
+                                        <div>D</div>
+                                        <div>S</div>
+                                        <div>T</div>
+                                        <div>Q</div>
+                                        <div>Q</div>
+                                        <div>S</div>
+                                        <div>S</div>
+                                    </div>
+                                    <div class="icalendar__days"></div>
+
+
+                                    <script src="../../assets/script/leitura-calendar.js"
+                                        type="text/javascript"></script>
+                                </div>
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+
+
+
+
+                        <div class="tagDiv">
+                            <h class="blue tags GM pb-1">Tags</h5>
+                        </div>
+                        <div class="GM pt-1">
+                            <div class="btnclass GM">
+                                <button class="adjbtn">missão</button>
+                                <button class="adjbtn">Amazônia</button>
+                                <button class="adjbtn">evengel</button>
+                            </div>
+                            <div class="btnclass GM">
+                                <button class="adjbtn">covid-19</button>
+                                <button class="adjbtn">indigenas</button>
+                                <button class="adjbtn">noviça</button>
+                            </div>
+                            <div class="btnclass">
+
+
+
+                                <button class="adjbtn">papa francisco</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- BLOG HEADING -->
+                    <p class="blog-heading pt-3 ">
+                        Destaques
+                    </p>
+                    <!-- B_LOG HEADING 1-->
+                    <div id="destaquesPortion"></div>
+
+
+
+
+
+                </div>
+                <!-- SIDE BAR CONTENT END -->
+
+
+
+
+
+
+
+
+
+            </div>
+    </section>
+    <!-- quem-somos-heading-end -->
+
+
+    <div id="footerCode"></div>
+    <script src="../../assets/script/audio.js"></script>
+    <script src="../../assets/script/calendar.js"></script>
+    <script src="../../assets/script/header-footer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
+<script src="../../assets/script/postData.js"></script>
