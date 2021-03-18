@@ -696,7 +696,7 @@ let mainData = {
                 img: host +
                     "/assets/img/Dia-de-santo/March/15_Post_Dia_Santo_Marco_2020.jpg",
                 title: "São Longuinho",
-                details: "São Longuinho é um dos santos que têm muitos devotos. No Brasil, ele goza de grande popularidade. Mas por que esse santo tem alcançado tanta fama  Acredita-se que São Longuinho seja o soldado que, junto à cruz de Jesus, obteve a conversão.",
+                details: "São Longuinho é um dos santos que têm muitos devotos. No Brasil, ele goza de grande popularidade. Mas por que esse santo tem alcançado tanta fama?  Acredita-se que São Longuinho seja o soldado que, junto à cruz de Jesus, obteve a conversão.",
                 date: "15 de Março de 2021",
                 route: host + "/Dia-de-santo/Dia-March/Dia-15.html",
             },
