@@ -89,6 +89,7 @@ function renderDate() {
         cells += "<div class='icalendar__prev-date'>" + (prevDate - x + 1) + "</div>";
     }
     for (let i = 1; i <= endDate; i++) {
+        console.log(  months[dt.getMonth()])
         let i2 = i + "a"
         if (i == currentDate && months[dt.getMonth()] == 'Setembro' || i2 == currentDate2) {
             cells += "<a class='icalendar__today'>" + i + "</a>";
@@ -97,7 +98,7 @@ function renderDate() {
 
 
             })
-            if (months[dt.getMonth()] == 'Fevereiro') {
+            if (months[dt.getMonth()] == 'Março') {
                 console.log('From Calendar--------------')
                 console.log(months[dt.getMonth()]);
                 console.log('From Calendar--------------')
@@ -109,8 +110,8 @@ function renderDate() {
                     }, 2000)
                     check = 1;
                 }
-                if (mainData.santoData.February[i]) {
-                    cells += `<a class='a-date' href="${host}/Dia-de-santo/Dia-February/Dia-` + i + `.html">` + i + `</a>`;
+                if (mainData.santoData.March[i]) {
+                    cells += `<a class='a-date' href="${host}/Dia-de-santo/Dia-March/Dia-` + i + `.html">` + i + `</a>`;
                 } else {
                     cells += `<a class='a-date' style="color:#bbbbbb !important">` + i + `</a>`;
                 }
@@ -119,6 +120,8 @@ function renderDate() {
                 // document.getElementsByClassName('a-date').setAttribute('href',`../Leitura-Orante/leitura-orante-`+i+`.html`)
             }
            else if (months[dt.getMonth()] == 'Dezembro') {
+               
+          
                 console.log('From Calendar--------------')
                 console.log(months[dt.getMonth()]);
                 console.log('From Calendar--------------')
@@ -183,15 +186,15 @@ function renderDate() {
                 }
 
             }
-            // else if (months[dt.getMonth()] == "Março") {
+            else if (months[dt.getMonth()] == "Fevereiro") {
 
-            //     if (mainData.santoData.March[i]) {
-            //         cells += `<a class='a-date' href="${host}/Dia-de-santo/Dia-March/Dia-` + i + `.html">` + i + `</a>`;
-            //     } else {
-            //         cells += `<a class='a-date' style="color:#bbbbbb !important">` + i + `</a>`;
-            //     }
+                if (mainData.santoData.February[i]) {
+                    cells += `<a class='a-date' href="${host}/Dia-de-santo/Dia-February/Dia-` + i + `.html">` + i + `</a>`;
+                } else {
+                    cells += `<a class='a-date' style="color:#bbbbbb !important">` + i + `</a>`;
+                }
 
-            // }
+            }
             // Copy the Latest Month of Calender As Above
             // Repalce the Name Of Months With New One (At Three Places)
             else {
