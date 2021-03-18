@@ -4474,6 +4474,7 @@ for (let i = currentDate; i > 0; i--) {
 	}
 }
 
+console.log(currentMonthIndex);
 if (mainData.santoData.EnglishMonths[currentMonthIndex][currentDate]) {
 	santoLink.setAttribute(
 		"href",
@@ -4499,7 +4500,7 @@ var http2 = new XMLHttpRequest();
 
 var leitura1 = document.getElementById("leitura1");
 var leitura = document.getElementById("leitura");
-// console.log(leitura);
+console.log(leitura);
 let url2 = "./leitura-orante/december/-orante-" + currentDate + ".html";
 http2.open("HEAD", url2, false);
 http2.send();
