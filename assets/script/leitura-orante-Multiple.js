@@ -20,8 +20,8 @@ Object.keys(mainData.leituraData).map((month) => {
     console.log(month);
     console.log(n);
 	
+	console.log(mainData.leituraData)
 	Object.keys(mainData.leituraData[month]).map((post) => {
-        // console.log(mainData.leituraData[month][post])
       
 		if (month == n) {
 			console.log("sadsada");

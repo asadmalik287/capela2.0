@@ -1,7 +1,7 @@
 // let host = "http://" + window.location.host;
 
 let mainData = {
-    santoData: {
+    santoData: {	
         September: {
             3: {
                 img: host +
@@ -3952,6 +3952,7 @@ if (mainData.oracoesMissionarias.December[currentDate]) {
 
 var http = new XMLHttpRequest();
 var http2 = new XMLHttpRequest();
+console.log(http2);
 
 var leitura1 = document.getElementById("leitura1");
 var leitura = document.getElementById("leitura");
@@ -3959,7 +3960,6 @@ console.log(leitura);
 let url2 = "./leitura-orante/december/-orante-" + currentDate + ".html";
 http2.open("HEAD", url2, false);
 http2.send();
-console.log(http2.status);
 
 if (http2.status === 200) {
     console.log("Lutera file exists");

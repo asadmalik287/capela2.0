@@ -1,5 +1,5 @@
 "use strict";
-let dt = new Date("January 1, 2020 23:15:00");
+let dt = new Date();
 
 function renderDate() {
     let currentDate = "";
@@ -47,6 +47,20 @@ function renderDate() {
         "Novembro",
         "Dezembro",
     ];
+    let englishMonths = [
+        'january',
+        'february',
+        'march',
+        'april',
+        'may',
+        'june',
+        'july',
+        'august',
+        'september',
+        'october',
+        'november',
+        'december'
+    ]
 
 
     document.getElementById("icalendarMonth").innerHTML = months[dt.getMonth()];
@@ -112,15 +126,15 @@ function renderDate() {
                     i +
                     `</a>`;
             }
-            // else if (months[dt.getMonth()] == "Fevereiro") {
-            //     // console.log(months[dt.getMonth()]);
-            //     cells +=
-            //         `<a class='a-date' href="../february/` +
-            //         i +
-            //         `.html">` +
-            //         i +
-            //         `</a>`;
-            // }
+            else if (months[dt.getMonth()] == months[dt.getMonth()]) {
+                // console.log(months[dt.getMonth()]);
+                cells +=
+                    `<a class='a-date' href="../${englishMonths[dt.getMonth()]}/` +
+                    i +
+                    `.html">` +
+                    i +
+                    `</a>`;
+            }
              else {
                 cells += `<a class='a-date'>` + i + `</a>`;
             }
