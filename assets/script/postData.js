@@ -4061,6 +4061,7 @@ for (let i = currentDate; i > 0; i--) {
     }
 }
 
+console.log(currentMonthIndex);
 if (mainData.santoData.EnglishMonths[currentMonthIndex][currentDate]) {
     santoLink.setAttribute(
         "href",
@@ -4086,25 +4087,25 @@ var http2 = new XMLHttpRequest();
 
 var leitura1 = document.getElementById("leitura1");
 var leitura = document.getElementById("leitura");
-// console.log(leitura);
+console.log(leitura);
 let url2 = "./leitura-orante/december/-orante-" + currentDate + ".html";
 http2.open("HEAD", url2, false);
 http2.send();
 console.log(http2.status);
 
 if (http2.status === 200) {
-    console.log("Lutera file exists");
-    leitura.setAttribute(
-        "href",
-        "./leitura-orante/december/-orante" + currentDate + ".html"
-    );
-    leitura1.setAttribute(
-        "href",
-        "./leitura-orante/december/-orante" + currentDate + ".html"
-    );
+	console.log("Lutera file exists");
+	leitura.setAttribute(
+		"href",
+		"./leitura-orante/december/-orante" + currentDate + ".html"
+	);
+	leitura1.setAttribute(
+		"href",
+		"./leitura-orante/december/-orante" + currentDate + ".html"
+	);
 }
 if (http2.status === 404) {
-    console.log("Lutera file does not exists");
-    leitura.setAttribute("href", `${host}/leitura-orante/multiple.html`);
-    leitura1.setAttribute("href", `${host}/leitura-orante/multiple.html`);
+	console.log("Lutera file does not exists");
+	leitura.setAttribute("href", `${host}/leitura-orante/multiple.html`);
+	leitura1.setAttribute("href", `${host}/leitura-orante/multiple.html`);
 }
