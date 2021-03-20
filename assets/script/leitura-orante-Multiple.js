@@ -17,15 +17,19 @@ var d = new Date();
 var n = months[d.getMonth()];
 // console.log(mainData.leituraData);
 Object.keys(mainData.leituraData).map((month) => {
-    console.log(month);
-    console.log(n);
+	if(n == month){
+	
+	}
+	console.log(month);
+	console.log(n);
+
 	
 	console.log(mainData.leituraData)
 	Object.keys(mainData.leituraData[month]).map((post) => {
       
 		if (month == n) {
 			console.log("sadsada");
-			// mainData.leituraData[month][post].date.split(' ')[0] <= new Date().getDate()
+			mainData.leituraData[month][post].date.split(' ')[0] <= new Date().getDate()
 
 			if (Array.isArray(mainData.leituraData[month][post]) == true) {
 				mainData.leituraData[month][post].map((subPost) => {
@@ -56,6 +60,7 @@ Object.keys(mainData.leituraData).map((month) => {
 		}
 	});
 	// console.log('--------------------------*****************************')
+
 });
 santoPostsArr.reverse();
 // console.log(santoPostsArr);
