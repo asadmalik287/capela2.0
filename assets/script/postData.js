@@ -1,974 +1,764 @@
 // let host = "http://" + window.location.host;
 
 let mainData = {
-	santoData: {
-		September: {
-			3: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/September/03_Post_Dia_Santo_Setembro_2020.jpg",
-				title: "São Gregório Magno",
-				details:
-					"Celebrando hoje São Gregório Magno, reconhecemos a grande contribuição desse Papa à Igreja, como guia de seu rebanho. Que, de sua fidelidade, aprendamos a fé e o amor a Deus por nosso compromisso com os mais sofridos. São Gregório, rogai por nós!",
-				date: "03 de Setembro de 2020",
-				route: host + "/Dia-de-santo/Dia-September/Dia-3.html",
-			},
-			5: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/September/05_Post_Dia_Santo_Setembro_2020.jpg",
-				title: "Santa Teresa de Calcutá",
-				details:
-					" Hoje a Igreja celebra a memória de Santa Teresa de Calcutá. Seguindo a vontade de Deus, dedicou toda sua vida a amar sobretudo os pobres. “Temos de ir à procura das pessoas, porque podem ter fome de pão ou de amizade”, costumava dizer. ",
-				date: "05 de Setembro de 2020",
-				route: host + "/Dia-de-santo/Dia-September/Dia-5.html",
-			},
-			15: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/September/15_Post_Dia_Santo_Setembro_2020.jpg",
-				title: "Nossa Senhora das Dores",
-				details:
-					"Nossa Senhora das Dores, de quem fazemos memória hoje, interceda por nós, seus filhos, neste mundo tão dilacerando pelo sofrimento pelo qual passam milhões de pessoas.",
-				date: "15 de Setembro de 2020",
-				route: host + "/Dia-de-santo/Dia-September/Dia-15.html",
-			},
-			16: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/September/16_Post_Dia_Santo_Setembro_2020.jpg",
-				title: " São Cornélio e São Cipriano",
-				details:
-					"O Papa Cornélio e o bispo de Cartago, Cipriano, cujas memórias celebramos hoje, foram vítimas ilustres da perseguição.",
-				date: "16 de Setembro de 2020",
-				route: host + "/Dia-de-santo/Dia-September/Dia-16.html",
-			},
-			19: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/September/19_Post_Dia_Santo_Setembro_2020.jpg",
-				title: "Assunção de Maria",
-				details:
-					"Hoje a Igreja celebra a Solenidade da Assunção de Maria. A Assunção é a participação de Maria na ressurreição de Cristo. Assim, é uma antecipação da nossa ressurreição. Que Maria nos ajude a lutarpelo bem, pela paz e pela justiça..",
-				date: "19 de Setembro de 2020",
-				route: host + "/Dia-de-santo/Dia-September/Dia-19.html",
-			},
-			21: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/September/21_Post_Dia_Santo_Setembro_2020.jpg",
-				title: "São Mateus Apóstolo e Evangelista",
-				details:
-					"Que São Mateus, um dos doze apóstolos de Jesus, nos inspire a estar atentos ao chamado do Senhor, a nos colocar a caminho e de coração aberto para a missão.",
-				date: "21 de Setembro de 2020",
-				route: host + "/Dia-de-santo/Dia-September/Dia-21.html",
-			},
-			23: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/September/23_Post_Dia_Santo_Setembro_2020.jpg",
-				title: "São Pio de Pietrelcina",
-				details:
-					"Hoje é dia de São Pio de Pietrelcina, o Padre Pio. Ele é um dos santos que mais se assemelharam a Nosso Senhor Jesus Cristo. Marcado pelo profundo amor a Deus e às pessoas, dizia: “Ficarei na porta do Paraíso até o último de meus filhos entrar",
-				date: "23 de Setembro de 2020",
-				route: host + "/Dia-de-santo/Dia-September/Dia-23.html",
-			},
-			26: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/September/26_Post_Dia_Santo_Setembro_2020.jpg",
-				title: "São Cosme e Damião, Mártires",
-				details:
-					" Cosme e Damião foram escolhidos, por sua profissão, como patronos dos médicos e dos farmacêuticos. Sabe-se pouco da vida e do martírio desses dois santos, e as lendas não demoraram, colorindo de fantasias sua biografia.",
-				date: "26 de Setembro de 2020",
-				route: host + "/Dia-de-santo/Dia-September/Dia-26.html",
-			},
-			27: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/September/27_Post_Dia_Santo_Setembro_2020.jpg",
-				title: "São Vicente de Paulo",
-				details:
-					"    Vicente de Paulo nasceu em Pouy, na França, em 24 de abril de 1581. Filho de pobres camponeses, gostava de estudar e se destacava por sua inteligência e zelo religioso. ",
-				date: "27 de Setembro de 2020",
-				route: host + "/Dia-de-santo/Dia-September/Dia-27.html",
-			},
+    santoData: {	
+        September: {
+            3: {
+                img: host +
+                    "/assets/img/Dia-de-santo/September/03_Post_Dia_Santo_Setembro_2020.jpg",
+                title: "São Gregório Magno",
+                details: "Celebrando hoje São Gregório Magno, reconhecemos a grande contribuição desse Papa à Igreja, como guia de seu rebanho. Que, de sua fidelidade, aprendamos a fé e o amor a Deus por nosso compromisso com os mais sofridos. São Gregório, rogai por nós!",
+                date: "03 de Setembro de 2020",
+                route: host + "/Dia-de-santo/Dia-September/Dia-3.html",
+            },
+            5: {
+                img: host +
+                    "/assets/img/Dia-de-santo/September/05_Post_Dia_Santo_Setembro_2020.jpg",
+                title: "Santa Teresa de Calcutá",
+                details: " Hoje a Igreja celebra a memória de Santa Teresa de Calcutá. Seguindo a vontade de Deus, dedicou toda sua vida a amar sobretudo os pobres. “Temos de ir à procura das pessoas, porque podem ter fome de pão ou de amizade”, costumava dizer. ",
+                date: "05 de Setembro de 2020",
+                route: host + "/Dia-de-santo/Dia-September/Dia-5.html",
+            },
+            15: {
+                img: host +
+                    "/assets/img/Dia-de-santo/September/15_Post_Dia_Santo_Setembro_2020.jpg",
+                title: "Nossa Senhora das Dores",
+                details: "Nossa Senhora das Dores, de quem fazemos memória hoje, interceda por nós, seus filhos, neste mundo tão dilacerando pelo sofrimento pelo qual passam milhões de pessoas.",
+                date: "15 de Setembro de 2020",
+                route: host + "/Dia-de-santo/Dia-September/Dia-15.html",
+            },
+            16: {
+                img: host +
+                    "/assets/img/Dia-de-santo/September/16_Post_Dia_Santo_Setembro_2020.jpg",
+                title: " São Cornélio e São Cipriano",
+                details: "O Papa Cornélio e o bispo de Cartago, Cipriano, cujas memórias celebramos hoje, foram vítimas ilustres da perseguição.",
+                date: "16 de Setembro de 2020",
+                route: host + "/Dia-de-santo/Dia-September/Dia-16.html",
+            },
+            19: {
+                img: host +
+                    "/assets/img/Dia-de-santo/September/19_Post_Dia_Santo_Setembro_2020.jpg",
+                title: "Assunção de Maria",
+                details: "Hoje a Igreja celebra a Solenidade da Assunção de Maria. A Assunção é a participação de Maria na ressurreição de Cristo. Assim, é uma antecipação da nossa ressurreição. Que Maria nos ajude a lutarpelo bem, pela paz e pela justiça..",
+                date: "19 de Setembro de 2020",
+                route: host + "/Dia-de-santo/Dia-September/Dia-19.html",
+            },
+            21: {
+                img: host +
+                    "/assets/img/Dia-de-santo/September/21_Post_Dia_Santo_Setembro_2020.jpg",
+                title: "São Mateus Apóstolo e Evangelista",
+                details: "Que São Mateus, um dos doze apóstolos de Jesus, nos inspire a estar atentos ao chamado do Senhor, a nos colocar a caminho e de coração aberto para a missão.",
+                date: "21 de Setembro de 2020",
+                route: host + "/Dia-de-santo/Dia-September/Dia-21.html",
+            },
+            23: {
+                img: host +
+                    "/assets/img/Dia-de-santo/September/23_Post_Dia_Santo_Setembro_2020.jpg",
+                title: "São Pio de Pietrelcina",
+                details: "Hoje é dia de São Pio de Pietrelcina, o Padre Pio. Ele é um dos santos que mais se assemelharam a Nosso Senhor Jesus Cristo. Marcado pelo profundo amor a Deus e às pessoas, dizia: “Ficarei na porta do Paraíso até o último de meus filhos entrar",
+                date: "23 de Setembro de 2020",
+                route: host + "/Dia-de-santo/Dia-September/Dia-23.html",
+            },
+            26: {
+                img: host +
+                    "/assets/img/Dia-de-santo/September/26_Post_Dia_Santo_Setembro_2020.jpg",
+                title: "São Cosme e Damião, Mártires",
+                details: " Cosme e Damião foram escolhidos, por sua profissão, como patronos dos médicos e dos farmacêuticos. Sabe-se pouco da vida e do martírio desses dois santos, e as lendas não demoraram, colorindo de fantasias sua biografia.",
+                date: "26 de Setembro de 2020",
+                route: host + "/Dia-de-santo/Dia-September/Dia-26.html",
+            },
+            27: {
+                img: host +
+                    "/assets/img/Dia-de-santo/September/27_Post_Dia_Santo_Setembro_2020.jpg",
+                title: "São Vicente de Paulo",
+                details: "    Vicente de Paulo nasceu em Pouy, na França, em 24 de abril de 1581. Filho de pobres camponeses, gostava de estudar e se destacava por sua inteligência e zelo religioso. ",
+                date: "27 de Setembro de 2020",
+                route: host + "/Dia-de-santo/Dia-September/Dia-27.html",
+            },
 
-			29: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/September/29_Post_Dia_Santo_Setembro_2020.jpg",
-				title: "São Miguel, São Gabriel e São Rafael, Arcanjos",
-				details:
-					"Os arcanjos Miguel, Gabriel e Rafael são seres celestiais que estão a serviço de Deus como mensageiros e protetores.",
-				date: "29 de Setembro de 2020",
-				route: host + "/Dia-de-santo/Dia-September/Dia-29.html",
-			},
-			30: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/September/30_Post_Dia_Santo_Setembro_2020.jpg",
-				title: "São Jerônimo",
-				details:
-					"São Jerônimo foi um escritor de estilo rico, capaz de pensar e escrever em latim, grego e hebraico. Nele se revela o filósofo, o retórico, o gramático e o dialético.",
-				date: "30 de Setembro de 2020",
-				route: host + "/Dia-de-santo/Dia-September/Dia-30.html",
-			},
-		},
-		October: {
-			1: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/October/01_Post_Dia_Santo_Outubro_2020.jpg",
-				title: "Santa Teresinha do Menino Jesus",
-				details:
-					"Hoje celebramos Santa Teresinha do Menino Jesus, que nos inspira a viver, nas pequenas coisas do cotidiano, a experiência de Deus. Seu pensamento expressa bem sua vida: “Quero passar o céu fazendo o bem na terra”. Santa Teresinha, rogai por nós!",
-				date: "01 de outubro de 2020",
-				route: host + "/Dia-de-santo/Dia-October/Dia-1.html",
-			},
-			2: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/October/02_Post_Dia_Santo_Outubro_2020.jpg",
-				title: "Santos Anjos da Guarda",
-				details:
-					"Hoje a Igreja celebra os Santos Anjos da Guarda. Os Anjos estão presentes na nossa vida, nos auxiliam, protegem e guardam de todo o mal. Não é possível descobrir sua ação com os nossos sentidos sensoriais. Mas, sabemos que realmente intervém na vida.",
-				date: "02 de outubro de 2020",
-				route: host + "/Dia-de-santo/Dia-October/Dia-2.html",
-			},
-			4: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/October/04_Post_Dia_Santo_Outubro_2020.jpg",
-				title: "São Francisco de Assis",
-				details:
-					"Celebramos hoje a memória de São Francisco de Assis. Nasceu em Assis, Itália, em 1182. Como filho de um nobre comerciante, viveu na riqueza e no esbanjamento, mas experimentou a verdadeira conversão ao caminho de Jesus.",
-				date: "04 de outubro de 2020",
-				route: host + "/Dia-de-santo/Dia-October/Dia-4.html",
-			},
-			5: [
-				{
-					img:
-						host +
-						"/assets/img/Dia-de-santo/October/05_Post_Dia_Santo_Outubro_2020.jpg",
-					title: "São Benedito",
-					details:
-						"Hoje celebramos a memória de São Benedito que, com muita fé e humildade, seguiu sua vida consagrada na Ordem dos Frades Menores Capuchinhos, cuidando dos mais pobres. São Benedito, rogai por nós!",
-					date: "05 de outubro de 2020",
-					route: host + "/Dia-de-santo/Dia-October/Dia-5.html",
-				},
-				{
-					img:
-						host +
-						"/assets/img/Dia-de-santo/October/05_Post_Dia_Santo_Outubro_2020_Canonizacao.jpg",
-					title: "Canonização de Santo Arnaldo Janssen e São José Freinademetz",
-					details:
-						"Unidos pelo amor à missão, Santo Arnaldo Janssen e São José Freinademetz foram canonizados juntos por São João Paulo II, no dia 5 de outubro de 2003. Arnaldo fundou três congregações religiosas, e José dedicou sua vida à evangelização do povo chinês.",
-					date: "05 de outubro de 2020",
-					route: host + "/Dia-de-santo/Dia-October/Dia-5a.html",
-				},
-				{
-					img:
-						host +
-						"/assets/img/Dia-de-santo/October/05_Post_Dia_Santo_Outubro_2020_B.jpg",
-					title: "Santa Faustina Kowalska",
-					details:
-						"Hoje a Igreja celebra Santa Faustina, uma freira e mística polonesa. Ficou muito conhecida pelas extraordinárias revelações sob a misericórdia de Deus. Entre as muitas devoções difundidas por ela, temos o terço da Divina Misericórdia. ",
-					date: "05 de outubro de 2020",
-					route: host + "/Dia-de-santo/Dia-October/Dia-5b.html",
-				},
-			],
-			7: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/October/07_Post_Dia_Santo_Outubro_2020.jpg",
-				title: "Nossa Senhora do Rosário",
-				details:
-					"Que a memória de Nossa Senhora do Rosário nos inspire a buscarmos, na oração do rosário, a devoção mariana, meditando os mistérios de Jesus, na encarnação, paixão, morte e ressurreição de Cristo. Nossa Senhora do Rosário, rogai por nós!",
-				date: "07 de outubro de 2020",
-				route: host + "/Dia-de-santo/Dia-October/Dia-7.html",
-			},
-			10: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/October/10_Post_Dia_Santo_Outubro_2020.jpg",
-				title: "São Daniel Comboni",
-				details:
-					"Celebramos hoje a memória do São Daniel Comboni. Ele se dedicou ao povo africano no Sudão. Sensibilizado pela realidade de pobreza em que viviam as pessoas, Comboni doou sua vida a serviço da missão. Seu lema: “Salvar a África com a África”.",
-				date: "10 de outubro de 2020",
-				route: host + "/Dia-de-santo/Dia-October/Dia-10.html",
-			},
-			11: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/October/11_Post_Dia_Santo_Outubro_2020.jpg",
-				title: "São João XXIII, Papa",
-				details:
-					"Hoje a Igreja celebra São João XXIII, conhecido como “O Papa Bom”. Ele, que costumava dizer “Os santos do Senhor, em todos os lugares, nos alegram, nos animam e nos abençoam”, nos ensine a ser fiéis discípulos de Jesus e apóstolos de sua Palavra.",
-				date: "11 de outubro de 2020",
-				route: host + "/Dia-de-santo/Dia-October/Dia-11.html",
-			},
-			12: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/October/12_Post_Dia_Santo_Outubro_2020.jpg",
-				title: "Nossa Senhora Aparecida",
-				details:
-					"Celebramos hoje Nossa Senhora da Conceição Aparecida, Padroeira do Brasil. Invocamos nossa Mãe e, por sua intercessão, peçamos a Deus muitas bênçãos a nosso Brasil. Que esta nação consagrada a ela caminhe na fé, esperança, amor e na solidariedade.",
-				date: "12 de outubro de 2020",
-				route: host + "/Dia-de-santo/Dia-October/Dia-12.html",
-			},
-			15: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/October/15_Post_Dia_Santo_Outubro_2020.jpg",
-				title: "Santa Teresa de Ávila",
-				details:
-					"Santa Teresa de Ávila, de quem fazemos memória hoje, nos inspire a viver a mística no nosso dia a dia e a caminhar numa profunda experiência de Deus, pois somente como ela disse… “Tudo passa, só Deus basta”. ",
-				date: "15 de outubro de 2020",
-				route: host + "/Dia-de-santo/Dia-October/Dia-15.html",
-			},
-			17: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/October/17_Post_Dia_Santo_Outubro_2020.jpg",
-				title: "Santo Inácio de Antioquia, bispo e mártir",
-				details:
-					"Celebramos hoje a memória de Santo Inácio de Antioquia, bispo e mártir da Igreja. Peçamos a intercessão desse santo que marcou a comunidade cristã de Antioquia. Que nós, seguidores de Jesus, vivamos em unidade e caminhemos à luz do Evangelho.",
-				date: "17 de outubro de 2020",
-				route: host + "/Dia-de-santo/Dia-October/Dia-17.html",
-			},
-			18: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/October/18_Post_Dia_Santo_Outubro_2020.jpg",
-				title: "São Lucas evangelista",
-				details:
-					"“Visto que muitos já empreenderam compor uma narração dos fatos que se cumpriram entre nós, conforme no-los transmitiram os que, desde o princípio, foram testemunhas…, a mim também me pareceu conveniente escrever-te…, ilustre Teófilo” (Lc 1,1-4).",
-				date: "18 de outubro de 2020",
-				route: host + "/Dia-de-santo/Dia-October/Dia-18.html",
-			},
-			22: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/October/22_Post_Dia_Santo_Outubro_2020.jpg",
-				title: "São João Paulo II",
-				details:
-					"Hoje a Igreja celebra São João Paulo II, o Papa polonês, muito influente no diálogo para a superação de conflitos mundiais. Ele se empenhou em reconduzir a Igreja pós-conciliar para um caminho mais religioso.",
-				date: "22 de outubro de 2020",
-				route: host + "/Dia-de-santo/Dia-October/Dia-22.html",
-			},
-			25: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/October/25_Post_Dia_Santo_Outubro_2020.jpg",
-				title: "Santo Antônio de Sant’Ana Galvão",
-				details:
-					"Celebramos hoje a memória de Santo Antônio de Sant’Ana Galvão. Viveu sua vocação de consagrado com grande dedicação, serenidade e na caridade com os mais necessitados. Que ele rogue a Deus por nós!",
-				date: "25 de outubro de 2020",
-				route: host + "/Dia-de-santo/Dia-October/Dia-25.html",
-			},
-			28: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/October/28_Post_Dia_Santo_Outubro_2020.jpg",
-				title: "São Simão e São Judas Tadeu, Apóstolos",
-				details:
-					"São Simão e São Judas Tadeu, chamados por Jesus e enviados a testemunhar o Evangelho. Que, pela intercessão desses apóstolos, sejamos fortalecidos em nossa fé e, com alegria, coragem e fidelidade, anunciemos o Cristo.",
-				date: "28 de outubro de 2020",
-				route: host + "/Dia-de-santo/Dia-October/Dia-28.html",
-			},
-		},
-		November: {
-			1: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/November/01_Post_Dia_Santo_Novembro_2020.jpg",
-				title: "Todos os Santos",
-				details:
-					"Na Solenidade de Todos os Santos, a Igreja militante honra todos os servos de Deus. Aqueles que, pela fé, esperança e caridade, mantiveram-se fiéis, dando testemunho das bem-aventuranças. Que eles roguem por nós e, um dia, estejamos junto deles! ",
-				date: "01 de Novembro de 2020",
-				route: host + "/Dia-de-santo/Dia-November/Dia-1.html",
-			},
-			3: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/November/03_Post_Dia_Santo_Novembro_2020.jpg",
-				title: "São Martinho de Lima",
-				details:
-					"Celebrando a memória de São Martinho de Lima, recordamos as vidas das pessoas que se entregam, com amor e caridade, no serviço simples. Que seu exemplo nos ajude a buscar, na singeleza, viver com santidade.",
-				date: "03 de Novembro de 2020",
-				route: host + "/Dia-de-santo/Dia-November/Dia-3.html",
-			},
-			4: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/November/04_Post_Dia_Santo_Novembro_2020.jpg",
-				title: "São Carlos Borromeu",
-				details:
-					"Celebrando hoje a memória de São Carlos Borromeu, queremos lembrar esse Santo que tanto bem fez à Igreja. Concretizou as reformas do Concílio de Trento e destacou-se na caridade com os mais pobres e doentes. São Carlos Borromeu, rogai por nós!",
-				date: "04 de Novembro de 2020",
-				route: host + "/Dia-de-santo/Dia-November/Dia-4.html",
-			},
-			10: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/November/10_Post_Dia_Santo_Novembro_2020.jpg",
-				title: "São Leão Magno, Papa e Doutor da Igreja",
-				details:
-					"Celebramos hoje a memória de São Leão Magno, Papa e Doutor da Igreja. Com sua liderança, ele ajudou muito na unidade da Igreja e na elaboração dogmática do Concílio de Calcedônia, ao defender as verdades de nossa fé. São Leão Magno, rogai por nós!",
-				date: "10 de Novembro de 2020",
-				route: host + "/Dia-de-santo/Dia-November/Dia-10.html",
-			},
-			11: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/November/11_Post_Dia_Santo_Novembro_2020.jpg",
-				title: "São Martinho de Tours, bispo",
-				details:
-					"Martinho nasceu em Panônia, hoje Hungria, por volta do ano 316. Seus pais não eram cristãos, portanto foi somente na adolescência que ele teve contato mais direto com os seguidores de Jesus. Porém, quando seu pai o soube, opôs-se energicamente. Sendo geral no exército, queria que o filho Martinho seguisse a mesma carreira militar.",
-				date: "11 de Novembro de 2020",
-				route: host + "/Dia-de-santo/Dia-November/Dia-11.html",
-			},
-			12: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/November/12_Post_Dia_Santo_Novembro_2020.jpg",
-				title: "São Josafá, bispo e mártir",
-				details:
-					"São Josafá nasceu na Ucrânia, por volta do ano 1580, de pais ortodoxos. Foi um buscador da verdade e da glória de Deus, por isso, certo dia se aproximou da Igreja católica e, ao conhecê-la, ficou encantado. Em 1604, ingressou no Mosteiro da Santíssima Trindade, na cidade de Vilna.",
-				date: "12 de Novembro de 2020",
-				route: host + "/Dia-de-santo/Dia-November/Dia-12.html",
-			},
-			15: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/November/15_Post_Dia_Santo_Novembro_2020.jpg",
-				title: "Santo Alberto Magno, bispo e doutor da Igreja",
-				details:
-					"Celebrando hoje a memória de Santo Alberto Magno, bispo e doutor da Igreja, queremos recordar esse santo que soube buscar na oração a humildade e o desapego. Dedicou-se aos estudos das Ciências Naturais e ao conhecimento das verdades de nossa fé. ",
-				date: "15 de Novembro de 2020",
-				route: host + "/Dia-de-santo/Dia-November/Dia-15.html",
-			},
-			16: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/November/16_Post_Dia_Santo_Novembro_2020.jpg",
-				title: "Santa Gertrudes, virgem",
-				details:
-					"Hoje a Igreja celebra Santa Gertrudes, uma mulher que, passando toda sua vida num mosteiro, encontrou alegria e liberdade verdadeiras junto do Senhor Jesus. Essa espiritualidade é um belo legado que deixou ao povo de Deus, à Igreja.  ",
-				date: "16 de Novembro de 2020",
-				route: host + "/Dia-de-santo/Dia-November/Dia-16.html",
-			},
-			17: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/November/17_Post_Dia_Santo_Novembro_2020.jpg",
-				title: "Santa Isabel da Hungria",
-				details:
-					"Hoje a Igreja celebra a memória de Santa Isabel da Hungria, a rainha que renunciou a títulos e riquezas para dedicar-se, com amor e generosidade, a servir a Deus, servindo aos mais pobres e enfermos. Isso lhe mereceu ser chamada “a mulher maior”. ",
-				date: "17 de Novembro de 2020",
-				route: host + "/Dia-de-santo/Dia-November/Dia-17.html",
-			},
-			19: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/November/19_Post_Dia_Santo_Novembro_2020.jpg",
-				title: "Santos Roque Gonzáles, Afonso Rodríguez e João del Castillo ",
-				details:
-					"Fazemos memória dos santos Roque Gonzáles, Afonso Rodríguez e João del Castillo, mártires. Foram missionários entre os índios guaranis e fundaram cinco reduções. Que eles intercedam por todos os missionários presentes nas lutas das nações indígenas.",
-				date: "19 de Novembro de 2020",
-				route: host + "/Dia-de-santo/Dia-November/Dia-19.html",
-			},
+            29: {
+                img: host +
+                    "/assets/img/Dia-de-santo/September/29_Post_Dia_Santo_Setembro_2020.jpg",
+                title: "São Miguel, São Gabriel e São Rafael, Arcanjos",
+                details: "Os arcanjos Miguel, Gabriel e Rafael são seres celestiais que estão a serviço de Deus como mensageiros e protetores.",
+                date: "29 de Setembro de 2020",
+                route: host + "/Dia-de-santo/Dia-September/Dia-29.html",
+            },
+            30: {
+                img: host +
+                    "/assets/img/Dia-de-santo/September/30_Post_Dia_Santo_Setembro_2020.jpg",
+                title: "São Jerônimo",
+                details: "São Jerônimo foi um escritor de estilo rico, capaz de pensar e escrever em latim, grego e hebraico. Nele se revela o filósofo, o retórico, o gramático e o dialético.",
+                date: "30 de Setembro de 2020",
+                route: host + "/Dia-de-santo/Dia-September/Dia-30.html",
+            },
+        },
+        October: {
+            1: {
+                img: host +
+                    "/assets/img/Dia-de-santo/October/01_Post_Dia_Santo_Outubro_2020.jpg",
+                title: "Santa Teresinha do Menino Jesus",
+                details: "Hoje celebramos Santa Teresinha do Menino Jesus, que nos inspira a viver, nas pequenas coisas do cotidiano, a experiência de Deus. Seu pensamento expressa bem sua vida: “Quero passar o céu fazendo o bem na terra”. Santa Teresinha, rogai por nós!",
+                date: "01 de outubro de 2020",
+                route: host + "/Dia-de-santo/Dia-October/Dia-1.html",
+            },
+            2: {
+                img: host +
+                    "/assets/img/Dia-de-santo/October/02_Post_Dia_Santo_Outubro_2020.jpg",
+                title: "Santos Anjos da Guarda",
+                details: "Hoje a Igreja celebra os Santos Anjos da Guarda. Os Anjos estão presentes na nossa vida, nos auxiliam, protegem e guardam de todo o mal. Não é possível descobrir sua ação com os nossos sentidos sensoriais. Mas, sabemos que realmente intervém na vida.",
+                date: "02 de outubro de 2020",
+                route: host + "/Dia-de-santo/Dia-October/Dia-2.html",
+            },
+            4: {
+                img: host +
+                    "/assets/img/Dia-de-santo/October/04_Post_Dia_Santo_Outubro_2020.jpg",
+                title: "São Francisco de Assis",
+                details: "Celebramos hoje a memória de São Francisco de Assis. Nasceu em Assis, Itália, em 1182. Como filho de um nobre comerciante, viveu na riqueza e no esbanjamento, mas experimentou a verdadeira conversão ao caminho de Jesus.",
+                date: "04 de outubro de 2020",
+                route: host + "/Dia-de-santo/Dia-October/Dia-4.html",
+            },
+            5: [{
+                    img: host +
+                        "/assets/img/Dia-de-santo/October/05_Post_Dia_Santo_Outubro_2020.jpg",
+                    title: "São Benedito",
+                    details: "Hoje celebramos a memória de São Benedito que, com muita fé e humildade, seguiu sua vida consagrada na Ordem dos Frades Menores Capuchinhos, cuidando dos mais pobres. São Benedito, rogai por nós!",
+                    date: "05 de outubro de 2020",
+                    route: host + "/Dia-de-santo/Dia-October/Dia-5.html",
+                },
+                {
+                    img: host +
+                        "/assets/img/Dia-de-santo/October/05_Post_Dia_Santo_Outubro_2020_Canonizacao.jpg",
+                    title: "Canonização de Santo Arnaldo Janssen e São José Freinademetz",
+                    details: "Unidos pelo amor à missão, Santo Arnaldo Janssen e São José Freinademetz foram canonizados juntos por São João Paulo II, no dia 5 de outubro de 2003. Arnaldo fundou três congregações religiosas, e José dedicou sua vida à evangelização do povo chinês.",
+                    date: "05 de outubro de 2020",
+                    route: host + "/Dia-de-santo/Dia-October/Dia-5a.html",
+                },
+                {
+                    img: host +
+                        "/assets/img/Dia-de-santo/October/05_Post_Dia_Santo_Outubro_2020_B.jpg",
+                    title: "Santa Faustina Kowalska",
+                    details: "Hoje a Igreja celebra Santa Faustina, uma freira e mística polonesa. Ficou muito conhecida pelas extraordinárias revelações sob a misericórdia de Deus. Entre as muitas devoções difundidas por ela, temos o terço da Divina Misericórdia. ",
+                    date: "05 de outubro de 2020",
+                    route: host + "/Dia-de-santo/Dia-October/Dia-5b.html",
+                },
+            ],
+            7: {
+                img: host +
+                    "/assets/img/Dia-de-santo/October/07_Post_Dia_Santo_Outubro_2020.jpg",
+                title: "Nossa Senhora do Rosário",
+                details: "Que a memória de Nossa Senhora do Rosário nos inspire a buscarmos, na oração do rosário, a devoção mariana, meditando os mistérios de Jesus, na encarnação, paixão, morte e ressurreição de Cristo. Nossa Senhora do Rosário, rogai por nós!",
+                date: "07 de outubro de 2020",
+                route: host + "/Dia-de-santo/Dia-October/Dia-7.html",
+            },
+            10: {
+                img: host +
+                    "/assets/img/Dia-de-santo/October/10_Post_Dia_Santo_Outubro_2020.jpg",
+                title: "São Daniel Comboni",
+                details: "Celebramos hoje a memória do São Daniel Comboni. Ele se dedicou ao povo africano no Sudão. Sensibilizado pela realidade de pobreza em que viviam as pessoas, Comboni doou sua vida a serviço da missão. Seu lema: “Salvar a África com a África”.",
+                date: "10 de outubro de 2020",
+                route: host + "/Dia-de-santo/Dia-October/Dia-10.html",
+            },
+            11: {
+                img: host +
+                    "/assets/img/Dia-de-santo/October/11_Post_Dia_Santo_Outubro_2020.jpg",
+                title: "São João XXIII, Papa",
+                details: "Hoje a Igreja celebra São João XXIII, conhecido como “O Papa Bom”. Ele, que costumava dizer “Os santos do Senhor, em todos os lugares, nos alegram, nos animam e nos abençoam”, nos ensine a ser fiéis discípulos de Jesus e apóstolos de sua Palavra.",
+                date: "11 de outubro de 2020",
+                route: host + "/Dia-de-santo/Dia-October/Dia-11.html",
+            },
+            12: {
+                img: host +
+                    "/assets/img/Dia-de-santo/October/12_Post_Dia_Santo_Outubro_2020.jpg",
+                title: "Nossa Senhora Aparecida",
+                details: "Celebramos hoje Nossa Senhora da Conceição Aparecida, Padroeira do Brasil. Invocamos nossa Mãe e, por sua intercessão, peçamos a Deus muitas bênçãos a nosso Brasil. Que esta nação consagrada a ela caminhe na fé, esperança, amor e na solidariedade.",
+                date: "12 de outubro de 2020",
+                route: host + "/Dia-de-santo/Dia-October/Dia-12.html",
+            },
+            15: {
+                img: host +
+                    "/assets/img/Dia-de-santo/October/15_Post_Dia_Santo_Outubro_2020.jpg",
+                title: "Santa Teresa de Ávila",
+                details: "Santa Teresa de Ávila, de quem fazemos memória hoje, nos inspire a viver a mística no nosso dia a dia e a caminhar numa profunda experiência de Deus, pois somente como ela disse… “Tudo passa, só Deus basta”. ",
+                date: "15 de outubro de 2020",
+                route: host + "/Dia-de-santo/Dia-October/Dia-15.html",
+            },
+            17: {
+                img: host +
+                    "/assets/img/Dia-de-santo/October/17_Post_Dia_Santo_Outubro_2020.jpg",
+                title: "Santo Inácio de Antioquia, bispo e mártir",
+                details: "Celebramos hoje a memória de Santo Inácio de Antioquia, bispo e mártir da Igreja. Peçamos a intercessão desse santo que marcou a comunidade cristã de Antioquia. Que nós, seguidores de Jesus, vivamos em unidade e caminhemos à luz do Evangelho.",
+                date: "17 de outubro de 2020",
+                route: host + "/Dia-de-santo/Dia-October/Dia-17.html",
+            },
+            18: {
+                img: host +
+                    "/assets/img/Dia-de-santo/October/18_Post_Dia_Santo_Outubro_2020.jpg",
+                title: "São Lucas evangelista",
+                details: "“Visto que muitos já empreenderam compor uma narração dos fatos que se cumpriram entre nós, conforme no-los transmitiram os que, desde o princípio, foram testemunhas…, a mim também me pareceu conveniente escrever-te…, ilustre Teófilo” (Lc 1,1-4).",
+                date: "18 de outubro de 2020",
+                route: host + "/Dia-de-santo/Dia-October/Dia-18.html",
+            },
+            22: {
+                img: host +
+                    "/assets/img/Dia-de-santo/October/22_Post_Dia_Santo_Outubro_2020.jpg",
+                title: "São João Paulo II",
+                details: "Hoje a Igreja celebra São João Paulo II, o Papa polonês, muito influente no diálogo para a superação de conflitos mundiais. Ele se empenhou em reconduzir a Igreja pós-conciliar para um caminho mais religioso.",
+                date: "22 de outubro de 2020",
+                route: host + "/Dia-de-santo/Dia-October/Dia-22.html",
+            },
+            25: {
+                img: host +
+                    "/assets/img/Dia-de-santo/October/25_Post_Dia_Santo_Outubro_2020.jpg",
+                title: "Santo Antônio de Sant’Ana Galvão",
+                details: "Celebramos hoje a memória de Santo Antônio de Sant’Ana Galvão. Viveu sua vocação de consagrado com grande dedicação, serenidade e na caridade com os mais necessitados. Que ele rogue a Deus por nós!",
+                date: "25 de outubro de 2020",
+                route: host + "/Dia-de-santo/Dia-October/Dia-25.html",
+            },
+            28: {
+                img: host +
+                    "/assets/img/Dia-de-santo/October/28_Post_Dia_Santo_Outubro_2020.jpg",
+                title: "São Simão e São Judas Tadeu, Apóstolos",
+                details: "São Simão e São Judas Tadeu, chamados por Jesus e enviados a testemunhar o Evangelho. Que, pela intercessão desses apóstolos, sejamos fortalecidos em nossa fé e, com alegria, coragem e fidelidade, anunciemos o Cristo.",
+                date: "28 de outubro de 2020",
+                route: host + "/Dia-de-santo/Dia-October/Dia-28.html",
+            },
+        },
+        November: {
+            1: {
+                img: host +
+                    "/assets/img/Dia-de-santo/November/01_Post_Dia_Santo_Novembro_2020.jpg",
+                title: "Todos os Santos",
+                details: "Na Solenidade de Todos os Santos, a Igreja militante honra todos os servos de Deus. Aqueles que, pela fé, esperança e caridade, mantiveram-se fiéis, dando testemunho das bem-aventuranças. Que eles roguem por nós e, um dia, estejamos junto deles! ",
+                date: "01 de Novembro de 2020",
+                route: host + "/Dia-de-santo/Dia-November/Dia-1.html",
+            },
+            3: {
+                img: host +
+                    "/assets/img/Dia-de-santo/November/03_Post_Dia_Santo_Novembro_2020.jpg",
+                title: "São Martinho de Lima",
+                details: "Celebrando a memória de São Martinho de Lima, recordamos as vidas das pessoas que se entregam, com amor e caridade, no serviço simples. Que seu exemplo nos ajude a buscar, na singeleza, viver com santidade.",
+                date: "03 de Novembro de 2020",
+                route: host + "/Dia-de-santo/Dia-November/Dia-3.html",
+            },
+            4: {
+                img: host +
+                    "/assets/img/Dia-de-santo/November/04_Post_Dia_Santo_Novembro_2020.jpg",
+                title: "São Carlos Borromeu",
+                details: "Celebrando hoje a memória de São Carlos Borromeu, queremos lembrar esse Santo que tanto bem fez à Igreja. Concretizou as reformas do Concílio de Trento e destacou-se na caridade com os mais pobres e doentes. São Carlos Borromeu, rogai por nós!",
+                date: "04 de Novembro de 2020",
+                route: host + "/Dia-de-santo/Dia-November/Dia-4.html",
+            },
+            10: {
+                img: host +
+                    "/assets/img/Dia-de-santo/November/10_Post_Dia_Santo_Novembro_2020.jpg",
+                title: "São Leão Magno, Papa e Doutor da Igreja",
+                details: "Celebramos hoje a memória de São Leão Magno, Papa e Doutor da Igreja. Com sua liderança, ele ajudou muito na unidade da Igreja e na elaboração dogmática do Concílio de Calcedônia, ao defender as verdades de nossa fé. São Leão Magno, rogai por nós!",
+                date: "10 de Novembro de 2020",
+                route: host + "/Dia-de-santo/Dia-November/Dia-10.html",
+            },
+            11: {
+                img: host +
+                    "/assets/img/Dia-de-santo/November/11_Post_Dia_Santo_Novembro_2020.jpg",
+                title: "São Martinho de Tours, bispo",
+                details: "Martinho nasceu em Panônia, hoje Hungria, por volta do ano 316. Seus pais não eram cristãos, portanto foi somente na adolescência que ele teve contato mais direto com os seguidores de Jesus. Porém, quando seu pai o soube, opôs-se energicamente. Sendo geral no exército, queria que o filho Martinho seguisse a mesma carreira militar.",
+                date: "11 de Novembro de 2020",
+                route: host + "/Dia-de-santo/Dia-November/Dia-11.html",
+            },
+            12: {
+                img: host +
+                    "/assets/img/Dia-de-santo/November/12_Post_Dia_Santo_Novembro_2020.jpg",
+                title: "São Josafá, bispo e mártir",
+                details: "São Josafá nasceu na Ucrânia, por volta do ano 1580, de pais ortodoxos. Foi um buscador da verdade e da glória de Deus, por isso, certo dia se aproximou da Igreja católica e, ao conhecê-la, ficou encantado. Em 1604, ingressou no Mosteiro da Santíssima Trindade, na cidade de Vilna.",
+                date: "12 de Novembro de 2020",
+                route: host + "/Dia-de-santo/Dia-November/Dia-12.html",
+            },
+            15: {
+                img: host +
+                    "/assets/img/Dia-de-santo/November/15_Post_Dia_Santo_Novembro_2020.jpg",
+                title: "Santo Alberto Magno, bispo e doutor da Igreja",
+                details: "Celebrando hoje a memória de Santo Alberto Magno, bispo e doutor da Igreja, queremos recordar esse santo que soube buscar na oração a humildade e o desapego. Dedicou-se aos estudos das Ciências Naturais e ao conhecimento das verdades de nossa fé. ",
+                date: "15 de Novembro de 2020",
+                route: host + "/Dia-de-santo/Dia-November/Dia-15.html",
+            },
+            16: {
+                img: host +
+                    "/assets/img/Dia-de-santo/November/16_Post_Dia_Santo_Novembro_2020.jpg",
+                title: "Santa Gertrudes, virgem",
+                details: "Hoje a Igreja celebra Santa Gertrudes, uma mulher que, passando toda sua vida num mosteiro, encontrou alegria e liberdade verdadeiras junto do Senhor Jesus. Essa espiritualidade é um belo legado que deixou ao povo de Deus, à Igreja.  ",
+                date: "16 de Novembro de 2020",
+                route: host + "/Dia-de-santo/Dia-November/Dia-16.html",
+            },
+            17: {
+                img: host +
+                    "/assets/img/Dia-de-santo/November/17_Post_Dia_Santo_Novembro_2020.jpg",
+                title: "Santa Isabel da Hungria",
+                details: "Hoje a Igreja celebra a memória de Santa Isabel da Hungria, a rainha que renunciou a títulos e riquezas para dedicar-se, com amor e generosidade, a servir a Deus, servindo aos mais pobres e enfermos. Isso lhe mereceu ser chamada “a mulher maior”. ",
+                date: "17 de Novembro de 2020",
+                route: host + "/Dia-de-santo/Dia-November/Dia-17.html",
+            },
+            19: {
+                img: host +
+                    "/assets/img/Dia-de-santo/November/19_Post_Dia_Santo_Novembro_2020.jpg",
+                title: "Santos Roque Gonzáles, Afonso Rodríguez e João del Castillo ",
+                details: "Fazemos memória dos santos Roque Gonzáles, Afonso Rodríguez e João del Castillo, mártires. Foram missionários entre os índios guaranis e fundaram cinco reduções. Que eles intercedam por todos os missionários presentes nas lutas das nações indígenas.",
+                date: "19 de Novembro de 2020",
+                route: host + "/Dia-de-santo/Dia-November/Dia-19.html",
+            },
 
-			22: [
-				{
-					img:
-						host +
-						"/assets/img/Dia-de-santo/November/22_Post_Dia_Santo_Novembro_2020.jpg",
-					title: "Solenidade de Jesus Cristo, Rei do Universo",
-					details:
-						"Na Solenidade de Jesus Cristo, Rei do Universo, queremos recordar que o reinado de Jesus Cristo não está atrelado ao poder dominador, mas se coloca ao lado dos mais pobres e vulneráveis. Que esta festividade renove nosso seguimento a Jesus Cristo. ",
-					date: "22 de Novembro de 2020",
-					route: host + "/Dia-de-santo/Dia-November/Dia-22.html",
-				},
-				{
-					img:
-						host +
-						"/assets/img/Dia-de-santo/November/22_Post_Dia_Santo_Novembro_2020_A.jpg",
-					title: "Santa Cecília",
-					details:
-						"Hoje celebramos a memória de Santa Cecília, padroeira da música sacra e da poesia. Conta-se que Cecília foi martirizada e sepultada nas catacumbas de São Calisto, em Roma. Que ela interceda por nós, para que também possamos testemunhar nossa fé.",
-					date: "22 de Novembro de 2020",
-					route: host + "/Dia-de-santo/Dia-November/Dia-22a.html",
-				},
-			],
-			25: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/November/25_Post_Dia_Santo_Novembro_2020_B.jpg",
-				title: "Santa Catarina de Alexandria",
-				details:
-					"Celebramos hoje Santa Catarina de Alexandria. Por causa do testemunho de sua fé, foi martirizada no início do século IV, assim como muitos cristãos. Peçamos que ela interceda por todos os cristãos hoje que continuam a ser perseguidos por sua fé. ",
-				date: "25 de Novembro de 2020",
-				route: host + "/Dia-de-santo/Dia-November/Dia-25.html",
-			},
-			27: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/November/27_Post_Dia_Santo_Novembro_2020.jpg",
-				title: "Nossa Senhora das Graças",
-				details:
-					"Celebramos hoje a memória de Nossa Senhora das Graças. Que Maria interceda a Deus por todos nós, as graças abundantes. Num mundo marcado por tantos sofrimentos dos povos, roguemos a Deus, por Maria. ",
-				date: "27 de Novembro de 2020",
-				route: host + "/Dia-de-santo/Dia-November/Dia-27.html",
-			},
-			30: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/November/30_Post_Dia_Santo_Novembro_2020.jpg",
-				title: "Santo André, Apóstolo",
-				details:
-					"Que o testemunho de Santo André nos inspire a viver nossa fé cristã no seguimento a Jesus e na coragem de nos lançarmos à missão de anunciar a Boa-Nova do Reino de Deus. Santo André, apóstolo de Jesus e mártir, intercedei por nós!",
-				date: "30 de Novembro de 2020",
-				route: host + "/Dia-de-santo/Dia-November/Dia-30.html",
-			},
-		},
-		December: {
-			3: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/December/03_Post_Dia_Santo_Dezembro_2020.jpg",
-				title: "São Francisco Xavier",
-				details:
-					"Fazendo memória a São Francisco Xavier, queremos destacar esse santo que dedicou sua vida ao serviço da evangelização dos povos do extremo Oriente. Que seu testemunho inspire a vida dos jovens para a missão. São Francisco Xavier, intercedei por nós!",
-				date: "3 de dezembro  de 2020",
-				route: host + "/Dia-de-santo/Dia-December/Dia-3.html",
-			},
-			6: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/December/06_Post_Dia_Santo_Dezembro_2020.jpg",
-				title: "São Nicolau, bispo",
-				details:
-					"Hoje a Igreja celebra o bispo São Nicolau, homem generoso que soube reconhecer que os bens verdadeiros estão em Cristo Jesus. Que seu exemplo de bondade e partilha nos guie no caminho que conduz à salvação.",
-				date: "6 de dezembro  de 2020",
-				route: host + "/Dia-de-santo/Dia-December/Dia-6.html",
-			},
-			7: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/December/07_Post_Dia_Santo_Dezembro_2020.jpg",
-				title: "Santo Ambrósio, bispo e doutor da Igreja",
-				details:
-					"A Igreja hoje faz memória de Santo Ambrósio, bispo e doutor. Ele se destacou por sua fé e dedicação às Sagradas Escrituras. Exerceu seu pastoreio imbuído de força e sabedoria. Santo Ambrósio, intercedei por todos nós! ",
-				date: "7 de dezembro  de 2020",
-				route: host + "/Dia-de-santo/Dia-December/Dia-7.html",
-			},
-			8: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/December/08_Post_Dia_Santo_Dezembro_2020.jpg",
-				title: "Imaculada Conceição de Maria",
-				details:
-					"Celebramos hoje a Solenidade da Imaculada Conceição de Maria, a escolhida de Deus para ser a Mãe de Jesus. No seu sim ao projeto do Pai e pela força do Espírito Santo, é Mãe de Deus e da Igreja. Que Maria interceda por todos nós!",
-				date: "8 de dezembro  de 2020",
-				route: host + "/Dia-de-santo/Dia-December/Dia-8.html",
-			},
-			12: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/December/12_Post_Dia_Santo_Dezembro_2020.jpg",
-				title: "Nossa Senhora de Guadalupe",
-				details:
-					"celebra-se o Dia de Nossa Senhora de Guadalupe. Trata-se de uma aparição da Virgem Maria ocorrida no México, em 1531. Guadalupe é a padroeira do México. Mais tarde, o Papa Pio XII a chamou Imperatriz das Américas. ",
-				date: "12 de dezembro  de 2020",
-				route: host + "/Dia-de-santo/Dia-December/Dia-12.html",
-			},
-			13: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/December/13_Post_Dia_Santo_Dezembro_2020.jpg",
-				title: "Santa Luzia, virgem e mártir",
-				details:
-					"Desde a Antiguidade, desenvolveu-se o culto a Santa Luzia. Acredita-se que ela sofreu o martírio em Siracusa, durante a perseguição de Diocleciano. O episódio da cegueira com que é identificada possivelmente esteja vinculado ao seu nome Luzia (luz).",
-				date: "13 de dezembro  de 2020",
-				route: host + "/Dia-de-santo/Dia-December/Dia-13.html",
-			},
-			17: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/December/17_Post_Dia_Santo_Dezembro_2020.jpeg",
-				title: "São Lázaro",
-				details:
-					"Hoje a Igreja celebra São Lázaro, descrito na Bíblia como um amigo do Senhor. Hospedou Jesus em sua casa e, após ser ressuscitado, tornou-se sinal pelo qual muitos passaram a acreditar em Cristo. Que ele nos ensine a acolher o Senhor. ",
-				date: "17 de dezembro  de 2020",
-				route: host + "/Dia-de-santo/Dia-December/Dia-17.html",
-			},
-			20: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/December/20_Post_Dia_Santo_Dezembro_2020.jpg",
-				title: "São Filogônio, bispo ",
-				details:
-					"Hoje a Igreja recorda São Filogônio, advogado sírio e bispo de Antioquia. Com sabedoria e eloquência, participou nos acirrados debates para defender a fé católica diante da controvérsia ariana. Que seu exemplo de fé fortaleça nossa caminhada. ",
-				date: "20 de Dezembro de 2020",
-				route: host + "/Dia-de-santo/Dia-December/Dia-20.html",
-			},
-			26: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/December/26_Post_Dia_Santo_Dezembro_2020.jpg",
-				title: "Santo Estêvão ",
-				details:
-					"Santo Estêvão, o primeiro mártir cristão, é celebrado logo após o Natal. Estava entre os primeiros diáconos da Igreja primitiva e se destacava pela fé e testemunho de vida. Ao morrer, seguindo o exemplo de Jesus, perdoou os que lhe atiravam pedras.",
-				date: "26 de dezembro  de 2020",
-				route: host + "/Dia-de-santo/Dia-December/Dia-26.html",
-			},
+            22: [{
+                    img: host +
+                        "/assets/img/Dia-de-santo/November/22_Post_Dia_Santo_Novembro_2020.jpg",
+                    title: "Solenidade de Jesus Cristo, Rei do Universo",
+                    details: "Na Solenidade de Jesus Cristo, Rei do Universo, queremos recordar que o reinado de Jesus Cristo não está atrelado ao poder dominador, mas se coloca ao lado dos mais pobres e vulneráveis. Que esta festividade renove nosso seguimento a Jesus Cristo. ",
+                    date: "22 de Novembro de 2020",
+                    route: host + "/Dia-de-santo/Dia-November/Dia-22.html",
+                },
+                {
+                    img: host +
+                        "/assets/img/Dia-de-santo/November/22_Post_Dia_Santo_Novembro_2020_A.jpg",
+                    title: "Santa Cecília",
+                    details: "Hoje celebramos a memória de Santa Cecília, padroeira da música sacra e da poesia. Conta-se que Cecília foi martirizada e sepultada nas catacumbas de São Calisto, em Roma. Que ela interceda por nós, para que também possamos testemunhar nossa fé.",
+                    date: "22 de Novembro de 2020",
+                    route: host + "/Dia-de-santo/Dia-November/Dia-22a.html",
+                },
+            ],
+            25: {
+                img: host +
+                    "/assets/img/Dia-de-santo/November/25_Post_Dia_Santo_Novembro_2020_B.jpg",
+                title: "Santa Catarina de Alexandria",
+                details: "Celebramos hoje Santa Catarina de Alexandria. Por causa do testemunho de sua fé, foi martirizada no início do século IV, assim como muitos cristãos. Peçamos que ela interceda por todos os cristãos hoje que continuam a ser perseguidos por sua fé. ",
+                date: "25 de Novembro de 2020",
+                route: host + "/Dia-de-santo/Dia-November/Dia-25.html",
+            },
+            27: {
+                img: host +
+                    "/assets/img/Dia-de-santo/November/27_Post_Dia_Santo_Novembro_2020.jpg",
+                title: "Nossa Senhora das Graças",
+                details: "Celebramos hoje a memória de Nossa Senhora das Graças. Que Maria interceda a Deus por todos nós, as graças abundantes. Num mundo marcado por tantos sofrimentos dos povos, roguemos a Deus, por Maria. ",
+                date: "27 de Novembro de 2020",
+                route: host + "/Dia-de-santo/Dia-November/Dia-27.html",
+            },
+            30: {
+                img: host +
+                    "/assets/img/Dia-de-santo/November/30_Post_Dia_Santo_Novembro_2020.jpg",
+                title: "Santo André, Apóstolo",
+                details: "Que o testemunho de Santo André nos inspire a viver nossa fé cristã no seguimento a Jesus e na coragem de nos lançarmos à missão de anunciar a Boa-Nova do Reino de Deus. Santo André, apóstolo de Jesus e mártir, intercedei por nós!",
+                date: "30 de Novembro de 2020",
+                route: host + "/Dia-de-santo/Dia-November/Dia-30.html",
+            },
+        },
+        December: {
+            3: {
+                img: host +
+                    "/assets/img/Dia-de-santo/December/03_Post_Dia_Santo_Dezembro_2020.jpg",
+                title: "São Francisco Xavier",
+                details: "Fazendo memória a São Francisco Xavier, queremos destacar esse santo que dedicou sua vida ao serviço da evangelização dos povos do extremo Oriente. Que seu testemunho inspire a vida dos jovens para a missão. São Francisco Xavier, intercedei por nós!",
+                date: "3 de dezembro  de 2020",
+                route: host + "/Dia-de-santo/Dia-December/Dia-3.html",
+            },
+            6: {
+                img: host +
+                    "/assets/img/Dia-de-santo/December/06_Post_Dia_Santo_Dezembro_2020.jpg",
+                title: "São Nicolau, bispo",
+                details: "Hoje a Igreja celebra o bispo São Nicolau, homem generoso que soube reconhecer que os bens verdadeiros estão em Cristo Jesus. Que seu exemplo de bondade e partilha nos guie no caminho que conduz à salvação.",
+                date: "6 de dezembro  de 2020",
+                route: host + "/Dia-de-santo/Dia-December/Dia-6.html",
+            },
+            7: {
+                img: host +
+                    "/assets/img/Dia-de-santo/December/07_Post_Dia_Santo_Dezembro_2020.jpg",
+                title: "Santo Ambrósio, bispo e doutor da Igreja",
+                details: "A Igreja hoje faz memória de Santo Ambrósio, bispo e doutor. Ele se destacou por sua fé e dedicação às Sagradas Escrituras. Exerceu seu pastoreio imbuído de força e sabedoria. Santo Ambrósio, intercedei por todos nós! ",
+                date: "7 de dezembro  de 2020",
+                route: host + "/Dia-de-santo/Dia-December/Dia-7.html",
+            },
+            8: {
+                img: host +
+                    "/assets/img/Dia-de-santo/December/08_Post_Dia_Santo_Dezembro_2020.jpg",
+                title: "Imaculada Conceição de Maria",
+                details: "Celebramos hoje a Solenidade da Imaculada Conceição de Maria, a escolhida de Deus para ser a Mãe de Jesus. No seu sim ao projeto do Pai e pela força do Espírito Santo, é Mãe de Deus e da Igreja. Que Maria interceda por todos nós!",
+                date: "8 de dezembro  de 2020",
+                route: host + "/Dia-de-santo/Dia-December/Dia-8.html",
+            },
+            12: {
+                img: host +
+                    "/assets/img/Dia-de-santo/December/12_Post_Dia_Santo_Dezembro_2020.jpg",
+                title: "Nossa Senhora de Guadalupe",
+                details: "celebra-se o Dia de Nossa Senhora de Guadalupe. Trata-se de uma aparição da Virgem Maria ocorrida no México, em 1531. Guadalupe é a padroeira do México. Mais tarde, o Papa Pio XII a chamou Imperatriz das Américas. ",
+                date: "12 de dezembro  de 2020",
+                route: host + "/Dia-de-santo/Dia-December/Dia-12.html",
+            },
+            13: {
+                img: host +
+                    "/assets/img/Dia-de-santo/December/13_Post_Dia_Santo_Dezembro_2020.jpg",
+                title: "Santa Luzia, virgem e mártir",
+                details: "Desde a Antiguidade, desenvolveu-se o culto a Santa Luzia. Acredita-se que ela sofreu o martírio em Siracusa, durante a perseguição de Diocleciano. O episódio da cegueira com que é identificada possivelmente esteja vinculado ao seu nome Luzia (luz).",
+                date: "13 de dezembro  de 2020",
+                route: host + "/Dia-de-santo/Dia-December/Dia-13.html",
+            },
+            17: {
+                img: host +
+                    "/assets/img/Dia-de-santo/December/17_Post_Dia_Santo_Dezembro_2020.jpeg",
+                title: "São Lázaro",
+                details: "Hoje a Igreja celebra São Lázaro, descrito na Bíblia como um amigo do Senhor. Hospedou Jesus em sua casa e, após ser ressuscitado, tornou-se sinal pelo qual muitos passaram a acreditar em Cristo. Que ele nos ensine a acolher o Senhor. ",
+                date: "17 de dezembro  de 2020",
+                route: host + "/Dia-de-santo/Dia-December/Dia-17.html",
+            },
+            20: {
+                img: host +
+                    "/assets/img/Dia-de-santo/December/20_Post_Dia_Santo_Dezembro_2020.jpg",
+                title: "São Filogônio, bispo ",
+                details: "Hoje a Igreja recorda São Filogônio, advogado sírio e bispo de Antioquia. Com sabedoria e eloquência, participou nos acirrados debates para defender a fé católica diante da controvérsia ariana. Que seu exemplo de fé fortaleça nossa caminhada. ",
+                date: "20 de Dezembro de 2020",
+                route: host + "/Dia-de-santo/Dia-December/Dia-20.html",
+            },
+            26: {
+                img: host +
+                    "/assets/img/Dia-de-santo/December/26_Post_Dia_Santo_Dezembro_2020.jpg",
+                title: "Santo Estêvão ",
+                details: "Santo Estêvão, o primeiro mártir cristão, é celebrado logo após o Natal. Estava entre os primeiros diáconos da Igreja primitiva e se destacava pela fé e testemunho de vida. Ao morrer, seguindo o exemplo de Jesus, perdoou os que lhe atiravam pedras.",
+                date: "26 de dezembro  de 2020",
+                route: host + "/Dia-de-santo/Dia-December/Dia-26.html",
+            },
 
-			27: [
-				{
-					img:
-						host +
-						"/assets/img/Dia-de-santo/December/27_Post_Dia_Santo_Dezembro_2020.jpg",
-					title: "São João Evangelista",
-					details:
-						"Hoje a Igreja celebra São João Evangelista. Ele é um dos doze apóstolos que deixando tudo e seguiram Jesus. É autor de três epístolas, do Apocalipse e do quarto Evangelho. Ele se denomina como “O Discípulo Amado” e “O Discípulo que Dá Testemunho”. ",
-					date: "27 de dezembro  de 2020",
-					route: host + "/Dia-de-santo/Dia-December/Dia-27.html",
-				},
-			],
-			28: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/December/28_Post_Dia_Santo_Dezembro_2020.jpg",
-				title: "Santos Inocentes ",
-				details:
-					"Os Santos Inocentes representam todas as vítimas da violência, especialmente as crianças que não têm como se defender. Mesmo sem saber, as crianças mortas em Belém deram a vida por Jesus. Que elas nos ajudem a combater a violência e a opressão.  ",
-				date: "28 de dezembro  de 2020",
-				route: host + "/Dia-de-santo/Dia-December/Dia-28.html",
-			},
-			29: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/December/29_Post_Dia_Santo_Dezembro_2020jpeg.jpeg",
-				title: "Sagrada Família ",
-				details:
-					"A festa deste domingo mostra o valor da família, uma vez que Jesus quis vir ao mundo numa família. Nos tempos atuais, em que as famílias enfrentam tantas crises, podemos nos inspirar no jeito de viver da família de Nazaré. E sua família, como vai? ",
-				date: "29 de dezembro  de 2020",
-				route: host + "/Dia-de-santo/Dia-December/Dia-29.html",
-			},
-			31: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/December/31_Post_Dia_Santo_Dezembro_2020.jpg",
-				title: "São Silvestre ",
-				details:
-					"São Silvestre, além de dar nome à famosa corrida internacional realizada todo ano em São Paulo, foi um Papa da Igreja Católica que viveu no século IV. Graças à sua prudência e moderação, conduziu a Igreja em tempos de profundas mudanças.",
-				date: "31 de dezembro  de 2020",
-				route: host + "/Dia-de-santo/Dia-December/Dia-31.html",
-			},
-		},
-		January: {
-			1: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/january/01_Post_Dia_Santo_Janeiro_2021.jpg",
-				title: "Dia de Reis (Epifania)",
-				details:
-					"A solenidade da Epifania do Senhor, popularmente conhecida como Dia de Reis, relembra a visita dos reis magos ao Menino Jesus, pouco tempo depois de seu nascimento. Veja qual é o significado desta solenidade tão rica de imagens simbólicas.",
-				date: "1 de Janeiro de 2021",
-				route: host + "/Dia-de-santo/Dia-January/Dia-1.html",
-			},
-			3: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/january/03_Post_Dia_Santo_Janeiro_2021.jpg",
-				title: "Dia de Reis (Epifania)",
-				details:
-					"A solenidade da Epifania do Senhor, popularmente conhecida como Dia de Reis, relembra a visita dos reis magos ao Menino Jesus, pouco tempo depois de seu nascimento. Veja qual é o significado desta solenidade tão rica de imagens simbólicas.",
-				date: "3 de Janeiro de 2021",
-				route: host + "/Dia-de-santo/Dia-January/Dia-3.html",
-			},
-			10: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/january/10_Post_Dia_Santo_Janeiro_2021.jpg",
-				title: "O Batismo do Senhor",
-				details:
-					"Hoje a Igreja celebra o Batismo do Senhor, um dos momentos essenciais na vida de Jesus. No Jordão, o Pai unge o Filho com o Espírito Santo e lhe revela sua missão: “Este é meu Filho amado, no qual eu pus o meu agrado” (Mt 3,17; Mc 1,11; Lc 3,22). ",
-				date: "10 de Janeiro de 2021",
-				route: host + "/Dia-de-santo/Dia-January/Dia-10.html",
-			},
-			15: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/january/15_Post_Dia_Santo_Janeiro_2021.jpg",
-				title: "Santo Arnaldo Janssen ",
-				details:
-					"Fundador de três congregações religiosas e incentivador da imprensa, Santo Arnaldo Janssen teve sua vida marcada pela busca da vontade de Deus e trabalho incansável. Hoje, seus missionários e missionárias estão espalhados pelos cinco continentes.",
-				date: "15 de Janeiro de 2021",
-				route: host + "/Dia-de-santo/Dia-January/Dia-15.html",
-			},
-			20: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/january/20_Post_Dia_Santo_Janeiro_2021.jpg",
-				title: "São Sebastião",
-				details:
-					"Hoje celebramos  a memória do mártir São Sebastião. Ele testemunhou sua fé como cristão e esteve ao lado dos irmãos de fé, dando-lhes forças, cuidando dos enfraquecidos pelas torturas e, sem temer, enfrentando o poder. São Sebastião, intercedei por todos nós! ",
-				date: "20 de Janeiro de 2021",
-				route: host + "/Dia-de-santo/Dia-January/Dia-20.html",
-			},
-			21: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/january/21_Post_Dia_Santo_Janeiro_2021.jpg",
-				title: "Santa Inês",
-				details:
-					"Celebrando a memória de Santa Inês, jovem martirizada por dar seu testemunho de cristã, vítima de um sistema violento de um imperador. Que ela nos inspire a viver a fé num constante testemunho de fidelidade a Jesus hoje. Santa Inês, rogai por nós!  ",
-				date: "21 de Janeiro de 2021",
-				route: host + "/Dia-de-santo/Dia-January/Dia-21.html",
-			},
-			28: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/january/28_Post_Dia_Santo_Janeiro_2021.jpg",
-				title: "Santo Tomás de Aquino",
-				details:
-					"Celebramos hoje a memória de Santo Tomás de Aquino, presbítero e doutor da Igreja. Grande mestre, respeitava todos e por todos era amado. Sua obra, datada do século XIII, é a base de estudos filosóficos e teológicos até os dias de hoje.  ",
-				date: "28 de Janeiro de 2021",
-				route: host + "/Dia-de-santo/Dia-January/Dia-28.html",
-			},
-			29: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/january/29_Post_Dia_Santo_Janeiro_2021.jpg",
-				title: "São José Freinademetz ",
-				details:
-					"A Igreja celebra hoje São José Freinademetz. Enviado à China por Santo Arnaldo Janssen, fundou comunidades cristãs e, mesmo com muitos desafios, dedicou sua vida àquele povo. São José Freinademetz, rogai por nós e por todos os evangelizadores ",
-				date: "29 de Janeiro de 2021",
-				route: host + "/Dia-de-santo/Dia-January/Dia-29.html",
-			},
-			31: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/january/31_Post_Dia_Santo_Janeiro_2021.jpg",
-				title: "São João Bosco",
-				details:
-					"Em 31 de janeiro, a Igreja celebra a memória de São João Bosco, ou Dom Bosco, como é mais conhecido. Homem criativo e bondoso, dedicou sua vida à juventude. Criou uma pedagogia baseada no amor e fundou a Família Salesiana, uma das maiores da Igreja.  ",
-				date: "31 de Janeiro de 2021",
-				route: host + "/Dia-de-santo/Dia-January/Dia-31.html",
-			},
-		},
+            27: [{
+                img: host +
+                    "/assets/img/Dia-de-santo/December/27_Post_Dia_Santo_Dezembro_2020.jpg",
+                title: "São João Evangelista",
+                details: "Hoje a Igreja celebra São João Evangelista. Ele é um dos doze apóstolos que deixando tudo e seguiram Jesus. É autor de três epístolas, do Apocalipse e do quarto Evangelho. Ele se denomina como “O Discípulo Amado” e “O Discípulo que Dá Testemunho”. ",
+                date: "27 de dezembro  de 2020",
+                route: host + "/Dia-de-santo/Dia-December/Dia-27.html",
+            }, ],
+            28: {
+                img: host +
+                    "/assets/img/Dia-de-santo/December/28_Post_Dia_Santo_Dezembro_2020.jpg",
+                title: "Santos Inocentes ",
+                details: "Os Santos Inocentes representam todas as vítimas da violência, especialmente as crianças que não têm como se defender. Mesmo sem saber, as crianças mortas em Belém deram a vida por Jesus. Que elas nos ajudem a combater a violência e a opressão.  ",
+                date: "28 de dezembro  de 2020",
+                route: host + "/Dia-de-santo/Dia-December/Dia-28.html",
+            },
+            29: {
+                img: host +
+                    "/assets/img/Dia-de-santo/December/29_Post_Dia_Santo_Dezembro_2020jpeg.jpeg",
+                title: "Sagrada Família ",
+                details: "A festa deste domingo mostra o valor da família, uma vez que Jesus quis vir ao mundo numa família. Nos tempos atuais, em que as famílias enfrentam tantas crises, podemos nos inspirar no jeito de viver da família de Nazaré. E sua família, como vai? ",
+                date: "29 de dezembro  de 2020",
+                route: host + "/Dia-de-santo/Dia-December/Dia-29.html",
+            },
+            31: {
+                img: host +
+                    "/assets/img/Dia-de-santo/December/31_Post_Dia_Santo_Dezembro_2020.jpg",
+                title: "São Silvestre ",
+                details: "São Silvestre, além de dar nome à famosa corrida internacional realizada todo ano em São Paulo, foi um Papa da Igreja Católica que viveu no século IV. Graças à sua prudência e moderação, conduziu a Igreja em tempos de profundas mudanças.",
+                date: "31 de dezembro  de 2020",
+                route: host + "/Dia-de-santo/Dia-December/Dia-31.html",
+            },
+        },
+        January: {
+            1: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/01_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "Dia de Reis (Epifania)",
+                details: "A solenidade da Epifania do Senhor, popularmente conhecida como Dia de Reis, relembra a visita dos reis magos ao Menino Jesus, pouco tempo depois de seu nascimento. Veja qual é o significado desta solenidade tão rica de imagens simbólicas.",
+                date: "1 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-1.html",
+            },
+            3: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/03_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "Dia de Reis (Epifania)",
+                details: "A solenidade da Epifania do Senhor, popularmente conhecida como Dia de Reis, relembra a visita dos reis magos ao Menino Jesus, pouco tempo depois de seu nascimento. Veja qual é o significado desta solenidade tão rica de imagens simbólicas.",
+                date: "3 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-3.html",
+            },
+            10: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/10_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "O Batismo do Senhor",
+                details: "Hoje a Igreja celebra o Batismo do Senhor, um dos momentos essenciais na vida de Jesus. No Jordão, o Pai unge o Filho com o Espírito Santo e lhe revela sua missão: “Este é meu Filho amado, no qual eu pus o meu agrado” (Mt 3,17; Mc 1,11; Lc 3,22). ",
+                date: "10 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-10.html",
+            },
+            15: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/15_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "Santo Arnaldo Janssen ",
+                details: "Fundador de três congregações religiosas e incentivador da imprensa, Santo Arnaldo Janssen teve sua vida marcada pela busca da vontade de Deus e trabalho incansável. Hoje, seus missionários e missionárias estão espalhados pelos cinco continentes.",
+                date: "15 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-15.html",
+            },
+            20: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/20_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "São Sebastião",
+                details: "Hoje celebramos  a memória do mártir São Sebastião. Ele testemunhou sua fé como cristão e esteve ao lado dos irmãos de fé, dando-lhes forças, cuidando dos enfraquecidos pelas torturas e, sem temer, enfrentando o poder. São Sebastião, intercedei por todos nós! ",
+                date: "20 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-20.html",
+            },
+            21: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/21_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "Santa Inês",
+                details: "Celebrando a memória de Santa Inês, jovem martirizada por dar seu testemunho de cristã, vítima de um sistema violento de um imperador. Que ela nos inspire a viver a fé num constante testemunho de fidelidade a Jesus hoje. Santa Inês, rogai por nós!  ",
+                date: "21 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-21.html",
+            },
+            28: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/28_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "Santo Tomás de Aquino",
+                details: "Celebramos hoje a memória de Santo Tomás de Aquino, presbítero e doutor da Igreja. Grande mestre, respeitava todos e por todos era amado. Sua obra, datada do século XIII, é a base de estudos filosóficos e teológicos até os dias de hoje.  ",
+                date: "28 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-28.html",
+            },
+            29: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/29_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "São José Freinademetz ",
+                details: "A Igreja celebra hoje São José Freinademetz. Enviado à China por Santo Arnaldo Janssen, fundou comunidades cristãs e, mesmo com muitos desafios, dedicou sua vida àquele povo. São José Freinademetz, rogai por nós e por todos os evangelizadores ",
+                date: "29 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-29.html",
+            },
+            31: {
+                img: host +
+                    "/assets/img/Dia-de-santo/january/31_Post_Dia_Santo_Janeiro_2021.jpg",
+                title: "São João Bosco",
+                details: "Em 31 de janeiro, a Igreja celebra a memória de São João Bosco, ou Dom Bosco, como é mais conhecido. Homem criativo e bondoso, dedicou sua vida à juventude. Criou uma pedagogia baseada no amor e fundou a Família Salesiana, uma das maiores da Igreja.  ",
+                date: "31 de Janeiro de 2021",
+                route: host + "/Dia-de-santo/Dia-January/Dia-31.html",
+            },
+        },
 
-		February: {
-			2: [
-				{
-					img:
-						host +
-						"/assets/img/Dia-de-santo/February/02_Post_Dia_Santo_Fevereiro.jpg",
-					title: "Apresentação de Jesus no Templo",
-					details:
-						"A festa da Apresentação de Jesus no templo retoma uma passagem da vida de Jesus narrada no Evangelho de São Lucas (Lc 2,22-39). De acordo com o costume judaico daquela época, o primeiro filho deveria ser apresentado ao Senhor. Também a mulher, após dar à luz, passava por um período de purificação de quarenta dias e, depois   desse tempo, devia ir ao templo e oferecer um cordeiro em sacrifício. Maria e José cumpriram a lei, mas, como eram muito pobres, ofereceram um casal de pombos em vez de um cordeiro.",
-					date: "2 de Fevereiro de 2021",
-					route: host + "/Dia-de-santo/Dia-February/Dia-2.html",
-				},
-				{
-					img:
-						host +
-						"/assets/img/Dia-de-santo/February/02_Post_Dia_Santo_Fevereiro_B.jpg",
-					title: "Nossa Senhora dos Navegantes",
-					details:
-						"Nas épocas das Cruzadas, os portugueses e espanhóis que atravessavam o mar Mediterrâneo rumo à Palestina passavam por muitos lugares perigosos e onde havia culto a deuses pagãos. Por isso, como tradição e cultura, esses navegantes pediam a Nossa Senhora dos Navegantes, durante a santa missa que era realizada antes das travessias, a proteção e coragem para, com aqueles pequenos barcos, enfrentarem o mar e suas tempestades.",
-					date: "2 de Fevereiro de 2021",
-					route: host + "/Dia-de-santo/Dia-February/Dia-2a.html",
-				},
-			],
+        February: {
 
-			3: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/February/03_Post_Dia_Santo_Fevereiro.jpg",
-				title: "São Brás",
-				details:
-					"São Brás nasceu em Sebaste, na Armênia, por volta do ano 300. Era médico, mas queria servir a Deus e, por isso, abandonou tudo e foi viver como eremita, numa gruta, durante muitos anos. Como atendia todas as pessoas que o procuravam e muitas ficavam curadas dos males tanto do corpo como do espírito, ganhou fama de santidade.",
-				date: "3 de Fevereiro de 2021",
-				route: host + "/Dia-de-santo/Dia-February/Dia-3.html",
-			},
+            2: [{
+                    img: host +
+                        "/assets/img/Dia-de-santo/February/02_Post_Dia_Santo_Fevereiro.jpg",
+                    title: "Apresentação de Jesus no Templo",
+                    details: "A festa da Apresentação de Jesus no templo retoma uma passagem da vida de Jesus narrada no Evangelho de São Lucas (Lc 2,22-39). De acordo com o costume judaico daquela época, o primeiro filho deveria ser apresentado ao Senhor. Também a mulher, após dar à luz, passava por um período de purificação de quarenta dias e, depois   desse tempo, devia ir ao templo e oferecer um cordeiro em sacrifício. Maria e José cumpriram a lei, mas, como eram muito pobres, ofereceram um casal de pombos em vez de um cordeiro.",
+                    date: "2 de Fevereiro de 2021",
+                    route: host + "/Dia-de-santo/Dia-February/Dia-2.html",
+                },
+                {
+                    img: host +
+                        "/assets/img/Dia-de-santo/February/02_Post_Dia_Santo_Fevereiro_B.jpg",
+                    title: "Nossa Senhora dos Navegantes",
+                    details: "Nas épocas das Cruzadas, os portugueses e espanhóis que atravessavam o mar Mediterrâneo rumo à Palestina passavam por muitos lugares perigosos e onde havia culto a deuses pagãos. Por isso, como tradição e cultura, esses navegantes pediam a Nossa Senhora dos Navegantes, durante a santa missa que era realizada antes das travessias, a proteção e coragem para, com aqueles pequenos barcos, enfrentarem o mar e suas tempestades.",
+                    date: "2 de Fevereiro de 2021",
+                    route: host + "/Dia-de-santo/Dia-February/Dia-2a.html",
+                },
+            ],
 
-			5: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/February/05_Post_Dia_Santo_Fevereiro.jpg",
-				title: "Santa Águeda, virgem e mártir",
-				details:
-					"Santa Águeda teria sofrido o martírio durante a perseguição do imperador romano Décio. Seu culto propagou-se rapidamente por toda a Igreja, e seu nome foi inserido no Cânon Romano. Conta-se que Santa Águeda teria nascido em Catânia, na Sicília, ao sul da Itália, provavelmente no ano de 230. Como outras jovens de sua época, Águeda  decidiu consagrar sua virgindade a Cristo. Mas, quando o governador Quinciano lhe  propôs um relacionamento, ela se negou rotundamente. Quinciano, indignado, acusou-a de ser uma mulher má e a submeteu a cruéis torturas. Águeda, porém, manteve-se firme  em seu juramento de virgindade ao Senhor, em quem confiava fortemente. No dia 5 de fevereiro do ano 250 ou 251, vítima das torturas, Águeda veio a falecer. Que essa santa rogue a Deus por nós para que, com o exemplo de sua coragem e confiança em Deus, sejamos firmes no caminho da fé. Amém!",
-				date: "5 de Fevereiro de 2021",
-				route: host + "/Dia-de-santo/Dia-February/Dia-5.html",
-			},
-
-			6: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/February/06_Post_Dia_Santo_Fevereiro.jpg",
-				title: "São Paulo Miki e seus companheiros",
-				details:
-					"A história da evangelização no Japão foi marcada pelo entusiasmo dos que abraçaram a fé e regada pelo sangue de inúmeros mártires. Os santos que celebramos hoje, São Paulo Miki e seus 25 companheiros, deram testemunho de fé, coragem, amor a Jesus e até mesmo aos que os torturaram e executaram.",
-				date: "6 de Fevereiro de 2021",
-				route: host + "/Dia-de-santo/Dia-February/Dia-6.html",
-			},
-
-			8: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/February/08_Post_Dia_Santo_Fevereiro.jpg",
-				title: "Santa Josefina Bakhita",
-				details:
-					"A história de Santa Josefina Bakhita revela como o amor de Deus é capaz de transformar o sofrimento em dádiva de amor. Ela nasceu no Sudão, em 1869. Raptada de sua família ainda menina, passou por inúmeras torturas e sofrimentos. Foi comprada e vendida várias vezes como escrava. Teve seu corpo marcado a navalha, com mais de 140 incisões nas costas, peito e barriga. Experimentou a morte de perto e, mesmo sem conhecer a Deus, sentia a sua proteção.",
-				date: "8 de Fevereiro de 2021",
-				route: host + "/Dia-de-santo/Dia-February/Dia-8.html",
-			},
-
-			10: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/February/10_Post_Dia_Santo_Fevereiro.jpg",
-				title: "Santa Escolástica",
-				details:
-					"Santa Escolástica é uma das sete padroeiras da Congregação das Missionárias Servas do Espírito Santo. Irmã gêmea de São Bento, nasceu de uma família rica e nobre em Núrsia, na região central da Itália, em 480. Conta-se que, ao nascer, Bento e Escolástica ficaram órfãos, pois sua mãe morreu durante o parto.",
-				date: "10 de Fevereiro de 2021",
-				route: host + "/Dia-de-santo/Dia-February/Dia-10.html",
-			},
-
-			11: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/February/11_Post_Dia_Santo_Fevereiro.jpg",
-				title: "Nossa Senhora de Lourdes",
-				details:
-					"A Festa de Nossa Senhora de Lourdes foi estabelecida pelo Papa Leão XIII. Segundo uma piedosa tradição, em 1858, numa gruta de Massabielle, que se encontra em Lourdes, França, a Imaculada Virgem Maria apareceu a Bernadete Soubirous, uma jovem pastora. Por intermédio dessa humilde camponesa, a Virgem fez um chamado ao mundo, pedindo conversão e oração. A maravilhosa aparição reforçou na Igreja um fervor pela oração e a prática da caridade. Muitas pessoas dedicaram-se a orar e ajudar sobretudo os enfermos e os pobres.",
-				date: "11 de Fevereiro de 2021",
-				route: host + "/Dia-de-santo/Dia-February/Dia-11.html",
-			},
-
-			14: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/February/14_Post_Dia_Santo_Fevereiro.jpg",
-				title: "São Cirilo e São Metódio",
-				details:
-					"Conhecidos como apóstolos dos eslavos, os irmãos São Cirilo e São Metódio foram responsáveis pela evangelização de boa parte do Leste Europeu, contribuindo não apenas do ponto de vista religioso, mas também cultural. Nasceram no século IX, em Tessalônica, sob o Império Bizantino. Seus pais, Leôncio e Maria, eram pessoas muito cultas e deram uma educação aprimorada aos filhos Constantino e Miguel. Com o pai aprenderam o grego, a língua oficial; com a mãe, o eslavo, a língua falada pelo povo, o que depois viria a facilitar a missão. Quando entraram para a vida religiosa, Constantino trocou o nome para Cirilo, e Miguel, para Metódio.",
-				date: "14 de Fevereiro de 2021",
-				route: host + "/Dia-de-santo/Dia-February/Dia-14.html",
-			},
-
-			18: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/February/18_Post_Dia_Santo_Fevereiro.jpg",
-				title: "Bem-aventurado Fra Angélico",
-				details:
-					"Fra Angélico foi beatificado pelo Papa João Paulo II em 1982 e, dois anos depois, foi  declarado “Padroeiro Universal dos Artistas”. Mas quem foi Fra Angélico? Fra é a designação em italiano para frei. Portanto, além de artista, Fra Angélico era um religioso da Ordem Dominicana.",
-				date: "18 de Fevereiro de 2021",
-				route: host + "/Dia-de-santo/Dia-February/Dia-18.html",
-			},
-
-			22: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/February/22_Post_Dia_Santo_Fevereiro.jpg",
-				title: "Festa da Cátedra de São Pedro",
-				details:
-					"Hoje a Igreja celebra a festa da Cátedra de São Pedro. É uma comemoração que remonta ao século IV recordando o primado e a autoridade de São Pedro, primeiro Papa da Igreja Católica.",
-				date: "22 de Fevereiro de 2021",
-				route: host + "/Dia-de-santo/Dia-February/Dia-22.html",
-			},
-		},
-		March: {
-			// 2:[
-			// 	{
-			// 		img:
-			// 			host +
-			// 			"/assets/img/Dia-de-santo/February/02_Post_Dia_Santo_Fevereiro.jpg",
-			// 		title: "Apresentação de Jesus no Templo",
-			// 		details:
-			// 			"A festa da Apresentação de Jesus no templo retoma uma passagem da vida de Jesus narrada no Evangelho de São Lucas (Lc 2,22-39). De acordo com o costume judaico daquela época, o primeiro filho deveria ser apresentado ao Senhor. Também a mulher, após dar à luz, passava por um período de purificação de quarenta dias e, depois   desse tempo, devia ir ao templo e oferecer um cordeiro em sacrifício. Maria e José cumpriram a lei, mas, como eram muito pobres, ofereceram um casal de pombos em vez de um cordeiro.",
-			// 		date: "2 de Fevereiro de 2021",
-			// 		route: host + "/Dia-de-santo/Dia-February/Dia-2.html",
-			// 	},
-			// 	{
-			// 		img:
-			// 			host +
-			// 			"/assets/img/Dia-de-santo/February/02_Post_Dia_Santo_Fevereiro_B.jpg",
-			// 		title: "Nossa Senhora dos Navegantes",
-			// 		details:
-			// 			"Nas épocas das Cruzadas, os portugueses e espanhóis que atravessavam o mar Mediterrâneo rumo à Palestina passavam por muitos lugares perigosos e onde havia culto a deuses pagãos. Por isso, como tradição e cultura, esses navegantes pediam a Nossa Senhora dos Navegantes, durante a santa missa que era realizada antes das travessias, a proteção e coragem para, com aqueles pequenos barcos, enfrentarem o mar e suas tempestades.",
-			// 		date: "2 de Fevereiro de 2021",
-			// 		route: host + "/Dia-de-santo/Dia-February/Dia-2a.html",
-			// 	},
-			// ],
-
-			7: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/March/07_Post_Dia_Santo_Marco_2021.jpg",
-				title: "Santas Perpétua e Felicidade",
-				details:
-					"Perpétua e Felicidade são duas santas eminentes que enfrentaram o martírio, sob o imperador Severo. Elas recebem louvor e admiração da Igreja pela firmeza da fé em Cristo. Que o seu exemplo heroico e de virtude, mesmo no martírio, anime nossa fé! ",
-				date: "7 de Março de 2021",
-				route: host + "/Dia-de-santo/Dia-March/Dia-7.html",
-			},
-			8: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/March/08_Post_Dia_Santo_Marco_2020.jpg",
-				title: "São João de Deus",
-				details:
-					"São João de Deus aprendeu da própria experiência de sofrimento e incompreensão a ser misericordioso e caridoso, sobretudo com os enfermos. Ele estava convencido de que agir assim era beneficiar-se a si mesmo. Que seu exemplo seja uma luz para nós!",
-				date: "8 de Março de 2021",
-				route: host + "/Dia-de-santo/Dia-March/Dia-8.html",
-			},
-			9: [
-				{
-					img:
-						host +
-						"/assets/img/Dia-de-santo/March/09_Post_Dia_Santo_Marco_2020.jpg",
-					title: "São Gregório de Nissa, bispo",
-					details:
-						"São Gregório de Nissa foi teólogo e místico. Formulou a doutrina trinitária. Pelas influências recebidas de Orígenes e do platonismo, não recebeu o título de Doutor da Igreja, mas sua figura como orador, pensador e poeta brilha até nossos dias.",
-					date: "9 de Março de 2021",
-					route: host + "/Dia-de-santo/Dia-March/Dia-9.html",
-				},
-				{
-					img:
-						host +
-						"/assets/img/Dia-de-santo/March/09_Post_Dia_Santo_Marco_2020_B.jpg",
-					title: "Santa Francisca Romana",
-					details:
-						"Hoje a Igreja celebra Santa Francisca Romana, uma admirável mulher que se dedicou ao serviço dos doentes e, com os próprios bens, ajudou os pobres. Modelo de vida conjugal e vida religiosa, Francisca tem muito a nos ensinar sobre a entrega a Cristo.",
-					date: "9 de Março  de 2021",
-					route: host + "/Dia-de-santo/Dia-March/Dia-9a.html",
-				},
-			],
-			15: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/March/15_Post_Dia_Santo_Marco_2020.jpg",
-				title: "São Longuinho",
-				details:
-					"São Longuinho é um dos santos que têm muitos devotos. No Brasil, ele goza de grande popularidade. Mas por que esse santo tem alcançado tanta fama Acredita-se que São Longuinho seja o soldado que, junto à cruz de Jesus, obteve a conversão.",
-				date: "15 de Março de 2021",
-				route: host + "/Dia-de-santo/Dia-March/Dia-15.html",
-			},
-			17: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/March/17_Post_Dia_Santo_Marco_2020.jpg",
-				title: "São Patrício ",
-				details:
-					"Com amor e sacrifício, São Patrício se dedicou ao pastoreio. Depois da sagração e pelo zelo apostólico, voltou à Irlanda e não poupou esforços na evangelização da ilha. Diz-se que foi por sua pregação que a Irlanda ganhou o nome de “Ilha dos Santos”.",
-				date: "17 de Março de 2021",
-				route: host + "/Dia-de-santo/Dia-March/Dia-17.html",
-			},
-			18: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/March/18_Post_Dia_Santo_Marco_2020.jpg",
-				title: "São Cirilo de Jerusalém, bispo e doutor da Igreja ",
-				details:
-					"A Igreja celebra hoje São Cirilo de Jerusalém. Seu valioso legado se encontra resumido em suas catequeses: “Conserve-se inteiro o vosso espírito, e a vossa alma e o vosso corpo sem mancha, para a vinda de Nosso Senhor Jesus Cristo… Amém”. ",
-				date: "18 de Março de 2021",
-				route: host + "/Dia-de-santo/Dia-March/Dia-18.html",
-			},
-			19: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/March/19_Post_Dia_Santo_Marco_2020.jpg",
-				title: "São José, Padroeiro da Igreja Católica",
-				details:
-					"A Igreja celebra hoje a Solenidade de São José, esposo de Maria e pai adotivo de Jesus. Conta-se que o jovem carpinteiro, percebendo a gravidez da noiva, quis deixá-la em segredo, mas o anjo do Senhor o pediu para assumir a missão da paternidade.",
-				date: "19 de Março de 2021",
-				route: host + "/Dia-de-santo/Dia-March/Dia-19.html",
-			},
-			24: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/March/24_Post_Dia_Santo_Marco_2020.jpg",
-				title: "Santo Oscar Romero: testemunha do Reino de Deus",
-				details:
-					"Neste 24 de março, a Igreja celebra Santo Oscar Arnulfo Romero, mais conhecido como Dom Oscar Romero, o arcebispo mártir que deu sua vida para defender os mais pobres de El Salvador. Seu exemplo é uma luz para os cristãos de todos os tempos.",
-				date: "24 de Março de 2021",
-				route: host + "/Dia-de-santo/Dia-March/Dia-24.html",
-			},
-			25: [
-				{
-					img:
-						host +
-						"/assets/img/Dia-de-santo//March/25_Post_Dia_Santo_Marco_2020.jpg",
-					title: "Solenidade da Anunciação do Senhor",
-					details:
-						"O mistério da Encarnação de Jesus, o Filho de Deus, é celebrado em 25 de março, nove meses antes do Natal. Esse mistério é iniciativa de Deus que, amando-nos, quis morar entre nós. Por isso, com Maria, alegremo-nos e com ela acolhamos nosso Salvador!",
-					date: "25 de Março  de 2021",
-					route: host + "/Dia-de-santo/Dia-March/Dia-25.html",
-				},
-				{
-					img:
-						host +
-						"/assets/img/Dia-de-santo/March/25_Post_Dia_Santo_Marco_2020_B.jpg",
-					title: "São Dimas",
-					details:
-						"São Dimas foi um dos dois ladrões crucificados junto de Jesus. O mérito de São Dimas é ter se arrependido e suplicado a Cristo: “Jesus, lembra-te de mim quando vieres com teu reino”. Que, seguindo seu exemplo, procuremos o perdão do Senhor! ",
-					date: "25 de Março de 2021",
-					route: host + "/Dia-de-santo/Dia-March/Dia-25a.html",
-				},
-			],
-		},
-// ****************************
-// Following Data is
-// Sample Data Just For Testing
-// Not A Real Data
-// *****************************************************************************
+            3: {
+                img: host +
+                    "/assets/img/Dia-de-santo/February/03_Post_Dia_Santo_Fevereiro.jpg",
+                title: "São Brás",
+                details: "São Brás nasceu em Sebaste, na Armênia, por volta do ano 300. Era médico, mas queria servir a Deus e, por isso, abandonou tudo e foi viver como eremita, numa gruta, durante muitos anos. Como atendia todas as pessoas que o procuravam e muitas ficavam curadas dos males tanto do corpo como do espírito, ganhou fama de santidade.",
+                date: "3 de Fevereiro de 2021",
+                route: host + "/Dia-de-santo/Dia-February/Dia-3.html",
+            },
 
 
-		April: {
-			7: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/March/07_Post_Dia_Santo_Marco_2021.jpg",
-				title: "Santas Perpétua e Felicidade",
-				details:
-					"Perpétua e Felicidade são duas santas eminentes que enfrentaram o martírio, sob o imperador Severo. Elas recebem louvor e admiração da Igreja pela firmeza da fé em Cristo. Que o seu exemplo heroico e de virtude, mesmo no martírio, anime nossa fé! ",
-				date: "7 de Março de 2021",
-				route: host + "/Dia-de-santo/Dia-March/Dia-7.html",
-			},
-			8: {
-				img:
-					host +
-					"/assets/img/Dia-de-santo/March/08_Post_Dia_Santo_Marco_2020.jpg",
-				title: "São João de Deus",
-				details:
-					"São João de Deus aprendeu da própria experiência de sofrimento e incompreensão a ser misericordioso e caridoso, sobretudo com os enfermos. Ele estava convencido de que agir assim era beneficiar-se a si mesmo. Que seu exemplo seja uma luz para nós!",
-				date: "8 de Março de 2021",
-				route: host + "/Dia-de-santo/Dia-March/Dia-8.html",
-			},
-		},
+            5: {
+                img: host +
+                    "/assets/img/Dia-de-santo/February/05_Post_Dia_Santo_Fevereiro.jpg",
+                title: "Santa Águeda, virgem e mártir",
+                details: "Santa Águeda teria sofrido o martírio durante a perseguição do imperador romano Décio. Seu culto propagou-se rapidamente por toda a Igreja, e seu nome foi inserido no Cânon Romano. Conta-se que Santa Águeda teria nascido em Catânia, na Sicília, ao sul da Itália, provavelmente no ano de 230. Como outras jovens de sua época, Águeda  decidiu consagrar sua virgindade a Cristo. Mas, quando o governador Quinciano lhe  propôs um relacionamento, ela se negou rotundamente. Quinciano, indignado, acusou-a de ser uma mulher má e a submeteu a cruéis torturas. Águeda, porém, manteve-se firme  em seu juramento de virgindade ao Senhor, em quem confiava fortemente. No dia 5 de fevereiro do ano 250 ou 251, vítima das torturas, Águeda veio a falecer. Que essa santa rogue a Deus por nós para que, com o exemplo de sua coragem e confiança em Deus, sejamos firmes no caminho da fé. Amém!",
+                date: "5 de Fevereiro de 2021",
+                route: host + "/Dia-de-santo/Dia-February/Dia-5.html",
+            },
 
-		// ****************************
-// Above Data is
-// Sample Data Just For Testing
-// Not A Real Data
-// *****************************************************************************
+            6: {
+                img: host +
+                    "/assets/img/Dia-de-santo/February/06_Post_Dia_Santo_Fevereiro.jpg",
+                title: "São Paulo Miki e seus companheiros",
+                details: "A história da evangelização no Japão foi marcada pelo entusiasmo dos que abraçaram a fé e regada pelo sangue de inúmeros mártires. Os santos que celebramos hoje, São Paulo Miki e seus 25 companheiros, deram testemunho de fé, coragem, amor a Jesus e até mesmo aos que os torturaram e executaram.",
+                date: "6 de Fevereiro de 2021",
+                route: host + "/Dia-de-santo/Dia-February/Dia-6.html",
+            },
 
 
-	},
+            8: {
+                img: host +
+                    "/assets/img/Dia-de-santo/February/08_Post_Dia_Santo_Fevereiro.jpg",
+                title: "Santa Josefina Bakhita",
+                details: "A história de Santa Josefina Bakhita revela como o amor de Deus é capaz de transformar o sofrimento em dádiva de amor. Ela nasceu no Sudão, em 1869. Raptada de sua família ainda menina, passou por inúmeras torturas e sofrimentos. Foi comprada e vendida várias vezes como escrava. Teve seu corpo marcado a navalha, com mais de 140 incisões nas costas, peito e barriga. Experimentou a morte de perto e, mesmo sem conhecer a Deus, sentia a sua proteção.",
+                date: "8 de Fevereiro de 2021",
+                route: host + "/Dia-de-santo/Dia-February/Dia-8.html",
+            },
 
-	oracoesMissionarias: {
-		September: {
-			3: {
-				img: host + "/assets/img/oracoes-missionarias/September/child (1).jpg",
-				title: "Jesus nos envia em missão",
-				details: `O projeto de Jesus Cristo é nosso programa de vida. 
+            10: {
+                img: host +
+                    "/assets/img/Dia-de-santo/February/10_Post_Dia_Santo_Fevereiro.jpg",
+                title: "Santa Escolástica",
+                details: "Santa Escolástica é uma das sete padroeiras da Congregação das Missionárias Servas do Espírito Santo. Irmã gêmea de São Bento, nasceu de uma família rica e nobre em Núrsia, na região central da Itália, em 480. Conta-se que, ao nascer, Bento e Escolástica ficaram órfãos, pois sua mãe morreu durante o parto.",
+                date: "10 de Fevereiro de 2021",
+                route: host + "/Dia-de-santo/Dia-February/Dia-10.html",
+            },
+
+            11: {
+                img: host +
+                    "/assets/img/Dia-de-santo/February/11_Post_Dia_Santo_Fevereiro.jpg",
+                title: "Nossa Senhora de Lourdes",
+                details: "A Festa de Nossa Senhora de Lourdes foi estabelecida pelo Papa Leão XIII. Segundo uma piedosa tradição, em 1858, numa gruta de Massabielle, que se encontra em Lourdes, França, a Imaculada Virgem Maria apareceu a Bernadete Soubirous, uma jovem pastora. Por intermédio dessa humilde camponesa, a Virgem fez um chamado ao mundo, pedindo conversão e oração. A maravilhosa aparição reforçou na Igreja um fervor pela oração e a prática da caridade. Muitas pessoas dedicaram-se a orar e ajudar sobretudo os enfermos e os pobres.",
+                date: "11 de Fevereiro de 2021",
+                route: host + "/Dia-de-santo/Dia-February/Dia-11.html",
+            },
+
+            14: {
+                img: host +
+                    "/assets/img/Dia-de-santo/February/14_Post_Dia_Santo_Fevereiro.jpg",
+                title: "São Cirilo e São Metódio",
+                details: "Conhecidos como apóstolos dos eslavos, os irmãos São Cirilo e São Metódio foram responsáveis pela evangelização de boa parte do Leste Europeu, contribuindo não apenas do ponto de vista religioso, mas também cultural. Nasceram no século IX, em Tessalônica, sob o Império Bizantino. Seus pais, Leôncio e Maria, eram pessoas muito cultas e deram uma educação aprimorada aos filhos Constantino e Miguel. Com o pai aprenderam o grego, a língua oficial; com a mãe, o eslavo, a língua falada pelo povo, o que depois viria a facilitar a missão. Quando entraram para a vida religiosa, Constantino trocou o nome para Cirilo, e Miguel, para Metódio.",
+                date: "14 de Fevereiro de 2021",
+                route: host + "/Dia-de-santo/Dia-February/Dia-14.html",
+            },
+
+            18: {
+                img: host +
+                    "/assets/img/Dia-de-santo/February/18_Post_Dia_Santo_Fevereiro.jpg",
+                title: "Bem-aventurado Fra Angélico",
+                details: "Fra Angélico foi beatificado pelo Papa João Paulo II em 1982 e, dois anos depois, foi  declarado “Padroeiro Universal dos Artistas”. Mas quem foi Fra Angélico? Fra é a designação em italiano para frei. Portanto, além de artista, Fra Angélico era um religioso da Ordem Dominicana.",
+                date: "18 de Fevereiro de 2021",
+                route: host + "/Dia-de-santo/Dia-February/Dia-18.html",
+            },
+
+            22: {
+                img: host +
+                    "/assets/img/Dia-de-santo/February/22_Post_Dia_Santo_Fevereiro.jpg",
+                title: "Festa da Cátedra de São Pedro",
+                details: "Hoje a Igreja celebra a festa da Cátedra de São Pedro. É uma comemoração que remonta ao século IV recordando o primado e a autoridade de São Pedro, primeiro Papa da Igreja Católica.",
+                date: "22 de Fevereiro de 2021",
+                route: host + "/Dia-de-santo/Dia-February/Dia-22.html",
+            },
+
+        },
+        March: {
+
+            // 2:[
+            // 	{
+            // 		img:
+            // 			host +
+            // 			"/assets/img/Dia-de-santo/February/02_Post_Dia_Santo_Fevereiro.jpg",
+            // 		title: "Apresentação de Jesus no Templo",
+            // 		details:
+            // 			"A festa da Apresentação de Jesus no templo retoma uma passagem da vida de Jesus narrada no Evangelho de São Lucas (Lc 2,22-39). De acordo com o costume judaico daquela época, o primeiro filho deveria ser apresentado ao Senhor. Também a mulher, após dar à luz, passava por um período de purificação de quarenta dias e, depois   desse tempo, devia ir ao templo e oferecer um cordeiro em sacrifício. Maria e José cumpriram a lei, mas, como eram muito pobres, ofereceram um casal de pombos em vez de um cordeiro.",
+            // 		date: "2 de Fevereiro de 2021",
+            // 		route: host + "/Dia-de-santo/Dia-February/Dia-2.html",
+            // 	},
+            // 	{
+            // 		img:
+            // 			host +
+            // 			"/assets/img/Dia-de-santo/February/02_Post_Dia_Santo_Fevereiro_B.jpg",
+            // 		title: "Nossa Senhora dos Navegantes",
+            // 		details:
+            // 			"Nas épocas das Cruzadas, os portugueses e espanhóis que atravessavam o mar Mediterrâneo rumo à Palestina passavam por muitos lugares perigosos e onde havia culto a deuses pagãos. Por isso, como tradição e cultura, esses navegantes pediam a Nossa Senhora dos Navegantes, durante a santa missa que era realizada antes das travessias, a proteção e coragem para, com aqueles pequenos barcos, enfrentarem o mar e suas tempestades.",
+            // 		date: "2 de Fevereiro de 2021",
+            // 		route: host + "/Dia-de-santo/Dia-February/Dia-2a.html",
+            // 	},
+            // ],
+
+            7: {
+                img: host +
+                    "/assets/img/Dia-de-santo/March/07_Post_Dia_Santo_Marco_2021.jpg",
+                title: "Santas Perpétua e Felicidade",
+                details: "Perpétua e Felicidade são duas santas eminentes que enfrentaram o martírio, sob o imperador Severo. Elas recebem louvor e admiração da Igreja pela firmeza da fé em Cristo. Que o seu exemplo heroico e de virtude, mesmo no martírio, anime nossa fé! ",
+                date: "7 de Março de 2021",
+                route: host + "/Dia-de-santo/Dia-March/Dia-7.html",
+            },
+            8: {
+                img: host +
+                    "/assets/img/Dia-de-santo/March/08_Post_Dia_Santo_Marco_2020.jpg",
+                title: "São João de Deus",
+                details: "São João de Deus aprendeu da própria experiência de sofrimento e incompreensão a ser misericordioso e caridoso, sobretudo com os enfermos. Ele estava convencido de que agir assim era beneficiar-se a si mesmo. Que seu exemplo seja uma luz para nós!",
+                date: "8 de Março de 2021",
+                route: host + "/Dia-de-santo/Dia-March/Dia-8.html",
+            },
+            9: [{
+                    img: host +
+                        "/assets/img/Dia-de-santo/March/09_Post_Dia_Santo_Marco_2020.jpg",
+                    title: "São Gregório de Nissa, bispo",
+                    details: "São Gregório de Nissa foi teólogo e místico. Formulou a doutrina trinitária. Pelas influências recebidas de Orígenes e do platonismo, não recebeu o título de Doutor da Igreja, mas sua figura como orador, pensador e poeta brilha até nossos dias.",
+                    date: "9 de Março de 2021",
+                    route: host + "/Dia-de-santo/Dia-March/Dia-9.html",
+                },
+                {
+                    img: host +
+                        "/assets/img/Dia-de-santo/March/09_Post_Dia_Santo_Marco_2020_B.jpg",
+                    title: "Santa Francisca Romana",
+                    details: "Hoje a Igreja celebra Santa Francisca Romana, uma admirável mulher que se dedicou ao serviço dos doentes e, com os próprios bens, ajudou os pobres. Modelo de vida conjugal e vida religiosa, Francisca tem muito a nos ensinar sobre a entrega a Cristo.",
+                    date: "9 de Março  de 2021",
+                    route: host + "/Dia-de-santo/Dia-March/Dia-9a.html",
+                },
+            ],
+            15: {
+                img: host +
+                    "/assets/img/Dia-de-santo/March/15_Post_Dia_Santo_Marco_2020.jpg",
+                title: "São Longuinho",
+                details: "São Longuinho é um dos santos que têm muitos devotos. No Brasil, ele goza de grande popularidade. Mas por que esse santo tem alcançado tanta fama Acredita-se que São Longuinho seja o soldado que, junto à cruz de Jesus, obteve a conversão.",
+                date: "15 de Março de 2021",
+                route: host + "/Dia-de-santo/Dia-March/Dia-15.html",
+            },
+            17: {
+                img: host +
+                    "/assets/img/Dia-de-santo/March/17_Post_Dia_Santo_Marco_2020.jpg",
+                title: "São Patrício ",
+                details: "Com amor e sacrifício, São Patrício se dedicou ao pastoreio. Depois da sagração e pelo zelo apostólico, voltou à Irlanda e não poupou esforços na evangelização da ilha. Diz-se que foi por sua pregação que a Irlanda ganhou o nome de “Ilha dos Santos”.",
+                date: "17 de Março de 2021",
+                route: host + "/Dia-de-santo/Dia-March/Dia-17.html",
+            },
+            18: {
+                img: host +
+                    "/assets/img/Dia-de-santo/March/18_Post_Dia_Santo_Marco_2020.jpg",
+                title: "São Cirilo de Jerusalém, bispo e doutor da Igreja ",
+                details: "A Igreja celebra hoje São Cirilo de Jerusalém. Seu valioso legado se encontra resumido em suas catequeses: “Conserve-se inteiro o vosso espírito, e a vossa alma e o vosso corpo sem mancha, para a vinda de Nosso Senhor Jesus Cristo… Amém”. ",
+                date: "18 de Março de 2021",
+                route: host + "/Dia-de-santo/Dia-March/Dia-18.html",
+            },
+            19: {
+                img: host +
+                    "/assets/img/Dia-de-santo/March/19_Post_Dia_Santo_Marco_2020.jpg",
+                title: "São José, Padroeiro da Igreja Católica",
+                details: "A Igreja celebra hoje a Solenidade de São José, esposo de Maria e pai adotivo de Jesus. Conta-se que o jovem carpinteiro, percebendo a gravidez da noiva, quis deixá-la em segredo, mas o anjo do Senhor o pediu para assumir a missão da paternidade.",
+                date: "19 de Março de 2021",
+                route: host + "/Dia-de-santo/Dia-March/Dia-19.html",
+            },
+            24: {
+                img: host +"/assets/img/Dia-de-santo/March/24_Post_Dia_Santo_Marco_2021.jpg",
+                title: "Santo Oscar Romero: testemunha do Reino de Deus",
+                details: "Neste 24 de março, a Igreja celebra Santo Oscar Arnulfo Romero, mais conhecido como Dom Oscar Romero, o arcebispo mártir que deu sua vida para defender os mais pobres de El Salvador. Seu exemplo é uma luz para os cristãos de todos os tempos.",
+                date: "24 de Março de 2021",
+                route: host + "/Dia-de-santo/Dia-March/Dia-24.html",
+            },
+            25: [{
+                    img: host +"/assets/img/Dia-de-santo/March/25_Post_Dia_Santo_Marco_2021_B.jpg",
+                    title: "Solenidade da Anunciação do Senhor",
+                    details: "O mistério da Encarnação de Jesus, o Filho de Deus, é celebrado em 25 de março, nove meses antes do Natal. Esse mistério é iniciativa de Deus que, amando-nos, quis morar entre nós. Por isso, com Maria, alegremo-nos e com ela acolhamos nosso Salvador!",
+                    date: "25 de Março  de 2021",
+                    route: host + "/Dia-de-santo/Dia-March/Dia-25.html",
+                },
+                {
+                    img: host +"/assets/img/Dia-de-santo/March/25_Post_Dia_Santo_Marco_2020.jpg",
+                    title: "São Dimas",
+                    details: "São Dimas foi um dos dois ladrões crucificados junto de Jesus. O mérito de São Dimas é ter se arrependido e suplicado a Cristo: “Jesus, lembra-te de mim quando vieres com teu reino”. Que, seguindo seu exemplo, procuremos o perdão do Senhor! ",
+                    date: "25 de Março de 2021",
+                    route: host + "/Dia-de-santo/Dia-March/Dia-25a.html",
+                },
+            ],
+
+
+
+
+        },
+    },
+
+    oracoesMissionarias: {
+        September: {
+            3: {
+                img: host + "/assets/img/oracoes-missionarias/September/child (1).jpg",
+                title: "Jesus nos envia em missão",
+                details: `O projeto de Jesus Cristo é nosso programa de vida. 
                 Por isso, rezemos: 
                  Onde houver alguém que não te conhece e ainda não te segue,`,
 				date: "3 de Setembro de 2020",
