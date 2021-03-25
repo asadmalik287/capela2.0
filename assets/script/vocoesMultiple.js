@@ -16,6 +16,8 @@ months[11] = "December";
 var d = new Date();
 var n = months[d.getMonth()];
 
+var nextMonth=months[d.getMonth()+1];
+console.log(nextMonth);
 // console.log(mainData.vocoesData);
 Object.keys(mainData.vocoesData).map((month) => {
     // console.log(month)
@@ -40,7 +42,11 @@ Object.keys(mainData.vocoesData).map((month) => {
                     santoPostsArr.push(mainData.vocoesData[month][post]);
                 }
             }
-        } else {
+        }
+        else if(month == nextMonth){
+console.log('C_______________L');
+        }
+         else {
             if (Array.isArray(mainData.vocoesData[month][post]) == true) {
                 mainData.vocoesData[month][post].map((subPost) => {
                     santoPostsArr.push(subPost);

@@ -121,7 +121,8 @@ for (var category in mainData["vocoesData"]) {
             
             </div>`;
 				}
-			} else {
+			} 
+			else {
 				showhtml += `<div class="d-flex CV-Video-Link-Post forHover sortpost myNewVideo" data-event-date="${postdateSort}">
 
                 <div class="img_1">
@@ -144,7 +145,8 @@ for (var category in mainData["vocoesData"]) {
                 </div>`;
 			}
 
-			// for displaying Posts
+ 
+
 
 			if (!objec[getdays].video == true) {
 				showdiv += `
