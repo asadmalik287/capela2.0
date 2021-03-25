@@ -725,24 +725,21 @@ let mainData = {
                 route: host + "/Dia-de-santo/Dia-March/Dia-19.html",
             },
             24: {
-                img: host +
-                    "/assets/img/Dia-de-santo/March/24_Post_Dia_Santo_Marco_2020.jpg",
+                img: host +"/assets/img/Dia-de-santo/March/24_Post_Dia_Santo_Marco_2021.jpg",
                 title: "Santo Oscar Romero: testemunha do Reino de Deus",
                 details: "Neste 24 de março, a Igreja celebra Santo Oscar Arnulfo Romero, mais conhecido como Dom Oscar Romero, o arcebispo mártir que deu sua vida para defender os mais pobres de El Salvador. Seu exemplo é uma luz para os cristãos de todos os tempos.",
                 date: "24 de Março de 2021",
                 route: host + "/Dia-de-santo/Dia-March/Dia-24.html",
             },
             25: [{
-                    img: host +
-                        "/assets/img/Dia-de-santo//March/25_Post_Dia_Santo_Marco_2020.jpg",
+                    img: host +"/assets/img/Dia-de-santo/March/25_Post_Dia_Santo_Marco_2021_B.jpg",
                     title: "Solenidade da Anunciação do Senhor",
                     details: "O mistério da Encarnação de Jesus, o Filho de Deus, é celebrado em 25 de março, nove meses antes do Natal. Esse mistério é iniciativa de Deus que, amando-nos, quis morar entre nós. Por isso, com Maria, alegremo-nos e com ela acolhamos nosso Salvador!",
                     date: "25 de Março  de 2021",
                     route: host + "/Dia-de-santo/Dia-March/Dia-25.html",
                 },
                 {
-                    img: host +
-                        "/assets/img/Dia-de-santo/March/25_Post_Dia_Santo_Marco_2020_B.jpg",
+                    img: host +"/assets/img/Dia-de-santo/March/25_Post_Dia_Santo_Marco_2020.jpg",
                     title: "São Dimas",
                     details: "São Dimas foi um dos dois ladrões crucificados junto de Jesus. O mérito de São Dimas é ter se arrependido e suplicado a Cristo: “Jesus, lembra-te de mim quando vieres com teu reino”. Que, seguindo seu exemplo, procuremos o perdão do Senhor! ",
                     date: "25 de Março de 2021",
