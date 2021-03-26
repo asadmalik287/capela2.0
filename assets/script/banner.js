@@ -1273,7 +1273,190 @@ let march = {
     },
 }
 let april={
+    1: {
+        heading: 'Pelos que carregam a cruz da fome',
+        details: 'Neste início do Tríduo Pascal, oremos por todos os nossos irmãos e irmãs africanos que sofrem pela fome. Que os governos locais e a comunidade internacional não fechem os olhos para esse grande flagelo.',
+        image: 'BANNER_253_320px_AFRICA',
+        footer: 'ÁFRICA'
+    },
+    2: {
+        heading: 'Pelos que morrem pela violência',
+        details: 'No dia em que contemplamos o Cristo que derrama o sangue na Cruz, rezemos por todas as vítimas das mais diversas violências em nosso continente americano. Que o Senhor da Vida conceda paz a nossos povos.',
+        image: 'BANNER_253_320px_AMERICA',
+        footer: 'AMÉRICA'
+    },
+    3:{
+        heading: 'Pelas famílias enlutadas',
+        details: 'Nestas horas em que Cristo jaz no silêncio do sepulcro, oremos por todas as famílias que vivem a difícil experiência do luto. Que a fé na ressurreição seja o conforto para os corações feridos.',
+        image: 'BANNER_253_320px_MUNDO',
+        footer: 'MUNDO'
+    },
+
+
+    4: {
+        heading: 'Pelos missionários e missionárias na Terra Santa',
+        details: 'Neste Domingo da Ressurreição, rezemos por todos os missionários e missionárias na Terra Santa. Que possam ser sinais da presença real de Jesus junto aos sofredores e aos peregrinos.',
+        image: 'BANNER_253_320px_ASIA',
+        footer: 'ASIA'
+    },
+
+    5: {
+        heading: 'Pelos que trabalham com os jovens',
+        details: 'Oremos por todos os irmãos e irmãs que acompanham pastoralmente os jovens nas diversas realidades da Europa, para que a Igreja tenha sempre um renovado vigor.',
+        image: 'BANNER_253_320px_EUROPA',
+        footer: 'EUROPA'
+    },
+    6: {
+        heading: 'Pelos que lutam pela preservação da natureza',
+        details: 'Rezemos por todos os que se dedicam à preservação dos diversos biomas da Oceania. Que sua missão de cuidar da Casa Comum seja reconhecida.',
+        image: 'BANNER_253_320px_OCEANIA',
+        footer: 'OCEANIA'
+    },
+    7: {
+        heading: 'Pelo povo de Ruanda',
+        details: 'Neste Dia Internacional para Reflexão do Genocídio de 1994 em Ruanda, oremos para que aquela nação viva a concórdia, a paz e a prosperidade.',
+        image: 'BANNER_253_320px_AFRICA',
+        footer: 'ÁFRICA'
+    },
+    8: {
+        heading: 'Pelas autoridades sanitárias',
+        details: 'Rezemos pelas autoridades que têm como missão principal cuidar da saúde do povo nas várias nações da América. Que Deus lhes conceda sabedoria para fomentar a vida em plenitude.',
+        image: 'BANNER_253_320px_AMERICA',
+        footer: 'AMÉRICA'
+    },
+    9: {
+        heading: 'Pelos trabalhadores do mar',
+        details: 'Oremos por todos os trabalhadores que precisam do mar para obterem o sustento. Que possam exercer seu ofício em segurança e com justa remuneração.',
+        image: 'BANNER_253_320px_MUNDO',
+        footer: 'MUNDO'
+    },
     
+    10:{
+        heading: 'Pela paz em Mianmar',
+        details: 'Oremos pelo povo de Mianmar, que sofre com a instabilidade política. Que o Espírito Santo  inspire esses nossos irmãos e irmãs ao diálogo e à paz.',
+        image: 'BANNER_253_320px_ASIA',
+        footer: 'ASIA'
+    },  
+    11: {
+        heading: 'Pelos neófitos',
+        details: 'Neste 2º Domingo da Páscoa, oremos pelos irmãos e irmãs batizados nesta Páscoa. Que eles sejam luminosos sinais da misericórdia de Deus na Igreja e na sociedade.',
+        image: 'BANNER_253_320px_EUROPA',
+        footer: 'EUROPA'
+    },
+    12: {
+        heading: 'Pelas famílias',
+        details: 'Rezemos pelas famílias presentes nas diversas nações da Oceania. Que haja harmonia e prosperidade em cada um dos lares desse continente.',
+        image: 'BANNER_253_320px_OCEANIA',
+        footer: 'OCEANIA'
+    },
+    13: {
+        heading: 'Pelas vocações religiosas',
+        details: 'Peçamos que Deus continue chamando muitos e bons missionários e missionárias do continente africano, para que anunciem o Evangelho a todo o mundo.',
+        image: 'BANNER_253_320px_AFRICA',
+        footer: 'ÁFRICA'
+    },
+    14: {
+        heading: 'Pelas vítimas da covid-19',
+        details: 'Por todas as vítimas da covid-19, sobretudo em nosso País. Que o Senhor da Vida fortaleça os enfermos e as famílias, console os enlutados e sustente os trabalhadores dos serviços essenciais.',
+        image: 'BANNER_253_320px_AMERICA',
+        footer: 'AMÉRICA'
+    },
+    15: {
+        heading: 'Pelos artistas ',
+        details: 'Por todos os que, pela arte, dedicam-se à transmissão dos mais nobres valores humanos. Que sejam inspirados pela legítima beleza e reconhecidos pela sociedade.',
+        image: 'BANNER_253_320px_MUNDO',
+        footer: 'MUNDO'
+    },
+    16:{
+        heading: 'Pelos cristãos do Iraque',
+        details: 'Dirijamos nossas preces por todas as comunidades cristãs do Iraque, muitas visitadas recentemente pelo Papa Francisco. Que Deus conceda paz e ânimo a esses nossos irmãos e irmãs.',
+        image: 'BANNER_253_320px_ASIA',
+        footer: 'ASIA'
+    },  
+    17: {
+        heading: 'Pelos migrantes e refugiados',
+        details: 'Rezemos pelos irmãos e irmãs que, em busca de vida melhor para si e para suas famílias, vão para o Velho Continente. Que possam contar com compreensão, dignidade e apoio sobretudo dos cristãos.',
+        image: 'BANNER_253_320px_EUROPA',
+        footer: 'EUROPA'
+    },
+    18: {
+        heading: 'Pelos missionários e missionárias em Papua-Nova Guiné',
+        details: 'Elevemos uma prece em favor dos missionários e missionárias em Papua-Nova Guiné. Que possam realizar serenamente sua missão de anunciar o Evangelho e compartilhar das conquistas e desafios daquele povo.',
+        image: 'BANNER_253_320px_OCEANIA',
+        footer: 'OCEANIA'
+    },
+    19: {
+        heading: 'Pelos povos indígenas',
+        details: 'Neste Dia do Índio, oremos pelos irmãos e irmãs indígenas das mais diversas nações presentes no Brasil. Que esses povos tenham seus direitos assegurados e respeitadas suas culturas.',
+        image: 'BANNER_253_320px_AMERICA',
+        footer: 'AMÉRICA'
+    },
+    20: {
+        heading: 'Pelas missionárias SSpS',
+        details: 'Oremos pelas missionárias servas do Espírito Santo que trabalham nas muitas realidades da África. Que as irmãs sejam sinais do Deus Uno e Trino que ilumina todas as culturas.',
+        image: 'BANNER_253_320px_AFRICA',
+        footer: 'ÁFRICA'
+    },
+    21: {
+        heading: 'Pelos defensores dos direitos humanos',
+        details: 'Rezemos por todos os que trabalham em favor dos direitos humanos. Que sua missão tenha apoio e reconhecimento da sociedade.',
+        image: 'BANNER_253_320px_MUNDO',
+        footer: 'MUNDO'
+    },
+    22:{
+        heading: 'Pelas mulheres asiáticas',
+        details: 'Rezemos por todas as mulheres do continente asiático. Que tenham dignidade em seus lares e em toda a sociedade.',
+        image: 'BANNER_253_320px_ASIA',
+        footer: 'ASIA'
+    },  
+    23: {
+        heading: 'Pelas escolas cristãs',
+        details: 'Oremos por todas as comunidades escolares cristãs presentes na Europa. Que educadores, estudantes e famílias possam ter acesso a sólidos valores e fomentar a justiça e a paz no Velho Continente',
+        image: 'BANNER_253_320px_EUROPA',
+        footer: 'EUROPA'
+    },
+    24: {
+        heading: 'Pelas crianças',
+        details: 'Rezemos pelas crianças da Oceania, para que, a exemplo de Jesus, cresçam em sabedoria, idade e graça.',
+        image: 'BANNER_253_320px_OCEANIA',
+        footer: 'OCEANIA'
+    },
+    25: {
+        heading: 'Pelo diálogo inter-religioso',
+        details: 'Oremos para que haja um profícuo diálogo entre os membros das diversas religiões presentes na África. Que o reconhecimento mútuo fortaleça a fraternidade humana no continente.',
+        image: 'BANNER_253_320px_AFRICA',
+        footer: 'ÁFRICA'
+    },
+    26: {
+        heading: ' Pelas vítimas dos desastres nucleares',
+        details: 'Neste dia em que a humanidade recorda o desastre de Chernobyl, oremos pelas vítimas de todos os desastres dessa natureza e pelos que buscam energias renováveis e seguras.',
+        image: 'BANNER_253_320px_MUNDO',
+        footer: 'MUNDO'
+    },
+    27: {
+        heading: 'Pelos produtores rurais',
+        details: 'Rezemos por todos os produtores rurais da América, para que sejam valorizados e tenham todas as condições necessárias para exercerem em paz seu ofício.',
+        image: 'BANNER_253_320px_AMERICA',
+        footer: 'AMÉRICA'
+    },
+    28:{
+        heading: 'Pelos desempregados',
+        details: 'Oremos por todos os irmãos e irmãs do continente asiático que buscam um trabalho digno. Que prevaleça a economia verdadeira, marcada pela inclusão, a justiça e o direito.',
+        image: 'BANNER_253_320px_ASIA',
+        footer: 'ASIA'
+    },  
+    29: {
+        heading: 'Pelos que promovem a paz',
+        details: 'Nesta Memória de Santa Catarina de Sena, oremos por todos os que, a exemplo dessa Virgem e Doutora da Igreja, promovem a paz e a concórdia entre os povos europeus.',
+        image: 'BANNER_253_320px_EUROPA',
+        footer: 'EUROPA'
+    },
+    30: {
+        heading: 'Pelos catequistas',
+        details: 'Oremos pelos homens e mulheres da Oceania que se dedicam a ecoar a voz e os gestos de Jesus nas comunidades cristãs. Que Deus abençoe sua missão e a faça produzir abundantes frutos.',
+        image: 'BANNER_253_320px_OCEANIA',
+        footer: 'OCEANIA'
+    },
 }
 let may={
 

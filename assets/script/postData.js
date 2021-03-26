@@ -748,7 +748,6 @@ let mainData = {
             ],
         },
     },
-
     oracoesMissionarias: {
         September: {
             3: {
@@ -3318,7 +3317,6 @@ let mainData = {
                 date: "01 de Abril de 2021",
                 route: host + "/leitura-orante/april/1a.html",
             },
-
             2: {
                 img: host + "/assets/img/leitura/april/02_Abril_2021_Leitura_Orante.png",
                 title: "PAIXÃO DO SENHOR – DIA DE JEJUM E ABSTINÊNCIA",
@@ -3326,7 +3324,6 @@ let mainData = {
                 date: "02 de Abril de 2021",
                 route: host + "/leitura-orante/april/2a.html",
             },
-
             3: {
                 img: host + "/assets/img/leitura/april/03_Abril_2021_Leitura_Orante.jpg",
                 title: "VIGÍLIA PASCAL",
@@ -3334,7 +3331,6 @@ let mainData = {
                 date: "03 de Abril de 2021",
                 route: host + "/leitura-orante/april/3a.html",
             },
-
             4: {
                 img: host + "/assets/img/leitura/april/04_Abril_2021_Leitura_Orante.jpg",
                 title: "PÁSCOA DA RESSURREIÇÃO",
@@ -3342,7 +3338,6 @@ let mainData = {
                 date: "04 de Abril de 2021",
                 route: host + "/leitura-orante/april/4a.html",
             },
-
             5: {
                 img: host + "/assets/img/leitura/april/05_Abril_2021_Leitura_Orante.jpg",
                 title: "OITAVA DA PÁSCOA",
@@ -3350,7 +3345,6 @@ let mainData = {
                 date: "05 de Abril de 2021",
                 route: host + "/leitura-orante/april/5a.html",
             },
-
             6: {
                 img: host + "/assets/img/leitura/april/06_Abril_2021_Leitura_Orante.jpg",
                 title: "OITAVA DA PÁSCOA",
@@ -3358,7 +3352,6 @@ let mainData = {
                 date: "06 de Abril de 2021",
                 route: host + "/leitura-orante/april/6a.html",
             },
-
             7: {
                 img: host + "/assets/img/leitura/april/07_Abril_2021_Leitura_Orante.jpg",
                 title: "OITAVA DA PÁSCOA",
@@ -3389,7 +3382,7 @@ let mainData = {
             },
             11: {
                 img: host + "/assets/img/leitura/april/11_Abril_2021_Leitura_Orante.png",
-                title: "2º Domingo da Páscoa  ",
+                title: "2º Domingo da Páscoa",
                 details: "Ó Deus de eterna misericórdia, que reacendeis a fé do vosso povo na renovação da festa pascal, aumentai a graça que nos destes. E fazei que compreendamos melhor o batismo que nos lavou, o espírito que nos deu nova vida e o sangue que nos redimiu. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
                 date: "11 de Abril de 2021",
                 route: host + "/leitura-orante/april/11a.html",
@@ -3421,6 +3414,111 @@ let mainData = {
                 details: "Conceda, Ó Deus, que vejamos frutificar em toda a nossa vida as graças do mistério pascal, que instituístes na vossa misericórdia. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
                 date: "15 de Abril de 2021",
                 route: host + "/leitura-orante/april/15a.html",
+            },
+            16: {
+                img: host + "/assets/img/leitura/april/16_Abril_2021_Leitura_Orante.jpg",
+                title: "2ª Semana da Páscoa",
+                details: "Concedei, ó Deus, aos vossos servos e servas a graça da ressurreição, pois quisestes que o vosso Filho sofresse por nós o sacrifício da cruz para nos libertar do poder do inimigo. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo. Amém",
+                date: "16 de Abril de 2021",
+                route: host + "/leitura-orante/april/16a.html",
+            },
+            17: {
+                img: host + "/assets/img/leitura/april/17_Abril_2021_Leitura_Orante.jpg",
+                title: "2ª Semana da Páscoa",
+                details: "Ó Deus, por quem fomos remidos e adotados como filhos, velai sobre nós em vosso amor de Pai e concedei aos que creem no Cristo a liberdade verdadeira e a herabça eterna. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo. Amém",
+                date: "17 de Abril de 2021",
+                route: host + "/leitura-orante/april/17a.html",
+            },
+            18: {
+                img: host + "/assets/img/leitura/april/18_Abril_2021_Leitura_Orante.jpg",
+                title: "3º Domingo da Páscoa",
+                details: " Ó Deus, que o vosso povo sempre exulte pela sua renovação espiritual, para que, tendo recuperado agora, com alegria, a condição de filhos de Deus, espere, com plena confiança, o dia da ressurreição. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo. Amém",
+                date: "18 de Abril de 2021",
+                route: host + "/leitura-orante/april/18a.html",
+            },
+            19: {
+                img: host + "/assets/img/leitura/april/19_Abril_2021_Leitura_Orante.jpg",
+                title: "3ª SEMANA DA PÁSCOA",
+                details: "Ó Deus,vós que mostrais a luz da verdade aos que erram para que possam voltar ao bom caminho, conceda a todos os que se gloriam da vocação cristã rejeitem o que se opõe a este nome e abracem quanto possa honrá-lo. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
+                date: "19 de Abril de 2021",
+                route: host + "/leitura-orante/april/19a.html",
+            },
+            20: {
+                img: host + "/assets/img/leitura/april/20_Abril_2021_Leitura_Orante.jpg",
+                title: "3ª SEMANA DA PÁSCOA",
+                details: "  Ó Deus, que abris as portas de reino dos céus aos que renasceram pela água e pelo Espírito Santo, aumentai em vossos filhos e filhas a graça que lhes destes para que, purificados de todo pecado, obtenham os bens que prometestes. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém",
+                date: "20 de Abril de 2021",
+                route: host + "/leitura-orante/april/20a.html",
+            },
+            21: {
+                img: host + "/assets/img/leitura/april/21_Abril_2021_Leitura_Orante.jpg",
+                title: " 3ª SEMANA DA PÁSCOA",
+                details: " Permanecei, ó Pai, com vossa família e, na vossa bondade, fazei que participem eternamente da ressurreição do vosso Filho aqueles a quem destes a graça da fé. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém",
+                date: "21 de Abril de 2021",
+                route: host + "/leitura-orante/april/21a.html",
+            },
+            22: {
+                img: host + "/assets/img/leitura/april/22_Abril_2021_Leitura_Orante.jpg",
+                title: "3ª SEMANA DA PÁSCOA",
+                details: "Ó Deus eterno e onipotente, que nestes dias vos mostrais tão generoso, dai-nos sentir mais de perto o vosso amor paterno, para que, libertados das trevas do erro, sigamos com firmeza a luz da verdade. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo . Amém.",
+                date: "22 de Abril de 2021",
+                route: host + "/leitura-orante/april/22a.html",
+            },
+            23: {
+                img: host + "/assets/img/leitura/april/23_Abril_2021_Leitura_Orante.png",
+                title: "Sexta Feira",
+                details: "Ó Deus todo-poderoso, conceda que, conhecendo a ressurreição do Senhor e a graça que ela nos trouxe, ressuscitamos para uma vida nova pelo amor do vosso Espírito. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
+                date: "23 de Abril de 2021",
+                route: host + "/leitura-orante/april/23a.html",
+            },
+            24: {
+                img: host + "/assets/img/leitura/april/24_Abril_2021_Leitura_Orante.jpg",
+                title: " Sábado",
+                details: "  Ó Deus, que renovastes nas águas do batismo os que creem em vós, protegei os que renasceram no Cristo, para que vençam as ciladas do erro e permaneçam fiéis à vossa graça. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
+                date: "24 de Abril de 2021",
+                route: host + "/leitura-orante/april/24a.html",
+            },
+            25: {
+                img: host + "/assets/img/leitura/april/25_Abril_2021_Leitura_Orante.jpg",
+                title: "4º DA PÁSCOA",
+                details: "Deus eterno e todo-poderoso, conduzi-nos à comunhão das alegrias celestes, para que o rebanho possa atingir, apesar de sua fraqueza do pastor. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
+                date: "25 de Abril de 2021",
+                route: host + "/leitura-orante/april/25a.html",
+            },
+            26: {
+                img: host + "/assets/img/leitura/april/26_Abril_2021_Leitura_Orante.jpg",
+                title: "4ª SEMANA DA PÁSCOA",
+                details: " Ó Deus, que pela humilhação do vosso Filho reerguestes o mundo decaído, enchei de santa alegria os vossos filhos e filhas que libertastes da escravidão do pecado e concedei-lhes a felicidade eterna. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
+                date: "26 de Abril de 2021",
+                route: host + "/leitura-orante/april/26a.html",
+            },
+            27: {
+                img: host + "/assets/img/leitura/april/27_Abril_2021_Leitura_Orante.jpg",
+                title: "4ª SEMANA DA PÁSCOA",
+                details: "Conceda, ó Deus todo-poderoso, que, celebrando o mistério da resurreição do Senhor, possamos acolher com alegria a nossa redenção. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
+                date: "27 de Abril de 2021",
+                route: host + "/leitura-orante/april/27a.html",
+            },
+            28: {
+                img: host + "/assets/img/leitura/april/28_Abril_2021_Leitura_Orante.jpg",
+                title: "4ª SEMANA DA PÁSCOA",
+                details: "Ó Deus, vida dos que creem em vós, gloria dos humildes, e felicidade dos justos, atendei com bondade às nossas preces, e saciai sempre com vossa plenitude os que anseiam pelas riquezas que prometestes. Por nosso Senhor jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
+                date: "28 de Abril de 2021",
+                route: host + "/leitura-orante/april/28a.html",
+            },
+            29: {
+                img: host + "/assets/img/leitura/april/29_Abril_2021_Leitura_Orante.jpg",
+                title: "SANTA CATARINA DE SENA VIRGEM E DOUTORA DA IGREJA",
+                details: " Ó Deus, que inflamastes de amor Santa Catarina de Sena, na contemplação da paixão do Senhor e no serviço da Igreja, concedei-nos, por sua intercessão, participar do mistério de Cristo, e exultar em sua glória. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
+                date: "29 de Abril de 2021",
+                route: host + "/leitura-orante/april/29a.html",
+            },
+            30: {
+                img: host + "/assets/img/leitura/april/30_Abril_2021_Leitura_Orante.jpg",
+                title: "4ª SEMANA DA PÁSCOA",
+                details: "  Deus, a quem devemos a liberdade e a salvação, fazei que possamos viver por vossa graça e encontrar em vós a felicidade eterna, pois nos remistes com o sangue do vosso Filho. Que convosco vive e reina, na unidade do Espírito Santo. Amém.",
+                date: "30 de Abril de 2021",
+                route: host + "/leitura-orante/april/30a.html",
             },
            
 
