@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEITURA ORANTE</title>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../assets/css/headerfooter.css">
+    <link rel="stylesheet" href="../../assets/css/leitura-orante-sub.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../assets/css/calender.css">
+</head>
+
+<body>
+
+    <section class="sky-background">
+        <div id="headerCode"></div>
+
+
+        <!-- quem-somos-heading-start -->
+        <div class="container bg-white pl-3 pr-3 pb-5">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 pl-3">
+                    <h2 class="main-heading ">Leitura Orante </h2>
+                    <div class="border-1 pt-3"></div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12">
+
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="mainHeading">
+                                <div>
+                                    <h4 class="pt-4">Leituras do Dia</h4>
+                                </div>
+                                <p class="GBI Date-F"><span class="cal-icon fa fa-calendar "></span> 23 de Abril de 2021
+                                </p>
+                                <div>
+                                    <h5 class="GM CL">
+                                        Sexta Feira
+                                    </h5>
+                                </div>
+                                <div>
+                                    <p class="GB CL">(Branco – ofício do dia)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="img-2 mainImage-2"><img
+                                    src="../../assets/img/leitura/april/23_Abril_2021_Leitura_Orante.png"
+                                    class="img-fluid" alt="">
+                                <div class="img-content">
+                                    <p class="GM mb-0 text-end pt-2">Leitura Orante do Evangelho
+                                    </p>
+                                    <p class="GL mb-0">
+                                        Ouca o audio com oracao e reflexao do
+
+                                    </p>
+                                    <p class="text-end">
+                                        padre Fransico das Chages
+                                    </p>
+                                    <div class="webkit-right">
+                                        <audio id="audio_play">
+                                            <source src="../../assets/audio/march/15_03_2021_Leitura_Orante.mp4"
+                                                type="audio/ogg">
+                                        </audio>
+                                        <img src="../../assets/img/leitura/Leitura-orante-img-dec/LISTEN.png"
+                                            class="img-fluid  listen_pause_web" alt="" onclick="play()" id="play">
+                                        <img src="../../assets/img/leitura/Leitura-orante-img-dec/PAUSE.png"
+                                            class="img-fluid listen_play_web" alt="" onclick="pause()" id="pause">
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div>
+                                <h5 class="GM CL pt-3">Oração do dia</h5>
+
+                                <p class="GB CL" id="para_content">
+                                    Ó Deus todo-poderoso, conceda que, conhecendo a ressurreição do Senhor e a graça que
+                                    ela nos trouxe, ressuscitamos para uma vida nova pelo amor do vosso Espírito. Por
+                                    nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. <span
+                                        class="GM">Amém.</span>
+                                </p>
+
+                            </div>
+
+
+                            <div>
+                                <h5 class="GM CL pt-3">Primeira Leitura: Atos 9,1-20</h5>
+                            </div>
+
+                            <div>
+                                <p class="GB CL text-justify">
+                                    Naqueles dias, 1 Saulo só respirava ameaças e morte contra os discípulos do Senhor.
+                                    Ele apresentou-se ao sumo sacerdote 2e pediu-lhe cartas de recomendação para as
+                                    sinagogas de Damasco, a fim de levar presos para Jerusalém os homens e mulheres que
+                                    encontrasse seguindo o Caminho. 3 Durante a viagem, quando já estava perto de
+                                    Damasco, Saulo, de repente, viu-se cercado por uma luz que vinha do céu. 4 Caindo
+                                    por terra, ele ouviu uma voz que lhe dizia: “Saulo, Saulo, por que me persegues?” 5
+                                    Saulo perguntou: “Quem és tu, Senhor?” A voz respondeu: “Eu sou Jesus, a quem tu
+                                    estás perseguindo. 6 Agora, levanta-te, entra na cidade, e ali te será dito o que
+                                    deves fazer”. 7 Os homens que acompanhavam Saulo ficaram mudos de espanto, porque
+                                    ouviam a voz, mas não viam ninguém. 8 Saulo levantou-se do chão e abriu os olhos,
+                                    mas não conseguia ver nada. Então pegaram nele pela mão e levaram-no para Damasco. 9
+                                    Saulo ficou três dias sem poder ver. E não comeu nem bebeu. 10 Em Damasco havia um
+                                    discípulo chamado Ananias. O Senhor o chamou numa visão: “Ananias!” E Ananias
+                                    respondeu: “Aqui estou, Senhor!” 11 O Senhor lhe disse: “Levanta-te, vai à rua que
+                                    se chama Direita e procura, na casa de Judas, por um homem de Tarso chamado Saulo.
+                                    Ele está rezando”. 12E, numa visão, Saulo contemplou um homem chamado Ananias
+                                    entrando e impondo-lhe as mãos para que recuperasse a vista. 13 Ananias respondeu:
+                                    “Senhor, já ouvi muitos falarem desse homem e do mal que fez aos teus fiéis que
+                                    estão em Jerusalém. 14E aqui em Damasco ele tem plenos poderes, recebidos dos sumos
+                                    sacerdotes, para prender todos os que invocam o teu nome”. 15 Mas o Senhor disse a
+                                    Ananias: “Vai, porque esse homem é um instrumento que escolhi para anunciar o meu
+                                    nome aos pagãos, aos reis e ao povo de Israel. 16 Eu vou mostrar-lhe quanto ele deve
+                                    sofrer por minha causa”. 17 Então Ananias saiu, entrou na casa e impôs as mãos sobre
+                                    Saulo, dizendo: “Saulo, meu irmão, o Senhor Jesus, que te apareceu quando vinhas no
+                                    caminho, ele me mandou aqui para que tu recuperes a vista e fiques cheio do Espírito
+                                    Santo”. 18 Imediatamente caíram dos olhos de Saulo como que escamas e ele recuperou
+                                    a vista. Em seguida, Saulo levantou-se e foi batizado. 19 Tendo tomado alimento,
+                                    sentiu-se reconfortado. Saulo passou alguns dias com os discípulos de Damasco 20 e
+                                    logo começou a pregar nas sinagogas, afirmando que Jesus é o Filho de Deus.
+                                    <span class="GM"> – Palavra do Senhor.</span>
+
+                                </p>
+                            </div>
+
+                            <div>
+                                <h5 class="GM CL pt-3">Salmo Responsorial: 116(117)</h5>
+                            </div>
+
+                            <div>
+                                <h6 class="GM CL"><i>
+                                        Ide por todo o mundo, / a todos pregai o Evangelho.
+                                    </i>
+                                </h6>
+                            </div>
+
+                            <p class="GB CL text-justify mb-0 ">
+
+                                Cantai louvores ao Senhor, todas as gentes, / povos todos, festejai-o!
+
+
+
+                            </p>
+                            <div>
+                                <h6 class="GM CL pt-3"><i>
+                                        Ide por todo o mundo, / a todos pregai o Evangelho.
+
+                                    </i>
+                                </h6>
+                            </div>
+
+                            <p class="GB CL text-justify mb-0">
+                                Pois comprovado é seu amor para conosco, / para sempre ele é fiel!
+
+
+
+                            </p>
+
+                            <div>
+                                <h6 class="GM CL pt-3"><i>
+                                        Ide por todo o mundo, / a todos pregai o Evangelho.
+                                    </i>
+                                </h6>
+                            </div>
+
+
+
+
+
+
+
+                            <div>
+                                <h5 class="GM CL pt-3">Evangelho: João 6,52-59</h5>
+                            </div>
+
+                            <div>
+                                <p class="GB CL text-justify">
+                                    Naquele tempo, 52os judeus discutiam entre si, dizendo: “Como é que ele pode dar a
+                                    sua carne a comer?” 53 Então Jesus disse: “Em verdade, em verdade vos digo, se não
+                                    comerdes a carne do Filho do Homem e não beberdes o seu sangue, não tereis a vida em
+                                    vós. 54 Quem come a minha carne e bebe o meu sangue tem a vida eterna, e eu o
+                                    ressuscitarei no último dia. 55 Porque a minha carne é verdadeira comida e o meu
+                                    sangue, verdadeira bebida. 56 Quem come a minha carne e bebe o meu sangue permanece
+                                    em mim e eu nele. 57 Como o Pai, que vive, me enviou, e eu vivo por causa do Pai,
+                                    assim o que me come viverá por causa de mim. 58 Este é o pão que desceu do céu. Não
+                                    é como aquele que os vossos pais comeram. Eles morreram. Aquele que come este pão
+                                    viverá para sempre”. 59 Assim falou Jesus, ensinando na sinagoga em Cafarnaum.
+                                     <span class="GM"> –
+                                        Palavra da salvação.
+    </span>
+                                </p>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+                <!-- SIDE BAR CONTENT START -->
+
+
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="search-block">
+                        <form class="search-form d-flex" action="">
+                            <input type="text" class="search w-100">
+                            <button type="submit" class="search-button">
+                                <img class="LUPA_IMG" src="../../assets/img/header-footer/LUPA.png"></button>
+                        </form>
+                    </div>
+                    <div>
+                        <!-- BLOG HEADING -->
+                        <p class="blog-heading pt-3">
+                            Leituras do mês
+
+
+                        </p>
+                        <div>
+                            <div class="calendar">
+
+                                <!-- CAlendar -->
+
+                                <div class="icalendar">
+                                    <div class="icalendar__month">
+                                        <div class="icalendar__prev" onclick="moveDate('prev')">
+                                            <span>&#10094</span>
+                                        </div>
+                                        <div class="icalendar__current-date">
+                                            <h2 id="icalendarMonth"></h2>
+                                            <div>
+                                                <div id="icalendarDateStr"></div>
+                                            </div>
+
+                                        </div>
+                                        <div class="icalendar__next" onclick="moveDate('next')">
+                                            <span>&#10095</span>
+                                        </div>
+                                    </div>
+                                    <div class="icalendar__week-days">
+                                        <div>D</div>
+                                        <div>S</div>
+                                        <div>T</div>
+                                        <div>Q</div>
+                                        <div>Q</div>
+                                        <div>S</div>
+                                        <div>S</div>
+                                    </div>
+                                    <div class="icalendar__days"></div>
+
+
+                                    <script src="../../assets/script/leitura-calendar.js"
+                                        type="text/javascript"></script>
+                                </div>
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+
+
+
+
+                        <div class="tagDiv">
+                            <h class="blue tags GM pb-1">Tags</h5>
+                        </div>
+                        <div class="GM pt-1">
+                            <div class="btnclass GM">
+                                <button class="adjbtn">missão</button>
+                                <button class="adjbtn">Amazônia</button>
+                                <button class="adjbtn">evengel</button>
+                            </div>
+                            <div class="btnclass GM">
+                                <button class="adjbtn">covid-19</button>
+                                <button class="adjbtn">indigenas</button>
+                                <button class="adjbtn">noviça</button>
+                            </div>
+                            <div class="btnclass">
+
+
+
+                                <button class="adjbtn">papa francisco</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- BLOG HEADING -->
+                    <p class="blog-heading pt-3 ">
+                        Destaques
+                    </p>
+                    <!-- B_LOG HEADING 1-->
+                    <div id="destaquesPortion"></div>
+
+
+
+
+
+                </div>
+                <!-- SIDE BAR CONTENT END -->
+
+
+
+
+
+
+
+
+
+            </div>
+    </section>
+    <!-- quem-somos-heading-end -->
+
+
+    <div id="footerCode"></div>
+    <script src="../../assets/script/audio.js"></script>
+    <script src="../../assets/script/calendar.js"></script>
+    <script src="../../assets/script/header-footer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
+<script src="../../assets/script/postData.js"></script>

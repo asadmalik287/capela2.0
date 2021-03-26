@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEITURA ORANTE</title>
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../assets/css/headerfooter.css">
+    <link rel="stylesheet" href="../../assets/css/leitura-orante-sub.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../assets/css/calender.css">
+</head>
+
+<body>
+
+    <section class="sky-background">
+        <div id="headerCode"></div>
+
+
+        <!-- quem-somos-heading-start -->
+        <div class="container bg-white pl-3 pr-3 pb-5">
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 pl-3">
+                    <h2 class="main-heading ">Leitura Orante </h2>
+                    <div class="border-1 pt-3"></div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12">
+
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="mainHeading">
+                                <div>
+                                    <h4 class="pt-4">Leituras do Dia</h4>
+                                </div>
+                                <p class="GBI Date-F"><span class="cal-icon fa fa-calendar "></span> 25 de Abril de 2021
+                                </p>
+                                <div>
+                                    <h5 class="GM CL">
+                                        4º DA PÁSCOA
+                                    </h5>
+                                </div>
+                                <div>
+                                    <p class="GB CL">(Branco, glória, creio – 4ª semana do saltério)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 CL">
+                            <div class="img-2 mainImage-2"><img
+                                    src="../../assets/img/leitura/april/25_Abril_2021_Leitura_Orante.jpg"
+                                    class="img-fluid" alt="">
+                                <div class="img-content">
+                                    <p class="GM mb-0 text-end pt-2">Leitura Orante do Evangelho
+                                    </p>
+                                    <p class="GL mb-0">
+                                        Ouca o audio com oracao e reflexao do
+
+                                    </p>
+                                    <p class="text-end">
+                                        padre Fransico das Chages
+                                    </p>
+                                    <div class="webkit-right">
+                                        <audio id="audio_play">
+                                            <source src="../../assets/audio/march/15_03_2021_Leitura_Orante.mp4"
+                                                type="audio/ogg">
+                                        </audio>
+                                        <img src="../../assets/img/leitura/Leitura-orante-img-dec/LISTEN.png"
+                                            class="img-fluid  listen_pause_web" alt="" onclick="play()" id="play">
+                                        <img src="../../assets/img/leitura/Leitura-orante-img-dec/PAUSE.png"
+                                            class="img-fluid listen_play_web" alt="" onclick="pause()" id="pause">
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div>
+                                <h5 class="GM CL pt-3">Oração do dia</h5>
+
+                                <p class="GB CL" id="para_content">
+                                    Deus eterno e todo-poderoso, conduzi-nos à comunhão das alegrias celestes, para que
+                                    o rebanho possa atingir, apesar de sua fraqueza do pastor. Por nosso Senhor Jesus
+                                    Cristo, vosso Filho, na unidade do Espírito Santo. <span class="GM">Amém.</span>
+                                </p>
+
+                            </div>
+
+
+                            <div>
+                                <h5 class="GM CL pt-3">Primeira Leitura: Atos 4,8-12</h5>
+                            </div>
+
+                            <div>
+                                <p class="GB CL text-justify">
+                                    Naqueles dias, 8 Pedro, cheio do Espírito Santo, disse: “Chefes do povo e anciãos, 9
+                                    hoje estamos sendo interrogados por termos feito o bem a um enfermo e pelo modo como
+                                    foi curado. 10 Ficai, pois, sabendo todos vós e todo o povo de Israel: é pelo nome
+                                    de Jesus Cristo, de Nazaré – aquele que vós crucificastes e que Deus ressuscitou dos
+                                    mortos -, que este homem está curado diante de vós. 11 Jesus é a pedra que vós, os
+                                    construtores, desprezastes e que se tornou a pedra angular. 12Em nenhum outro há
+                                    salvação, pois não existe debaixo do céu outro nome dado aos homens pelo qual
+                                    possamos ser salvos”. <span class="GM">– Palavra do Senhor.</span>
+                                </p>
+                            </div>
+
+                            <div>
+                                <h5 class="GM CL pt-3">Salmo Responsorial: 117(118)h5>
+                            </div>
+
+                            <div>
+                                <h6 class="GM CL"><i>
+
+                                        A pedra que os pedreiros rejeitaram / tornou-se agora a pedra angular.
+
+                                    </i>
+                                </h6>
+                            </div>
+
+                            <p class="GB CL text-justify mb-0 ">
+
+                                Dai graças ao Senhor, porque ele é bom! / “Eterna é a sua misericórdia!” / É melhor
+                                buscar refúgio no Senhor / do que pôr no ser humano a esperança; / é melhor buscar
+                                refúgio no Senhor / do que contar com os poderosos deste mundo!
+
+
+
+                            </p>
+                            <div>
+                                <h6 class="GM CL pt-3"><i>
+
+                                        A pedra que os pedreiros rejeitaram / tornou-se agora a pedra angular.
+
+
+                                    </i>
+                                </h6>
+                            </div>
+
+                            <p class="GB CL text-justify mb-0">
+                                Dou-vos graças, ó Senhor, porque me ouvistes / e vos tornastes para mim o salvador! / A
+                                pedra que os pedreiros rejeitaram / tornou-se agora a pedra angular. / Pelo Senhor é que
+                                foi feito tudo isso: / que maravilhas ele fez a nossos olhos!
+
+
+
+                            </p>
+                            <div>
+                                <h6 class="GM CL pt-3"><i>
+
+                                        A pedra que os pedreiros rejeitaram / tornou-se agora a pedra angular.
+
+                                    </i>
+                                </h6>
+                            </div>
+                            <p class="GB CL text-justify mb-0">
+                                Bendito seja, em nome do Senhor, / aquele que em seus átrios vai entrando! / Vós sois
+                                meu Deus, eu vos bendigo e agradeço! / Vós sois meu Deus, eu vos exalto com louvores! /
+                                Dai graças ao Senhor, porque ele é bom! / “Eterna é a sua misericórdia!” –
+
+
+
+
+                            </p>
+                            <div>
+                                <h6 class="GM CL pt-3"><i>
+
+                                        A pedra que os pedreiros rejeitaram / tornou-se agora a pedra angular.
+
+                                    </i>
+                                </h6>
+                            </div>
+
+
+
+
+
+
+
+                            <div>
+                                <h5 class="GM CL pt-3">Segunda Leitura: 1 João 3,1-2</h5>
+                            </div>
+
+                            <div>
+                                <p class="GB CL text-justify">
+                                    Caríssimos, 1 vede que grande presente de amor o Pai nos deu: de sermos chamados
+                                    filhos de Deus! E nós o somos! Se o mundo não nos conhece, é porque não conheceu o
+                                    Pai. 2 Caríssimos, desde já somos filhos de Deus, mas nem sequer se manifestou o que
+                                    seremos! Sabemos que, quando Jesus se manifestar, seremos semelhantes a ele, porque
+                                    o veremos tal como ele é. <span class="GM">– Palavra do Senhor.</span>
+
+                                </p>
+                            </div>
+                            <div>
+                                <h5 class="GM CL pt-3">Evangelho: João 10,11-18</h5>
+                            </div>
+
+                            <div>
+                                <p class="GB CL text-justify">
+                                    Naquele tempo, disse Jesus: 11“Eu sou o bom pastor. O bom pastor dá a vida por suas
+                                    ovelhas. 12O mercenário, que não é pastor e não é dono das ovelhas, vê o lobo
+                                    chegar, abandona as ovelhas e foge, e o lobo as ataca e dispersa. 13 Pois ele é
+                                    apenas um mercenário e não se importa com as ovelhas. 14 Eu sou o bom pastor.
+                                    Conheço as minhas ovelhas, e elas me conhecem, 15 assim como o Pai me conhece e eu
+                                    conheço o Pai. Eu dou minha vida pelas ovelhas. 16 Tenho ainda outras ovelhas que
+                                    não são deste redil: também a elas devo conduzir; elas escutarão a minha voz, e
+                                    haverá um só rebanho e um só pastor. 17 É por isto que o Pai me ama, porque dou a
+                                    minha vida para depois recebê-la novamente. 18 Ninguém tira a minha vida, eu a dou
+                                    por mim mesmo; tenho poder de entregá-la e tenho poder de recebê-la novamente; essa
+                                    é a ordem que recebi do meu Pai”. <span class="GM">– Palavra da salvação.</span>
+
+                                </p>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+                <!-- SIDE BAR CONTENT START -->
+
+
+                <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="search-block">
+                        <form class="search-form d-flex" action="">
+                            <input type="text" class="search w-100">
+                            <button type="submit" class="search-button">
+                                <img class="LUPA_IMG" src="../../assets/img/header-footer/LUPA.png"></button>
+                        </form>
+                    </div>
+                    <div>
+                        <!-- BLOG HEADING -->
+                        <p class="blog-heading pt-3">
+                            Leituras do mês
+
+
+                        </p>
+                        <div>
+                            <div class="calendar">
+
+                                <!-- CAlendar -->
+
+                                <div class="icalendar">
+                                    <div class="icalendar__month">
+                                        <div class="icalendar__prev" onclick="moveDate('prev')">
+                                            <span>&#10094</span>
+                                        </div>
+                                        <div class="icalendar__current-date">
+                                            <h2 id="icalendarMonth"></h2>
+                                            <div>
+                                                <div id="icalendarDateStr"></div>
+                                            </div>
+
+                                        </div>
+                                        <div class="icalendar__next" onclick="moveDate('next')">
+                                            <span>&#10095</span>
+                                        </div>
+                                    </div>
+                                    <div class="icalendar__week-days">
+                                        <div>D</div>
+                                        <div>S</div>
+                                        <div>T</div>
+                                        <div>Q</div>
+                                        <div>Q</div>
+                                        <div>S</div>
+                                        <div>S</div>
+                                    </div>
+                                    <div class="icalendar__days"></div>
+
+
+                                    <script src="../../assets/script/leitura-calendar.js"
+                                        type="text/javascript"></script>
+                                </div>
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+
+
+
+
+                        <div class="tagDiv">
+                            <h class="blue tags GM pb-1">Tags</h5>
+                        </div>
+                        <div class="GM pt-1">
+                            <div class="btnclass GM">
+                                <button class="adjbtn">missão</button>
+                                <button class="adjbtn">Amazônia</button>
+                                <button class="adjbtn">evengel</button>
+                            </div>
+                            <div class="btnclass GM">
+                                <button class="adjbtn">covid-19</button>
+                                <button class="adjbtn">indigenas</button>
+                                <button class="adjbtn">noviça</button>
+                            </div>
+                            <div class="btnclass">
+
+
+
+                                <button class="adjbtn">papa francisco</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- BLOG HEADING -->
+                    <p class="blog-heading pt-3 ">
+                        Destaques
+                    </p>
+                    <!-- B_LOG HEADING 1-->
+                    <div id="destaquesPortion"></div>
+
+
+
+
+
+                </div>
+                <!-- SIDE BAR CONTENT END -->
+
+
+
+
+
+
+
+
+
+            </div>
+    </section>
+    <!-- quem-somos-heading-end -->
+
+
+    <div id="footerCode"></div>
+    <script src="../../assets/script/audio.js"></script>
+    <script src="../../assets/script/calendar.js"></script>
+    <script src="../../assets/script/header-footer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
+<script src="../../assets/script/postData.js"></script>
