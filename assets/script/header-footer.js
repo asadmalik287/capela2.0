@@ -1,3 +1,8 @@
+// var santoUrl =  ;
+// import {mainData} from '../post-data-json'
+
+// console.log(mainData);
+console.log('++++++++++++++++++++++++++++++++++++');
 var host = "http://" + window.location.host;
 var header = document.getElementById("headerCode");
 header.innerHTML = `<div class="main-header">
@@ -40,7 +45,8 @@ header.innerHTML = `<div class="main-header">
             </div>
             <div>
                 <li class="nav-item">
-                    <a class="nav-link" href="${host}/Dia-de-santo/Dia-Multiple.html" id="sant">Dia de Santo</a>
+                    <a class="nav-link"  id="sant">Dia de Santo</a>
+                   
                 </li>
             </div>
             <div>

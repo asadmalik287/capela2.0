@@ -170,7 +170,7 @@ for(let i=6;i>=0;i--){
     showhtml += `<div class="d-flex CV-Video-Link-Post sortpost" data-event-date="${santoPostsArrMini[i].date}">
 
                     <div class="img_santo">
-                        <a href="${santoPostsArrMini[i].route}"><img src="${santoPostsArrMini[i].img}" class="img-fluid" alt="">
+                        <a href="${santoPostsArrMini[i].route}"><img src="${santoPostsArrMini[i].img}" class="img-fluid" alt="" loading="lazy">
                     </div>
                     <div class="pl-2 ">
                     

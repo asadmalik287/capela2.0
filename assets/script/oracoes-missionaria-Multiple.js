@@ -12,12 +12,33 @@ months[8] = "September";
 months[9] = "October";
 months[10] = "November";
 months[11] = "December";
-
+var monthNo={
+    January:'0',
+February:'1',
+March:'2',
+April:'3',
+May:'4',
+June:'5',
+July:'6',
+August:'7',
+September:'8',
+October:'9',
+November:'10',
+December:'11'
+}
 var d = new Date();
 var n = months[d.getMonth()];
+var nextMonth=d.getMonth()+1;
+if (nextMonth == 12){
+    nextMonth ==1
+
+}
+var monthNow=d.getMonth();
 // console.log(mainData.oracoesMissionarias[month]);
-Object.keys(mainData.oracoesMissionarias).map((month) => {
-    // console.log(month)
+Object.keys(mainData.oracoesMissionarias).map((month, index) => {
+    console.log(month)
+    // console.log(monthNo.index);
+    console.log(index);
     Object.keys(mainData.oracoesMissionarias[month]).map((post) => {
         // console.log(post)
         // console.log(mainData.oracoesMissionarias[month][post])
@@ -31,7 +52,9 @@ Object.keys(mainData.oracoesMissionarias).map((month) => {
                         santoPostsArr.push(subPost);
                     }
                 });
-            } else {
+            } 
+            else {
+                // console.log('C_________L');
                 // console.log(mainData.oracoesMissionarias[month][post])
                 if (
                     mainData.oracoesMissionarias[month][post].date.split(" ")[0] <=
@@ -41,7 +64,11 @@ Object.keys(mainData.oracoesMissionarias).map((month) => {
                     santoPostsArr.push(mainData.oracoesMissionarias[month][post]);
                 }
             }
-        } else {
+        }
+        else if(index > monthNow) {
+			console.log('ppppppppppppp');
+		}
+         else {
             if (Array.isArray(mainData.oracoesMissionarias[month][post]) == true) {
                 mainData.oracoesMissionarias[month][post].map((subPost) => {
                     santoPostsArr.push(subPost);

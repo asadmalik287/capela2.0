@@ -15,8 +15,12 @@ months[11] = "December";
 
 var d = new Date();
 var n = months[d.getMonth()];
-// console.log(mainData.santoData);
-Object.keys(mainData.santoData).map((month) => {
+var nextMonth=d.getMonth()+1;
+if (nextMonth == 12){
+    nextMonth ==1
+}
+var monthNow=d.getMonth();
+Object.keys(mainData.santoData).map((month, index) => {
     // console.log(month)
     Object.keys(mainData.santoData[month]).map((post) => {
         // console.log(mainData.santoData[month][post])
@@ -39,7 +43,11 @@ Object.keys(mainData.santoData).map((month) => {
                     santoPostsArr.push(mainData.santoData[month][post]);
                 }
             }
-        } else {
+        }
+        else if(index > monthNow) {
+           //will Dismiss Next Months Data
+        }
+         else {
             if (Array.isArray(mainData.santoData[month][post]) == true) {
                 mainData.santoData[month][post].map((subPost) => {
                     santoPostsArr.push(subPost);
@@ -77,7 +85,7 @@ $("#list").pagination({
 
                     <div class="row">
                         <div class="col-lg-4 col-md-4 col-sm-5 mt-3">
-                            <img src="${post.img}" class="img-fluid" alt="">
+                            <img src="${post.img}" class="img-fluid" alt="" loading="lazy">
                         </div>
 
                         <div class="col-lg-8 col-md-8 col-sm-12 mt-3">
