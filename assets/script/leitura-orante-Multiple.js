@@ -15,19 +15,26 @@ months[11] = "December";
 
 var d = new Date();
 var n = months[d.getMonth()];
-// console.log(mainData.leituraData);
-Object.keys(mainData.leituraData).map((month) => {
-	if(n == month){
+var nextMonth=d.getMonth()+1;
+if (nextMonth == 12){
+    nextMonth ==1
+}
+var monthNow=d.getMonth();
+Object.keys(mainData.leituraData).map((month, index) => {
 	
-	}
-	console.log(month);
-	console.log(n);
+	if(n == month){}
+	
+	
+	// console.log( 'month ==== '+ month);
+	// console.log( 'n === '+ n);
 
 	
 	console.log(mainData.leituraData)
 	Object.keys(mainData.leituraData[month]).map((post) => {
       
 		if (month == n) {
+			console.log(month+"===="+n);
+			// console.log(n);
 			console.log("sadsada");
 			mainData.leituraData[month][post].date.split(' ')[0] <= new Date().getDate()
 
@@ -47,7 +54,12 @@ Object.keys(mainData.leituraData).map((month) => {
 					santoPostsArr.push(mainData.leituraData[month][post]);
 				}
 			}
-		} else {
+		} 
+		else if(index > monthNow) {
+			console.log('ppppppppppppp');
+		}
+		else{
+			console.log('**********');
 			if (Array.isArray(mainData.leituraData[month][post]) == true) {
 				mainData.leituraData[month][post].map((subPost) => {
                     

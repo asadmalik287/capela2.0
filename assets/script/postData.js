@@ -696,7 +696,7 @@ let mainData = {
                 img: host +
                     "/assets/img/Dia-de-santo/March/15_Post_Dia_Santo_Marco_2020.jpg",
                 title: "São Longuinho",
-                details: "São Longuinho é um dos santos que têm muitos devotos. No Brasil, ele goza de grande popularidade. Mas por que esse santo tem alcançado tanta fama ?  Acredita-se que São Longuinho seja o soldado que, junto à cruz de Jesus, obteve a conversão.",
+                details: "São Longuinho é um dos santos que têm muitos devotos. No Brasil, ele goza de grande popularidade. Mas por que esse santo tem alcançado tanta fama?  Acredita-se que São Longuinho seja o soldado que, junto à cruz de Jesus, obteve a conversão.",
                 date: "15 de Março de 2021",
                 route: host + "/Dia-de-santo/Dia-March/Dia-15.html",
             },
@@ -3314,121 +3314,121 @@ let mainData = {
             },
 
         },
-        // April: {
-        //     1: {
-        //         img: host + "/assets/img/leitura/april/01_Abril_2021_Leitura_Orante.jpg",
-        //         title: "MISSA DA CEIA DO SENHOR ",
-        //         details: "Ó Pai, estamos reunidos para a santa ceia, na qual o vosso Filho único, ao entregar-se à morte,deu à sua Igreja um novo e eterno sacrifício, como banquete do seu amor. Concedei-nos, por mistério tão excelso, chegar à plenitude da caridade e da vida. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
-        //         date: "01 de Abril de 2021",
-        //         route: host + "/leitura-orante/april/1a.html",
-        //     },
+        April: {
+            1: {
+                img: host + "/assets/img/leitura/april/01_Abril_2021_Leitura_Orante.jpg",
+                title: "MISSA DA CEIA DO SENHOR ",
+                details: "Ó Pai, estamos reunidos para a santa ceia, na qual o vosso Filho único, ao entregar-se à morte,deu à sua Igreja um novo e eterno sacrifício, como banquete do seu amor. Concedei-nos, por mistério tão excelso, chegar à plenitude da caridade e da vida. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.",
+                date: "01 de Abril de 2021",
+                route: host + "/leitura-orante/april/1a.html",
+            },
 
-        //     2: {
-        //         img: host + "/assets/img/leitura/april/02_Abril_2021_Leitura_Orante.png",
-        //         title: "PAIXÃO DO SENHOR – DIA DE JEJUM E ABSTINÊNCIA",
-        //         details: "Ó Deus, foi por nós que o Cristo, vosso Filho, derramando o seu sangue, instituiu o mistério da páscoa. Lembrai-vos sempre de vossas misericórdias, e santificai-nos pela vossa constante proteção. Por Cristo, nosso Senhor.",
-        //         date: "02 de Abril de 2021",
-        //         route: host + "/leitura-orante/april/2a.html",
-        //     },
+            2: {
+                img: host + "/assets/img/leitura/april/02_Abril_2021_Leitura_Orante.png",
+                title: "PAIXÃO DO SENHOR – DIA DE JEJUM E ABSTINÊNCIA",
+                details: "Ó Deus, foi por nós que o Cristo, vosso Filho, derramando o seu sangue, instituiu o mistério da páscoa. Lembrai-vos sempre de vossas misericórdias, e santificai-nos pela vossa constante proteção. Por Cristo, nosso Senhor.",
+                date: "02 de Abril de 2021",
+                route: host + "/leitura-orante/april/2a.html",
+            },
 
-        //     3: {
-        //         img: host + "/assets/img/leitura/april/03_Abril_2021_Leitura_Orante.jpg",
-        //         title: "VIGÍLIA PASCAL",
-        //         details: "Ó Deus, que pelo vosso Filho trouxestes àqueles que creem o clarão da vossa luz, santificai este novo fogo. Conceda que a festa da Páscoa acenda em nós tal desejo do céu, que possamos chegar purificados à festa da luz eterna. Por Cristo , nosso Senhor. - Amém.",
-        //         date: "03 de Abril de 2021",
-        //         route: host + "/leitura-orante/april/3a.html",
-        //     },
+            3: {
+                img: host + "/assets/img/leitura/april/03_Abril_2021_Leitura_Orante.jpg",
+                title: "VIGÍLIA PASCAL",
+                details: "Ó Deus, que pelo vosso Filho trouxestes àqueles que creem o clarão da vossa luz, santificai este novo fogo. Conceda que a festa da Páscoa acenda em nós tal desejo do céu, que possamos chegar purificados à festa da luz eterna. Por Cristo , nosso Senhor. - Amém.",
+                date: "03 de Abril de 2021",
+                route: host + "/leitura-orante/april/3a.html",
+            },
 
-        //     4: {
-        //         img: host + "/assets/img/leitura/april/04_Abril_2021_Leitura_Orante.jpg",
-        //         title: "PÁSCOA DA RESSURREIÇÃO",
-        //         details: "Ó Deus, por vosso Filho Unigênito, vencedor da morte, abristes hoje para nós as portas da eternidade, Concedei   que, celebrando a ressurreição do senhor, renovados pelo vosso Espírito, ressuscitamos na luz da vida nova. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
-        //         date: "04 de Abril de 2021",
-        //         route: host + "/leitura-orante/april/4a.html",
-        //     },
+            4: {
+                img: host + "/assets/img/leitura/april/04_Abril_2021_Leitura_Orante.jpg",
+                title: "PÁSCOA DA RESSURREIÇÃO",
+                details: "Ó Deus, por vosso Filho Unigênito, vencedor da morte, abristes hoje para nós as portas da eternidade, Concedei   que, celebrando a ressurreição do senhor, renovados pelo vosso Espírito, ressuscitamos na luz da vida nova. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
+                date: "04 de Abril de 2021",
+                route: host + "/leitura-orante/april/4a.html",
+            },
 
-        //     5: {
-        //         img: host + "/assets/img/leitura/april/05_Abril_2021_Leitura_Orante.jpg",
-        //         title: "OITAVA DA PÁSCOA",
-        //         details: "Ó Deus, que fazeis crescer a vossa Igreja, dando-lhe sempre novos filhos e filhas, concedei que por toda a sua vida estes vossos servos e servas sejam fiéis ao sacramento do batismo que receberam professando a fé. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
-        //         date: "05 de Abril de 2021",
-        //         route: host + "/leitura-orante/april/5a.html",
-        //     },
+            5: {
+                img: host + "/assets/img/leitura/april/05_Abril_2021_Leitura_Orante.jpg",
+                title: "OITAVA DA PÁSCOA",
+                details: "Ó Deus, que fazeis crescer a vossa Igreja, dando-lhe sempre novos filhos e filhas, concedei que por toda a sua vida estes vossos servos e servas sejam fiéis ao sacramento do batismo que receberam professando a fé. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
+                date: "05 de Abril de 2021",
+                route: host + "/leitura-orante/april/5a.html",
+            },
 
-        //     6: {
-        //         img: host + "/assets/img/leitura/april/06_Abril_2021_Leitura_Orante.jpg",
-        //         title: "OITAVA DA PÁSCOA",
-        //         details: "Ó Deus, que nos concedestes a salvação pascal, acompanhai o vosso povo com vossos dons celestes, para que, tendo conseguindo a verdadeira liberdade, possa um dia alegrar-se no céu, como exulta agora na terra. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
-        //         date: "06 de Abril de 2021",
-        //         route: host + "/leitura-orante/april/6a.html",
-        //     },
+            6: {
+                img: host + "/assets/img/leitura/april/06_Abril_2021_Leitura_Orante.jpg",
+                title: "OITAVA DA PÁSCOA",
+                details: "Ó Deus, que nos concedestes a salvação pascal, acompanhai o vosso povo com vossos dons celestes, para que, tendo conseguindo a verdadeira liberdade, possa um dia alegrar-se no céu, como exulta agora na terra. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
+                date: "06 de Abril de 2021",
+                route: host + "/leitura-orante/april/6a.html",
+            },
 
-        //     7: {
-        //         img: host + "/assets/img/leitura/april/07_Abril_2021_Leitura_Orante.jpg",
-        //         title: "OITAVA DA PÁSCOA",
-        //         details: "Ó Deus, que nos alegrais todos os anos com a solenidade da ressurreição do Senhor, conceda-nos, pelas festas que celebramos nesta vida, chegar às eternas alegrias. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo . Amém.",
-        //         date: "07 de Abril de 2021",
-        //         route: host + "/leitura-orante/april/7a.html",
-        //     },
-        //     8: {
-        //         img: host + "/assets/img/leitura/april/08_Abril_2021_Leitura_Orante.jpg",
-        //         title: "OITAVA DA PÁSCOA",
-        //         details: "Ó Deus, que reunistes povos tão diversos no louvor do vosso nome, concedei aos que renasceram nas águas do batismo ter no coração a mesma fé e na vida a mesma caridade. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
-        //         date: "08 de Abril de 2021",
-        //         route: host + "/leitura-orante/april/8a.html",
-        //     },
-        //     9: {
-        //         img: host + "/assets/img/leitura/april/09_Abril_2021_Leitura_Orante.jpg",
-        //         title: "OITAVA DA PÁSCOA",
-        //         details: "Deus eterno o todo-poderoso, que no sacramento pascal restaurastes vossa aliança, reconciliando convosco a humanidade, conceda-nos realizar em nossa vida o mistério que celebramos na fé. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
-        //         date: "09 de Abril de 2021",
-        //         route: host + "/leitura-orante/april/9a.html",
-        //     },
-        //     10: {
-        //         img: host + "/assets/img/leitura/april/10_Abril_2021_Leitura_Orante.jpg",
-        //         title: "OITAVA DA PÁSCOA",
-        //         details: "Ó Deus, que pela riqueza da vossa graça multiplicais os povos que creem em vós, contemplai solícito aqueles que escolhestes e dai aos que renasceram pelo batismo, a veste da imortalidade. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
-        //         date: "10 de Abril de 2021",
-        //         route: host + "/leitura-orante/april/10a.html",
-        //     },
-        //     11: {
-        //         img: host + "/assets/img/leitura/april/11_Abril_2021_Leitura_Orante.png",
-        //         title: "2º Domingo da Páscoa  ",
-        //         details: "Ó Deus de eterna misericórdia, que reacendeis a fé do vosso povo na renovação da festa pascal, aumentai a graça que nos destes. E fazei que compreendamos melhor o batismo que nos lavou, o espírito que nos deu nova vida e o sangue que nos redimiu. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
-        //         date: "11 de Abril de 2021",
-        //         route: host + "/leitura-orante/april/11a.html",
-        //     },
-        //     12: {
-        //         img: host + "/assets/img/leitura/april/12_Abril_2021_Leitura_Orante.jpg",
-        //         title: "2ª SEMANA DA PÁSCOA",
-        //         details: "Deus eterno  e todo-poderoso, a quem ousamos chamar de Pai, dai-nos cada vez mais um coração de filhos para alcançarmos a herança prometida. Por nosso Senhor jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
-        //         date: "12 de Abril de 2021",
-        //         route: host + "/leitura-orante/april/12a.html",
-        //     },
-        //     13: {
-        //         img: host + "/assets/img/leitura/april/13_Abril_2021_Leitura_Orante.jpg",
-        //         title: "2ª SEMANA DA PÁSCOA",
-        //         details: "",
-        //         date: "13 de Abril de 2021",
-        //         route: host + "/leitura-orante/april/13a.html",
-        //     },
-        //     14: {
-        //         img: host + "/assets/img/leitura/april/14_Abril_2021_Leitura_Orante.jpg",
-        //         title: "2ª SEMANA DA PÁSCOA",
-        //         details: "Imploramos, ó Deus, a vossa clemência, ao recordar cada ano o mistério pascal que renova a dignidade humana, e nos traz a esperança da ressurreição: conceda-nos acolher sempre com amor o que celebramos com fé. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
-        //         date: "14 de Abril de 2021",
-        //         route: host + "/leitura-orante/april/14a.html",
-        //     },
-        //     15: {
-        //         img: host + "/assets/img/leitura/april/15_Abril_2021_Leitura_Orante.jpg",
-        //         title: "2ª SEMANA DA PÁSCOA",
-        //         details: "Conceda, Ó Deus, que vejamos frutificar em toda a nossa vida as graças do mistério pascal, que instituístes na vossa misericórdia. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
-        //         date: "15 de Abril de 2021",
-        //         route: host + "/leitura-orante/april/15a.html",
-        //     },
+            7: {
+                img: host + "/assets/img/leitura/april/07_Abril_2021_Leitura_Orante.jpg",
+                title: "OITAVA DA PÁSCOA",
+                details: "Ó Deus, que nos alegrais todos os anos com a solenidade da ressurreição do Senhor, conceda-nos, pelas festas que celebramos nesta vida, chegar às eternas alegrias. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo . Amém.",
+                date: "07 de Abril de 2021",
+                route: host + "/leitura-orante/april/7a.html",
+            },
+            8: {
+                img: host + "/assets/img/leitura/april/08_Abril_2021_Leitura_Orante.jpg",
+                title: "OITAVA DA PÁSCOA",
+                details: "Ó Deus, que reunistes povos tão diversos no louvor do vosso nome, concedei aos que renasceram nas águas do batismo ter no coração a mesma fé e na vida a mesma caridade. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
+                date: "08 de Abril de 2021",
+                route: host + "/leitura-orante/april/8a.html",
+            },
+            9: {
+                img: host + "/assets/img/leitura/april/09_Abril_2021_Leitura_Orante.jpg",
+                title: "OITAVA DA PÁSCOA",
+                details: "Deus eterno o todo-poderoso, que no sacramento pascal restaurastes vossa aliança, reconciliando convosco a humanidade, conceda-nos realizar em nossa vida o mistério que celebramos na fé. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
+                date: "09 de Abril de 2021",
+                route: host + "/leitura-orante/april/9a.html",
+            },
+            10: {
+                img: host + "/assets/img/leitura/april/10_Abril_2021_Leitura_Orante.jpg",
+                title: "OITAVA DA PÁSCOA",
+                details: "Ó Deus, que pela riqueza da vossa graça multiplicais os povos que creem em vós, contemplai solícito aqueles que escolhestes e dai aos que renasceram pelo batismo, a veste da imortalidade. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
+                date: "10 de Abril de 2021",
+                route: host + "/leitura-orante/april/10a.html",
+            },
+            11: {
+                img: host + "/assets/img/leitura/april/11_Abril_2021_Leitura_Orante.png",
+                title: "2º Domingo da Páscoa  ",
+                details: "Ó Deus de eterna misericórdia, que reacendeis a fé do vosso povo na renovação da festa pascal, aumentai a graça que nos destes. E fazei que compreendamos melhor o batismo que nos lavou, o espírito que nos deu nova vida e o sangue que nos redimiu. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
+                date: "11 de Abril de 2021",
+                route: host + "/leitura-orante/april/11a.html",
+            },
+            12: {
+                img: host + "/assets/img/leitura/april/12_Abril_2021_Leitura_Orante.jpg",
+                title: "2ª SEMANA DA PÁSCOA",
+                details: "Deus eterno  e todo-poderoso, a quem ousamos chamar de Pai, dai-nos cada vez mais um coração de filhos para alcançarmos a herança prometida. Por nosso Senhor jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
+                date: "12 de Abril de 2021",
+                route: host + "/leitura-orante/april/12a.html",
+            },
+            13: {
+                img: host + "/assets/img/leitura/april/13_Abril_2021_Leitura_Orante.jpg",
+                title: "2ª SEMANA DA PÁSCOA",
+                details: "",
+                date: "13 de Abril de 2021",
+                route: host + "/leitura-orante/april/13a.html",
+            },
+            14: {
+                img: host + "/assets/img/leitura/april/14_Abril_2021_Leitura_Orante.jpg",
+                title: "2ª SEMANA DA PÁSCOA",
+                details: "Imploramos, ó Deus, a vossa clemência, ao recordar cada ano o mistério pascal que renova a dignidade humana, e nos traz a esperança da ressurreição: conceda-nos acolher sempre com amor o que celebramos com fé. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
+                date: "14 de Abril de 2021",
+                route: host + "/leitura-orante/april/14a.html",
+            },
+            15: {
+                img: host + "/assets/img/leitura/april/15_Abril_2021_Leitura_Orante.jpg",
+                title: "2ª SEMANA DA PÁSCOA",
+                details: "Conceda, Ó Deus, que vejamos frutificar em toda a nossa vida as graças do mistério pascal, que instituístes na vossa misericórdia. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
+                date: "15 de Abril de 2021",
+                route: host + "/leitura-orante/april/15a.html",
+            },
            
 
-        // },
+        },
     },
     missaoData: {
         September: {
@@ -3656,6 +3656,7 @@ let mainData = {
         },
     },
 };
+// console.log(mainData);
 let tercoData = {
     Dolorosos: {
         title: "Mistérios Dolorosos",
@@ -3808,7 +3809,7 @@ let tercoHTML2 = `<div class="Video-Post tercoPost">
 //Abdul Logic
 
 let currentDay2 = new Date().getDate();
-console.log(mainData);
+// console.log(mainData);
 let testData = {
     santoData: {},
     oracoesMissionarias: {},
@@ -3842,7 +3843,7 @@ for (var category in mainData) {
                     //   console.log('-----------')
                     // console.log(mainData[category][lastMonthOfCategory][latestPost].date)
                     // console.log(mainData[category][lastMonthOfCategory][latestPost].title)
-                    console.log("-----------");
+                    // console.log("-----------");
                 }
             }
         }
@@ -3935,7 +3936,7 @@ for (var category in mainData) {
         // console.log(getmonth);
         for (var getdays in bymonth) {
             var dayname = getdays;
-            console.log(bymonth[getdays])
+            // console.log(bymonth[getdays])
             if (Array.isArray(bymonth[getdays])) {
                 for (var arrCat in bymonth[getdays]) {
                     let d = bymonth[getdays].date.split(" ")
@@ -3946,8 +3947,8 @@ for (var category in mainData) {
                     var postDetails = bymonth[getdays][arrCat].details;
                     var makedate = dayname + "/" + months[monthname] + "/" + d;
                     var postDate = bymonth[getdays][arrCat].date;
-                    console.log("***********************");
-                    console.log(bymonth[getdays][arrCat]);
+                    // console.log("***********************");
+                    // console.log(bymonth[getdays][arrCat]);
                 }
             } else {
                 let d = bymonth[getdays].date.split(" ")
@@ -4143,7 +4144,7 @@ for (month in mainData.espirtualData) {
     // console.log("ACHHHAAAAAA",espirtualLatestMonth)
 }
 
-console.log(".......................");
+// console.log(".......................");
 var EnglishMonths = [
     "January",
     "February",
@@ -4158,61 +4159,77 @@ var EnglishMonths = [
     "November",
     "December",
 ];
-console.log(currentDate);
+// console.log(currentDate);
 // console.log(mainData.espirtualData[espirtualLatestMonth]);
 
-for (let i = currentDate; i > 0; i--) {
-    // console.log(mainData.espirtualData[espirtualLatestMonth][i])
-    if (
-        mainData.espirtualData[EnglishMonths[currentMonthIndex]][i] &&
-        mainData.espirtualData[EnglishMonths[currentMonthIndex]][i] != undefined
-    ) {
-        console.log("working");
-        console.log(mainData.espirtualData[EnglishMonths[currentMonthIndex]][i]);
-        espirtualLink.setAttribute(
-            "href",
-            host + `/Espiritualidade/${EnglishMonths[currentMonthIndex]}/${i}.html`
-        );
-        // console.log("Espiritualidade Found ");
-        break;
-    } else {
-        // console.log("Espiritualidade not  Found  ");
+// *****************************************
+// OLD LOGIC
+// *****************************************
 
-        espirtualLink.setAttribute(
-            "href",
-            host + "/Espiritualidade/Espiritualidade-Multiple.html"
-        );
-    }
-}
+// for (let i = currentDate; i > 0; i--) {
+//     console.log(mainData.espirtualData[espirtualLatestMonth][i])
+//     if (
+//         mainData.espirtualData[EnglishMonths[currentMonthIndex]][i] &&
+//         mainData.espirtualData[EnglishMonths[currentMonthIndex]][i] != undefined
+//     ) {
+//         // console.log("working");
+//         // console.log(mainData.espirtualData[EnglishMonths[currentMonthIndex]][i]);
+//         espirtualLink.setAttribute(
+//             "href",
+//             host + `/Espiritualidade/${EnglishMonths[currentMonthIndex]}/${i}.html`
+//         );
+//         // console.log("Espiritualidade Found ");
+//         break;
+//     } else {
+//         // console.log("Espiritualidade not  Found  ");
 
-console.log(currentMonthIndex);
-if (mainData.santoData.EnglishMonths[currentMonthIndex][currentDate]) {
-    santoLink.setAttribute(
-        "href",
-        host + `/Dia-de-santo/Dia-${EnglishMonths[currentMonthIndex]}/Dia-` + currentDate + ".html"
-    );
-} else {
-    santoLink.setAttribute("href", host + "/Dia-de-santo/Dia-Multiple.html");
+//         espirtualLink.setAttribute(
+//             "href",
+//             host + "/Espiritualidade/Espiritualidade-Multiple.html"
+//         );
+//     }
+// }
+
+    // if (mainData.espirtualData[EnglishMonths[currentMonthIndex]][currentDate]) {
+   
+    //     espirtualLink.setAttribute("href",`${host}/Espiritualidade/${EnglishMonths[currentMonthIndex]}/${currentDate}.html`);
+    //     console.log('CCCCCCCCCCCCCCCCCCCCCCCCCCC');
+    // } 
+    // else {
+    //     console.log('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX');
+    //     espirtualLink.setAttribute("href", `${host}/Espiritualidade/Espiritualidade-Multiple.html`);
+    // }
+
+
+
+if (mainData.santoData[EnglishMonths[currentMonthIndex]][currentDate]) {
+   
+    santoLink.setAttribute("href",`${host}/Dia-de-santo/Dia-${EnglishMonths[currentMonthIndex]}/Dia-${currentDate}.html`);
+    console.log('CCCCCCCCCCCCCCCCCCCCCCCCCCC');
+} 
+else {
+    console.log('XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX');
+    santoLink.setAttribute("href", `${host}/Dia-de-santo/Dia-Multiple.html`);
 }
 
 // for oracoesMissionarias
 
-if (mainData.oracoesMissionarias.December[currentDate]) {
-    oracoes.setAttribute(
-        "href",
-        host + "/oracoes-missionarias/december/" + currentDate + ".html"
-    );
-} else {
-    oracoes.setAttribute("href", host + "/oracoes-missionarias/multiple.html");
-}
+// if (mainData.oracoesMissionarias[EnglishMonths[currentMonthIndex]][currentDate]) {
+//     oracoes.setAttribute(
+//         "href",
+//         `${host}/oracoes-missionarias/${[EnglishMonths[currentMonthIndex]]}/${currentDate}.html`
+//     );
+// } else {
+//     oracoes.setAttribute("href", host + "/oracoes-missionarias/multiple.html");
+// }
 
 var http = new XMLHttpRequest();
 var http2 = new XMLHttpRequest();
-console.log(http2);
+// console.log(http2);
 
 var leitura1 = document.getElementById("leitura1");
 var leitura = document.getElementById("leitura");
-console.log(leitura);
+// console.log(leitura);
 let url2 = "./leitura-orante/december/-orante-" + currentDate + ".html";
 http2.open("HEAD", url2, false);
 http2.send();
@@ -4228,8 +4245,19 @@ if (http2.status === 200) {
 		"./leitura-orante/december/-orante" + currentDate + ".html"
 	);
 }
+console.log(http2);
 if (http2.status === 404) {
-	console.log("Lutera file does not exists");
-	leitura.setAttribute("href", `${host}/leitura-orante/multiple.html`);
-	leitura1.setAttribute("href", `${host}/leitura-orante/multiple.html`);
+	// console.log("Lutera file does not exists");
+	leitura.setAttribute("href", `./leitura-orante/multiple.html`);
+	leitura1.setAttribute("href", `./leitura-orante/multiple.html`);
 }
+
+// if (mainData.leituraData[EnglishMonths[currentMonthIndex]][currentDate]) {
+//     leitura.setAttribute(
+//         "href",
+//         `./leitura-orante/${[EnglishMonths[currentMonthIndex]]}/${currentDate}.html`
+//     );
+// }
+//  else {
+//     leitura.setAttribute("href", `./leitura-orante/multiple.html`);
+// }
