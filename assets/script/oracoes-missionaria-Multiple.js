@@ -29,6 +29,8 @@ December:'11'
 var d = new Date();
 var n = months[d.getMonth()];
 var nextMonth=d.getMonth()+1;
+var nextMonth2=months[nextMonth];
+console.log(nextMonth2);
 if (nextMonth == 12){
     nextMonth ==1
 
@@ -36,7 +38,6 @@ if (nextMonth == 12){
 var monthNow=d.getMonth();
 // console.log(mainData.oracoesMissionarias[month]);
 Object.keys(mainData.oracoesMissionarias).map((month, index) => {
-    console.log(month)
     // console.log(monthNo.index);
     console.log(index);
     Object.keys(mainData.oracoesMissionarias[month]).map((post) => {
@@ -45,13 +46,14 @@ Object.keys(mainData.oracoesMissionarias).map((month, index) => {
         if (month == n) {
             // console.log("sadsada");
             // mainData.oracoesMissionarias[month][post].date.split(' ')[0] <= new Date().getDate()
-
+            
             if (Array.isArray(mainData.oracoesMissionarias[month][post]) == true) {
                 mainData.oracoesMissionarias[month][post].map((subPost) => {
                     if (subPost.date.split(" ")[0] <= new Date().getDate()) {
                         santoPostsArr.push(subPost);
                     }
                 });
+                console.log(month);
             } 
             else {
                 // console.log('C_________L');
@@ -65,8 +67,8 @@ Object.keys(mainData.oracoesMissionarias).map((month, index) => {
                 }
             }
         }
-        else if(index > monthNow) {
-			console.log('ppppppppppppp');
+        else if(nextMonth2 == month) {
+			console.log(month + '++++++++' + nextMonth2);
 		}
          else {
             if (Array.isArray(mainData.oracoesMissionarias[month][post]) == true) {
