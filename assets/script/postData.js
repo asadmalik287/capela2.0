@@ -791,7 +791,6 @@ let mainData = {
                 route: host + "/oracoes-missionarias/September/24.html",
             },
         },
-
         October: {
             1: {
                 img: host + "/assets/img/oracoes-missionarias/October/01 Orações Mis.jpg",
@@ -1105,6 +1104,48 @@ let mainData = {
                 details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
                 date: "25 de Março de 2021",
                 route: host + "/oracoes-missionarias/March/25.html",
+            },
+        },
+        April: {
+            1: {
+                img: host +
+                    "/assets/img/oracoes-missionarias/April/01_Abril_2021_Oração_a_Jesus_Resuscitado_Img_Orações_Mis.JPG",
+                title: "Oração a Jesus Resuscitado",
+                details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo`,
+                date: "01 de Abril de 2021",
+                route: host + "/oracoes-missionarias/April/1.html",
+            },
+            8: {
+                img: host +
+                    "/assets/img/oracoes-missionarias/April/08_Abril_2021_Oração_à_Nossa_Senhora_Aparecida_Img.JPG",
+                title: "Oração à Nossa Senhora Aparecida",
+                details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
+                date: "08 de Abril de 2021",
+                route: host + "/oracoes-missionarias/April/8.html",
+            },
+            15: {
+                img: host +
+                    "/assets/img/oracoes-missionarias/April/15_Abril_2021_Bem-aventurados_os_missionários_e_as_missionárias_Img.jpg",
+                title: "Bem-aventurados os missionários e as missionárias",
+                details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
+                date: "15 de Abril de 2021",
+                route: host + "/oracoes-missionarias/April/15.html",
+            },
+            22: {
+                img: host +
+                    "/assets/img/oracoes-missionarias/April/22_Abril_2021_Oração_Vocacional_por_intercessão_de_Madre_Maria_Img.JPG",
+                title: "Oração Vocacional por intercessão de Madre Maria",
+                details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
+                date: "22 de Abril de 2021",
+                route: host + "/oracoes-missionarias/April/22.html",
+            },
+            29: {
+                img: host +
+                    "/assets/img/oracoes-missionarias/April/29_Abril_2021_Jesus_nos_envia_em_missão_Img.jpg",
+                title: "Jesus nos envia em missão",
+                details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
+                date: "29 de Abril de 2021",
+                route: host + "/oracoes-missionarias/April/29.html",
             },
         },
     },
@@ -1557,7 +1598,7 @@ let mainData = {
         },
         March: {
             7: {
-                img: host + "/assets/img/Espiritualidade/March/07_Março_Espiritualidade Missionária-foto.jpg",
+                img: host + "/assets/img/Espiritualidade/March/07_Março_Espiritualidade_Missionária-foto.jpg",
                 title: "Espiritualidade	Missionária",
                 details: `Este artigo nos convida a tomar consciência da interligação entre espírito e corpo.
 				 Somos feitos à imagem e semelhança de Deus; terra fértil, vivificada pelo sopro divino. 
@@ -1568,7 +1609,7 @@ let mainData = {
 
             14: {
                 img: host +
-                    "/assets/img/Espiritualidade/March/14_Março_Centro de Irradiação Missionária_foto.jpg",
+                    "/assets/img/Espiritualidade/March/14_Março_Centro_de_Irradiação_Missionária_foto.jpg",
                 title: "Centro de Irradiação Missionária",
                 details: `Muitas pessoas conhecem apenas o nome do Convento Espírito Santo, no Bairro Uvaranas, e sabem onde se localiza. Sabem ou vêem que é um casarão rodeado de um bonito jardim, e um terreno cultivado com hortaliças, frutas, etc.`,
                 date: "14 de Março de 2021",
@@ -1577,7 +1618,7 @@ let mainData = {
 
             21: {
                 img: host +
-                    "/assets/img/Espiritualidade/March/21_Março_2021_Espiritualidade Missionária_foto.png",
+                    "/assets/img/Espiritualidade/March/21_Março_2021_Espiritualidade_Missionária_foto.png",
                 title: "Quaresma: convocados a sermos melhores",
                 details: `Entramos no chamado ciclo litúrgico da Páscoa, que começa com o Tempo da Quaresma. É um período muito importante para nossa caminhada cristã, pois essa espécie de retiro favorece, em última instância, uma profícua celebração da ressurreição de Jesus.`,
                 date: "21 de Março de 2021",
@@ -1586,11 +1627,19 @@ let mainData = {
 
             28: {
                 img: host +
-                    "/assets/img/Espiritualidade/March/28_Marco_2021_ Img Capa _Espiritualidade Missionária.jpg",
+                    "/assets/img/Espiritualidade/March/28_Marco_2021_Img_Capa_Espiritualidade_Missionária.jpg",
                 title: "Campanha da Fraternidade Ecumênica: um convite ao diálogo",
                 details: `No dia 17 de fevereiro, Quarta-Feira de Cinzas, teremos o início da quinta Campanha da Fraternidade Ecumênica (CFE) no Brasil. Em 2021, o tema é “Fraternidade e diálogo: compromisso de amor”, e o lema, “Cristo é nossa paz: do que era dividido, fez unidade” (Ef 2,14a). A própria organização desta campanha já é um testemunho daquilo a que ela se propõe, uma vez que foi realizada por seis igrejas cristãs, membros do Conselho Nacional de Igrejas Cristãs do Brasil, além da Igreja Betesda de São Paulo e o Ceseep (Centro Ecumênico de Serviços à Evangelização e à Educação Popular).`,
                 date: "28 de Março de 2021",
                 route: host + "/Espiritualidade/March/28.html",
+            },
+            30: {
+                img: host +
+                    "/assets/img/Espiritualidade/March/30_March_2021_Foto_Capa.jpg",
+                title: " “Como vivermos outro Tríduo Pascal no ‘novo normal’”?",
+                details: `Vivemos um período quaresmal que coincide com uma crise. Muitos foram tocados pela ação do Coronavírus e, após um ano em quarentena, reafirmamos a nossa fragilidade. Perplexos, assistimos pelos noticiários a situação de desespero pela falta de insumos hospitalares e vacina. Parentes de pacientes e profissionais da saúde imploram por socorro!`,
+                date: "30 de Março de 2021",
+                route: host + "/Espiritualidade/March/30.html",
             },
         },
     },
@@ -3294,7 +3343,7 @@ let mainData = {
                 route: host + "/leitura-orante/march/29a.html",
             },
             30: {
-                img: host + "/assets/img/leitura/leitura-img-march/30_Março_2021_Leitura Orante.jpg",
+                img: host + "/assets/img/leitura/leitura-img-march/30_Março_2021_Leitura_Orante.png",
                 title: "Semana Santa",
                 details: "Deus eterno e todo-poderoso, dai-nos celebrar de tal modo os mistérios da paixão do Senhor, que possamos alcançar o vosso perdão. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "30 de Março de 2021",
