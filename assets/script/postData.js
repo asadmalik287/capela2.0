@@ -1637,7 +1637,7 @@ let mainData = {
                 img: host +
                     "/assets/img/Espiritualidade/March/30_March_2021_Foto_Capa.jpg",
                 title: " “Como vivermos outro Tríduo Pascal no ‘novo normal’”?",
-                details: `Vivemos um período quaresmal que coincide com uma crise. Muitos foram tocados pela ação do Coronavírus e, após um ano em quarentena, reafirmamos a nossa fragilidade. Perplexos, assistimos pelos noticiários a situação de desespero pela falta de insumos hospitalares e vacina. Parentes de pacientes e profissionais da saúde imploram por socorro!`,
+                details: `Aproxima-se mais um Tríduo Pascal que será celebrado em isolamento social. Choramos por 300 mil mortes no BR e todos falam de um novo normal. Em 2021, o luto do Sábado Santo poderá ser vivido a partir de três atitudes. Quais são elas?`,
                 date: "30 de Março de 2021",
                 route: host + "/Espiritualidade/March/30.html",
             },
