@@ -1561,7 +1561,7 @@ let mainData = {
         },
         March: {
             7: {
-                img: host + "/assets/img/Espiritualidade/March/07_Março_Espiritualidade Missionária-foto.jpg",
+                img: host + "/assets/img/Espiritualidade/March/07_Março_Espiritualidade_Missionária-foto.jpg",
                 title: "Espiritualidade	Missionária",
                 details: `Este artigo nos convida a tomar consciência da interligação entre espírito e corpo.
 				 Somos feitos à imagem e semelhança de Deus; terra fértil, vivificada pelo sopro divino. 
@@ -1572,7 +1572,7 @@ let mainData = {
 
             14: {
                 img: host +
-                    "/assets/img/Espiritualidade/March/14_Março_Centro de Irradiação Missionária_foto.jpg",
+                    "/assets/img/Espiritualidade/March/14_Março_Centro_de_Irradiação_Missionária_foto.jpg",
                 title: "Centro de Irradiação Missionária",
                 details: `Muitas pessoas conhecem apenas o nome do Convento Espírito Santo, no Bairro Uvaranas, e sabem onde se localiza. Sabem ou vêem que é um casarão rodeado de um bonito jardim, e um terreno cultivado com hortaliças, frutas, etc.`,
                 date: "14 de Março de 2021",
@@ -1581,7 +1581,7 @@ let mainData = {
 
             21: {
                 img: host +
-                    "/assets/img/Espiritualidade/March/21_Março_2021_Espiritualidade Missionária_foto.png",
+                    "/assets/img/Espiritualidade/March/21_Março_2021_Espiritualidade_Missionária_foto.png",
                 title: "Quaresma: convocados a sermos melhores",
                 details: `Entramos no chamado ciclo litúrgico da Páscoa, que começa com o Tempo da Quaresma. É um período muito importante para nossa caminhada cristã, pois essa espécie de retiro favorece, em última instância, uma profícua celebração da ressurreição de Jesus.`,
                 date: "21 de Março de 2021",
@@ -1590,11 +1590,19 @@ let mainData = {
 
             28: {
                 img: host +
-                    "/assets/img/Espiritualidade/March/28_Marco_2021_ Img Capa _Espiritualidade Missionária.jpg",
+                    "/assets/img/Espiritualidade/March/28_Marco_2021_Img_Capa_Espiritualidade_Missionária.jpg",
                 title: "Campanha da Fraternidade Ecumênica: um convite ao diálogo",
                 details: `No dia 17 de fevereiro, Quarta-Feira de Cinzas, teremos o início da quinta Campanha da Fraternidade Ecumênica (CFE) no Brasil. Em 2021, o tema é “Fraternidade e diálogo: compromisso de amor”, e o lema, “Cristo é nossa paz: do que era dividido, fez unidade” (Ef 2,14a). A própria organização desta campanha já é um testemunho daquilo a que ela se propõe, uma vez que foi realizada por seis igrejas cristãs, membros do Conselho Nacional de Igrejas Cristãs do Brasil, além da Igreja Betesda de São Paulo e o Ceseep (Centro Ecumênico de Serviços à Evangelização e à Educação Popular).`,
                 date: "28 de Março de 2021",
                 route: host + "/Espiritualidade/March/28.html",
+            },
+            30: {
+                img: host +
+                    "/assets/img/Espiritualidade/March/30_March_2021_Foto_Capa.jpg",
+                title: " “Como vivermos outro Tríduo Pascal no ‘novo normal’”?",
+                details: `Vivemos um período quaresmal que coincide com uma crise. Muitos foram tocados pela ação do Coronavírus e, após um ano em quarentena, reafirmamos a nossa fragilidade. Perplexos, assistimos pelos noticiários a situação de desespero pela falta de insumos hospitalares e vacina. Parentes de pacientes e profissionais da saúde imploram por socorro!`,
+                date: "30 de Março de 2021",
+                route: host + "/Espiritualidade/March/30.html",
             },
         },
     },
