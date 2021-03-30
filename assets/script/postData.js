@@ -3298,7 +3298,7 @@ let mainData = {
                 route: host + "/leitura-orante/march/29a.html",
             },
             30: {
-                img: host + "/assets/img/leitura/leitura-img-march/30_Março_2021_Leitura_Orante.jpg",
+                img: host + "/assets/img/leitura/leitura-img-march/30_Março_2021_Leitura_Orante.png",
                 title: "Semana Santa",
                 details: "Deus eterno e todo-poderoso, dai-nos celebrar de tal modo os mistérios da paixão do Senhor, que possamos alcançar o vosso perdão. Por Nosso Senhor Jesus Cristo, Vosso Filho, na unidade do Espírito Santo.",
                 date: "30 de Março de 2021",
