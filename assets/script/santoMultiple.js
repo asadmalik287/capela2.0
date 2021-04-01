@@ -16,6 +16,7 @@ months[11] = "December";
 var d = new Date();
 var n = months[d.getMonth()];
 var nextMonth=d.getMonth()+1;
+var nextMonth2=months[nextMonth];
 if (nextMonth == 12){
     nextMonth ==1
 }
@@ -44,9 +45,9 @@ Object.keys(mainData.santoData).map((month, index) => {
                 }
             }
         }
-        else if(index > monthNow) {
-           //will Dismiss Next Months Data
-        }
+        else if(nextMonth2 == month) {
+			console.log(month + '++++++++' + nextMonth2);
+		}
          else {
             if (Array.isArray(mainData.santoData[month][post]) == true) {
                 mainData.santoData[month][post].map((subPost) => {

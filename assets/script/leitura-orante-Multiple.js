@@ -16,6 +16,7 @@ months[11] = "December";
 var d = new Date();
 var n = months[d.getMonth()];
 var nextMonth=d.getMonth()+1;
+var nextMonth2=months[nextMonth];
 if (nextMonth == 12){
     nextMonth ==1
 }
@@ -55,8 +56,8 @@ Object.keys(mainData.leituraData).map((month, index) => {
 				}
 			}
 		} 
-		else if(index > monthNow) {
-			console.log('ppppppppppppp');
+		else if(nextMonth2 == month) {
+			console.log(month + '++++++++' + nextMonth2);
 		}
 		else{
 			console.log('**********');
