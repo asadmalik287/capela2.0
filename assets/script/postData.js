@@ -747,6 +747,72 @@ let mainData = {
                 },
             ],
         },
+        April: {
+            2: {
+                img: host +
+                    "/assets/img/Dia-de-santo/April/02_Post_Dia_Santo_Abril_2020.jpg",
+                title: "São Francisco de Paula, eremita",
+                details: "São Francisco de Paula viveu o desapego material e confiado plenamente a Deus. Em nossa realidade atual, marcadamente consumista e incentivadora do egoísmo, São Francisco é uma luz. Seu exemplo mostra-nos que é possível ser feliz com o mínimo. ",
+                date: "02 de Abril de 2021",
+                route: host + "/Dia-de-santo/Dia-April/Dia-2.html",
+            },
+            4: {
+                img: host +
+                    "/assets/img/Dia-de-santo/April/04_Post_Dia_Santo_Abril_2020.jpg",
+                title: "Santo Isidoro de Sevilha, bispo e doutor da Igreja",
+                details: "Hoje celebramos Santo Isidoro de Sevilha, o bispo que ficou conhecido pela sua inteligência e simplicidade. Ele soube descobrir, na sabedoria da natureza, o amor pelos livros e pôr o conhecimento a serviço do mundo. Santo Isidoro, rogai por nós! ",
+                date: "04 de Abril de 2021",
+                route: host + "/Dia-de-santo/Dia-April/Dia-4.html",
+            },
+          
+            7: {
+                img: host +
+                    "/assets/img/Dia-de-santo/April/07_Post_Dia_Santo_Abril_2020.jpg",
+                title: "São João Batista de La Salle",
+                details: "Hoje a Igreja celebra São João Batista de La Salle. Ele se dedicou à educação, sobretudo dos jovens mais pobres. Que seu exemplo de vida nos impulsione a buscar caminhos pelos quais todos os jovens possam ter aceso à educação. Amém!",
+                date: "07 de Abril de 2021",
+                route: host + "/Dia-de-santo/Dia-April/Dia-7.html",
+            },
+            13: {
+                img: host +
+                    "/assets/img/Dia-de-santo/April/13_Post_Dia_Santo_Abril_2020.jpg",
+                title: "São Martinho I, Papa e mártir",
+                details: "Hoje é dia de São Martinho I, Papa e mártir. Ele foi um Papa corajoso que, embora contrariando o imperador, soube defender a humanidade de Cristo. Isso lhe trouxe graves consequências e até a morte. Que S. Martinho nos anime no seguimento a Cristo! ",
+                date: "13 de Abril de 2021",
+                route: host + "/Dia-de-santo/Dia-April/Dia-13.html",
+            },
+            
+            19: {
+                img: host +
+                    "/assets/img/Dia-de-santo/April/19_Post_Dia_Santo_Abril_2020.jpg",
+                title: "Santo Expedito",
+                details: "Hoje a Igreja celebra Santo Expedito, o santo das causas urgentes. Ele conheceu o cristianismo e, mesmo gostando de Cristo, costumava deixar para depois sua conversão. Porém, uma vez tomada a decisão de segui-lo, não mais desistiu. ",
+                date: "19 de Abril de 2021",
+                route: host + "/Dia-de-santo/Dia-April/Dia-19.html",
+            },
+            23: {
+                img: host +"/assets/img/Dia-de-santo/April/23_Post_Dia_Santo_Abril_2020.jpg",
+                title: "São Jorge, mártir ",
+                details: "Hoje é o dia de São Jorge, soldado e mártir. O famoso santo seria originário da Capadócia e, em virtude da coragem com a qual proclamou sua fé em Cristo, sua vida e martírio são descritos lendariamente. São Jorge, rogai por nós! ",
+                date: "23 de Abril de 2021",
+                route: host + "/Dia-de-santo/Dia-April/Dia-23.html",
+            },
+            25: {
+                img: host +"/assets/img/Dia-de-santo/April/25_Post_Dia_Santo_Abril_2020.jpg",
+                title: "São Marcos Evangelista",
+                details: "Na festividade de São Marcos Evangelista, modelo do todo evangelizador e catequista, peçamos que ele nos inspire a sermos também empenhados no anúncio de Jesus, o Cristo. Assim seja!",
+                date: "25 de Abril de 2021",
+                route: host + "/Dia-de-santo/Dia-April/Dia-25.html",
+            },
+            29: {
+                img: host +"/assets/img/Dia-de-santo/April/29_Post_Dia_Santo_Abril_2020.jpg",
+                title: "Santa Catarina de Sena, virgem e doutora",
+                details: "Hoje é dia de Santa Catarina de Sena, mulher que soube unir mística e participação social, política e eclesial. Com ela aprendamos a ser místicos e a desempenhar um papel incomum numa sociedade comum. Que Santa Catarina rogue por nós! ",
+                date: "29 de Abril de 2021",
+                route: host + "/Dia-de-santo/Dia-April/Dia-29.html",
+            },
+          
+        },
     },
     oracoesMissionarias: {
         September: {
