@@ -747,6 +747,72 @@ let mainData = {
                 },
             ],
         },
+        April: {
+            2: {
+                img: host +
+                    "/assets/img/Dia-de-santo/April/02_Post_Dia_Santo_Abril_2020.jpg",
+                title: "São Francisco de Paula, eremita",
+                details: "São Francisco de Paula viveu o desapego material e confiado plenamente a Deus. Em nossa realidade atual, marcadamente consumista e incentivadora do egoísmo, São Francisco é uma luz. Seu exemplo mostra-nos que é possível ser feliz com o mínimo. ",
+                date: "02 de Abril de 2021",
+                route: host + "/Dia-de-santo/Dia-April/Dia-2.html",
+            },
+            4: {
+                img: host +
+                    "/assets/img/Dia-de-santo/April/04_Post_Dia_Santo_Abril_2020.jpg",
+                title: "Santo Isidoro de Sevilha, bispo e doutor da Igreja",
+                details: "Hoje celebramos Santo Isidoro de Sevilha, o bispo que ficou conhecido pela sua inteligência e simplicidade. Ele soube descobrir, na sabedoria da natureza, o amor pelos livros e pôr o conhecimento a serviço do mundo. Santo Isidoro, rogai por nós! ",
+                date: "04 de Abril de 2021",
+                route: host + "/Dia-de-santo/Dia-April/Dia-4.html",
+            },
+          
+            7: {
+                img: host +
+                    "/assets/img/Dia-de-santo/April/07_Post_Dia_Santo_Abril_2020.jpg",
+                title: "São João Batista de La Salle",
+                details: "Hoje a Igreja celebra São João Batista de La Salle. Ele se dedicou à educação, sobretudo dos jovens mais pobres. Que seu exemplo de vida nos impulsione a buscar caminhos pelos quais todos os jovens possam ter aceso à educação. Amém!",
+                date: "07 de Abril de 2021",
+                route: host + "/Dia-de-santo/Dia-April/Dia-7.html",
+            },
+            13: {
+                img: host +
+                    "/assets/img/Dia-de-santo/April/13_Post_Dia_Santo_Abril_2020.jpg",
+                title: "São Martinho I, Papa e mártir",
+                details: "Hoje é dia de São Martinho I, Papa e mártir. Ele foi um Papa corajoso que, embora contrariando o imperador, soube defender a humanidade de Cristo. Isso lhe trouxe graves consequências e até a morte. Que S. Martinho nos anime no seguimento a Cristo! ",
+                date: "13 de Abril de 2021",
+                route: host + "/Dia-de-santo/Dia-April/Dia-13.html",
+            },
+            
+            19: {
+                img: host +
+                    "/assets/img/Dia-de-santo/April/19_Post_Dia_Santo_Abril_2020.jpg",
+                title: "Santo Expedito",
+                details: "Hoje a Igreja celebra Santo Expedito, o santo das causas urgentes. Ele conheceu o cristianismo e, mesmo gostando de Cristo, costumava deixar para depois sua conversão. Porém, uma vez tomada a decisão de segui-lo, não mais desistiu. ",
+                date: "19 de Abril de 2021",
+                route: host + "/Dia-de-santo/Dia-April/Dia-19.html",
+            },
+            23: {
+                img: host +"/assets/img/Dia-de-santo/April/23_Post_Dia_Santo_Abril_2020.jpg",
+                title: "São Jorge, mártir ",
+                details: "Hoje é o dia de São Jorge, soldado e mártir. O famoso santo seria originário da Capadócia e, em virtude da coragem com a qual proclamou sua fé em Cristo, sua vida e martírio são descritos lendariamente. São Jorge, rogai por nós! ",
+                date: "23 de Abril de 2021",
+                route: host + "/Dia-de-santo/Dia-April/Dia-23.html",
+            },
+            25: {
+                img: host +"/assets/img/Dia-de-santo/April/25_Post_Dia_Santo_Abril_2020.jpg",
+                title: "São Marcos Evangelista",
+                details: "Na festividade de São Marcos Evangelista, modelo do todo evangelizador e catequista, peçamos que ele nos inspire a sermos também empenhados no anúncio de Jesus, o Cristo. Assim seja!",
+                date: "25 de Abril de 2021",
+                route: host + "/Dia-de-santo/Dia-April/Dia-25.html",
+            },
+            29: {
+                img: host +"/assets/img/Dia-de-santo/April/29_Post_Dia_Santo_Abril_2020.jpg",
+                title: "Santa Catarina de Sena, virgem e doutora",
+                details: "Hoje é dia de Santa Catarina de Sena, mulher que soube unir mística e participação social, política e eclesial. Com ela aprendamos a ser místicos e a desempenhar um papel incomum numa sociedade comum. Que Santa Catarina rogue por nós! ",
+                date: "29 de Abril de 2021",
+                route: host + "/Dia-de-santo/Dia-April/Dia-29.html",
+            },
+          
+        },
     },
     oracoesMissionarias: {
         September: {
@@ -1389,6 +1455,40 @@ let mainData = {
                 date: "27 de Março de 2021",
                 route: host + "/Vocaoes/March/27.html",
                 video: true,
+            },
+        },
+        April: {
+            3: {
+                img: host + "/assets/img/Vocacoes/April/03_04_2021_Img_Vocação.jpg",
+                title: "PÁSCOA e VOCAÇÃO",
+                details: `Jesus ressuscitou! Aleluia! É com essa certeza de sua presença entre nós, que vamos seguir apostando na oferta de nossa vida. Seguir aventurando, arriscando pelo seu projeto que é a vivência de um amor total e fecundo para todas as pessoas.`,
+                date: "03 de Abril de 2021",
+                route: host + "/Vocaoes/April/3.html",
+                video: true,
+            },
+            10: {
+                img: host + "/assets/img/Vocacoes/April/10_04_2021_Img_Vocação.png",
+                title: "ARRISCAR!! VOCÊ SE ANIMA",
+                details: `Janice Santa é do estado de Alagoas e mora no Paraguai, se preparando para se aventurar ainda mais pelo Reino de Deus. No vídeo ela nos conta como é para ela essa aventura de deixar seu país e arriscar a vida pelo Ressuscitado. Confira o vídeo!`,
+                date: "10 de Abril de 2021",
+                route: host + "/Vocaoes/April/10.html",
+                video: true,
+            },
+            17: {
+                img: host + "/assets/img/Vocacoes/April/17_04_2021_Img_Vocação.png",
+                title: "Vale a pena arriscar",
+                details: `Arriscar a vida por Jesus exige somente uma coisa: AMOR. A Ir. Jeanne Pendiuk vai contar pra gente o que significa para ela aventurar-se por um amor incondicional que é o próprio Jesus.`,
+                date: "17 de Abril de 2021",
+                route: host + "/Vocaoes/April/17.html",
+                video: true,
+            },
+            24: {
+                img: host + "/assets/img/Vocacoes/April/24_04_2021_Img.jpg",
+                title: "Arriscar a vida por (e com) Cristo Ressuscitado",
+                details: `“Como consagrada ao Senhor, vou buscando responder a essa opção de vida no amor aos demais, como Ele fez, amando todos e todas, sem qualquer distinção.” Veja o testemunho da Ir. Crislaine Pereira, missionária serva do Espírito Santo.`,
+                date: "24 de Abril de 2021",
+                route: host + "/Vocaoes/April/24.html",
+                video: false,
             },
         },
     },
@@ -3793,6 +3893,42 @@ let mainData = {
                 date: "23 de Março de 2021",
                 route: host + "/Missao/March/23.html",
                 video: true,
+            },
+            
+
+        },
+        April: {
+            6: {
+                img: host + "/assets/img/Missao/April/06_Abril_2021_Video_Capa.jpg",
+                title: "Um novo jeito de fazer o bem",
+                details: `Desde que os primeiros casos de contaminação pelo Covid-19 foram identificados, a pandemia de Covid-19 mudou a forma como nos relacionamos e cuidamos uns dos outros. O norte do país foi especialmente afetado e, por isso, a Pastoral da Criança de Placas, no Pará, precisou se adaptar para continuar atendendo as crianças. `,
+                date: "06 de Abril de 2021",
+                route: host + "/Missao/April/6.html",
+                video: true,
+            },
+            13: {
+                img: host + "/assets/img/Missao/April/13_Abril_2021_Photo_Capa.jpeg",
+                title: " Missão – Nossa Missão – Eu Sou Missão",
+                details: `Hei, você aí!!! Já se sentiu missionário em sua caminhada cristã? Reflita sobre sua realidade, sobre sua vida, e veja como você está contribuindo para missão, a fim de que o Amor de Deus chegue a todas as pessoas... Será por palavras, será por ações?`,
+                date: "13 de Abril de 2021",
+                route: host + "/Missao/April/13.html",
+                video: false,
+            },
+            20: {
+                img: host + "/assets/img/Missao/April/20_04_2021_Rede_de_Educação_SSpS_Img.jpg",
+                title: "Rede de Educação SSpS",
+                details: `Para formar cidadãos, as missionárias servas do Espírito Santo, em sua missão educacional, oferecem formação de qualidade e desenvolvimento humano aos alunos. É isso que faz da Rede de Educação uma Escola Viva. Confira nosso diferencial.`,
+                date: "20 de Abril de 2021",
+                route: host + "/Missao/April/20.html",
+                video: true,
+            },
+            30: {
+                img: host + "/assets/img/Missao/April/30_March_2021_Foto_Capa.jpg",
+                title: "“Como vivermos outro Tríduo Pascal no ‘novo normal’”?",
+                details: `Aproxima-se mais um Tríduo Pascal que será celebrado em isolamento social. Choramos por 315 mil mortes no BR e todos falam de um novo normal. Em 2021, o luto do Sábado Santo poderá ser vivido a partir de três atitudes. Quais são elas?`,
+                date: "30 de Abril de 2021",
+                route: host + "/Missao/April/30.html",
+                video:false,
             },
             
 
