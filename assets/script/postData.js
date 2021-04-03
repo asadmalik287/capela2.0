@@ -1742,6 +1742,39 @@ let mainData = {
                 route: host + "/Espiritualidade/March/30.html",
             },
         },
+        April: {
+            4: {
+                img: host + "/assets/img/Espiritualidade/April/04_04_2021_Espiritualidade_Photo_Capa.jpg",
+                title: "PÁSCOA! PLENITUDE DA ALEGRIA",
+                details: `A festa da Páscoa nos convida a desfrutar da alegria da Ressurreição de Jesus. Ao mesmo tempo, em que nos motiva a dar sentido e significado às pequenas ressurreições, sinais de vida que vivenciamos no dia-a-dia.`,
+                date: "04 de Abril de 2021",
+                route: host + "/Espiritualidade/March/4.html",
+            },
+            11: {
+                img: host +
+                    "/assets/img/Espiritualidade/April/11_04_2021_Espiritualidade_Photo_Capa.jpg",
+                title: "Líderes que formam lideranças",
+                details: `Formas emergentes de liderança, como as concepções autêntica e servidora são destaque no processo formativo das lideranças da rede educação SSpS, que desde sua fundação se dedica a formar líderes inovadores e humanistas.`,
+                date: "11 de Abril de 2021",
+                route: host + "/Espiritualidade/March/11.html",
+            },
+            18: {
+                img: host +
+                    "/assets/img/Espiritualidade/March/28_Marco_2021_Img_Capa_Espiritualidade_Missionária.jpg",
+                title: "Inocentes úteis",
+                details: `Inocente útil é aquela pessoa que se presta a propagar ou transmitir notícias falsas porque não as analisou, foi ingênua, acreditou, sem qualquer discernimento, no que viu ou leu. Não divulgaria certas mensagens se soubesse a real motivação delas. `,
+                date: "18 de Abril de 2021",
+                route: host + "/Espiritualidade/March/18.html",
+            },
+            25: {
+                img: host +
+                    "/assets/img/Espiritualidade/April/25_04_2021_Espiritualidade_Img.jpg",
+                title: "Aleluia! É a ressurreição de Jesus!",
+                details: `Que, nesta Páscoa, possamos permitir que a presença de Jesus ressuscitado nos transforme. Deixemos que Ele se aproxime, converse conosco e nos pergunte: “Por que estão tristes e abatidos? Onde está a sua fé, a sua esperança?”. Veja a reflexão.`,
+                date: "25 de Abril de 2021",
+                route: host + "/Espiritualidade/March/25.html",
+            },
+        },
     },
     leituraData: {
         September: {
