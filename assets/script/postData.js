@@ -3513,13 +3513,13 @@ let mainData = {
                 date: "03 de Abril de 2021",
                 route: host + "/leitura-orante/april/3a.html",
             },
-            // 4: {
-            //     img: host + "/assets/img/leitura/april/04_Abril_2021_Leitura_Orante.jpg",
-            //     title: "PÁSCOA DA RESSURREIÇÃO",
-            //     details: "Ó Deus, por vosso Filho Unigênito, vencedor da morte, abristes hoje para nós as portas da eternidade, Concedei   que, celebrando a ressurreição do senhor, renovados pelo vosso Espírito, ressuscitamos na luz da vida nova. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
-            //     date: "04 de Abril de 2021",
-            //     route: host + "/leitura-orante/april/4a.html",
-            // },
+            4: {
+                img: host + "/assets/img/leitura/april/04_Abril_2021_Leitura_Orante.jpg",
+                title: "PÁSCOA DA RESSURREIÇÃO",
+                details: "Ó Deus, por vosso Filho Unigênito, vencedor da morte, abristes hoje para nós as portas da eternidade, Concedei   que, celebrando a ressurreição do senhor, renovados pelo vosso Espírito, ressuscitamos na luz da vida nova. Por nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo. Amém.",
+                date: "04 de Abril de 2021",
+                route: host + "/leitura-orante/april/4a.html",
+            },
             // 5: {
             //     img: host + "/assets/img/leitura/april/05_Abril_2021_Leitura_Orante.jpg",
             //     title: "OITAVA DA PÁSCOA",
@@ -4020,7 +4020,7 @@ var months = [
 ];
 
 let currentMonth = months[a.getMonth()];
-let tercoDate = tercoDay + " de " + currentMonth + " de " + 2020;
+let tercoDate = tercoDay + " de " + currentMonth + " de " + 2021;
 
 if (currentDay == "Friday" || currentDay == "Tuesday") {
     dayTerco = "Dolorosos";
@@ -4061,7 +4061,7 @@ let tercoHTML = `<div class="d-flex CV-Video-Link-Post forHover sortpost tercoDa
 
 </div>`;
 
-
+console.log(tercoDate);
 // let tercoHTML =
 //     '<div class="CV-Video-Link-Post sortpost tercoData ">\
 // <a href=' +
