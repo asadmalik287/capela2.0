@@ -98,7 +98,28 @@ function renderDate() {
 
 
             })
-            if (months[dt.getMonth()] == 'Março') {
+            if (months[dt.getMonth()] == 'Abril') {
+                console.log('From Calendar--------------')
+                console.log(months[dt.getMonth()]);
+                console.log('From Calendar--------------')
+                if (check == 0) {
+                    setTimeout(() => {
+                        jQuery(".icalendar__prev").click();
+                        jQuery(".icalendar__next").click();
+
+                    }, 2000)
+                    check = 1;
+                }
+                if (mainData.santoData.April[i]) {
+                    cells += `<a class='a-date' href="${host}/Dia-de-santo/Dia-April/Dia-` + i + `.html">` + i + `</a>`;
+                } else {
+                    cells += `<a class='a-date' style="color:#bbbbbb !important">` + i + `</a>`;
+                }
+
+
+                // document.getElementsByClassName('a-date').setAttribute('href',`../Leitura-Orante/leitura-orante-`+i+`.html`)
+            }
+           else if (months[dt.getMonth()] == 'Março') {
                 console.log('From Calendar--------------')
                 console.log(months[dt.getMonth()]);
                 console.log('From Calendar--------------')
@@ -195,6 +216,7 @@ function renderDate() {
                 }
 
             }
+           
             // Copy the Latest Month of Calender As Above
             // Repalce the Name Of Months With New One (At Three Places)
             else {
