@@ -36,7 +36,7 @@ function renderDate() {
 
     dt.setDate(1);
     let day = dt.getDay();
-
+console.log(day);
     let endDate = new Date(
         dt.getFullYear(),
         dt.getMonth() + 1,

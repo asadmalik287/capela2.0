@@ -1181,38 +1181,38 @@ let mainData = {
                 date: "01 de Abril de 2021",
                 route: host + "/oracoes-missionarias/April/1.html",
             },
-            // 8: {
-            //     img: host +
-            //         "/assets/img/oracoes-missionarias/April/08_Abril_2021_Oração_à_Nossa_Senhora_Aparecida_Img.JPG",
-            //     title: "Oração à Nossa Senhora Aparecida",
-            //     details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
-            //     date: "08 de Abril de 2021",
-            //     route: host + "/oracoes-missionarias/April/8.html",
-            // },
-            // 15: {
-            //     img: host +
-            //         "/assets/img/oracoes-missionarias/April/15_Abril_2021_Bem-aventurados_os_missionários_e_as_missionárias_Img.jpg",
-            //     title: "Bem-aventurados os missionários e as missionárias",
-            //     details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
-            //     date: "15 de Abril de 2021",
-            //     route: host + "/oracoes-missionarias/April/15.html",
-            // },
-            // 22: {
-            //     img: host +
-            //         "/assets/img/oracoes-missionarias/April/22_Abril_2021_Oração_Vocacional_por_intercessão_de_Madre_Maria_Img.JPG",
-            //     title: "Oração Vocacional por intercessão de Madre Maria",
-            //     details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
-            //     date: "22 de Abril de 2021",
-            //     route: host + "/oracoes-missionarias/April/22.html",
-            // },
-            // 29: {
-            //     img: host +
-            //         "/assets/img/oracoes-missionarias/April/29_Abril_2021_Jesus_nos_envia_em_missão_Img.jpg",
-            //     title: "Jesus nos envia em missão",
-            //     details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
-            //     date: "29 de Abril de 2021",
-            //     route: host + "/oracoes-missionarias/April/29.html",
-            // },
+            8: {
+                img: host +
+                    "/assets/img/oracoes-missionarias/April/08_Abril_2021_Oração_à_Nossa_Senhora_Aparecida_Img.JPG",
+                title: "Oração à Nossa Senhora Aparecida",
+                details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
+                date: "08 de Abril de 2021",
+                route: host + "/oracoes-missionarias/April/8.html",
+            },
+            15: {
+                img: host +
+                    "/assets/img/oracoes-missionarias/April/15_Abril_2021_Bem-aventurados_os_missionários_e_as_missionárias_Img.jpg",
+                title: "Bem-aventurados os missionários e as missionárias",
+                details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
+                date: "15 de Abril de 2021",
+                route: host + "/oracoes-missionarias/April/15.html",
+            },
+            22: {
+                img: host +
+                    "/assets/img/oracoes-missionarias/April/22_Abril_2021_Oração_Vocacional_por_intercessão_de_Madre_Maria_Img.JPG",
+                title: "Oração Vocacional por intercessão de Madre Maria",
+                details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
+                date: "22 de Abril de 2021",
+                route: host + "/oracoes-missionarias/April/22.html",
+            },
+            29: {
+                img: host +
+                    "/assets/img/oracoes-missionarias/April/29_Abril_2021_Jesus_nos_envia_em_missão_Img.jpg",
+                title: "Jesus nos envia em missão",
+                details: `Aqui você encontra orações para rezar pelas situações desafiadoras do mundo com as Missionárias Servas do Espírito Santo.`,
+                date: "29 de Abril de 2021",
+                route: host + "/oracoes-missionarias/April/29.html",
+            },
         },
     },
     vocoesData: {
