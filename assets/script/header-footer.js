@@ -94,7 +94,7 @@ footer.innerHTML = `
         </div>
         <div class="col-md-6 col-sm-12 footer-div-right">
             <p class="footer-p">
-                Província Stella Matutina<br /> Rua São Benedito, 2146 - Santo Amaro - São Paulo - SP | Tel. (11) 5547-7222
+            Província Divina Sabedoria <br /> Rua Júlia Wanderley, 515 - Ponta Grossa - Paraná | Tel. (42) 95506-2891
             </p>
             <div class="icons">
                 <a href="https://www.facebook.com/sspsbrasilnorte" target="_blank"><span><img src="../../assets/img/header-footer/Icone_Facebook.png" alt=""></span></a>
