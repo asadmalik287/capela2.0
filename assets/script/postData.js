@@ -3948,12 +3948,20 @@ let mainData = {
                 video: false,
             },
             20: {
-                img: host + "/assets/img/Missao/April/20_04_2021_Rede_de_Educação_SSpS_Img.jpg",
+                img: host + "/assets/img/Missao/April/20_04_2021_Rede de Educação SSpS_CAPA.jpg",
                 title: "Rede de Educação SSpS",
                 details: `Para formar cidadãos, as missionárias servas do Espírito Santo, em sua missão educacional, oferecem formação de qualidade e desenvolvimento humano aos alunos. É isso que faz da Rede de Educação uma Escola Viva. Confira nosso diferencial.`,
                 date: "20 de Abril de 2021",
                 route: host + "/Missao/April/20.html",
                 video: true,
+            },
+            27: {
+                img: host + "/assets/img/Missao/April/27_04_2021_Missão_Artigo_CAPA.jpg",
+                title: "Missão em Juquitiba continua… ",
+                details: `Depois de mais de 30 anos de presença missionária em Juquitiba-SP, as irmãs encerram a comunidade com o sentimento de dever cumprido e a certeza de que a missão continuará por intermédio dos leigos e leigas que a assumem. Veja o depoimento das irmãs.`,
+                date: "27 de Abril de 2021",
+                route: host + "/Missao/April/27.html",
+                video: false,
             },
             30: {
                 img: host + "/assets/img/Missao/April/30_March_2021_Foto_Capa.jpg",
