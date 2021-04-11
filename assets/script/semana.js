@@ -61,95 +61,183 @@ let tercoHTML1 = ` <div class="d-flex CV-Video-Link-Post forHover sortpost terco
 </div>`;
 
 //  console.log(previousWeekDate)
-for (var category in mainData) {
-    // category name
-    var cat = mainData[category];
+// for (var category in mainData) {
+//     // category name
+//     var cat = mainData[category];
 
-    var categoryname = category;
-    if (categoryname == "santoData") {
-        continue;
-    }
-    for (var getmonth in cat) {
-        // month name
-        var monthname = getmonth;
-        var bymonth = cat[getmonth];
-        var catarr = {};
-        var counter = 1;
+//     var categoryname = category;
+//     if (categoryname == "santoData") {
+//         continue;
+//     }
+//     for (var getmonth in cat) {
+//         // month name
+//         var monthname = getmonth;
+//         var bymonth = cat[getmonth];
+//         var catarr = {};
+//         var counter = 1;
 
-        for (var getdays in bymonth) {
-            var dayname = getdays;
-            if (Array.isArray(bymonth[getdays])) {
-                for (var arrCat in bymonth[getdays]) {
-                    var postTitle = bymonth[getdays][arrCat].title;
-                    var postImage = bymonth[getdays][arrCat].img;
-                    var postRoute = bymonth[getdays][arrCat].route;
-                    var postDetails = bymonth[getdays][arrCat].details;
-                    var makedate = dayname + "/" + months[monthname] + "/" + "2020";
-                    var postDate = bymonth[getdays][arrCat].date;
-                    console.log("***********************");
-                    console.log(bymonth[getdays][arrCat]);
-                }
-            } else {
-                var postTitle = bymonth[getdays].title;
-                var postImage = bymonth[getdays].img;
-                var postRoute = bymonth[getdays].route;
-                var postDetails = bymonth[getdays].details;
-                var makedate = dayname + "/" + months[monthname] + "/" + "2020";
-                var postDate = bymonth[getdays].date;
+//         for (var getdays in bymonth) {
+//             var dayname = getdays;
+//             if (Array.isArray(bymonth[getdays])) {
+//                 for (var arrCat in bymonth[getdays]) {
+//                     var postTitle = bymonth[getdays][arrCat].title;
+//                     var postImage = bymonth[getdays][arrCat].img;
+//                     var postRoute = bymonth[getdays][arrCat].route;
+//                     var postDetails = bymonth[getdays][arrCat].details;
+//                     var makedate = dayname + "/" + months[monthname] + "/" + "2020";
+//                     var postDate = bymonth[getdays][arrCat].date;
+//                     console.log("***********************");
+//                     console.log(bymonth[getdays][arrCat]);
+//                 }
+//             } else {
+//                 var postTitle = bymonth[getdays].title;
+//                 var postImage = bymonth[getdays].img;
+//                 var postRoute = bymonth[getdays].route;
+//                 var postDetails = bymonth[getdays].details;
+//                 var makedate = dayname + "/" + months[monthname] + "/" + "2020";
+//                 var postDate = bymonth[getdays].date;
+//             }
+//             var chkdate = "2020-" + months[monthname] + "-" + dayname;
+//             var today = new Date();
+//             var lastWeek = new Date(
+//                 today.getFullYear(),
+//                 today.getMonth(),
+//                 today.getDate() - 7
+//             );
+
+//             var date1 = new Date();
+//             chkdate = new Date(chkdate);
+
+//             if (chkdate < previousWeekDate) {
+//                 // console.log("there " + date1 + "====" + chkdate);
+//                 catarr[makedate] = {
+//                     title: postTitle,
+//                     img: postImage,
+//                     date: postDate,
+//                     route: postRoute,
+//                     details: postDetails,
+//                 };
+
+//                 let postTitleShort;
+//                 if (postTitle.length >= 28) {
+//                     postTitleShort = postTitle.substr(0, 26) + "...";
+//                 } else {
+//                     postTitleShort = postTitle;
+//                 }
+//                 var postdateSort = "2020-" + months[monthname] + "-" + dayname;
+
+//                 // console.log(mypost)
+//                 showPrevious +=
+//                     //
+
+//                     showPrevious = `<div class=" CV-Video-Link-Post d-flex  sortpost ${categoryname} forHover" data-event-date="${postdateSort}">
+
+// <div class="img_1">
+//     <a href="${postRoute}"><img src="${postImage}" class="img-fluid" id="sideBarImage" alt="">
+// </div>
+// <div class="pl-2 ">
+
+//     <p class="add-mt-15-CV-Video mb-0">${postTitleShort}</p>
+//     <p class="date date-text"><i class="fa fa-calendar" aria-hidden="true"></i><span
+//             class="cal-icon fa fa-calendar date-text"></span> ${postDate} </p>
+//     </a>
+// </div>
+
+// </div>`;
+
+//                 counter++;
+//             }
+//         }
+//     }
+// }
+
+
+var startDay = new Date(moment().format('YYYY,MM,DD'));
+var endDay = new Date(2020,7,1);
+var startDate = moment(startDay);
+var endDate = moment(endDay);
+var datesBetween = [];
+var days = [];
+var years = [];
+var startingMoment = startDate;
+let Data7 = 0
+
+for( var category in mainData){
+	console.log(category );
+
+
+//code for SHOWHTML / Right Sidebar
+
+while(startingMoment >= endDate) {
+    let year = startingMoment.format('YYYY');
+    let month = startingMoment.format('MMMM');
+    let day = startingMoment.format('D');
+    datesBetween.push(startingMoment.format('DDMMMMYYYY'));// clone to add new object
+    console.log(day + "="+month+ "="+year);
+    if((mainData[category][month]) ){
+        if((mainData[category][month][day])){
+            if(Array.isArray(mainData[category][month][day])){
+				Data7 = Data7 + 1
+                // santoPostsArr.push((mainData.category[month][day][0]))
+				let objec = mainData[category][month][day][0]
+			console.log( mainData[category][month][day][0])
+				// showhtml += `<div class="d-flex CV-Video-Link-Post forHover sortpost myNewVideo" data-event-date="${postdateSort}">
+
+				// <div class="img_1">
+				// 	<a href="${objec.route}"><img src="${objec.img}" class="img-fluid" id="sideBarImage" alt="">
+				// </div>
+				// <div class="pl-2 ">
+				// 	<p class="add-mt-15-CV-Video mb-0">${objec.title.substr(0, 20) + "..."}</p>
+				// 	<p class="date date-text"><span
+				// 			class="cal-icon fa fa-calendar date-text"></span> ${objec.date} </p>
+				// 	</a>
+				// </div>
+				// </div>`;
+				if(Data7 == 7){
+					break;
+				}
             }
-            var chkdate = "2020-" + months[monthname] + "-" + dayname;
-            var today = new Date();
-            var lastWeek = new Date(
-                today.getFullYear(),
-                today.getMonth(),
-                today.getDate() - 7
-            );
+            else{
+				Data7 = Data7 + 1
+				console.log((mainData[category][month][day]));
+				let objec = mainData[category][month][day]
+				showPrevious += `<div class="d-flex CV-Video-Link-Post forHover sortpost categoryname" data-event-date="">
 
-            var date1 = new Date();
-            chkdate = new Date(chkdate);
+                <div class="img_1">
+                    <a href="${objec.route}"><img src="${objec.img}" class="img-fluid" id="sideBarImage" alt="">
+                </div>
+                <div class="pl-2 ">
 
-            if (chkdate < previousWeekDate) {
-                // console.log("there " + date1 + "====" + chkdate);
-                catarr[makedate] = {
-                    title: postTitle,
-                    img: postImage,
-                    date: postDate,
-                    route: postRoute,
-                    details: postDetails,
-                };
+                    <p class="add-mt-15-CV-Video mb-0">${objec.title.substr(0, 20) + "..."}</p>
+                    <p class="date date-text"><span
+                            class="cal-icon fa fa-calendar date-text"></span> ${objec.date} </p>
+                    </a>
+                </div>
 
-                let postTitleShort;
-                if (postTitle.length >= 28) {
-                    postTitleShort = postTitle.substr(0, 26) + "...";
-                } else {
-                    postTitleShort = postTitle;
-                }
-                var postdateSort = "2020-" + months[monthname] + "-" + dayname;
+                </div>`;
 
-                // console.log(mypost)
-                showPrevious +=
-                    //
+				//MAIN
+				// console.log(showhtml)
 
-                    showPrevious = `<div class=" CV-Video-Link-Post d-flex  sortpost ${categoryname} forHover" data-event-date="${postdateSort}">
-
-<div class="img_1">
-    <a href="${postRoute}"><img src="${postImage}" class="img-fluid" id="sideBarImage" alt="">
-</div>
-<div class="pl-2 ">
-
-    <p class="add-mt-15-CV-Video mb-0">${postTitleShort}</p>
-    <p class="date date-text"><i class="fa fa-calendar" aria-hidden="true"></i><span
-            class="cal-icon fa fa-calendar date-text"></span> ${postDate} </p>
-    </a>
-</div>
-
-</div>`;
-
-                counter++;
+				
+                // santoPostsArr.push((mainData.missaoData[year][month][day]))
+				
+					break;
+				
             }
+			console.log(Data7 + "XXXXXXXXXXX");
+        }
+        else{
+            console.log('No Record For Date ' + day +'/'+month+'/'+year);
         }
     }
+    else{
+        console.log('No Record For Month '+ month);
+    }
+    startingMoment.subtract(1, 'days');
 }
+}
+
 showPrevious += tercoHTML1;
 
 // console.log(showhtml);
